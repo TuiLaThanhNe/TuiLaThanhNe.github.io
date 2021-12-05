@@ -8,7 +8,7 @@ a:hover {
 }
 
 html {
-    background: linear-gradient(-20deg, #e0c3fc 0%, #fff0f3 100%);
+    background: linear-gradient(217deg, rgba(0, 255, 85, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgb(72, 255, 246), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgb(255, 82, 232), rgba(0, 0, 255, 0) 199.71%);
     font-family: inter, sans-serif;
     margin: 0;
     padding: 0;
@@ -53,9 +53,9 @@ body {
     width: 411px;
     max-width: 411px;
     min-height: 823px;
-    background-color: rgb(224, 252, 246);
+    background-color: linear-gradient(217deg, rgba(0, 255, 85, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgb(72, 255, 246), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgb(255, 82, 232), rgba(0, 0, 255, 0) 199.71%);
     border-radius: 30px;
-    box-shadow: 7px 7px 20px -5px rgba(129, 63, 143, 0.315);
+    box-shadow: 10px 10px 20px -5px rgba(130, 63, 143, 0.644);
 }
 
 .container {
@@ -71,6 +71,8 @@ body {
     height: 165px;
     position: relative;
     left: -15px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px 1px rgba(130, 63, 143, 0, 6);
 }
 
 #profile-header {
@@ -85,7 +87,7 @@ body {
     position: relative;
     background-position: center;
     background-size: cover;
-    border-radius: 30px;
+    border-radius: 25px;
     width: 120px;
     height: 120px;
     top: -25px;
@@ -94,6 +96,7 @@ body {
 #name {
     position: relative;
     padding-top: 5px;
+    color: linear-gradient(217deg, rgba(0, 255, 85, 0.8), rgba(255, 0, 0, 0) 70.71%);
 }
 
 .names {
@@ -105,6 +108,7 @@ body {
 .nicknames {
     font-weight: 500;
     font-size: 20px;
+    color: rgba(0, 255, 85, 0.8), ;
     margin: 0;
 }
 
