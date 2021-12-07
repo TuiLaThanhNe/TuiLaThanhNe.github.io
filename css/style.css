@@ -201,6 +201,41 @@ body {
     box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, .1);
 }
 
+.drop-title2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #00aeff;
+    outline: 2px dashed blue;
+    text-align: center;
+    text-decoration-color: #5d4edd;
+    position: relative;
+    display: grid;
+    background-color: rgba(252, 220, 255, 0.651);
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 2000px -5px rgb(0, 0, 0);
+    box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
+    transition: all 250ms ease-in-out;
+}
+
+.drop-title3 {
+    font-weight: 600;
+    color: #085c83;
+    font-size: 28px;
+    background: -webkit-linear-gradient( rgb(0, 4, 255), rgb(255, 185, 251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    outline: 1px dashed rgb(179, 255, 219);
+    text-align: center;
+    text-decoration-color: #5d4edd;
+    position: relative;
+    display: grid;
+    background-color: rgba(244, 125, 255, 0.651);
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 2000px -5px rgb(0, 0, 0);
+    box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
+    transition: all 250ms ease-in-out;
+}
+
 #link-box {
     position: relative;
     width: 100%;
@@ -216,7 +251,7 @@ body {
     border-radius: 20px;
     margin-bottom: 15px;
     -webkit-box-shadow: 7px 7px 20px -5px rgba(0, 0, 0, .4);
-    box-shadow: 7px 7px 20px -5px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
     transition: all 250ms ease-in-out;
 }
 
