@@ -187,9 +187,18 @@ body {
 }
 
 .drop-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
-    margin-left: 10px;
+    color: #ff7bebd0;
+    text-shadow: ellipsis, rgb(82, 87, 88);
+    text-align: center;
+    text-decoration-color: #5d4edd;
+    position: relative;
+    display: grid;
+    background-color: rgba(185, 241, 255, 0.719);
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 2000px -5px rgb(0, 0, 0);
+    box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, .1);
 }
 
 #link-box {
