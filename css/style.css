@@ -165,7 +165,7 @@ body {
     height: 50px;
     background-position: center;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 10px;
 }
 
@@ -340,8 +340,8 @@ body {
     font-size: 8px;
     border: 1px solid #48c5ff8c;
     position: fixed;
-    top: 1%;
-    left: 50%;
+    top: 0%;
+    left: 48.5%;
     transform: translate(-50%, -50%);
     z-index: 2;
     padding: 2px;
