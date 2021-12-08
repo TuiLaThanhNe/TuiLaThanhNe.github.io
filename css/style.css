@@ -205,7 +205,7 @@ body {
     border-radius: 20px;
     -webkit-box-shadow: 7px 7px 2000px -5px rgb(0, 0, 0);
     box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, .1);
-    outline: 3px dashed rgba(179, 255, 220, 0), 1px dashed rgb(25, 92, 61);
+    border: 3px dashed rgba(179, 255, 220, 0), 1px dashed rgb(25, 92, 61);
     transition: 500ms;
     transform: translateY(90px);
 }
@@ -214,7 +214,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #00aeff;
-    outline: 2px dashed rgb(229, 255, 0);
+    border: 2px dashed rgb(229, 255, 0);
     text-align: center;
     text-decoration-color: #5d4edd;
     position: relative;
@@ -234,7 +234,7 @@ body {
     background: -webkit-linear-gradient( rgb(0, 4, 255), rgb(252, 111, 245));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    outline: 1px dashed rgb(179, 255, 219);
+    border: 1px dashed rgb(179, 255, 219);
     text-align: center;
     text-decoration-color: #5d4edd;
     position: relative;
@@ -249,7 +249,7 @@ body {
 #link-box {
     position: relative;
     width: 100%;
-    outline: 2px #7ab682;
+    border: 2px #7ab682;
 }
 
 .link-item {
@@ -399,7 +399,7 @@ body {
     z-index: 9;
     transition: .6s linear;
     border-radius: 40px;
-    outline: dashed #0000005e 2px;
+    border: dashed #0000005e 2px;
 }
 
 .share-button:hover span {
@@ -451,7 +451,7 @@ body {
     right: 10px;
     z-index: 99;
     border: none;
-    outline: inset #00aeff 1px;
+    border: inset #00aeff 1px;
     background-color: #fff;
     border: 10px solid #ccc;
     color: white;
@@ -478,8 +478,8 @@ body {
     /* Make sure it does not overlap */
     border: none;
     /* Remove borders */
-    outline: none;
-    /* Remove outline */
+    border: none;
+    /* Remove border */
     background: linear-gradient(-25deg, rgba(255, 243, 160, 1) 20%, rgb(255, 36, 255) 40%, rgba(28, 246, 255, 1) 70%);
     /* Set a background color */
     color: white;
@@ -492,7 +492,7 @@ body {
     /* Rounded corners */
     font-size: 18px;
     /* Increase font size */
-    outline: inset 5px #00aeff;
+    border: inset 5px #00aeff;
 }
 
 #myBtn:hover {
