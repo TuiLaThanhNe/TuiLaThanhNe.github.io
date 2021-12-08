@@ -21,7 +21,8 @@
     <body>
         <div class="bg-text1">CongThanh</div>
 
-
+        <script src="./javascript.js"></script>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">☝TOP👆</button>
         <script type='text/javascript'>
             //<![CDATA[
             shortcut = {
@@ -812,6 +813,33 @@
                             document.oncontextmenu = new Function("return false")
                                 //]]>
                         </script>
+                        <!--về đầu trang-->
+                        <button id="myBtn" title="Lên đầu trang"><img src='https://img.icons8.com/clouds/280/000000/up.png' title='lên đầu trang' width='14px'/></button>
+                        <script>
+                            window.onscroll = function() {
+                                scrollFunction()
+                            };
+
+                            function scrollFunction() {
+
+                                if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+                                    document.getElementById("myBtn").style.display = "block";
+                                } else {
+                                    document.getElementById("myBtn").style.display = "none";
+                                }
+                            }
+
+                            document.getElementById('myBtn').addEventListener("click", function() {
+                                document.body.scrollTop = 0;
+                                document.documentElement.scrollTop = 0;
+                            });
+                        </script>
+                        <div class="share-button">
+                            <span>📲CONTACT ME</span>
+                            <a href="https://www.facebook.com/congthanh.nhism2809/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/trdyc_thanh/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/TuiLaThanhNe/"><i class="fab fa-github"></i></a>
+                        </div>
     </body>
 
 </html>
