@@ -410,10 +410,9 @@ body {
 .share-button a {
     flex: 1;
     font-size: 40px;
-    background: -webkit-linear-gradient(-45deg, rgb(255, 0, 191), rgb(0, 225, 255));
+    background: #00755c;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    ;
     text-align: center;
     transform: translateX(-100%);
     opacity: 0;
