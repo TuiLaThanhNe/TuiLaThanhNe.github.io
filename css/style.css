@@ -321,7 +321,12 @@ body {
 .link-content p {
     margin: auto;
     font-weight: 600;
-    color: #7ab682;
+    color: #388d43;
+}
+
+.link-content:hover p {
+    transition: 0.5s;
+    transform: scale(1.2) translateX(20px);
 }
 
 .link-content span {
