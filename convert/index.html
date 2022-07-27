@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='nhisn' property='og:title' />
+    <meta content='convert 🥰' property='og:description' />
+    <link rel="shortcut icon" href="https://img.icons8.com/external-tulpahn-outline-color-tulpahn/64/000000/external-hedgehog-autumn-tulpahn-outline-color-tulpahn.png" type="image/x-icon">
+    <meta content='../mygirl/me.jpg' property='og:image' />
+    <meta content='../mygirl/me.jpg' property='og:url' />
+</head>
+<html>
+    <style type="text/css">
+        body { font-family: Sans-Serif; color:#7e7cff; }
+        
+        body {
+    cursor: url(../images/mouse-f1.png), auto
+}
+
+a:hover {
+    cursor: url(../images/mouse-f2.png), auto
+}
+
+html {
+    background: rgb(192, 255, 241)
+}
+.text1 {
+    display: flex;
+  justify-content: center;
+}
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {
+  background-color: #c47135;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #cacbff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color: #c47135;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+  border-bottom-width: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #c47135;
+  bottom: -5px;
+  right: 0px;
+}
+
+.snip1582:hover,
+.snip1582.hover {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c47135;
+}
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+        </style>
+
+<h1 class="text1">code by cthanh for nk-ltt students</h1>
+<h2 class="text1">The prompt() + switch-case Method</h2>
+
+<p class="text1">Ấn nút dưới để đổi đỉm.</p>
+
+<button class="snip1582" onclick="myFunction()">đổi điểm</button>
+
+<p class="text1" id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let score = prompt("Điểm thi năm 2022 của bạn là *(làm tròn theo khoảng 0.25 gần nhất)", "27.75");
+  switch(score) {
+    case "29.75":
+      text = "khối A00 :29.15 , Khối A01 :29.55 , khối B00 :hơn 30 , khối C :29.5 , Khối D :hơn 30 ";
+      break;
+    case "29.5":
+      text = "khối A00 :29.05 , Khối A01 :29.4 , khối B00 :30 , khối C :29.25 , Khối D :30 ";
+      break;
+    case "29.25":
+      text = "khối A00 :28.7 , Khối A01 :29.3 , khối B00 :29.6 , khối C :29 , Khối D :29.5 ";
+      break;
+    case "29":
+      text = "khối A00 :28.45 , Khối A01 :29.05 , khối B00 :29.3 , khối C :28.85 , Khối D :29.5 ";
+      break;
+    case "28.75":
+      text = "khối A00 :28.35 , Khối A01 :28.8 , khối B00 :29.3 , khối C :28.5 , Khối D :29.15 ";
+      break;
+    case "28.5":
+      text = "khối A00 :28.1 , Khối A01 :28.5 , khối B00 :29.05 , khối C :28.25 , Khối D :28.9 ";
+      break;
+    case "28.25":
+      text = "khối A00 :27.9 , Khối A01 :28.4 , khối B00 :28.95 , khối C :27.9 , Khối D :28.75 ";
+      break;
+    case "28":
+      text = "khối A00 :27.65 , Khối A01 :28.15 , khối B00 :28.7 , khối C :27.62 , Khối D :28.45 ";
+      break;
+    case "27.75":
+      text = "khối A00 :27.35 , Khối A01 :27.95 , khối B00 :28.45 , khối C :27.35 , Khối D :28.25 ";
+      break;
+    case "27.5":
+      text = "khối A00 :27.15 , Khối A01 :27.8 , khối B00 :28.25 , khối C :27.05 , Khối D :27.95 ";
+      break;
+    case "27.25":
+      text = "khối A00 :26.85 , Khối A01 :27.55 , khối B00 :28 , khối C :26.8 , Khối D :27.8 ";
+      break;
+    case "27":
+      text = "khối A00 :26.65 , Khối A01 :27.35 , khối B00 :27.75 , khối C :26.5 , Khối D :27.55 ";
+      break;
+    case "26.75":
+      text = "khối A00 :26.45 , Khối A01 :27.2 , khối B00 :27.55 , khối C :26.25 , Khối D :27.35 ";
+      break;
+    case "26.5":
+      text = "khối A00 :26.2 , Khối A01 :26.95 , khối B00 :27.2 , khối C :25.95 , Khối D :27.1 ";
+      break;
+    case "26.25":
+      text = "khối A00 :25.95 , Khối A01 :26.8 , khối B00 :26.9 , khối C :25.65 , Khối D :26.9 ";
+      break;
+    case "26":
+      text = "khối A00 :25.75 , Khối A01 :26.55 , khối B00 :26.6 , khối C :25.4 , Khối D :26.7 ";
+      break;
+    case "25.75":
+      text = "khối A00 :25.5 , Khối A01 :26.4 , khối B00 :26.3 , khối C :27.05 , Khối D :26.45 ";
+      break;
+    case "25.5":
+      text = "khối A00 :25.3 , Khối A01 :26.2 , khối B00 :26 , khối C :24.8 , Khối D :26.25 ";
+      break;
+    case "25.25":
+      text = "khối A00 :25.05 , Khối A01 :26 , khối B00 :25.75 , khối C :24.5 , Khối D :26 ";
+      break;
+    case "25":
+      text = "khối A00 :24.85 , Khối A01 :25.8 , khối B00 :25.45 , khối C :24.2 , Khối D :25.85 ";
+      break;
+    case "24.75":
+      text = "khối A00 :24.65 , Khối A01 :25.65 , khối B00 :25.2 , khối C :23.9 , Khối D :25.6 ";
+      break;
+    case "24.5":
+      text = "khối A00 :24.45 , Khối A01 :25.45 , khối B00 :24.95 , khối C :23.6 , Khối D :25.4 ";
+      break;
+    case "24.25":
+      text = "khối A00 :24.2 , Khối A01 :25.25 , khối B00 :24.7 , khối C :23.3 , Khối D :25.2 ";
+      break;
+    case "24":
+      text = "khối A00 :24 , Khối A01 :25 , khối B00 :24.45 , khối C :23 , Khối D :25 ";
+      break;
+    case "23.75":
+      text = "khối A00 :23.8 , Khối A01 :24.85 , khối B00 :24.2 , khối C :22.75 , Khối D :24.8 ";
+      break;
+    case "23.5":
+      text = "khối A00 :23.55 , Khối A01 :24.65 , khối B00 :24 , khối C :22.45 , Khối D :24.55 ";
+      break;
+    case "23.25":
+      text = "khối A00 :23.3 , Khối A01 :24.4 , khối B00 :23.75 , khối C :22.15 , Khối D :23.35 ";
+      break;
+    case "23":
+      text = "khối A00 :23.1 , Khối A01 :24.2 , khối B00 :23.5 , khối C :21.9 , Khối D :24.15 ";
+      break;
+    case "22.75":
+      text = "khối A00 :22.85 , Khối A01 :23.95 , khối B00 :23.3 , khối C :21.6 , Khối D :23.95 ";
+      break;
+    case "22.5":
+      text = "khối A00 :22.6 , Khối A01 :23.7 , khối B00 :23.0 , khối C :21.3 , Khối D :23.7 ";
+      break;
+    case "22.25":
+      text = "khối A00 :22.4 , Khối A01 :23.45 , khối B00 :22.85 , khối C :21 , Khối D :23.5 ";
+      break;
+    case "22":
+      text = "khối A00 :22.15 , Khối A01 :23.25 , khối B00 :22.65 , khối C :20.75 , Khối D :23.25 ";
+      break;
+    case "21.75":
+      text = "khối A00 :21.95 , Khối A01 :23 , khối B00 :22.4 , khối C :20.45 , Khối D :23 ";
+      break;
+    case "21.5":
+      text = "khối A00 :21.7 , Khối A01 :22.75 , khối B00 :22.15 , khối C :20.2 , Khối D :22.75 ";
+      break;
+    case "21.25":
+      text = "khối A00 :21.5 , Khối A01 :22.5 , khối B00 :21.95 , khối C :19.9 , Khối D :22.5 ";
+      break;
+    case "21":
+      text = "khối A00 :21.25 , Khối A01 :22.25 , khối B00 :21.75 , khối C :19.65 , Khối D :22.25 ";
+      break;
+    default:
+      text = "Erro , điểm không tồn tại hoặc không có trong dữ liệu , vui lòng làm tròn theo khoảng 0.25 và thử lại  ";
+  }
+  document.getElementById("demo").innerHTML = "Điểm tương đương 2021 theo các khối là : " + text;
+}
+</script>
+
+<script disable-devtool-auto md5='1aabac6d068eef6a7bad3fdf50a05cc8' src='https://cdn.jsdelivr.net/npm/disable-devtool@0.1.11/disable-devtool.min.js#use'></script>
+<script disable-devtool-auto md5='1aabac6d068eef6a7bad3fdf50a05cc8' src='./npm/disable-devtool.min.js'></script>
+</script>
+
+<script type='text/javascript'>
+    //<![CDATA[
+    shortcut = {
+            all_shortcuts: {},
+            add: function(a, b, c) {
+                var d = {
+                    type: "keydown",
+                    propagate: !1,
+                    disable_in_input: !1,
+                    target: document,
+                    keycode: !1
+                };
+                if (c)
+                    for (var e in d) "undefined" == typeof c[e] && (c[e] = d[e]);
+                else c = d;
+                d = c.target, "string" == typeof c.target && (d = document.getElementById(c.target)), a = a.toLowerCase(), e = function(d) {
+                    d = d || window.event;
+                    if (c.disable_in_input) {
+                        var e;
+                        d.target ? e = d.target : d.srcElement && (e = d.srcElement), 3 == e.nodeType && (e = e.parentNode);
+                        if ("INPUT" == e.tagName || "TEXTAREA" == e.tagName) return
+                    }
+                    d.keyCode ? code = d.keyCode : d.which && (code = d.which), e = String.fromCharCode(code).toLowerCase(), 188 == code && (e = ","), 190 == code && (e = ".");
+                    var f = a.split("+"),
+                        g = 0,
+                        h = {
+                            "`": "~",
+                            1: "!",
+                            2: "@",
+                            3: "#",
+                            4: "$",
+                            5: "%",
+                            6: "^",
+                            7: "&",
+                            8: "*",
+                            9: "(",
+                            0: ")",
+                            "-": "_",
+                            "=": "+",
+                            ";": ":",
+                            "'": '"',
+                            ",": "<",
+                            ".": ">",
+                            "/": "?",
+                            "\\": "|"
+                        },
+                        i = {
+                            esc: 27,
+                            escape: 27,
+                            tab: 9,
+                            space: 32,
+                            "return": 13,
+                            enter: 13,
+                            backspace: 8,
+                            scrolllock: 145,
+                            scroll_lock: 145,
+                            scroll: 145,
+                            capslock: 20,
+                            caps_lock: 20,
+                            caps: 20,
+                            numlock: 144,
+                            num_lock: 144,
+                            num: 144,
+                            pause: 19,
+                            "break": 19,
+                            insert: 45,
+                            home: 36,
+                            "delete": 46,
+                            end: 35,
+                            pageup: 33,
+                            page_up: 33,
+                            pu: 33,
+                            pagedown: 34,
+                            page_down: 34,
+                            pd: 34,
+                            left: 37,
+                            up: 38,
+                            right: 39,
+                            down: 40,
+                            f1: 112,
+                            f2: 113,
+                            f3: 114,
+                            f4: 115,
+                            f5: 116,
+                            f6: 117,
+                            f7: 118,
+                            f8: 119,
+                            f9: 120,
+                            f10: 121,
+                            f11: 122,
+                            f12: 123
+                        },
+                        j = !1,
+                        l = !1,
+                        m = !1,
+                        n = !1,
+                        o = !1,
+                        p = !1,
+                        q = !1,
+                        r = !1;
+                    d.ctrlKey && (n = !0), d.shiftKey && (l = !0), d.altKey && (p = !0), d.metaKey && (r = !0);
+                    for (var s = 0; k = f[s], s < f.length; s++) "ctrl" == k || "control" == k ? (g++, m = !0) : "shift" == k ? (g++, j = !0) : "alt" == k ? (g++, o = !0) : "meta" == k ? (g++, q = !0) : 1 < k.length ? i[k] == code && g++ : c.keycode ? c.keycode == code && g++ : e == k ? g++ : h[e] && d.shiftKey && (e = h[e], e == k && g++);
+                    if (g == f.length && n == m && l == j && p == o && r == q && (b(d), !c.propagate)) return d.cancelBubble = !0, d.returnValue = !1, d.stopPropagation && (d.stopPropagation(), d.preventDefault()), !1
+                }, this.all_shortcuts[a] = {
+                    callback: e,
+                    target: d,
+                    event: c.type
+                }, d.addEventListener ? d.addEventListener(c.type, e, !1) : d.attachEvent ? d.attachEvent("on" + c.type, e) : d["on" + c.type] = e
+            },
+            remove: function(a) {
+                var a = a.toLowerCase(),
+                    b = this.all_shortcuts[a];
+                delete this.all_shortcuts[a];
+                if (b) {
+                    var a = b.event,
+                        c = b.target,
+                        b = b.callback;
+                    c.detachEvent ? c.detachEvent("on" + a, b) : c.removeEventListener ? c.removeEventListener(a, b, !1) : c["on" + a] = !1
+                }
+            }
+        },
+        link = ["https://github.com/TuiLaThanhNe", "https://facebook.com/congthanh.nhism2809", "https://zalo.me/0987664301", "https://www.instagram.com/trdyc_thanh/", "https://zalo.me/g/ollgsk765", "./main/index.html", "https://thanhict.github.io"]
+    shortcut.add("Ctrl+U", function() {
+            top.location.href = `${link[Math.floor(Math.random()*link.length)]}`
+        }),
+        shortcut.add("Ctrl+Shift+I", function() {
+            top.location.href = `${link[Math.floor(Math.random()*link.length)]}`
+        }),
+        shortcut.add("Ctrl+S", function() {
+            top.location.href = `${link[Math.floor(Math.random()*link.length)]}`
+        }),
+        shortcut.add("Ctrl+Shift+C", function() {
+            top.location.href = `${link[Math.floor(Math.random()*link.length)]}`
+        });
+    //]]>
+</script>
+<script type='text/javascript'>
+    checkCtrl = false $( & #39;*&# 39;).keydown(function(e) {
+        if (e.keyCode == & #39;17&# 39;) {
+            checkCtrl = false
+        }
+    }).keyup(function(ev) {
+        if (ev.keyCode == & #39;17&# 39;) {
+            checkCtrl = false
+        }
+    }).keydown(function(event) {
+        if (checkCtrl) {
+            if (event.keyCode == & #39;85&# 39;) {
+                return false;
+            }
+        }
+    })
+</script>
+<script type='text/javascript'>
+    //<![CDATA[
+    // JavaScript Document
+    var message = "NoRightClicking";
+
+    function defeatIE() {
+        if (document.all) {
+            (message);
+            return false;
+        }
+    }
+
+    function defeatNS(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+            if (e.which == 2 || e.which == 3) {
+                (message);
+                return false;
+            }
+        }
+    }
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = defeatNS;
+    } else {
+        document.onmouseup = defeatNS;
+        document.oncontextmenu = defeatIE;
+    }
+    document.oncontextmenu = new Function("return false")
+        //]]>
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" crossorigin="anonymous"></script>
+
+<div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">🦔</div>
+    <div class="snowflake">🐣</div>
+    <div class="snowflake">🐥</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">⛄</div>
+    <div class="snowflake">🏂</div>
+    <div class="snowflake">❉</div>
+    <div class="snowflake">❊</div>
+    <div class="snowflake">🏔️</div>
+    <div class="snowflake">☃</div>
+    <div class="snowflake">🌨️</div>
+    <div class="snowflake">❃</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">🎄</div>
+    <div class="snowflake">🎅</div>
+    <div class="snowflake">.</div>
+
+</div>
+<style>
+    @-webkit-keyframes snowflakes-fall {
+        0% {
+            top: -10%
+        }
+        100% {
+            top: 100%
+        }
+    }
+    
+    @-webkit-keyframes snowflakes-shake {
+        0%,
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0)
+        }
+        50% {
+            -webkit-transform: translateX(80px);
+            transform: translateX(80px)
+        }
+    }
+    
+    @keyframes snowflakes-fall {
+        0% {
+            top: -10%
+        }
+        100% {
+            top: 100%
+        }
+    }
+    
+    @keyframes snowflakes-shake {
+        0%,
+        100% {
+            transform: translateX(0)
+        }
+        50% {
+            transform: translateX(80px)
+        }
+    }
+    
+    .snowflake {
+        color: rgb(98, 160, 253);
+        font-size: 1.5em;
+        font-family: Arial, sans-serif;
+        text-shadow: 0 0 5px rgba(157, 235, 255, 0.863);
+        position: fixed;
+        top: -100%;
+        z-index: 99999;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: default;
+        -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+        -webkit-animation-duration: 8s, 1s;
+        -webkit-animation-timing-function: linear, ease-in-out;
+        -webkit-animation-iteration-count: infinite, infinite;
+        -webkit-animation-play-state: running, running;
+        animation-name: snowflakes-fall, snowflakes-shake;
+        animation-duration: 8s, 4s;
+        animation-timing-function: linear, ease-in-out;
+        animation-iteration-count: infinite, infinite;
+        animation-play-state: running, running;
+    }
+    
+    .snowflake:nth-of-type(0) {
+        left: 1%;
+        -webkit-animation-delay: 0s, 0s;
+        animation-delay: 0s, 0s
+    }
+    
+    .snowflake:nth-of-type(1) {
+        left: 10%;
+        -webkit-animation-delay: 1s, 1s;
+        animation-delay: 1s, 1s
+    }
+    
+    .snowflake:nth-of-type(2) {
+        left: 20%;
+        -webkit-animation-delay: 6s, .5s;
+        animation-delay: 6s, .5s
+    }
+    
+    .snowflake:nth-of-type(3) {
+        left: 30%;
+        -webkit-animation-delay: 4s, 2s;
+        animation-delay: 4s, 2s
+    }
+    
+    .snowflake:nth-of-type(4) {
+        left: 40%;
+        -webkit-animation-delay: 2s, 2s;
+        animation-delay: 2s, 2s
+    }
+    
+    .snowflake:nth-of-type(5) {
+        left: 50%;
+        -webkit-animation-delay: 8s, 3s;
+        animation-delay: 8s, 3s
+    }
+    
+    .snowflake:nth-of-type(6) {
+        left: 60%;
+        -webkit-animation-delay: 6s, 2s;
+        animation-delay: 6s, 2s
+    }
+    
+    .snowflake:nth-of-type(7) {
+        left: 70%;
+        -webkit-animation-delay: 2.5s, 1s;
+        animation-delay: 2.5s, 1s
+    }
+    
+    .snowflake:nth-of-type(8) {
+        left: 80%;
+        -webkit-animation-delay: 1s, 0s;
+        animation-delay: 1s, 0s
+    }
+    
+    .snowflake:nth-of-type(9) {
+        left: 90%;
+        -webkit-animation-delay: 3s, 1.5s;
+        animation-delay: 3s, 1.5s
+    }
+    
+    .snowflake:nth-of-type(10) {
+        left: 25%;
+        -webkit-animation-delay: 2s, 0s;
+        animation-delay: 2s, 0s
+    }
+    
+    .snowflake:nth-of-type(11) {
+        left: 65%;
+        -webkit-animation-delay: 4s, 2.5s;
+        animation-delay: 4s, 2.5s
+    }
+</style>
+
+</body>
+</html>
