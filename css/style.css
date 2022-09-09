@@ -1,4 +1,15 @@
 html,
+:root {
+    --gradientbg:linear-gradient(217deg, rgba(205, 255, 221, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgb(72, 255, 246), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgb(255, 206, 248), rgba(0, 0, 255, 0) 199.71%);
+    --name: black;
+    --gray: #fafafa;
+  }
+  
+  [data-theme=dark] {
+    --gradientbg: black;
+    --name: white;
+    --gray: black;
+  }
 body {
     cursor: url(../images/mouse-f1.png), auto
 }
@@ -8,7 +19,7 @@ a:hover {
 }
 
 html {
-    background: linear-gradient(217deg, rgba(205, 255, 221, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgb(72, 255, 246), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgb(255, 206, 248), rgba(0, 0, 255, 0) 199.71%);
+    background: var(--gradientbg);
     font-family: inter, sans-serif;
     margin: 0;
     padding: 0;
@@ -25,6 +36,63 @@ body {
     align-items: center;
     width: 100vw;
 }
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display: none;
+  }
+  
+  .slider {
+    background-color: #999;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    background-color: rgb(94, 255, 113);
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(125, 181, 188);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
 
 .center {
     display: flex;
@@ -111,11 +179,13 @@ body {
 #name {
     position: relative;
     padding-top: 5px;
-    color: linear-gradient(217deg, rgba(0, 255, 85, 0.8), rgba(255, 0, 0, 0) 70.71%);
+    color: var(--name);
 }
 
 #name:hover {
     transform: scale(1.1) translateX(10px);
+    transition: 0.5s;
+
 }
 
 .names {
@@ -132,8 +202,8 @@ body {
 }
 
 .nicknames:hover {
-    transform: rotate(90deg);
-    transition: 0.1s;
+    transform:scale(1.2) translateX(20px);
+    transition: 0.5s;
 }
 
 #skills {
@@ -142,7 +212,9 @@ body {
 }
 
 #skills:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) translateX(12px);
+    transition: 0.5s;
+
 }
 
 .skill-item {
@@ -247,7 +319,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #00aeff;
-    border: 2px dashed rgb(229, 255, 0);
+    border: 2px dashed rgb(191, 255, 181);
     text-align: center;
     text-decoration-color: #5d4edd;
     position: relative;
@@ -262,13 +334,13 @@ body {
 
 .drop-title3 {
     font-weight: 600;
-    color: #085c83;
+    color: #00aeff;
     font-size: 28px;
-    background: -webkit-linear-gradient( rgb(0, 4, 255), rgb(252, 111, 245));
+    background: -webkit-linear-gradient( rgb(0, 106, 255), rgb(111, 252, 247));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 1px dashed rgb(179, 255, 219);
-    text-align: center;
+    text-align: left ;
     text-decoration-color: #5d4edd;
     position: relative;
     display: grid;
@@ -297,13 +369,13 @@ body {
     -webkit-box-shadow: 7px 7px 20px -5px rgba(0, 0, 0, .4);
     box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
     transition: all 250ms ease-in-out;
-    border: 4px inset rgb(227, 255, 103);
+    border: 4px inset rgb(174, 255, 165);
 }
 
 .link-item:hover {
     transition: 0.5s;
     transform: translateY(-10px);
-    background-color: rgb(255, 220, 220);
+    background-color: rgb(153, 255, 133);
 }
 
 .link-btn-chill:hover {
@@ -553,6 +625,6 @@ body {
 }
 
 .devtools_1 {
-    background: linear-gradient(-25deg, rgba(255, 243, 160, 1) 20%, rgb(255, 36, 255) 40%, rgba(28, 246, 255, 1) 70%);
+    background: linear-gradient(-25deg, rgba(255, 243, 160, 1) 20%, rgb(241, 172, 241) 40%, rgba(28, 246, 255, 1) 70%);
     color: #00755c;
 }
