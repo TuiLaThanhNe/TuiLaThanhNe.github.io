@@ -2,13 +2,21 @@ html,
 :root {
     --gradientbg:linear-gradient(217deg, rgba(205, 255, 221, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgb(72, 255, 246), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgb(255, 206, 248), rgba(0, 0, 255, 0) 199.71%);
     --name: black;
-    --gray: #fafafa;
+    --boxcolor: #f7ffda;
+    --boxcoloraf:rgb(204, 255, 192);
+    --title1: #006aff;
+    --MyBtn: linear-gradient(129deg, rgba(255,0,234,1) 0%, rgba(239,255,0,1) 100%);
+   
   }
   
   [data-theme=dark] {
-    --gradientbg: black;
+    --gradientbg: linear-gradient(129deg, rgba(0,0,0,1) 0%, rgba(9,121,109,1) 100%);;
     --name: white;
-    --gray: black;
+    --boxcolor: rgb(48, 48, 48);
+    --boxcoloraf:rgb(42, 81, 79);
+    --title1:#ddff00b1;
+    --MyBtn:linear-gradient(129deg, rgba(0,255,100,1) 0%, rgba(0,170,255,1) 100%);
+
   }
 body {
     cursor: url(../images/mouse-f1.png), auto
@@ -57,7 +65,7 @@ body {
   }
   
   .slider {
-    background-color: #999;
+    background-color: rgb(158, 158, 158);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -68,7 +76,7 @@ body {
   }
   
   .slider:before {
-    background-color: rgb(94, 255, 113);
+    background-color: rgb(94, 236, 255);
     bottom: 4px;
     content: "";
     height: 26px;
@@ -318,8 +326,7 @@ body {
 .drop-title2 {
     font-weight: 500;
     font-size: 18px;
-    color: #00aeff;
-    border: 2px dashed rgb(191, 255, 181);
+    color: var(--title1);
     text-align: center;
     text-decoration-color: #5d4edd;
     position: relative;
@@ -328,11 +335,28 @@ body {
     background-color: rgba(252, 220, 255, 0.651);
     border-radius: 20px;
     -webkit-box-shadow: 7px 7px 2000px -5px rgb(0, 0, 0);
-    box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
+    box-shadow: 0 0 0 10px rgba(35, 35, 35, 0.027), 0 0 0 15px rgba(85, 85, 85, 0.048), 0 0 0 20px rgba(151, 151, 151, 0.05), 0 0 0 25px rgba(205, 205, 205, 0.032);
     transition: all 250ms ease-in-out;
 }
 
 .drop-title3 {
+    font-weight: 600;
+    color: #00aeff;
+    font-size: 23px;
+    background: -webkit-linear-gradient( rgb(0, 106, 255), rgb(111, 252, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left ;
+    text-decoration-color: #5d4edd;
+    position: relative;
+    display: grid;
+    background-color: rgba(244, 125, 255, 0.651);
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 2000px -5px rgb(0, 0, 0);
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.007), 0 0 0 15px rgba(57, 57, 57, 0.01), 0 0 0 20px rgba(104, 104, 104, 0.03), 0 0 0 25px rgba(175, 175, 175, 0.013);
+    transition: all 250ms ease-in-out;
+}
+.drop-title4 {
     font-weight: 600;
     color: #00aeff;
     font-size: 28px;
@@ -340,7 +364,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 1px dashed rgb(179, 255, 219);
-    text-align: left ;
+    text-align: center ;
     text-decoration-color: #5d4edd;
     position: relative;
     display: grid;
@@ -350,7 +374,6 @@ body {
     box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
     transition: all 250ms ease-in-out;
 }
-
 #link-box {
     position: relative;
     width: 100%;
@@ -363,19 +386,19 @@ body {
     grid-template-columns: 70px auto 65px;
     height: 70px;
     width: 100%;
-    background-color: #f7ffda;
+    background-color: var(--boxcolor);
     border-radius: 20px;
     margin-bottom: 15px;
     -webkit-box-shadow: 7px 7px 20px -5px rgba(0, 0, 0, .4);
     box-shadow: 0 0 0 10px hsl(0, 0, 70%), 0 0 0 15px hsl(0, 0, 80%), 0 0 0 20px hsl(0, 0, 90%), 0 0 0 25px hsl(0, 0, 100%);
     transition: all 250ms ease-in-out;
-    border: 4px inset rgb(174, 255, 165);
+    border: 4px inset rgb(180, 255, 171);
 }
 
 .link-item:hover {
     transition: 0.5s;
     transform: translateY(-10px);
-    background-color: rgb(153, 255, 133);
+    background-color: var(--boxcoloraf);
 }
 
 .link-btn-chill:hover {
@@ -474,6 +497,7 @@ body {
     margin: 0 auto;
     white-space: nowrap;
     transform: rotate(0deg);
+    border-radius: 5px;
 }
 
 .bg-text1:hover {
@@ -488,80 +512,6 @@ body {
     transition: 2s;
 }
 
-.share-button {
-    width: 250px;
-    height: 40px;
-    background: #dfe6e9;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    transition: .3s linear;
-    margin: auto;
-    padding: 5px;
-}
-
-.share-button:hover {
-    transform: scale(1.1);
-}
-
-.share-button span {
-    position: absolute;
-    width: 98%;
-    height: 95%;
-    background: linear-gradient(-25deg, rgba(255, 243, 160, 1) 20%, rgb(255, 36, 255) 40%, rgba(28, 246, 255, 1) 70%);
-    color: #0000008c;
-    font-weight: 600;
-    font-size: 15px;
-    text-align: center;
-    line-height: 45px;
-    z-index: 9;
-    transition: .6s linear;
-    border-radius: 40px;
-    border: dashed #0000005e 2px;
-}
-
-.share-button:hover span {
-    transform: translateX(-100%);
-    transition-delay: .3s;
-}
-
-.share-button a {
-    flex: 1;
-    font-size: 40px;
-    background: #00755c;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    transform: translateX(-100%);
-    opacity: 0;
-    transition: 0.3s linear;
-    transform: scale(1.1);
-}
-
-.share-button:hover a {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.share-button a:nth-of-type(1) {
-    transition-delay: 1s;
-}
-
-.share-button a:nth-of-type(2) {
-    transition-delay: 0.8s;
-}
-
-.share-button a:nth-of-type(3) {
-    transition-delay: 0.6s;
-}
-
-.share-button a:nth-of-type(4) {
-    transition-delay: 0.4s;
-}
 
 
 /* Mui ten lên dau trang */
@@ -602,7 +552,7 @@ body {
     /* Remove borders */
     border: none;
     /* Remove border */
-    background: linear-gradient(-25deg, rgba(255, 243, 160, 1) 20%, rgb(255, 36, 255) 40%, rgba(28, 246, 255, 1) 70%);
+    background: var(--MyBtn);
     /* Set a background color */
     color: white;
     /* Text color */
