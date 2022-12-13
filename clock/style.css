@@ -10,13 +10,13 @@ body {
     width: 100%;
     display: grid;
     place-items: center;
-    background: linear-gradient(-25deg, rgb(255, 238, 125) 0%, rgb(250, 114, 255) 35%, rgba(28, 246, 255, 1) 71%);
+    background: #b7efe8;
     font-weight: bold;
 }
 
 .light {
     transition: 1s;
-    --background:
+    --background: linear-gradient(-25deg, rgb(255, 238, 125) 0%, rgb(250, 114, 255) 35%, rgba(28, 246, 255, 1) 71%);
 }
 
 .dark {

@@ -5,8 +5,7 @@ html,
     --boxcolor: #f7ffda;
     --boxcoloraf:rgb(204, 255, 192);
     --title1: #006aff;
-    --MyBtn: linear-gradient(129deg, rgba(255,0,234,1) 0%, rgba(239,255,0,1) 100%);
-   
+    --MyBtn: linear-gradient(129deg, rgba(233,0,255,0.7917542016806722) 0%, rgba(0,255,130,0.6741071428571428) 74%);
   }
   
   [data-theme=dark] {
@@ -535,7 +534,7 @@ body {
 }
 
 #myBtn:hover {
-    background-color: #f1f1f1;
+    background-color: #1af8de;
 }
 
 #myBtn {
