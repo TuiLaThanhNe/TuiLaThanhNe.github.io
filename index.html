@@ -411,53 +411,53 @@
 
   <!-- BOTTOM NAVIGATION BAR CHO ĐIỆN THOẠI -->
   <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Thanh điều hướng nhanh điện thoại">
-    <button class="mobile-nav-item active" data-tab="algorithms">
+    <button type="button" class="mobile-nav-item active" data-tab="algorithms" onclick="switchTab('algorithms')">
       <i class="fas fa-project-diagram"></i>
       <span>Sơ đồ</span>
     </button>
-    <button class="mobile-nav-item" data-tab="pharmacology">
+    <button type="button" class="mobile-nav-item" data-tab="pharmacology" onclick="switchTab('pharmacology')">
       <i class="fas fa-pills"></i>
       <span>Dược lý</span>
     </button>
-    <button class="mobile-nav-item" data-tab="calculator">
+    <button type="button" class="mobile-nav-item" data-tab="calculator" onclick="switchTab('calculator')">
       <i class="fas fa-calculator"></i>
       <span>Tính liều</span>
     </button>
-    <button class="mobile-nav-item" data-tab="toxicity">
+    <button type="button" class="mobile-nav-item" data-tab="toxicity" onclick="switchTab('toxicity')">
       <i class="fas fa-exclamation-triangle"></i>
       <span>Độc tính</span>
     </button>
-    <button class="mobile-nav-item" data-tab="more" id="mobileMoreBtn">
+    <button type="button" class="mobile-nav-item" data-tab="more" id="mobileMoreBtn" onclick="openMobileDrawer()">
       <i class="fas fa-ellipsis-h"></i>
       <span>Thêm</span>
     </button>
   </nav>
 
   <!-- MENU MỞ RỘNG (DRAWER) CHO ĐIỆN THOẠI -->
-  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop">
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop" onclick="if(event.target === this) closeMobileDrawer()">
     <div class="mobile-drawer">
       <div class="mobile-drawer-header">
         <h4><i class="fas fa-bars" style="color:var(--primary-color);"></i> Danh Mục Mở Rộng</h4>
-        <button class="btn-icon" id="closeMobileDrawerBtn" title="Đóng menu"><i class="fas fa-times"></i></button>
+        <button type="button" class="btn-icon" id="closeMobileDrawerBtn" onclick="closeMobileDrawer()" title="Đóng menu"><i class="fas fa-times"></i></button>
       </div>
       <div class="mobile-drawer-items">
-        <button class="drawer-item-btn" data-tab="pediatric">
+        <button type="button" class="drawer-item-btn" data-tab="pediatric" onclick="switchTab('pediatric'); closeMobileDrawer();">
           <i class="fas fa-child"></i>
           <span>Lao Trẻ Em & Tiềm Ẩn</span>
         </button>
-        <button class="drawer-item-btn" data-tab="deepdives">
+        <button type="button" class="drawer-item-btn" data-tab="deepdives" onclick="switchTab('deepdives'); closeMobileDrawer();">
           <i class="fas fa-microscope"></i>
           <span>Cơ Chế Sinh Lý Bệnh</span>
         </button>
-        <button class="drawer-item-btn" data-tab="cases">
+        <button type="button" class="drawer-item-btn" data-tab="cases" onclick="switchTab('cases'); closeMobileDrawer();">
           <i class="fas fa-user-md"></i>
           <span>Ca Lâm Sàng Tương Tác</span>
         </button>
-        <button class="drawer-item-btn" data-tab="flashcards">
+        <button type="button" class="drawer-item-btn" data-tab="flashcards" onclick="switchTab('flashcards'); closeMobileDrawer();">
           <i class="fas fa-bolt"></i>
           <span>Flashcards Ôn Tập Nhanh</span>
         </button>
-        <button class="drawer-item-btn" data-tab="reference">
+        <button type="button" class="drawer-item-btn" data-tab="reference" onclick="switchTab('reference'); closeMobileDrawer();">
           <i class="fas fa-book-open"></i>
           <span>Mục Lục Đối Chiếu V10 (229 Trang)</span>
         </button>

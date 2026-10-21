@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initFlashcards();
   initGuidelineTOC();
   initModalHandlers();
+  initMobileMode();
 });
 
 // 1. CHỦ ĐỀ SÁNG / TỐI (THEME MANAGER)
@@ -44,24 +45,67 @@ function updateThemeIcon(theme) {
   }
 }
 
-// 2. ĐIỀU HƯỚNG TABS
-function initNavigation() {
+// 2. ĐIỀU HƯỚNG TABS TOÀN CỤC (GLOBAL TAB SWITCHER)
+function switchTab(tabId) {
+  if (!tabId) return;
+
   const tabButtons = document.querySelectorAll(".nav-tab-btn");
   const tabPanels = document.querySelectorAll(".tab-content-panel");
+  const bottomNavItems = document.querySelectorAll(".mobile-nav-item");
 
+  // Cập nhật tab buttons trên desktop
+  tabButtons.forEach(btn => {
+    if (btn.getAttribute("data-tab") === tabId) {
+      btn.classList.add("active");
+    } else {
+      btn.classList.remove("active");
+    }
+  });
+
+  // Kích hoạt panel nội dung tương ứng
+  tabPanels.forEach(panel => {
+    if (panel.id === tabId) {
+      panel.classList.add("active");
+    } else {
+      panel.classList.remove("active");
+    }
+  });
+
+  // Đồng bộ trạng thái active trên Bottom Navigation di động
+  bottomNavItems.forEach(item => {
+    if (item.getAttribute("data-tab") === tabId) {
+      item.classList.add("active");
+    } else if (item.getAttribute("data-tab") !== "more") {
+      item.classList.remove("active");
+    }
+  });
+
+  // Cuộn mượt mà lên đầu trang
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+window.switchTab = switchTab;
+
+function openMobileDrawer() {
+  const drawer = document.getElementById("mobileDrawerBackdrop");
+  if (drawer) drawer.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+window.openMobileDrawer = openMobileDrawer;
+
+function closeMobileDrawer() {
+  const drawer = document.getElementById("mobileDrawerBackdrop");
+  if (drawer) drawer.classList.remove("active");
+  document.body.style.overflow = "auto";
+}
+window.closeMobileDrawer = closeMobileDrawer;
+
+function initNavigation() {
+  const tabButtons = document.querySelectorAll(".nav-tab-btn");
   tabButtons.forEach(btn => {
     btn.addEventListener("click", () => {
       const targetId = btn.getAttribute("data-tab");
-
-      tabButtons.forEach(b => b.classList.remove("active"));
-      tabPanels.forEach(p => p.classList.remove("active"));
-
-      btn.classList.add("active");
-      const targetPanel = document.getElementById(targetId);
-      if (targetPanel) {
-        targetPanel.classList.add("active");
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
+      switchTab(targetId);
     });
   });
 }
@@ -775,39 +819,30 @@ function initMobileMode() {
   // Đồng bộ Bottom Navigation trên điện thoại
   const bottomNavItems = document.querySelectorAll(".mobile-nav-item");
   bottomNavItems.forEach(item => {
-    item.addEventListener("click", () => {
+    item.addEventListener("click", (e) => {
       const tabId = item.getAttribute("data-tab");
       if (tabId === "more") {
-        if (drawerBackdrop) drawerBackdrop.classList.add("active");
+        openMobileDrawer();
         return;
       }
-
-      // Kích hoạt tab tương ứng
-      const desktopTabBtn = document.querySelector(`.nav-tab-btn[data-tab="${tabId}"]`);
-      if (desktopTabBtn) desktopTabBtn.click();
-
-      bottomNavItems.forEach(b => b.classList.remove("active"));
-      item.classList.add("active");
+      switchTab(tabId);
     });
   });
 
   // Drawer menu mở rộng
   if (closeDrawerBtn && drawerBackdrop) {
-    closeDrawerBtn.addEventListener("click", () => drawerBackdrop.classList.remove("active"));
+    closeDrawerBtn.addEventListener("click", closeMobileDrawer);
     drawerBackdrop.addEventListener("click", (e) => {
-      if (e.target === drawerBackdrop) drawerBackdrop.classList.remove("active");
+      if (e.target === drawerBackdrop) closeMobileDrawer();
     });
   }
 
   const drawerItems = document.querySelectorAll(".drawer-item-btn");
   drawerItems.forEach(dItem => {
-    dItem.addEventListener("click", () => {
+    dItem.addEventListener("click", (e) => {
       const tabId = dItem.getAttribute("data-tab");
-      const desktopTabBtn = document.querySelector(`.nav-tab-btn[data-tab="${tabId}"]`);
-      if (desktopTabBtn) desktopTabBtn.click();
-
-      bottomNavItems.forEach(b => b.classList.remove("active"));
-      if (drawerBackdrop) drawerBackdrop.classList.remove("active");
+      switchTab(tabId);
+      closeMobileDrawer();
     });
   });
 

@@ -1048,3 +1048,30 @@ body.mobile-simulator .mobile-bottom-nav {
 body.mobile-simulator .app-footer {
   display: none;
 }
+
+/* ENHANCED TOUCH & POINTER EVENTS FOR MOBILE BOTTOM NAV */
+.mobile-bottom-nav {
+  z-index: 999 !important;
+  pointer-events: auto !important;
+  user-select: none;
+}
+
+.mobile-nav-item {
+  pointer-events: auto !important;
+  touch-action: manipulation !important;
+  cursor: pointer !important;
+  position: relative;
+  z-index: 1000;
+}
+
+.mobile-nav-item * {
+  pointer-events: none !important;
+}
+
+.mobile-drawer-backdrop {
+  z-index: 1050 !important;
+}
+
+.mobile-drawer {
+  z-index: 1051 !important;
+}
