@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TB Clinical Hub - Nền Tảng Hỗ Trợ Chẩn Đoán, Dược Lý & Cơ Chế Bệnh Sinh Bệnh Lao</title>
+  <meta name="description" content="Trang web hỗ trợ thực hành lâm sàng, tra cứu dược lý chuyên sâu, sơ đồ chẩn đoán điều trị và giải thích cơ chế sinh lý bệnh học bệnh lao theo Hướng dẫn Bộ Y Tế V10 và nghiên cứu quốc tế.">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="header-top">
+      <div class="app-brand">
+        <div class="brand-icon">
+          <i class="fas fa-lungs"></i>
+        </div>
+        <div class="brand-text">
+          <h1>TB CLINICAL DECISION SUPPORT & PHARMACOLOGY HUB</h1>
+          <span>Hướng dẫn Chẩn đoán, Điều trị và Dự phòng Bệnh Lao (Bộ Y Tế - Bản V10)</span>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <button id="mobileViewToggleBtn" class="btn btn-outline" title="Chuyển đổi giao diện Điện thoại / Máy tính">
+          <i class="fas fa-mobile-alt"></i> <span id="mobileViewText">Xem trên điện thoại</span>
+        </button>
+        <button id="themeToggleBtn" class="btn-icon" title="Chuyển chế độ Sáng / Tối">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="#reference" class="btn btn-outline" onclick="document.querySelector('[data-tab=reference]').click()">
+          <i class="fas fa-file-pdf"></i> Đối Chiếu V10 (229 Trang)
+        </a>
+      </div>
+    </div>
+
+    <!-- NAVIGATION TABS -->
+    <div class="nav-tabs-wrapper">
+      <nav class="nav-tabs">
+        <button class="nav-tab-btn active" data-tab="algorithms">
+          <i class="fas fa-project-diagram"></i> Sơ Đồ Thuật Toán
+        </button>
+        <button class="nav-tab-btn" data-tab="pharmacology">
+          <i class="fas fa-pills"></i> Dược Lý Chuyên Sâu (NCS)
+        </button>
+        <button class="nav-tab-btn" data-tab="calculator">
+          <i class="fas fa-calculator"></i> Tính Liều & Phác Đồ
+        </button>
+        <button class="nav-tab-btn" data-tab="pediatric">
+          <i class="fas fa-child"></i> Lao Trẻ Em & Tiềm Ẩn
+        </button>
+        <button class="nav-tab-btn" data-tab="toxicity">
+          <i class="fas fa-exclamation-triangle"></i> Xử Trí Độc Tính (DILI/QTc)
+        </button>
+        <button class="nav-tab-btn" data-tab="deepdives">
+          <i class="fas fa-microscope"></i> Cơ Chế Sinh Lý Bệnh
+        </button>
+        <button class="nav-tab-btn" data-tab="cases">
+          <i class="fas fa-user-md"></i> Ca Lâm Sàng
+        </button>
+        <button class="nav-tab-btn" data-tab="flashcards">
+          <i class="fas fa-bolt"></i> Flashcards Ôn Tập
+        </button>
+        <button class="nav-tab-btn" data-tab="reference">
+          <i class="fas fa-book-open"></i> Mục Lục Tài Liệu V10
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN APP CONTAINER -->
+  <main class="app-main">
+
+    <!-- TAB 1: SƠ ĐỒ CHẨN ĐOÁN & THUẬT TOÁN ĐIỀU TRỊ -->
+    <section id="algorithms" class="tab-content-panel active">
+      <div class="section-header">
+        <h2><i class="fas fa-project-diagram" style="color:var(--primary-color);"></i> Sơ Đồ Chẩn Đoán & Phác Đồ Điều Trị Tương Tác</h2>
+        <p>Hệ thống 9 sơ đồ thuật toán chuẩn của Bộ Y tế phiên bản V10. Nhấp vào các bước để xem hướng xử trí, cơ chế phân tử và đối chiếu trang tài liệu gốc.</p>
+      </div>
+
+      <!-- Selector Chips -->
+      <div class="algorithms-selector" id="algoSelectorContainer"></div>
+
+      <!-- Flowchart Display Area -->
+      <div id="algoDisplayArea"></div>
+    </section>
+
+    <!-- TAB 2: TỪ ĐIỂN DƯỢC LÝ CHUYÊN SÂU DÀNH CHO BÁC SĨ & NCS -->
+    <section id="pharmacology" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-pills" style="color:var(--primary-color);"></i> Từ Điển Dược Lý Chuyên Sâu Thuốc Chống Lao</h2>
+        <p>Dành cho Bác sĩ lâm sàng, Học viên Sau đại học và Nghiên cứu sinh (NCS). Đầy đủ cơ chế phân tử, đích enzyme, PK/PD, đột biến kháng thuốc, liều lượng chuẩn V10 và trích dẫn quốc tế (NIH, WHO, PubChem).</p>
+      </div>
+
+      <!-- Toolbar Search & Filter -->
+      <div class="toolbar-container">
+        <div class="search-input-group">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="drugSearchInput" placeholder="Tìm theo tên thuốc (H, R, Z, Bdq...), đích enzyme (InhA, rpoB...), nhóm thuốc...">
+        </div>
+
+        <div class="filter-pills">
+          <button class="pill-btn drug-filter-pill active" data-group="all">Tất cả (15 thuốc)</button>
+          <button class="pill-btn drug-filter-pill" data-group="Hàng 1">Hàng 1 Thiết Yếu</button>
+          <button class="pill-btn drug-filter-pill" data-group="Nhóm A">Hàng 2 - Nhóm A</button>
+          <button class="pill-btn drug-filter-pill" data-group="Nhóm B">Hàng 2 - Nhóm B</button>
+          <button class="pill-btn drug-filter-pill" data-group="Nhóm C">Hàng 2 - Nhóm C & Mới</button>
+        </div>
+      </div>
+
+      <!-- Drug Cards Grid -->
+      <div class="grid-3" id="drugGridContainer"></div>
+    </section>
+
+    <!-- TAB 3: CÔNG CỤ TÍNH LIỀU & PHÁC ĐỒ CÁ THỂ HÓA -->
+    <section id="calculator" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-calculator" style="color:var(--primary-color);"></i> Công Cụ Tính Liều & Phác Đồ Điều Trị Cá Thể Hóa</h2>
+        <p>Tính toán chính xác số viên FDC và liều thuốc rời (mg/kg) theo Phụ lục 6, điều chỉnh liều suy thận theo Bảng 5 và cảnh báo tương tác ARV/HIV theo Phụ lục 7.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Form nhập thông tin -->
+        <div class="card">
+          <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:1rem; color:var(--text-primary);">
+            <i class="fas fa-sliders-h"></i> Thông Số Người Bệnh & Phác Đồ:
+          </h3>
+          <form id="regimenCalcForm">
+            <div class="form-group">
+              <label for="calcWeight"><i class="fas fa-weight"></i> Cân nặng của người bệnh (kg):</label>
+              <input type="number" id="calcWeight" class="form-control" value="52" min="5" max="150" step="0.5">
+            </div>
+
+            <div class="form-group">
+              <label for="calcRegimenType"><i class="fas fa-notes-medical"></i> Chỉ định phác đồ điều trị:</label>
+              <select id="calcRegimenType" class="form-control">
+                <option value="A1">Phác đồ A1 (2RHZE / 4RH) - Lao nhạy cảm chuẩn 6 tháng</option>
+                <option value="A1a">Phác đồ A1a (2HPMZ / 2HPM) - Rút ngắn 4 tháng (>= 12 tuổi)</option>
+                <option value="BPaLM">Phác đồ BPaLM 6 tháng - Lao đa kháng MDR/RR nhạy Quinolone</option>
+                <option value="BPaL">Phác đồ BPaL 6 tháng - Lao tiền siêu kháng Pre-XDR</option>
+                <option value="B1">Phác đồ B1 (2RHZE / 10RH) - Lao màng não, xương khớp người lớn</option>
+                <option value="TPT_3HP">Phác đồ 3HP (Rpt + INH) - Dự phòng Lao tiềm ẩn 3 tháng</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="calcRenal"><i class="fas fa-kidneys"></i> Chức năng thận:</label>
+              <select id="calcRenal" class="form-control">
+                <option value="normal">Bình thường (CrCl >= 30 ml/min)</option>
+                <option value="crcl_under_30">Suy thận nặng (CrCl < 30 ml/min, chưa lọc máu)</option>
+                <option value="dialysis">Đang chạy thận nhân tạo chu kỳ (Hemodialysis)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="calcHiv"><i class="fas fa-ribbon"></i> Tình trạng đồng nhiễm HIV / Điều trị ARV:</label>
+              <select id="calcHiv" class="form-control">
+                <option value="none">Không nhiễm HIV / Chưa dùng ARV</option>
+                <option value="art_dtg">Đang dùng phác đồ ARV chứa Dolutegravir (DTG)</option>
+                <option value="art_pi">Đang dùng phác đồ ARV chứa thuốc ức chế Protease (LPV/r)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="calcPregnant"><i class="fas fa-female"></i> Phụ nữ có thai:</label>
+              <select id="calcPregnant" class="form-control">
+                <option value="no">Không mang thai</option>
+                <option value="yes">Đang mang thai</option>
+              </select>
+            </div>
+          </form>
+        </div>
+
+        <!-- Kết quả hiển thị tức thì -->
+        <div id="calcResultContainer"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: LAO TRẺ EM & SÀNG LỌC LAO TIỀM ẨN -->
+    <section id="pediatric" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-child" style="color:var(--primary-color);"></i> Bảng Điểm Lao Trẻ Em & Sàng Lọc Lao Tiềm Ẩn (TPT)</h2>
+        <p>Bảng chấm điểm chẩn đoán lâm sàng lao phổi trẻ em dưới 10 tuổi (Bảng 4 Tài liệu V10) và lưu đồ phân tầng nguy cơ điều trị dự phòng lao tiềm ẩn.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Bảng tính điểm trẻ em -->
+        <div class="card">
+          <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:1rem; color:var(--text-primary);">
+            <i class="fas fa-clipboard-check"></i> Chấm Điểm Chẩn Đoán Lao Phổi Trẻ Em (&lt; 10 Tuổi):
+          </h3>
+          <form id="pediatricScoreForm">
+            <div class="form-group">
+              <label>1. Tiền sử tiếp xúc nguồn lây:</label>
+              <div>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreContact" value="0" checked> Không rõ tiếp xúc (0 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreContact" value="1"> Tiếp xúc người nghi lao chưa có chẩn đoán (1 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem;">
+                  <input type="radio" name="scoreContact" value="3"> Tiếp xúc người bệnh lao phổi khẳng định AFB(+) (3 điểm)
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>2. Triệu chứng lâm sàng kéo dài &gt; 2 tuần:</label>
+              <div>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreSymptoms" value="0" checked> Không có hoặc &lt; 2 tuần (0 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreSymptoms" value="1"> Ho dai dẳng hoặc sốt nhẹ kéo dài &gt; 2 tuần (1 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem;">
+                  <input type="radio" name="scoreSymptoms" value="2"> Cả ho dai dẳng, sốt kéo dài và sút cân &gt; 2 tuần (2 điểm)
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>3. Tình trạng dinh dưỡng:</label>
+              <div>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreNutrition" value="0" checked> Dinh dưỡng bình thường (0 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreNutrition" value="1"> Suy dinh dưỡng vừa (1 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem;">
+                  <input type="radio" name="scoreNutrition" value="2"> Suy dinh dưỡng nặng không hồi phục sau điều trị dinh dưỡng (2 điểm)
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>4. Xét nghiệm TST (Mantoux) hoặc IGRA:</label>
+              <div>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreTst" value="0" checked> Âm tính hoặc chưa làm (0 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem;">
+                  <input type="radio" name="scoreTst" value="3"> Dương tính (TST &gt;= 10mm hoặc &gt;= 5mm ở trẻ suy dinh dưỡng nặng/HIV, IGRA (+)) (3 điểm)
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>5. Hình ảnh X-quang phổi:</label>
+              <div>
+                <label style="display:block; font-size:0.88rem; margin-bottom:0.25rem;">
+                  <input type="radio" name="scoreCxr" value="0" checked> Bình thường hoặc viêm phổi thông thường (0 điểm)
+                </label>
+                <label style="display:block; font-size:0.88rem;">
+                  <input type="radio" name="scoreCxr" value="3"> Hình ảnh nghi lao (Hạch to rốn phổi/trung thất, phức hợp nguyên thủy, đông đặc) (3 điểm)
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Kết quả tính điểm -->
+        <div id="pediatricScoreResult"></div>
+      </div>
+    </section>
+
+    <!-- TAB 5: XỬ TRÍ BIẾN CỐ BẤT LỢI & ĐỘC TÍNH THUỐC (DILI / QTc) -->
+    <section id="toxicity" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-exclamation-triangle" style="color:var(--danger-color);"></i> Quản Lý Biến Cố Bất Lợi & Độc Tính Thuốc Chống Lao</h2>
+        <p>Thuật toán xử trí tổn thương gan nhiễm độc thuốc (DILI) theo Bảng 10 và quản lý kéo dài khoảng QTc do Bedaquiline/Moxifloxacin/Clofazimine.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Đánh giá DILI -->
+        <div class="card">
+          <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:0.75rem; color:var(--text-primary);">
+            <i class="fas fa-liver"></i> Đánh Giá Tổn Thương Gan Do Thuốc (DILI):
+          </h3>
+          <div class="form-group">
+            <label>Nồng độ ALT (SGPT) hiện tại (U/L):</label>
+            <input type="number" id="diliAlt" class="form-control" value="240" min="5" max="3000">
+          </div>
+          <div class="form-group">
+            <label>Nồng độ AST (SGOT) hiện tại (U/L):</label>
+            <input type="number" id="diliAst" class="form-control" value="210" min="5" max="3000">
+          </div>
+          <div class="form-group">
+            <label>Bilirubin toàn phần (mg/dL) [hoặc chia 17.1 nếu dùng mcmol/L]:</label>
+            <input type="number" id="diliBili" class="form-control" value="2.8" step="0.1" min="0.2" max="50">
+          </div>
+          <div class="form-group">
+            <label style="display:flex; align-items:center; gap:0.5rem; cursor:pointer;">
+              <input type="checkbox" id="diliSymptoms" checked>
+              <span>Có triệu chứng lâm sàng (vàng da, mệt mỏi dữ dội, buồn nôn, đau hạ sườn phải)</span>
+            </label>
+          </div>
+          <button id="assessDiliBtn" class="btn btn-primary" style="width:100%;">
+            <i class="fas fa-heartbeat"></i> Đánh Giá Mức Độ DILI & Hướng Xử Trí
+          </button>
+          
+          <div id="diliResultOutput" style="margin-top:1rem;"></div>
+        </div>
+
+        <!-- Đánh giá QTc -->
+        <div class="card">
+          <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:0.75rem; color:var(--text-primary);">
+            <i class="fas fa-heart"></i> Đánh Giá Kéo Dài Khoảng QTc Trên ECG:
+          </h3>
+          <div class="form-group">
+            <label>Khoảng QTc đo được (theo công thức Fridericia - QTcF) (ms):</label>
+            <input type="number" id="qtcValue" class="form-control" value="515" min="300" max="700">
+          </div>
+          <div class="callout-box" style="font-size:0.85rem; margin-bottom:1rem;">
+            <strong>Lưu ý:</strong> Áp dụng cho các phác đồ chứa Bedaquiline, Moxifloxacin, Levofloxacin, Clofazimine, Delamanid.
+          </div>
+          <button id="assessQtcBtn" class="btn btn-primary" style="width:100%;">
+            <i class="fas fa-chart-line"></i> Phân Tầng Nguy Cơ Rối Loạn Nhịp Tim
+          </button>
+
+          <div id="qtcResultOutput" style="margin-top:1rem;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: CƠ CHẾ SINH LÝ BỆNH & GIẢI PHẪU CHUYÊN SÂU -->
+    <section id="deepdives" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-microscope" style="color:var(--primary-color);"></i> Mổ Xẻ Cơ Chế: Sinh Lý Bệnh & Giải Phẫu Chuyên Sâu</h2>
+        <p>Giải thích cặn kẽ TẠI SAO trong guideline họ lại hướng dẫn như vậy. Phân tích cơ chế giải phẫu, huyết động học, miễn dịch u hạt, vi sinh học Mitchison và biến chứng hệ thần kinh.</p>
+      </div>
+
+      <div id="deepDiveContainer"></div>
+    </section>
+
+    <!-- TAB 7: CA LÂM SÀNG TƯƠNG TÁC -->
+    <section id="cases" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-user-md" style="color:var(--primary-color);"></i> Ca Lâm Sàng & Tình Huống Thực Hành</h2>
+        <p>Vận dụng guideline và dược lý vào các ca bệnh thực tế. Chọn phương án xử trí và nhận phản hồi phân tích chi tiết.</p>
+      </div>
+
+      <div id="casesContainer"></div>
+    </section>
+
+    <!-- TAB 8: FLASHCARDS ÔN TẬP NHANH -->
+    <section id="flashcards" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-bolt" style="color:var(--primary-color);"></i> Flashcards Ôn Tập Nhanh Kiến Thức Lâm Sàng</h2>
+        <p>Bấm vào từng thẻ để lật xem đáp án. Ghi nhớ nhanh liều tối đa, gen đột biến kháng thuốc, cơ chế PK/PD và chỉ định phác đồ.</p>
+      </div>
+
+      <div class="flashcards-grid" id="flashcardsContainer"></div>
+    </section>
+
+    <!-- TAB 9: ĐỐI CHIẾU MỤC LỤC TÀI LIỆU V10 (229 TRANG) -->
+    <section id="reference" class="tab-content-panel">
+      <div class="section-header">
+        <h2><i class="fas fa-book-open" style="color:var(--primary-color);"></i> Mục Lục & Đối Chiếu Nguyên Văn Tài Liệu V10</h2>
+        <p>Toàn bộ 7 Phần, 14 Bảng, 9 Sơ đồ và 10 Phụ lục trong file gốc <strong>Tai lieu lao ban cuoi V10.docx.pdf</strong> (229 trang). Nhập từ khóa để tra cứu ngay số trang và nội dung pháp lý của Bộ Y tế.</p>
+      </div>
+
+      <div class="search-input-group mb-4">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="tocSearchInput" placeholder="Tìm theo tên phần, phụ lục (Phụ lục 6, Phụ lục 7...), số trang, bảng theo dõi...">
+      </div>
+
+      <div id="tocListContainer"></div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="app-footer">
+    <div style="max-width:1400px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:1rem;">
+      <div>
+        <strong>TB Clinical Decision Support & Pharmacology Hub</strong> &copy; 2026.
+        Dựa trên <em>Hướng dẫn chẩn đoán, điều trị và dự phòng bệnh lao (Bộ Y Tế - V10)</em>.
+      </div>
+      <div>
+        <span class="badge badge-primary"><i class="fas fa-shield-alt"></i> Nguồn tham khảo: WHO, NIH PubMed, PubChem, CDC</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GLOBAL MODAL BACKDROP & CONTAINER -->
+  <div class="modal-backdrop" id="globalModalBackdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="globalModalTitle">Tiêu Đề Chi Tiết</h3>
+        <button class="btn-icon" id="globalModalCloseBtn" style="border:none; background:transparent;">
+          <i class="fas fa-times" style="font-size:1.25rem;"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="globalModalBody">
+        Nội dung...
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeModal()">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAVIGATION BAR CHO ĐIỆN THOẠI -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Thanh điều hướng nhanh điện thoại">
+    <button class="mobile-nav-item active" data-tab="algorithms">
+      <i class="fas fa-project-diagram"></i>
+      <span>Sơ đồ</span>
+    </button>
+    <button class="mobile-nav-item" data-tab="pharmacology">
+      <i class="fas fa-pills"></i>
+      <span>Dược lý</span>
+    </button>
+    <button class="mobile-nav-item" data-tab="calculator">
+      <i class="fas fa-calculator"></i>
+      <span>Tính liều</span>
+    </button>
+    <button class="mobile-nav-item" data-tab="toxicity">
+      <i class="fas fa-exclamation-triangle"></i>
+      <span>Độc tính</span>
+    </button>
+    <button class="mobile-nav-item" data-tab="more" id="mobileMoreBtn">
+      <i class="fas fa-ellipsis-h"></i>
+      <span>Thêm</span>
+    </button>
+  </nav>
+
+  <!-- MENU MỞ RỘNG (DRAWER) CHO ĐIỆN THOẠI -->
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop">
+    <div class="mobile-drawer">
+      <div class="mobile-drawer-header">
+        <h4><i class="fas fa-bars" style="color:var(--primary-color);"></i> Danh Mục Mở Rộng</h4>
+        <button class="btn-icon" id="closeMobileDrawerBtn" title="Đóng menu"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="mobile-drawer-items">
+        <button class="drawer-item-btn" data-tab="pediatric">
+          <i class="fas fa-child"></i>
+          <span>Lao Trẻ Em & Tiềm Ẩn</span>
+        </button>
+        <button class="drawer-item-btn" data-tab="deepdives">
+          <i class="fas fa-microscope"></i>
+          <span>Cơ Chế Sinh Lý Bệnh</span>
+        </button>
+        <button class="drawer-item-btn" data-tab="cases">
+          <i class="fas fa-user-md"></i>
+          <span>Ca Lâm Sàng Tương Tác</span>
+        </button>
+        <button class="drawer-item-btn" data-tab="flashcards">
+          <i class="fas fa-bolt"></i>
+          <span>Flashcards Ôn Tập Nhanh</span>
+        </button>
+        <button class="drawer-item-btn" data-tab="reference">
+          <i class="fas fa-book-open"></i>
+          <span>Mục Lục Đối Chiếu V10 (229 Trang)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/data.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
