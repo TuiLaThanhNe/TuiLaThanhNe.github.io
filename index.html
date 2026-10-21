@@ -23,7 +23,7 @@
         </div>
         <div class="brand-text">
           <h1>TB CLINICAL DECISION SUPPORT & PHARMACOLOGY HUB</h1>
-          <span>Hướng dẫn Chẩn đoán, Điều trị và Dự phòng Bệnh Lao (Bộ Y Tế - Bản V10)</span>
+          <span>Hướng dẫn Chẩn đoán, điều trị và dự phòng bệnh Lao (Quyết định số 162/QĐ-BYT ngày 19/01/2024 của Bộ Y tế)</span>
         </div>
       </div>
       
@@ -71,6 +71,13 @@
           <i class="fas fa-book-open"></i> Mục Lục Tài Liệu V10
         </button>
       </nav>
+    </div>
+    <!-- DISCLAIMER / MIỄN TRỪ TRÁCH NHIỆM PHÁP LÝ -->
+    <div class="app-disclaimer-banner">
+      <div class="disclaimer-content">
+        <i class="fas fa-shield-alt disclaimer-icon"></i>
+        <span><strong>KHUYẾN CÁO MIỄN TRỪ TRÁCH NHIỆM:</strong> Công cụ chỉ mang tính chất hỗ trợ tra cứu lâm sàng dành cho Cán bộ Y tế, không thay thế chẩn đoán và chỉ định trực tiếp của Bác sĩ.</span>
+      </div>
     </div>
   </header>
 
@@ -133,6 +140,12 @@
           </h3>
           <form id="regimenCalcForm">
             <div class="form-group">
+              <label for="calcAge"><i class="fas fa-user-clock"></i> Tuổi của người bệnh (năm):</label>
+              <input type="number" id="calcAge" class="form-control" value="32" min="0" max="120" step="1">
+              <small style="color:var(--text-muted); font-size:0.78rem;">Phác đồ BPaLM/BPaL chỉ áp dụng cho người bệnh &ge; 14 tuổi (QĐ 162/QĐ-BYT).</small>
+            </div>
+
+            <div class="form-group">
               <label for="calcWeight"><i class="fas fa-weight"></i> Cân nặng của người bệnh (kg):</label>
               <input type="number" id="calcWeight" class="form-control" value="52" min="5" max="150" step="0.5">
             </div>
@@ -141,11 +154,28 @@
               <label for="calcRegimenType"><i class="fas fa-notes-medical"></i> Chỉ định phác đồ điều trị:</label>
               <select id="calcRegimenType" class="form-control">
                 <option value="A1">Phác đồ A1 (2RHZE / 4RH) - Lao nhạy cảm chuẩn 6 tháng</option>
-                <option value="A1a">Phác đồ A1a (2HPMZ / 2HPM) - Rút ngắn 4 tháng (>= 12 tuổi)</option>
-                <option value="BPaLM">Phác đồ BPaLM 6 tháng - Lao đa kháng MDR/RR nhạy Quinolone</option>
-                <option value="BPaL">Phác đồ BPaL 6 tháng - Lao tiền siêu kháng Pre-XDR</option>
+                <option value="A1a">Phác đồ A1a (2HPMZ / 2HPM) - Rút ngắn 4 tháng (&ge; 12 tuổi)</option>
+                <option value="BPaLM">Phác đồ BPaLM 6 tháng - Lao kháng Rifampicin / MDR-TB</option>
+                <option value="BPaL">Phác đồ BPaL 6 tháng - Lao tiền siêu kháng Pre-XDR-TB</option>
                 <option value="B1">Phác đồ B1 (2RHZE / 10RH) - Lao màng não, xương khớp người lớn</option>
                 <option value="TPT_3HP">Phác đồ 3HP (Rpt + INH) - Dự phòng Lao tiềm ẩn 3 tháng</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="groupFqResistance" style="display:none; background:var(--bg-muted); padding:0.75rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <label for="calcFqResistance" style="color:var(--primary-color); font-weight:700;"><i class="fas fa-dna"></i> Kết quả xét nghiệm với Fluoroquinolone (Lfx/Mfx):</label>
+              <select id="calcFqResistance" class="form-control">
+                <option value="susceptible">Nhạy cảm với Fluoroquinolone (Không kháng Quinolone) &rarr; BPaLM</option>
+                <option value="resistant">KHÁNG Fluoroquinolone (Đột biến gyrA/gyrB - Pre-XDR) &rarr; BPaL</option>
+                <option value="unknown">Chưa có kết quả xét nghiệm nhạy cảm</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="groupPriorExposure" style="display:none; background:var(--bg-muted); padding:0.75rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <label for="calcPriorExposure" style="color:var(--danger-color); font-weight:700;"><i class="fas fa-history"></i> Tiền sử điều trị thuốc mới (BDQ, PA, LZD):</label>
+              <select id="calcPriorExposure" class="form-control">
+                <option value="no">Chưa từng dùng Bedaquiline, Pretomanid, hoặc Linezolid &gt; 1 tháng</option>
+                <option value="yes">ĐÃ TỪNG DÙNG Bedaquiline, Pretomanid hoặc Linezolid &gt; 1 tháng (30 ngày)</option>
               </select>
             </div>
 
@@ -186,7 +216,7 @@
     <section id="pediatric" class="tab-content-panel">
       <div class="section-header">
         <h2><i class="fas fa-child" style="color:var(--primary-color);"></i> Bảng Điểm Lao Trẻ Em & Sàng Lọc Lao Tiềm Ẩn (TPT)</h2>
-        <p>Bảng chấm điểm chẩn đoán lâm sàng lao phổi trẻ em dưới 10 tuổi (Bảng 4 Tài liệu V10) và lưu đồ phân tầng nguy cơ điều trị dự phòng lao tiềm ẩn.</p>
+        <p>Bảng chấm điểm chẩn đoán lâm sàng lao phổi trẻ em dưới 10 tuổi (Bảng 4 QĐ 162/QĐ-BYT) và lưu đồ phân tầng nguy cơ điều trị dự phòng lao tiềm ẩn.</p>
       </div>
 
       <div class="grid-2">
@@ -313,10 +343,21 @@
         <!-- Đánh giá QTc -->
         <div class="card">
           <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:0.75rem; color:var(--text-primary);">
-            <i class="fas fa-heart"></i> Đánh Giá Kéo Dài Khoảng QTc Trên ECG:
+            <i class="fas fa-heartbeat"></i> Kiểm Soát Khoảng QTc Trên ECG (QĐ 162/QĐ-BYT):
           </h3>
           <div class="form-group">
-            <label>Khoảng QTc đo được (theo công thức Fridericia - QTcF) (ms):</label>
+            <label for="qtcGender"><i class="fas fa-venus-mars"></i> Giới tính người bệnh:</label>
+            <select id="qtcGender" class="form-control">
+              <option value="male">Nam giới (Ngưỡng an toàn sinh lý &lt; 450 ms)</option>
+              <option value="female">Nữ giới (Ngưỡng an toàn sinh lý &lt; 470 ms)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="qtcBaseline"><i class="fas fa-history"></i> QTc trên ECG nền trước điều trị (ms - nếu có):</label>
+            <input type="number" id="qtcBaseline" class="form-control" value="410" min="300" max="600" placeholder="Ví dụ: 410 ms">
+          </div>
+          <div class="form-group">
+            <label for="qtcValue"><i class="fas fa-wave-square"></i> QTc đo được hiện tại (công thức QTcF) (ms):</label>
             <input type="number" id="qtcValue" class="form-control" value="515" min="300" max="700">
           </div>
           <div class="callout-box" style="font-size:0.85rem; margin-bottom:1rem;">
@@ -380,13 +421,17 @@
 
   <!-- FOOTER -->
   <footer class="app-footer">
-    <div style="max-width:1400px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:1rem;">
+    <div style="max-width:1400px; margin:0 auto; display:flex; flex-direction:column; gap:0.6rem; text-align:center;">
       <div>
         <strong>TB Clinical Decision Support & Pharmacology Hub</strong> &copy; 2026.
-        Dựa trên <em>Hướng dẫn chẩn đoán, điều trị và dự phòng bệnh lao (Bộ Y Tế - V10)</em>.
+        Dựa trên <em>Hướng dẫn Chẩn đoán, điều trị và dự phòng bệnh Lao</em> ban hành theo <strong>Quyết định số 162/QĐ-BYT ngày 19/01/2024 của Bộ Y tế</strong>.
+      </div>
+      <div style="font-size:0.8rem; color:var(--text-muted); background:var(--bg-muted); padding:0.5rem 1rem; border-radius:var(--radius-sm); border:1px solid var(--border-color); max-width:1000px; margin:0 auto;">
+        <i class="fas fa-balance-scale" style="color:var(--warning-color); margin-right:0.3rem;"></i>
+        <strong>Miễn trừ trách nhiệm pháp lý:</strong> Công cụ chỉ mang tính chất hỗ trợ tra cứu lâm sàng dành cho Cán bộ Y tế, không thay thế chẩn đoán và chỉ định trực tiếp của Bác sĩ. Mọi quyết định điều trị cần cá thể hóa dựa trên kháng sinh đồ và tình trạng lâm sàng cụ thể của người bệnh.
       </div>
       <div>
-        <span class="badge badge-primary"><i class="fas fa-shield-alt"></i> Nguồn tham khảo: WHO, NIH PubMed, PubChem, CDC</span>
+        <span class="badge badge-primary"><i class="fas fa-shield-alt"></i> Căn cứ pháp lý: QĐ 162/QĐ-BYT | WHO Consolidated Guidelines (2022-2024) | NIH PubMed</span>
       </div>
     </div>
   </footer>

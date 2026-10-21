@@ -405,14 +405,30 @@ function initCalculator() {
 }
 
 function runRegimenCalculation() {
+  const age = parseFloat(document.getElementById("calcAge")?.value) || 32;
   const weight = parseFloat(document.getElementById("calcWeight")?.value) || 50;
   const regimenType = document.getElementById("calcRegimenType")?.value || "A1";
   const renal = document.getElementById("calcRenal")?.value || "normal";
   const hiv = document.getElementById("calcHiv")?.value || "none";
   const pregnant = document.getElementById("calcPregnant")?.value || "no";
+  const fqStatus = document.getElementById("calcFqResistance")?.value || "susceptible";
+  const priorExposure = document.getElementById("calcPriorExposure")?.value || "no";
+
+  // Hiển thị/ẩn các nhóm điều kiện cho Lao kháng thuốc
+  const groupFq = document.getElementById("groupFqResistance");
+  const groupPrior = document.getElementById("groupPriorExposure");
+  if (groupFq && groupPrior) {
+    if (regimenType === "BPaLM" || regimenType === "BPaL") {
+      groupFq.style.display = "block";
+      groupPrior.style.display = "block";
+    } else {
+      groupFq.style.display = "none";
+      groupPrior.style.display = "none";
+    }
+  }
 
   const result = TBCalculator.calculateRegimen({
-    weight, regimenType, renal, hiv, pregnant
+    age, weight, regimenType, renal, hiv, pregnant, fqStatus, priorExposure
   });
 
   const outputContainer = document.getElementById("calcResultContainer");
@@ -457,12 +473,23 @@ function runRegimenCalculation() {
         `).join("")}
       </div>
 
+      ${result.redFlags && result.redFlags.length > 0 ? result.redFlags.map(rf => `
+        <div class="alert-red-flag mb-3">
+          <div class="alert-red-flag-header">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>${rf.title}</span>
+          </div>
+          <p style="font-size:0.9rem; margin:0; line-height:1.6;">${rf.message}</p>
+        </div>
+      `).join("") : ''}
+
       ${result.warnings.length > 0 ? `
-        <div class="callout-box warning mb-3">
-          <h4 style="font-weight:700; color:var(--warning-color); margin-bottom:0.35rem;">
-            <i class="fas fa-exclamation-triangle"></i> LƯU Ý & CẢNH BÁO LÂM SÀNG ĐẶC BIỆT:
-          </h4>
-          <ul style="font-size:0.85rem; padding-left:1.2rem; margin:0; line-height:1.5;">
+        <div class="alert-warning-banner mb-3">
+          <div class="alert-warning-header">
+            <i class="fas fa-bell"></i>
+            <span>LƯU Ý & CẢNH BÁO LÂM SÀNG ĐẶC BIỆT (QĐ 162/QĐ-BYT):</span>
+          </div>
+          <ul style="font-size:0.88rem; padding-left:1.2rem; margin:0; line-height:1.5;">
             ${result.warnings.map(w => `<li style="margin-bottom:0.3rem;">${w}</li>`).join("")}
           </ul>
         </div>
@@ -533,13 +560,20 @@ function initToxicityManager() {
       const res = TBCalculator.assessDILI(alt, ast, bili, symp);
       const out = document.getElementById("diliResultOutput");
       if (out) {
+        const bannerClass = res.alertType === 'red_flag' ? 'alert-red-flag' : (res.alertType === 'warning' ? 'alert-warning-banner' : 'alert-safe-banner');
+        const headerClass = res.alertType === 'red_flag' ? 'alert-red-flag-header' : (res.alertType === 'warning' ? 'alert-warning-header' : 'alert-safe-header');
+        const icon = res.alertType === 'red_flag' ? 'fa-exclamation-triangle' : (res.alertType === 'warning' ? 'fa-exclamation-circle' : 'fa-check-circle');
+
         out.innerHTML = `
-          <div class="callout-box ${res.alertClass === 'alert-danger' ? 'danger' : (res.alertClass === 'alert-warning' ? 'warning' : '')}">
-            <h4 style="font-weight:700; margin-bottom:0.35rem;">${res.severity}</h4>
-            <p style="font-size:0.88rem; margin-bottom:0.5rem;">${res.status}</p>
-            <div style="font-size:0.88rem; line-height:1.6;">${res.recommendation.replace(/\n/g, '<br>')}</div>
-            <div style="font-size:0.78rem; color:var(--text-muted); margin-top:0.5rem;">
-              <i class="fas fa-file-alt"></i> ${res.pdf_ref}
+          <div class="${bannerClass}">
+            <div class="${headerClass}">
+              <i class="fas ${icon}"></i>
+              <span>${res.severity}</span>
+            </div>
+            <p style="font-size:0.9rem; font-weight:600; margin-bottom:0.5rem;">${res.status}</p>
+            <div style="font-size:0.88rem; line-height:1.6;">${res.recommendation}</div>
+            <div style="font-size:0.78rem; margin-top:0.6rem; opacity:0.85;">
+              <i class="fas fa-book-medical"></i> ${res.pdf_ref}
             </div>
           </div>
         `;
@@ -550,13 +584,27 @@ function initToxicityManager() {
   if (qtcBtn) {
     qtcBtn.addEventListener("click", () => {
       const qtc = parseFloat(document.getElementById("qtcValue")?.value) || 420;
-      const res = TBCalculator.assessQTc(qtc, []);
+      const gender = document.getElementById("qtcGender")?.value || "male";
+      const baselineQtc = parseFloat(document.getElementById("qtcBaseline")?.value) || 0;
+
+      const res = TBCalculator.assessQTc(qtc, gender, baselineQtc);
       const out = document.getElementById("qtcResultOutput");
       if (out) {
+        const bannerClass = res.alertType === 'red_flag' ? 'alert-red-flag' : (res.alertType === 'warning' ? 'alert-warning-banner' : 'alert-safe-banner');
+        const headerClass = res.alertType === 'red_flag' ? 'alert-red-flag-header' : (res.alertType === 'warning' ? 'alert-warning-header' : 'alert-safe-header');
+        const icon = res.alertType === 'red_flag' ? 'fa-heart-broken' : (res.alertType === 'warning' ? 'fa-exclamation-triangle' : 'fa-heart');
+
         out.innerHTML = `
-          <div class="callout-box ${res.badgeClass === 'badge-danger' ? 'danger' : (res.badgeClass === 'badge-warning' ? 'warning' : '')}">
-            <h4 style="font-weight:700; margin-bottom:0.35rem;">${res.level}</h4>
-            <div style="font-size:0.88rem; line-height:1.6;">${res.action.replace(/\n/g, '<br>')}</div>
+          <div class="${bannerClass}">
+            <div class="${headerClass}">
+              <i class="fas ${icon}"></i>
+              <span>${res.level}</span>
+            </div>
+            ${res.deltaQtc ? `<p style="font-size:0.88rem; font-weight:600; margin-bottom:0.4rem;">Biến thiên QTc so với ECG nền (&Delta;QTc): +${res.deltaQtc} ms</p>` : ''}
+            <div style="font-size:0.88rem; line-height:1.6;">${res.action}</div>
+            <div style="font-size:0.78rem; margin-top:0.6rem; opacity:0.85;">
+              <i class="fas fa-book-medical"></i> ${res.pdf_ref}
+            </div>
           </div>
         `;
       }

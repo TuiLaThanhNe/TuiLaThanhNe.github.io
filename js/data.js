@@ -1,6 +1,6 @@
 /**
  * CƠ SỞ DỮ LIỆU CHUYÊN SÂU LAO HỌC, DƯỢC LÝ & PHÁC ĐỒ LÂM SÀNG
- * Dựa trên: Hướng dẫn Chẩn đoán, Điều trị và Dự phòng Bệnh Lao (Bộ Y Tế - Bản V10)
+ * Dựa trên: Hướng dẫn Chẩn đoán, điều trị và dự phòng bệnh Lao ban hành theo Quyết định số 162/QĐ-BYT ngày 19/01/2024 của Bộ Y tế
  * Bổ sung cơ chế Dược lý, Di truyền học, Sinh lý bệnh & Trích dẫn quốc tế (WHO, NIH, PubMed)
  */
 
@@ -52,7 +52,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "INH ức chế men gan CYP2C19, CYP2C9, CYP3A4 nhẹ và CYP2E1: làm tăng nồng độ Phenytoin, Carbamazepine, Theophylline, Warfarin (tăng nguy cơ ngộ độc thuốc chống co giật). Dùng cùng antacid nhôm hydroxide làm giảm hấp thu INH. Dùng cùng Paracetamol liều cao làm tăng độc tính gan."
       },
-      pdf_ref: "Tài liệu V10: Trang 51 (Mục 2), Phụ lục 6 (Trang 196 - Bảng 1), Phụ lục 7 (Trang 208), Phụ lục 10 (Trang 218)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 51 (Mục 2), Phụ lục 6 (Trang 196 - Bảng 1), Phụ lục 7 (Trang 208), Phụ lục 10 (Trang 218)",
       citations: [
         { title: "NIH / PubMed: Molecular mechanisms of Isoniazid resistance in M. tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/16280194/" },
         { title: "PubChem: Isoniazid Compound Summary (CID 3767)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Isoniazid" },
@@ -104,7 +104,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "LÀ CHẤT CẢM ỨNG ENZYME CYP450 VÀ P-GLYCOPROTEIN MẠNH NHẤT:\n- Tương tác cực nặng với thuốc kháng virus HIV (ARV): Làm giảm sâu nồng độ thuốc ức chế Protease (PI) và NNRTI, Dolutegravir (phải tăng liều Dolutegravir lên 50mg x 2 lần/ngày, hoặc thay Rifampicin bằng Rifabutin).\n- Làm mất tác dụng của thuốc tránh thai đường uống (phải dùng biện pháp cơ học).\n- Làm giảm nồng độ: Thuốc chống đông kháng Vitamin K (Warfarin - giảm INR), Thuốc tim mạch (Amlodipine, Digoxin, Beta-blockers), Thuốc hạ đường huyết (Sulfonylureas), Corticosteroid, Thuốc chống thải ghép (Cyclosporine, Tacrolimus), Kháng nấm nhóm Azole (Itraconazole, Voriconazole)."
       },
-      pdf_ref: "Tài liệu V10: Trang 51, Phụ lục 6 (Trang 196), Phụ lục 7 (Trang 208-212 - Bảng tương tác ARV), Phụ lục 10 (Trang 218)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 51, Phụ lục 6 (Trang 196), Phụ lục 7 (Trang 208-212 - Bảng tương tác ARV), Phụ lục 10 (Trang 218)",
       citations: [
         { title: "NIH / PubMed: Mechanism of action and resistance of Rifampicin", url: "https://pubmed.ncbi.nlm.nih.gov/22008770/" },
         { title: "PubChem: Rifampicin Compound Summary (CID 135398735)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Rifampicin" },
@@ -156,7 +156,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Dùng cùng Allopurinol: không khuyến cáo dùng thường quy trừ khi bùng phát Gút nặng. Phối hợp với Rifampicin + Isoniazid làm tăng hiệp đồng độc tính trên gan."
       },
-      pdf_ref: "Tài liệu V10: Trang 51, Phụ lục 6 (Trang 196 - Bảng 1 & 2), Phụ lục 7 (Bảng 5 điều chỉnh suy thận), Phụ lục 10",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 51, Phụ lục 6 (Trang 196 - Bảng 1 & 2), Phụ lục 7 (Bảng 5 điều chỉnh suy thận), Phụ lục 10",
       citations: [
         { title: "NIH / PubMed: Pyrazinamide - Mechanisms of Action and Resistance", url: "https://pubmed.ncbi.nlm.nih.gov/24434252/" },
         { title: "PubChem: Pyrazinamide Compound Summary (CID 1046)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Pyrazinamide" }
@@ -207,7 +207,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Antacid chứa hydroxyd nhôm làm chậm và giảm hấp thu Ethambutol (uống cách xa ít nhất 2 giờ)."
       },
-      pdf_ref: "Tài liệu V10: Trang 51, Phụ lục 6 (Trang 196), Phụ lục 7 (Bảng 5), Phụ lục 10",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 51, Phụ lục 6 (Trang 196), Phụ lục 7 (Bảng 5), Phụ lục 10",
       citations: [
         { title: "NIH / PubMed: Ethambutol and its ocular toxicities", url: "https://pubmed.ncbi.nlm.nih.gov/22998396/" },
         { title: "PubChem: Ethambutol Compound Summary (CID 14052)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Ethambutol" }
@@ -258,7 +258,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "CHỐNG CHỈ ĐỊNH DÙNG CÙNG CÁC CHẤT CẢM ỨNG CYP3A4 MẠNH (như Rifampicin, Rifapentine, Efavirenz, Phenytoin, Carbamazepine): làm giảm nồng độ Bedaquiline trong máu tới 50-80%, dẫn tới thất bại điều trị và phát sinh kháng thuốc. Thận trọng khi dùng cùng các thuốc ức chế CYP3A4 mạnh (Ketoconazole, Clarithromycin, Lopinavir/r) vì làm tăng nồng độ và độc tính của Bdq."
       },
-      pdf_ref: "Tài liệu V10: Trang 48 (Sơ đồ 6 Phác đồ BPaLM), Trang 65 (Bảng 5 Chống chỉ định & Thận trọng), Phụ lục 6 (Trang 201-202 Bảng 10)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48 (Sơ đồ 6 Phác đồ BPaLM), Trang 65 (Bảng 5 Chống chỉ định & Thận trọng), Phụ lục 6 (Trang 201-202 Bảng 10)",
       citations: [
         { title: "NIH / PubMed: Bedaquiline - A review in multi-drug resistant tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/24430752/" },
         { title: "WHO: Rapid communication on the 6-month treatment regimens for drug-resistant TB", url: "https://www.who.int/publications/i/item/9789240048126" },
@@ -310,7 +310,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Linezolid là chất ức chế men Monoamine Oxidase (MAO) không chọn lọc, có hồi phục: Nguy cơ HỘI CHỨNG SEROTONIN khi dùng đồng thời với thuốc chống trầm cảm SSRI (Fluoxetine, Sertraline), SNRI, TCA, hoặc Pethidine/Tramadol. Nguy cơ tăng vọt huyết áp khi ăn thực phẩm giàu tyramine (phô mai ủ, men bia)."
       },
-      pdf_ref: "Tài liệu V10: Trang 48, Phụ lục 6 (Trang 201 Bảng 10), Phụ lục 10",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48, Phụ lục 6 (Trang 201 Bảng 10), Phụ lục 10",
       citations: [
         { title: "NIH / PubMed: Linezolid for the treatment of drug-resistant tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/31804797/" },
         { title: "PubChem: Linezolid (CID 441401)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Linezolid" }
@@ -361,7 +361,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Tương tác tạo chelate không tan với Antacid chứa Al/Mg, viên sắt, canxi, kẽm, sucralfate (uống cách xa ít nhất 2 giờ trước hoặc 4 giờ sau). Moxifloxacin kéo dài hiệp đồng QT khi phối hợp thuốc chống loạn thần, thuốc chống loạn nhịp tim."
       },
-      pdf_ref: "Tài liệu V10: Trang 48, 51, 52 (Phác đồ A1a), Phụ lục 6 (Trang 201 Bảng 10), Phụ lục 7 (Bảng 5 điều chỉnh suy thận Lfx)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48, 51, 52 (Phác đồ A1a), Phụ lục 6 (Trang 201 Bảng 10), Phụ lục 7 (Bảng 5 điều chỉnh suy thận Lfx)",
       citations: [
         { title: "NIH / PubMed: Role of fluoroquinolones in tuberculosis treatment", url: "https://pubmed.ncbi.nlm.nih.gov/22422775/" },
         { title: "WHO: Guidelines for the treatment of drug-resistant tuberculosis", url: "https://www.who.int/publications/i/item/9789240007048" }
@@ -412,7 +412,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Hiệp đồng kéo dài khoảng QT với Bedaquiline, Moxifloxacin, Delamanid. Có thể làm giảm hấp thu Rifampicin nếu uống đồng thời."
       },
-      pdf_ref: "Tài liệu V10: Trang 48, Phụ lục 6 (Trang 201 Bảng 10), Phụ lục 10",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48, Phụ lục 6 (Trang 201 Bảng 10), Phụ lục 10",
       citations: [
         { title: "NIH / PubMed: Clofazimine for the treatment of drug-resistant tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/28587127/" },
         { title: "PubChem: Clofazimine (CID 2794)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Clofazimine" }
@@ -463,7 +463,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Dùng chung với rượu làm tăng nguy cơ co giật. Dùng cùng INH và Ethionamide làm tăng độc tính trên hệ thần kinh trung ương."
       },
-      pdf_ref: "Tài liệu V10: Trang 48, Phụ lục 6 (Trang 201), Phụ lục 7 (Bảng 5), Phụ lục 10",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48, Phụ lục 6 (Trang 201), Phụ lục 7 (Bảng 5), Phụ lục 10",
       citations: [
         { title: "NIH / PubMed: Cycloserine for the treatment of multidrug-resistant tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/30521689/" },
         { title: "PubChem: Cycloserine (CID 6234)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloserine" }
@@ -514,7 +514,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Tránh dùng cùng các chất cảm ứng CYP3A4 mạnh (như Efavirenz, Rifampicin, Carbamazepine) vì làm giảm nồng độ Pretomanid. Tránh dùng cùng các thuốc ức chế CYP3A4 mạnh kéo dài."
       },
-      pdf_ref: "Tài liệu V10: Trang 48 (Sơ đồ 6 Phác đồ BPaLM), Trang 65, Phụ lục 6 (Trang 201)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48 (Sơ đồ 6 Phác đồ BPaLM), Trang 65, Phụ lục 6 (Trang 201)",
       citations: [
         { title: "NIH / PubMed: Pretomanid - A new drug for tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/32098679/" },
         { title: "New England Journal of Medicine (NEJM): A Trial of Pretomanid in MDR-TB (TB-PRACTECAL)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2117145" }
@@ -565,7 +565,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Tăng nguy cơ kéo dài khoảng QT khi dùng phối hợp với Bedaquiline, Clofazimine, Fluoroquinolone. Không bị tương tác chuyển hóa đáng kể qua hệ CYP."
       },
-      pdf_ref: "Tài liệu V10: Trang 48, Phụ lục 6 (Trang 201 Bảng 10)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48, Phụ lục 6 (Trang 201 Bảng 10)",
       citations: [
         { title: "NIH / PubMed: Delamanid for multidrug-resistant tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/26639536/" },
         { title: "WHO Guidelines on Drug-Resistant Tuberculosis Treatment", url: "https://www.who.int/publications/i/item/9789240007048" }
@@ -617,7 +617,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Khi phối hợp với thuốc ức chế Protease kháng HIV (Lopinavir/r, Atazanavir/r) hoặc thuốc kháng nấm azole (Voriconazole, Itraconazole), nồng độ Rifabutin tăng gấp 3-4 lần (nguy cơ viêm màng bồ đào), bắt buộc giảm liều Rifabutin còn 150 mg/ngày."
       },
-      pdf_ref: "Tài liệu V10: Trang 51, Phụ lục 6 (Trang 196), Phụ lục 7 (Trang 211 - Bảng tương tác ARV)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 51, Phụ lục 6 (Trang 196), Phụ lục 7 (Trang 211 - Bảng tương tác ARV)",
       citations: [
         { title: "NIH / PubMed: Rifabutin in HIV-associated tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/16014761/" },
         { title: "PubChem: Rifabutin (CID 54623551)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Rifabutin" }
@@ -668,7 +668,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Cảm ứng enzyme CYP3A4 và CYP2C8/9 tương tự Rifampicin (yếu hơn một chút nhưng kéo dài liên tục). Làm giảm nồng độ ARV, thuốc tránh thai, thuốc chống đông."
       },
-      pdf_ref: "Tài liệu V10: Trang 52 (Phác đồ A1a), Trang 114-118 (Phác đồ 3HP & 1HP), Phụ lục 6 (Trang 196)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 52 (Phác đồ A1a), Trang 114-118 (Phác đồ 3HP & 1HP), Phụ lục 6 (Trang 196)",
       citations: [
         { title: "NEJM: Four-Month Rifapentine Regimens with or without Moxifloxacin for Tuberculosis (TBTC Study 31)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2033400" },
         { title: "NEJM: Three Months of Rifapentine and Isoniazid for Latent Tuberculosis Infection", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1104875" }
@@ -719,7 +719,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Hiệp đồng tăng độc tính trên tai và thận khi phối hợp với Furosemide, Vancomycin, Amphotericin B, Cisplatin, NSAIDs."
       },
-      pdf_ref: "Tài liệu V10: Trang 51, Phụ lục 6 (Trang 196, 207), Phụ lục 7 (Bảng 5 điều chỉnh suy thận)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 51, Phụ lục 6 (Trang 196, 207), Phụ lục 7 (Bảng 5 điều chỉnh suy thận)",
       citations: [
         { title: "NIH / PubMed: Streptomycin - Mechanism of action and toxicity", url: "https://pubmed.ncbi.nlm.nih.gov/20435439/" },
         { title: "PubChem: Streptomycin (CID 439570)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Streptomycin" }
@@ -770,7 +770,7 @@ const TB_DATABASE = {
       drug_interactions: {
         details: "Dùng cùng PAS làm tăng vọt nguy cơ suy giáp và độc tế bào gan. Dùng cùng Isoniazid và Cycloserine làm tăng độc tính trên hệ thần kinh trung ương."
       },
-      pdf_ref: "Tài liệu V10: Trang 48, 54 (Phác đồ B2a lao não), Phụ lục 6 (Trang 199 Bảng 7, Trang 201), Phụ lục 10",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 48, 54 (Phác đồ B2a lao não), Phụ lục 6 (Trang 199 Bảng 7, Trang 201), Phụ lục 10",
       citations: [
         { title: "NIH / PubMed: Ethionamide in tuberculous meningitis and drug-resistant TB", url: "https://pubmed.ncbi.nlm.nih.gov/25501832/" },
         { title: "PubChem: Ethionamide (CID 2761171)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/Ethionamide" }
@@ -784,7 +784,7 @@ const TB_DATABASE = {
       id: "schema_1",
       number: 1,
       title: "Chẩn đoán Lao Phổi Không Có Bằng Chứng Vi Khuẩn",
-      page_ref: "Tài liệu V10: Trang 24 (Sơ đồ 1)",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 24 (Sơ đồ 1)",
       description: "Quy trình chẩn đoán lâm sàng cho người nghi mắc bệnh lao phổi nhưng có kết quả xét nghiệm vi sinh (soi kính đờm AFB trực tiếp hoặc SHPT Xpert) âm tính.",
       why_rationale: "Tại sao vi sinh âm tính vẫn có thể là lao? Bởi vì ngưỡng phát hiện của soi kính trực tiếp (Z-N) đòi hỏi mật độ vi khuẩn rất lớn (> 5.000 - 10.000 vi khuẩn/ml đờm). Ở thể lao thâm nhiễm sớm, tổn thương nốt nhỏ hoặc hang chưa thông với phế quản, số lượng vi khuẩn thoát ra đờm rất thấp (paucibacillary), do đó soi trực tiếp sẽ âm tính giả. Cần chụp X-quang phổi và thử nghiệm điều trị kháng sinh phổ rộng (không dùng quinolone) để loại trừ nhiễm khuẩn thông thường.",
       steps: [
@@ -818,7 +818,7 @@ const TB_DATABASE = {
       id: "schema_2",
       number: 2,
       title: "Sử Dụng Xét Nghiệm Sinh Học Phân Tử (SHPT) Ban Đầu Chẩn Đoán Lao Nhanh",
-      page_ref: "Tài liệu V10: Trang 25 (Sơ đồ 2)",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 25 (Sơ đồ 2)",
       description: "Chiến lược 2X (X-quang & Xpert) được Bộ Y tế áp dụng nhằm phát hiện sớm ca bệnh lao và xác định tình trạng kháng Rifampicin ngay từ đầu.",
       why_rationale: "Tại sao SHPT thay thế soi đờm làm xét nghiệm đầu tay? Phương pháp soi đờm AFB chỉ phát hiện được khi vi khuẩn > 5.000 CFU/ml. GeneXpert MTB/RIF Ultra sử dụng PCR lồng thời gian thực nhắm vào chuỗi lặp IS6110 và IS1081 có giới hạn phát hiện (LOD) cực thấp: chỉ 15.6 CFU/ml, tăng độ nhạy lên vượt bậc (> 90%), đồng thời phát hiện đột biến kháng Rifampicin (rpoB) chỉ sau 2 giờ.",
       steps: [
@@ -858,7 +858,7 @@ const TB_DATABASE = {
       id: "schema_3",
       number: 3,
       title: "Tiếp Cận Chẩn Đoán Lao Phổi Không Có Bằng Chứng Vi Khuẩn Ở Trẻ Em (< 10 tuổi)",
-      page_ref: "Tài liệu V10: Trang 33 (Sơ đồ 3 & Bảng 4)",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 33 (Sơ đồ 3 & Bảng 4)",
       description: "Hệ thống thang điểm chấm điểm chẩn đoán lao trẻ em khi không lấy được bệnh phẩm đờm hoặc vi sinh âm tính.",
       why_rationale: "Tại sao lao trẻ em khó tìm thấy vi khuẩn? Trẻ em nhỏ (< 10 tuổi) không biết khạc đờm mà thường nuốt đờm vào dạ dày (paucibacillary), tổn thương lao ở trẻ em chủ yếu là lao sơ nhiễm với hạch to trung thất/rốn phổi chèn ép phế quản, ít khi tạo hang hoại tử vỡ vào lòng phế quản như người lớn. Do đó, việc chẩn đoán phải dựa trên Bảng tính điểm kết hợp: Tiền sử tiếp xúc nguồn lây + Triệu chứng mạn tính + TST/IGRA + X-quang ngực.",
       steps: [
@@ -898,7 +898,7 @@ const TB_DATABASE = {
       id: "schema_5",
       number: 5,
       title: "Hướng Dẫn Xử Trí Kết Quả 'Vết' (Trace) Trong Xét Nghiệm GeneXpert Ultra",
-      page_ref: "Tài liệu V10: Trang 41 & 48 (Sơ đồ 5)",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 41 & 48 (Sơ đồ 5)",
       description: "Phân loại xử trí kết quả Ultra 'Trace' tùy thuộc vào đối tượng nguy cơ, tình trạng miễn dịch và tiền sử điều trị lao.",
       why_rationale: "Tại sao kết quả 'Trace' lại gây tranh cãi lâm sàng? GeneXpert Ultra cực kỳ nhạy cảm nhờ mồi khuếch đại chuỗi lặp IS6110 và IS1081. Khi vi khuẩn ở mật độ cực thấp (LOD 15.6 CFU/ml), máy chỉ đọc được tín hiệu IS6110/IS1081 mà không đủ tín hiệu gen rpoB để xác định kháng R, cho kết quả 'Trace'. Ở người từng điều trị lao trong 5 năm gần đây, xác vi khuẩn lao chết (non-viable DNA) có thể tồn tại dai dẳng trong ổ xơ hang phổi, gây DƯƠNG TÍNH GIẢ. Ngược lại, ở trẻ em hoặc người nhiễm HIV suy giảm miễn dịch, kết quả 'Trace' hầu như luôn là LAO HOẠT ĐỘNG THẬT SỰ.",
       steps: [
@@ -932,7 +932,7 @@ const TB_DATABASE = {
       id: "schema_6",
       number: 6,
       title: "Điều Trị Lao Đa Kháng (MDR/RR-TB): Phác Đồ BPaLM & BPaL",
-      page_ref: "Tài liệu V10: Trang 48 (Sơ đồ 6) & Trang 57-65",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 48 (Sơ đồ 6) & Trang 57-65",
       description: "Phác đồ uống hoàn toàn 6 tháng BPaLM rút ngắn thời gian điều trị cho bệnh nhân Lao kháng Rifampicin (RR-TB) và Đa kháng thuốc (MDR-TB).",
       why_rationale: "Tại sao BPaLM thay thế phác đồ 18-24 tháng? Phác đồ truyền thống đòi hỏi tiêm kanamycin/amikacin gây điếc vĩnh viễn và uống 18-24 tháng với tỷ lệ thất bại/bỏ trị cao. Phác đồ BPaLM kết hợp 4 cơ chế độc lập: Bedaquiline (ức chế ATP) + Pretomanid (ức chế vách & NO) + Linezolid (ức chế ribosome 50S) + Moxifloxacin (ức chế DNA gyrase). Sự phối hợp này tạo hiệp đồng tiệt khuẩn cực mạnh, tiêu diệt cả vi khuẩn nhân lên nhanh và thể ngủ trong 6 tháng với tỷ lệ khỏi bệnh > 90%.",
       steps: [
@@ -966,7 +966,7 @@ const TB_DATABASE = {
       id: "schema_7_8",
       number: 7,
       title: "Quy Trình Chẩn Đoán & Điều Trị Lao Tiềm Ẩn (TPT)",
-      page_ref: "Tài liệu V10: Trang 112 & 113 (Sơ đồ 7 & 8)",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 112 & 113 (Sơ đồ 7 & 8)",
       description: "Chiến lược điều trị dự phòng lao (Tuberculosis Preventive Treatment - TPT) nhằm ngăn chặn chuyển đổi từ nhiễm lao sang bệnh lao hoạt động.",
       why_rationale: "Tại sao phải điều trị lao tiềm ẩn? Người nhiễm lao tiềm ẩn (LTBI) mang vi khuẩn ở trạng thái ngủ được bao bọc bởi nang u hạt. Khoảng 5-10% số này sẽ bùng phát thành bệnh lao hoạt động trong đời, nhưng nguy cơ này tăng vọt lên tới 10% MỖI NĂM ở người nhiễm HIV hoặc trẻ em < 5 tuổi suy dinh dưỡng. Điều trị TPT bằng phác đồ ngắn ngày (3HP: Isoniazid + Rifapentine hàng tuần x 3 tháng hoặc 1HP x 1 tháng) tiêu diệt thể ngủ, làm giảm 60-90% nguy cơ bùng phát bệnh.",
       steps: [
@@ -994,7 +994,7 @@ const TB_DATABASE = {
       id: "schema_9",
       number: 9,
       title: "Sơ Đồ Chẩn Đoán Bệnh Phổi Do NTM (Non-Tuberculous Mycobacteria)",
-      page_ref: "Tài liệu V10: Trang 138 (Sơ đồ 9)",
+      page_ref: "QĐ 162/QĐ-BYT: Trang 138 (Sơ đồ 9)",
       description: "Tiêu chuẩn chẩn đoán phân biệt giữa bệnh lao phổi và nhiễm trùng phổi do Mycobacteria không lao (M. avium complex, M. kansasii, M. abscessus).",
       why_rationale: "Tại sao NTM ngày càng phổ biến và dễ nhầm với lao? NTM cũng là trực khuẩn kháng cồn kháng acid (AFB dương tính khi soi kính), nhưng GeneXpert MTB lại âm tính. NTM thường cư trú hoại sinh trong đường thở ở người có giãn phế quản, COPD cũ. Do đó, tiêu chuẩn chẩn đoán bệnh phổi do NTM đòi hỏi nghiêm ngặt: Phải có triệu chứng lâm sàng + Tổn thương X-quang/HRCT tương ứng + Nuôi cấy dương tính lặp lại ít nhất 2 mẫu đờm riêng biệt để loại trừ tình trạng vấy nhiễm.",
       steps: [
@@ -1047,7 +1047,7 @@ Do tỷ lệ $V/Q$ rất cao, máu mao mạch tại đỉnh phổi không lấy 
 ### 4. Dẫn lưu hệ bạch huyết tại đỉnh phổi
 Lưu lượng bạch huyết ở đỉnh phổi chậm hơn đáng kể so với đáy phổi do giảm dao động giãn nở phế nang. Điều này làm chậm khả năng thanh thải kháng nguyên và chậm huy động tế bào miễn dịch, cho phép trực khuẩn lao dễ dàng kết tụ và thành lập ổ tổn thương nguyên phát hoặc tái hoạt hóa (ổ Simon / ổ Assmann) tại **phân thùy đỉnh (S1) và sau (S2) của thùy trên, hoặc phân thùy đỉnh thùy dưới (S6)**.
       `,
-      pdf_ref: "Tài liệu V10: Trang 14 (Bảng 2: Hình ảnh bất thường trên Xquang) & Phụ lục 5 (Trang 179)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 14 (Bảng 2: Hình ảnh bất thường trên Xquang) & Phụ lục 5 (Trang 179)",
       citations: [
         { title: "West's Respiratory Physiology: Ventilation/Perfusion Relationships", url: "https://pubmed.ncbi.nlm.nih.gov/28565158/" },
         { title: "NIH / PubMed: Upper lobe localization of pulmonary tuberculosis - Physiological basis", url: "https://pubmed.ncbi.nlm.nih.gov/11252125/" }
@@ -1081,7 +1081,7 @@ Dưới tác động liên tục của **TNF-alpha** làm phân tử bám dính 
 * Dịch bã đậu vỡ vào các tiểu phế quản tạo thành **hang lao (cavitation)** và phát tán vi khuẩn theo đường phế quản ra toàn bộ phổi và vào máu gây **lao kê, lao màng não cấp tính**.
 * *Khuyến cáo Guideline:* Luôn luôn phải sàng lọc lao tiềm ẩn (IGRA/TST + X-quang) và điều trị TPT đầy đủ trước khi bắt đầu bất kỳ liệu pháp sinh học nào!
       `,
-      pdf_ref: "Tài liệu V10: Trang 110 (Mục 1.1 Nhóm nguy cơ cao lao tiềm ẩn) & Phụ lục 1",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 110 (Mục 1.1 Nhóm nguy cơ cao lao tiềm ẩn) & Phụ lục 1",
       citations: [
         { title: "NIH / PubMed: Immunology of the Tuberculous Granuloma", url: "https://pubmed.ncbi.nlm.nih.gov/22422774/" },
         { title: "Nature Reviews Immunology: The role of TNF in tuberculosis and granuloma maintenance", url: "https://www.nature.com/articles/nri1604" }
@@ -1117,7 +1117,7 @@ Một người bệnh lao phổi nặng nhất cũng chỉ chứa tối đa $10^
 * **2 Tháng Tấn Công (2RHZE):** Mục tiêu diệt sạch Quần thể A và Quần thể B. Sau 8 tuần, > 85% người bệnh sẽ âm tính hóa đờm trên soi trực tiếp. Pyrazinamide đã hoàn thành nhiệm vụ tiêu diệt sạch vi khuẩn trong đại thực bào, do đó **không cần dùng PZA sau tháng thứ 2** (giúp giảm độc tính cho gan).
 * **4 Tháng Duy Trì (4RH):** Mục tiêu tiệt khuẩn Quần thể C (thể bán ngủ trong bã đậu). Rifampicin và Isoniazid âm thầm phục kích tiêu diệt nốt những trực khuẩn thỉnh thoảng thức giấc, bảo đảm tiệt khuẩn triệt để và **ngăn ngừa lao tái phát**.
       `,
-      pdf_ref: "Tài liệu V10: Trang 43 (Mục 1 Nguyên tắc điều trị) & Trang 50-52 (Phác đồ A1)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 43 (Mục 1 Nguyên tắc điều trị) & Trang 50-52 (Phác đồ A1)",
       citations: [
         { title: "NIH / PubMed: Mitchison DA. Mechanisms of the action of antituberculosis drugs", url: "https://pubmed.ncbi.nlm.nih.gov/22008768/" },
         { title: "Lancet: High-dose rifamycins and modern regimens for tuberculosis", url: "https://pubmed.ncbi.nlm.nih.gov/30243884/" }
@@ -1144,7 +1144,7 @@ Guideline Bộ Y tế và WHO quy định bắt buộc phải dùng Corticostero
 2. **Làm giảm nhanh tính thấm hàng rào máu não:** Giảm phù não vận mạch (vasogenic cerebral edema), hạ áp lực nội sọ.
 3. **Ngăn chặn quá trình xơ hóa và hình thành dính dịch rỉ nền sọ:** Làm thông thoáng đường lưu thông dịch não tủy, phòng ngừa biến chứng não úng thủy vĩnh viễn và giảm thiểu tỷ lệ nhồi máu não do viêm mạch.
       `,
-      pdf_ref: "Tài liệu V10: Trang 28 (Mục 3.3.1 Lao màng não), Trang 72 (Mục 3.3 Sử dụng Corticosteroid)",
+      pdf_ref: "QĐ 162/QĐ-BYT: Trang 28 (Mục 3.3.1 Lao màng não), Trang 72 (Mục 3.3 Sử dụng Corticosteroid)",
       citations: [
         { title: "New England Journal of Medicine (NEJM): Dexamethasone for the Treatment of Tuberculous Meningitis", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa040573" },
         { title: "Lancet Neurology: Pathogenesis and clinical management of tuberculous meningitis", url: "https://pubmed.ncbi.nlm.nih.gov/23726858/" }
@@ -1244,7 +1244,7 @@ Guideline Bộ Y tế và WHO quy định bắt buộc phải dùng Corticostero
   flashcards: [
     {
       front: "Liều tối đa hàng ngày của Isoniazid (H) ở người lớn là bao nhiêu?",
-      back: "300 mg/ngày (tính theo liều 5 mg/kg, khoảng 4-6 mg/kg). Luôn uống 1 lần lúc đói. (Tài liệu V10, Phụ lục 6, Trang 196)."
+      back: "300 mg/ngày (tính theo liều 5 mg/kg, khoảng 4-6 mg/kg). Luôn uống 1 lần lúc đói. (QĐ 162/QĐ-BYT, Phụ lục 6, Trang 196)."
     },
     {
       front: "Cơ chế tác dụng phân tử của Rifampicin là gì?",

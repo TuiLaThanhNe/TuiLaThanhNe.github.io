@@ -1075,3 +1075,164 @@ body.mobile-simulator .app-footer {
 .mobile-drawer {
   z-index: 1051 !important;
 }
+
+
+/* ==========================================================================
+   LEGAL DISCLAIMER & RED FLAG WARNING BANNERS (CLINICAL DECISION SUPPORT)
+   ========================================================================== */
+
+/* Header Disclaimer Banner */
+.app-disclaimer-banner {
+  background: linear-gradient(90deg, #1e293b, #0f172a);
+  color: #f8fafc;
+  border-bottom: 2px solid #f59e0b;
+  padding: 0.5rem 1rem;
+  font-size: 0.82rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.disclaimer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  line-height: 1.4;
+}
+
+.disclaimer-icon {
+  color: #f59e0b;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Red Flag Banner (Báo Động Đỏ) */
+.alert-red-flag {
+  background-color: #fef2f2;
+  border: 2px solid #dc2626;
+  border-left: 6px solid #dc2626;
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  color: #991b1b;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.15);
+  animation: pulseBorder 2s infinite;
+}
+
+[data-theme="dark"] .alert-red-flag {
+  background-color: #450a0a40;
+  border-color: #ef4444;
+  color: #fecaca;
+}
+
+.alert-red-flag-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #dc2626;
+  margin-bottom: 0.5rem;
+}
+
+[data-theme="dark"] .alert-red-flag-header {
+  color: #f87171;
+}
+
+.alert-red-flag-header i {
+  font-size: 1.25rem;
+  animation: pulseIcon 1.5s infinite;
+}
+
+/* Warning Banner (Báo Động Vàng) */
+.alert-warning-banner {
+  background-color: #fffbeb;
+  border: 1px solid #f59e0b;
+  border-left: 6px solid #f59e0b;
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  color: #92400e;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.1);
+}
+
+[data-theme="dark"] .alert-warning-banner {
+  background-color: #78350f33;
+  border-color: #f59e0b;
+  color: #fde68a;
+}
+
+.alert-warning-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #b45309;
+  margin-bottom: 0.4rem;
+}
+
+[data-theme="dark"] .alert-warning-header {
+  color: #fbbf24;
+}
+
+/* Safe Banner (An toàn) */
+.alert-safe-banner {
+  background-color: #ecfdf5;
+  border: 1px solid #10b981;
+  border-left: 6px solid #10b981;
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  color: #065f46;
+}
+
+[data-theme="dark"] .alert-safe-banner {
+  background-color: #064e3b33;
+  border-color: #10b981;
+  color: #a7f3d0;
+}
+
+.alert-safe-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #047857;
+  margin-bottom: 0.4rem;
+}
+
+[data-theme="dark"] .alert-safe-header {
+  color: #34d399;
+}
+
+.clinical-steps {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.clinical-steps ul {
+  padding-left: 1.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.clinical-steps li {
+  margin-bottom: 0.25rem;
+}
+
+.text-danger { color: #dc2626 !important; }
+.text-warning { color: #d97706 !important; }
+.font-weight-bold { font-weight: 700 !important; }
+
+@keyframes pulseBorder {
+  0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(220, 38, 38, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+}
+
+@keyframes pulseIcon {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
