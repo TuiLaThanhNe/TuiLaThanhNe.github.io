@@ -18,6 +18,9 @@ function buildCards() {
   DATA.microbes.forEach((m) => CARDS.push({ id: "mo:" + m.id, deck: "mo",
     front: `<b style="font-size:1.5rem"><i>${esc(m.name)}</i></b><div class="muted">${esc(m.commonName)}${m.whoPriority ? " · WHO: " + esc(m.whoPriority) : ""}</div><p class="muted small">Đặc điểm? Bệnh? Kháng sinh? Đề kháng?</p>`,
     back: dl([["Gram / hình thái", esc(m.gram + " – " + (m.shape || ""))], ["Bệnh", list(m.diseases)], ["Đặc điểm & Chẩn đoán", esc(m.characteristics)], ["Kháng sinh", antibioticsFor(m.id).map((a) => esc(a.name)).join(", ")], ["Đề kháng & Phác đồ", esc(m.resistance + " — " + (m.notes || ""))]]) }));
+  (DATA.drugs || []).forEach((d) => CARDS.push({ id: "dr:" + d.id, deck: "dr",
+    front: `<b style="font-size:1.5rem">${esc(d.name)}</b><div class="muted">${esc(d.system)} · ${esc(d.class)}</div><p class="muted small">Cơ chế? ADME? Chỉ định? Chống chỉ định? Tác dụng phụ?</p>`,
+    back: dl([["Cơ chế & Thụ thể", esc(d.mechanism)], ["Dược động học (ADME)", esc(d.pharmacokinetics)], ["Chỉ định", list(d.indications)], ["Chống chỉ định", list(d.contraindications)], ["Tác dụng phụ", list(d.sideEffects)], ["Lưu ý lâm sàng", esc(d.notes)]]) }));
   DATA.flashcards.forEach((f) => CARDS.push({ id: "fc:" + f.id, deck: "fc",
     front: `<b>${esc(f.front)}</b>`, back: esc(f.back).replace(/\n/g, "<br>") }));
 }
@@ -76,9 +79,10 @@ $("#quizMode").onchange = () => { $("#quizMinutes").hidden = $("#quizMode").valu
 
 function startQuiz() {
   const mode = $("#quizMode").value, topic = $("#quizTopic").value;
-  let pool = DATA.quizzes.filter((q) => !topic || q.topic === topic);
+  const allQs = [...DATA.quizzes, ...(DATA.pharmaco_quizzes || [])];
+  let pool = allQs.filter((q) => !topic || q.topic === topic);
   if (mode === "wrong") pool = pool.filter((q) => S.wrong[q.id]);
-  if (mode === "starred") pool = pool.filter((q) => S.stars["q:" + q.id]);
+  if (mode === "starred") pool = pool.filter((q) => S.stars["q:" + q.id] || S.stars["pq:" + q.id]);
   pool = shuffle(pool).slice(0, +$("#quizCount").value || pool.length);
   clearInterval(quizTimer);
   if (!pool.length) { $("#quizBox").innerHTML = '<p class="muted">Không có câu hỏi phù hợp (chưa có dữ liệu, hoặc chưa có câu sai/đánh dấu).</p>'; return; }
@@ -137,7 +141,8 @@ function finishQuiz(timeUp) {
 $("#quizStart").onclick = startQuiz;
 PAGES.quiz = () => {
   const sel = $("#quizTopic"), cur = sel.value;
-  sel.innerHTML = '<option value="">Tất cả chủ đề</option>'; fillSelect("#quizTopic", DATA.quizzes.map((q) => q.topic)); sel.value = cur;
+  const allQs = [...DATA.quizzes, ...(DATA.pharmaco_quizzes || [])];
+  sel.innerHTML = '<option value="">Tất cả chủ đề</option>'; fillSelect("#quizTopic", allQs.map((q) => q.topic)); sel.value = cur;
 };
 
 // ---------- Ca lâm sàng ----------

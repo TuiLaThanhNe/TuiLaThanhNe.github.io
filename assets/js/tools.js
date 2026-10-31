@@ -8,6 +8,8 @@ function buildSearchIndex() {
       text: norm([a.class, a.aware, a.mechanism, a.spectrum, a.dosing, a.notes, ...(a.indications || []), ...(a.sideEffects || [])].join(" ")) })),
     ...DATA.microbes.map((m) => ({ key: "mo:" + m.id, icon: "🦠", label: m.name, sub: (m.commonName || "") + " · " + (m.whoPriority || m.gram || ""), name: norm(m.name + " " + (m.commonName || "")),
       text: norm([m.gram, m.shape, m.whoPriority, m.characteristics, m.resistance, m.notes, ...(m.diseases || [])].join(" ")) })),
+    ...(DATA.drugs || []).map((d) => ({ key: "dr:" + d.id, icon: "📚", label: d.name, sub: d.system + " · " + d.class, name: norm(d.name + " " + (d.brandNames || []).join(" ")),
+      text: norm([d.system, d.class, d.mechanism, d.pharmacokinetics, d.notes, ...(d.indications || []), ...(d.contraindications || []), ...(d.sideEffects || [])].join(" ")) })),
   ];
 }
 function lev(a, b) {
@@ -45,14 +47,16 @@ $("#globalSearch").oninput = (e) => {
 // ---------- Trang chủ ----------
 PAGES.home = () => {
   $("#countAb").textContent = DATA.antibiotics.length + " kháng sinh";
+  const drEl = $("#countDrug");
+  if (drEl) drEl.textContent = (DATA.drugs || []).length + " thuốc · " + (DATA.pharmaco_quizzes || []).length + " câu trắc nghiệm";
   $("#countMo").textContent = DATA.microbes.length + " vi sinh vật";
   $("#countQz").textContent = DATA.quizzes.length + " câu hỏi";
   $("#countCase").textContent = DATA.cases.length + " ca lâm sàng";
   $("#countFc").textContent = CARDS.length + " thẻ nhớ";
   const mmEl = $("#countMm");
-  if (mmEl) mmEl.textContent = (DATA.mindmaps.length + 2) + " sơ đồ";
+  if (mmEl) mmEl.textContent = DATA.mindmaps.length + " sơ đồ";
   const due = CARDS.filter(isDue).length, wrong = Object.keys(S.wrong).length;
-  $("#todayBox").innerHTML = `<a class="pill" href="#flashcards">🗂️ ${due} thẻ cần ôn hôm nay</a><a class="pill" href="#quiz" id="goWrong">❌ ${wrong} câu sai cần ôn lại</a><a class="pill" href="#guidelines">🧭 Tra cứu Phác đồ IDSA 2024 & MIC EUCAST v16.1</a>`;
+  $("#todayBox").innerHTML = `<a class="pill" href="#pharmacology">📚 Học Dược lý học & Làm trắc nghiệm</a><a class="pill" href="#flashcards">🗂️ ${due} thẻ cần ôn hôm nay</a><a class="pill" href="#quiz" id="goWrong">❌ ${wrong} câu sai cần ôn lại</a><a class="pill" href="#guidelines">🧭 Tra cứu Phác đồ IDSA 2024 & MIC EUCAST v16.1</a>`;
 };
 
 // ---------- Tiến độ & dữ liệu cá nhân ----------

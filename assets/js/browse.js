@@ -30,7 +30,36 @@ const chip = (key, text, extra = "") => `<span class="chip" data-open="${key}">$
 
 function openItem(key) {
   const [type, id] = key.split(":");
-  if (type === "ab") openAb(id); else if (type === "mo") openMo(id);
+  if (type === "ab") openAb(id);
+  else if (type === "mo") openMo(id);
+  else if (type === "dr") openDrug(id);
+  else if (type === "doc") {
+    const doc = (DATA.documents || []).find((d) => d.id === id);
+    if (doc) {
+      showModal(`
+        <h2>📖 ${esc(doc.title)}</h2>
+        <div style="margin-bottom:10px">
+          <span class="tag" style="background:#e0f2fe;color:#0369a1">${esc(doc.category)}</span>
+          <span class="tag" style="background:#fef3c7;color:#92400e">${esc(doc.source)}</span>
+        </div>
+        <p style="line-height:1.5">${esc(doc.description)}</p>
+        <p class="muted small">📁 Tệp tài liệu: <code>${esc(doc.file)}</code></p>
+        ${doc.highlights && doc.highlights.length ? `
+          <div class="expl" style="margin-top:10px">
+            <b>📌 Điểm cốt lõi:</b>
+            <ul style="margin:4px 0 0;padding-left:18px">
+              ${doc.highlights.map((h) => `<li>${esc(h)}</li>`).join("")}
+            </ul>
+          </div>
+        ` : ""}
+        <div style="margin-top:14px">
+          <a class="btn small-btn" href="#duocly-review" onclick="closeModal()">📖 Sang mục Ôn tập Lý thuyết</a>
+        </div>
+      `);
+    } else {
+      location.hash = "#duocly-review";
+    }
+  }
 }
 function openAb(id) {
   const a = getAb(id); if (!a) return;

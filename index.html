@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <title>AntiBio – Kháng sinh & Vi sinh vật</title>
+  <title>PharmaBio – Dược lý học, Thuốc & Kháng sinh – Vi sinh vật</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icon.svg">
@@ -14,21 +14,54 @@
 <body>
   <!-- ===== Thanh điều hướng nổi, có thể thu gọn ===== -->
   <aside id="dock" class="dock" aria-label="Điều hướng">
-    <div class="dock-brand">🧫 <span>AntiBio</span></div>
-    <nav id="nav">
-      <a href="#home" data-page="home"><span class="ico">🏠</span><span class="lbl">Trang chủ</span></a>
-      <a href="#antibiotics" data-page="antibiotics"><span class="ico">💊</span><span class="lbl">Kháng sinh</span></a>
-      <a href="#microbes" data-page="microbes"><span class="ico">🦠</span><span class="lbl">Vi sinh vật</span></a>
-      <a href="#guidelines" data-page="guidelines"><span class="ico">🧭</span><span class="lbl">Phác đồ & MIC</span></a>
-      <a href="#spectrum" data-page="spectrum"><span class="ico">📊</span><span class="lbl">Phổ tác dụng</span></a>
-      <a href="#mindmap" data-page="mindmap"><span class="ico">🧠</span><span class="lbl">Mind map</span></a>
-      <a href="#flashcards" data-page="flashcards"><span class="ico">🗂️</span><span class="lbl">Flashcard</span></a>
-      <a href="#quiz" data-page="quiz"><span class="ico">📝</span><span class="lbl">Ôn luyện</span></a>
-      <a href="#cases" data-page="cases"><span class="ico">🩺</span><span class="lbl">Ca lâm sàng</span></a>
-      <a href="#compare" data-page="compare"><span class="ico">⚖️</span><span class="lbl">So sánh</span></a>
-      <a href="#progress" data-page="progress"><span class="ico">📈</span><span class="lbl">Tiến độ</span></a>
-    </nav>
+    <div class="dock-brand" id="dockBrand"><span class="brand-ico">⚕️</span> <span>PharmaBio</span></div>
+
+    <!-- Phân hệ 1: Antibiotic (Có thu gọn / mở rộng) -->
+    <div class="dock-section" id="dockSectionAntibio">
+      <button class="dock-section-head" id="toggleAntibio" title="Thu gọn / Mở rộng Kháng sinh & Vi sinh">
+        <span class="dsh-left"><span class="ico">🧫</span><span class="dsh-title">Kháng sinh & Vi sinh</span></span>
+        <span class="dock-caret">▾</span>
+      </button>
+      <div class="dock-section-body">
+        <nav id="nav-antibio" class="nav-module">
+          <a href="#home" data-page="home"><span class="ico">🏠</span><span class="lbl">Trang chủ</span></a>
+          <a href="#antibiotics" data-page="antibiotics"><span class="ico">💊</span><span class="lbl">Kháng sinh</span></a>
+          <a href="#microbes" data-page="microbes"><span class="ico">🦠</span><span class="lbl">Vi sinh vật</span></a>
+          <a href="#guidelines" data-page="guidelines"><span class="ico">🧭</span><span class="lbl">Phác đồ & MIC</span></a>
+          <a href="#spectrum" data-page="spectrum"><span class="ico">📊</span><span class="lbl">Phổ tác dụng</span></a>
+          <a href="#mindmap" data-page="mindmap"><span class="ico">🧠</span><span class="lbl">Mind map</span></a>
+          <a href="#flashcards" data-page="flashcards"><span class="ico">🗂️</span><span class="lbl">Flashcard</span></a>
+          <a href="#quiz" data-page="quiz"><span class="ico">📝</span><span class="lbl">Ôn luyện</span></a>
+          <a href="#cases" data-page="cases"><span class="ico">🩺</span><span class="lbl">Ca lâm sàng</span></a>
+          <a href="#compare" data-page="compare"><span class="ico">⚖️</span><span class="lbl">So sánh</span></a>
+          <a href="#progress" data-page="progress"><span class="ico">📈</span><span class="lbl">Tiến độ</span></a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Phân hệ 2: DƯỢC LÝ (TÁCH RIÊNG HOÀN TOÀN KHÔNG NẰM TRONG TAB ANTIBIOTIC, có thu gọn / mở rộng) -->
+    <div class="dock-section" id="dockSectionDuocly">
+      <button class="dock-section-head" id="toggleDuocly" title="Thu gọn / Mở rộng Dược lý học & Thuốc">
+        <span class="dsh-left"><span class="ico">📚</span><span class="dsh-title">Dược lý học</span></span>
+        <span class="dock-caret">▾</span>
+      </button>
+      <div class="dock-section-body">
+        <nav id="nav-duocly" class="nav-module">
+          <a href="#duocly-home" data-page="duocly-home"><span class="ico">🏠</span><span class="lbl">Trang chủ Dược lý</span></a>
+          <a href="#duocly-drugs" data-page="duocly-drugs"><span class="ico">💊</span><span class="lbl">Tra cứu Thuốc</span></a>
+          <a href="#duocly-review" data-page="duocly-review"><span class="ico">📖</span><span class="lbl">Ôn tập Lý thuyết</span></a>
+          <a href="#duocly-quiz" data-page="duocly-quiz"><span class="ico">📝</span><span class="lbl">Trắc nghiệm</span></a>
+          <a href="#duocly-mindmap" data-page="duocly-mindmap"><span class="ico">🧠</span><span class="lbl">Mind map Dược lý</span></a>
+          <a href="#duocly-flashcards" data-page="duocly-flashcards"><span class="ico">🗂️</span><span class="lbl">Flashcard</span></a>
+          <a href="#duocly-compare" data-page="duocly-compare"><span class="ico">⚖️</span><span class="lbl">So sánh Thuốc</span></a>
+          <a href="#duocly-tools" data-page="duocly-tools"><span class="ico">⚡</span><span class="lbl">Tương tác & Liều PK</span></a>
+          <a href="#duocly-progress" data-page="duocly-progress"><span class="ico">📈</span><span class="lbl">Tiến độ Dược lý</span></a>
+        </nav>
+      </div>
+    </div>
+
     <div class="dock-tools">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRGjlqZWlgpDHU_h2enAP6H01OwJct1W7kMplCQ61PKQ5VcA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="dock-btn" title="Gửi đóng góp, phản hồi & báo lỗi"><span class="ico">✍️</span><span class="lbl">Góp ý / Báo lỗi</span></a>
       <button id="themeToggle" class="dock-btn" title="Giao diện / Theme"><span class="ico">🎨</span><span class="lbl">Giao diện</span></button>
       <button id="dockCollapse" class="dock-btn" title="Thu gọn thanh điều hướng"><span class="ico">⮜</span><span class="lbl">Thu gọn</span></button>
     </div>
@@ -53,7 +86,27 @@
   </div>
 
   <main>
-    <!-- Trang chủ -->
+    <!-- Thanh chuyển đổi Phân hệ cấp cao nhất: Antibiotic vs Dược lý -->
+    <header class="top-module-bar">
+      <div class="top-module-tabs">
+        <button class="top-tab active" data-mod="antibio" title="Chuyển sang Phân hệ Kháng sinh & Vi sinh">
+          <span class="t-ico">🧫</span>
+          <div>
+            <span class="t-title">Kháng sinh & Vi sinh</span>
+            <span class="t-sub">AntiBio · IDSA · EUCAST · WHO</span>
+          </div>
+        </button>
+        <button class="top-tab" data-mod="duocly" title="Chuyển sang Phân hệ Dược lý học & Thuốc">
+          <span class="t-ico">📚</span>
+          <div>
+            <span class="t-title">Dược lý học</span>
+            <span class="t-sub">Thuốc · Trắc nghiệm · 22 Bài giảng & Sách ĐHYD</span>
+          </div>
+        </button>
+      </div>
+    </header>
+
+    <!-- Trang chủ Antibiotic -->
     <section class="page" id="page-home">
       <div class="hero">
         <h1>Học & tra cứu Kháng sinh – Vi sinh vật gây bệnh</h1>
@@ -63,6 +116,7 @@
       </div>
       <div id="todayBox" class="today"></div>
       <div class="cards">
+        <a class="card" href="#duocly-home" data-mod="duocly"><h3>📚 Sang Phân hệ Dược lý</h3><p id="countDrug" class="muted">23 thuốc · 60 câu trắc nghiệm</p></a>
         <a class="card" href="#antibiotics"><h3>💊 Kháng sinh</h3><p id="countAb" class="muted">0</p></a>
         <a class="card" href="#microbes"><h3>🦠 Vi sinh vật</h3><p id="countMo" class="muted">0</p></a>
         <a class="card" href="#guidelines"><h3>🧭 Phác đồ & MIC</h3><p class="muted">IDSA 2024 · EUCAST v16.1 · WHO</p></a>
@@ -72,6 +126,193 @@
         <a class="card" href="#quiz"><h3>📝 Ôn luyện</h3><p id="countQz" class="muted">0</p></a>
         <a class="card" href="#cases"><h3>🩺 Ca lâm sàng</h3><p id="countCase" class="muted">0</p></a>
       </div>
+    </section>
+
+    <!-- ==================== PHÂN HỆ DƯỢC LÝ (TÁCH RIÊNG HOÀN TOÀN KHÔNG NẰM TRONG TAB ANTIBIOTIC) ==================== -->
+
+    <!-- 1. Trang chủ Dược lý -->
+    <section class="page" id="page-duocly-home">
+      <div class="hero">
+        <h1>📚 Dược lý học & Thuốc</h1>
+        <p class="muted">Hệ thống học tập, tra cứu, sơ đồ tư duy, ôn tập lý thuyết & luyện trắc nghiệm phân hóa Sách ĐHYD / Katzung & 22 Slide bài giảng</p>
+        <input id="duoclyGlobalSearch" type="search" placeholder="🔍 Tìm nhanh: tên thuốc, cơ chế, thụ thể, bài giảng, ngộ độc, liều dùng...">
+        <div id="duoclyGlobalResults" class="results"></div>
+      </div>
+      <div class="today">
+        <a class="pill" href="#duocly-review">📖 Ôn tập Lý thuyết (Sách & Slide)</a>
+        <a class="pill" href="#duocly-quiz">📝 Làm trắc nghiệm có chọn nguồn đề</a>
+        <a class="pill" href="#duocly-tools">⚡ Kiểm tra tương tác thuốc & Tính liều PK</a>
+        <a class="pill" href="#duocly-mindmap">🧠 Sơ đồ tư duy tương tác</a>
+      </div>
+      <div class="cards">
+        <a class="card" href="#duocly-drugs"><h3>💊 Tra cứu Thuốc</h3><p id="dlCountDrug" class="muted">23 thuốc chuẩn hóa</p></a>
+        <a class="card" href="#duocly-review"><h3>📖 Ôn tập Lý thuyết</h3><p id="dlCountReview" class="muted">Theo Sách & Slide (chế độ Mix)</p></a>
+        <a class="card" href="#duocly-quiz"><h3>📝 Trắc nghiệm</h3><p id="dlCountQuiz" class="muted">60 câu trắc nghiệm chọn nguồn</p></a>
+        <a class="card" href="#duocly-tools"><h3>⚡ Tương tác & Liều PK</h3><p class="muted">Tra cứu DDI & Tính Clcr, liều nạp/duy trì</p></a>
+        <a class="card" href="#duocly-mindmap"><h3>🧠 Sơ đồ tư duy</h3><p id="dlCountMm" class="muted">4 sơ đồ tư duy</p></a>
+        <a class="card" href="#duocly-flashcards"><h3>🗂️ Flashcard Dược lý</h3><p id="dlCountFc" class="muted">12 thẻ ghi nhớ</p></a>
+        <a class="card" href="#duocly-compare"><h3>⚖️ So sánh Thuốc</h3><p class="muted">So sánh đối đầu đa thuốc</p></a>
+        <a class="card" href="#duocly-progress"><h3>📈 Tiến độ Dược lý</h3><p class="muted">Kết quả học tập & độ chính xác</p></a>
+      </div>
+    </section>
+
+    <!-- 2. Tra cứu Thuốc Dược lý -->
+    <section class="page" id="page-duocly-drugs">
+      <h2>💊 Danh mục & Tra cứu Thuốc Dược lý</h2>
+      <div class="toolbar">
+        <input id="dlSearch" type="search" placeholder="🔍 Tìm theo tên thuốc, biệt dược, nhóm dược lý, cơ chế thụ thể, chỉ định...">
+        <select id="dlSystemFilter"><option value="">Tất cả hệ cơ quan / chuyên khoa</option></select>
+        <label class="check"><input type="checkbox" id="dlStarOnly"> ⭐ Đã đánh dấu</label>
+        <a class="btn small-btn ghost" href="#duocly-compare">⚖️ Mở bảng so sánh thuốc</a>
+      </div>
+      <div id="dlDrugList" class="grid"></div>
+    </section>
+
+    <!-- 3. Ôn tập Lý thuyết Dược lý (Tách riêng biệt theo Sách, Slide & Mix) -->
+    <section class="page" id="page-duocly-review">
+      <h2>📖 Ôn tập Lý thuyết Dược lý học</h2>
+      <div class="toolbar">
+        <select id="dlRevSource">
+          <option value="mix">🔀 Nguồn: Chế độ Mix (Cả Sách & Slide)</option>
+          <option value="book">📖 Nguồn: Theo Sách (ĐHYD & Katzung)</option>
+          <option value="slide">📑 Nguồn: Theo Slide (22 Chuyên đề Bài giảng)</option>
+        </select>
+        <select id="dlRevTopic"><option value="">Tất cả chuyên đề ôn tập</option></select>
+        <input id="dlRevSearch" type="search" placeholder="🔍 Tìm kiếm: thụ thể, cơ chế, bảng đối chiếu, mẹo nhớ...">
+      </div>
+      <div id="dlRevContent"></div>
+    </section>
+
+    <!-- 4. Trắc nghiệm Dược lý học (Tách riêng biệt theo Sách, Slide & Mix) -->
+    <section class="page" id="page-duocly-quiz">
+      <h2>📝 Trắc nghiệm Luyện thi Dược lý học</h2>
+      <div class="toolbar">
+        <select id="dlQuizSource">
+          <option value="mix">🔀 Nguồn đề: Mix (Cả Sách & Slide)</option>
+          <option value="book">📖 Nguồn đề: Theo Sách ĐHYD & Katzung</option>
+          <option value="slide">📑 Nguồn đề: Theo 22 Slide bài giảng</option>
+        </select>
+        <select id="dlQuizMode">
+          <option value="practice">Luyện tập (hiện đáp án & giải thích ngay)</option>
+          <option value="exam">Thi thử tính giờ (Format đề thi ĐHYD)</option>
+          <option value="wrong">Ôn câu làm sai</option>
+          <option value="starred">Câu đã đánh dấu ⭐</option>
+        </select>
+        <select id="dlQuizTopic"><option value="">Tất cả chuyên đề</option></select>
+        <input id="dlQuizCount" type="number" min="1" placeholder="Số câu" class="num">
+        <input id="dlQuizMinutes" type="number" min="1" value="20" class="num" title="Số phút" hidden>
+        <button id="dlQuizStart" class="btn">Bắt đầu làm bài</button>
+      </div>
+      <div id="dlQuizBox" class="quiz-box"><p class="muted">Chọn nguồn đề, chuyên đề hoặc chế độ rồi bấm Bắt đầu làm bài.</p></div>
+    </section>
+
+    <!-- 5. Mind map Dược lý -->
+    <section class="page" id="page-duocly-mindmap">
+      <h2>🧠 Sơ đồ tư duy (Mind Map) Dược lý học</h2>
+      <div class="toolbar">
+        <select id="dlMmSelect" title="Chọn sơ đồ tư duy Dược lý"></select>
+        <button class="btn small-btn" id="dlMmOpenFull">⛶ Mở trong trình chiếu toàn màn hình</button>
+      </div>
+      <div class="panel" style="margin-top:12px" id="dlMmPreview"></div>
+    </section>
+
+    <!-- 6. Flashcard Dược lý -->
+    <section class="page" id="page-duocly-flashcards">
+      <h2>🗂️ Flashcard Dược lý (Lặp lại ngắt quãng SRS)</h2>
+      <p id="dlFcInfo" class="muted"></p>
+      <div id="dlFcBox"></div>
+    </section>
+
+    <!-- 7. So sánh Thuốc Dược lý -->
+    <section class="page" id="page-duocly-compare">
+      <h2>⚖️ So sánh Thuốc Dược lý đối đầu</h2>
+      <div class="toolbar">
+        <select id="dlCmpAdd"><option value="">＋ Thêm thuốc dược lý để so sánh (tối đa 4)</option></select>
+        <button id="dlCmpClear" class="btn small-btn">Xóa hết</button>
+      </div>
+      <div class="table-wrap"><div id="dlCmpTable"></div></div>
+    </section>
+
+    <!-- 8. Công cụ Dược lý Lâm sàng: Tương tác thuốc & Tính toán Dược động học -->
+    <section class="page" id="page-duocly-tools">
+      <h2>⚡ Công cụ Dược lý Lâm sàng</h2>
+      <div class="tools-subnav">
+        <button class="tool-tab-btn active" id="btnToolDdi" data-tool="ddi">⚠️ Kiểm tra Tương tác Thuốc (DDI)</button>
+        <button class="tool-tab-btn" id="btnToolPk" data-tool="pk">🧮 Tính Dược động học & Liều (PK Calculator)</button>
+      </div>
+
+      <!-- Tab 1: Tra cứu tương tác thuốc -->
+      <div id="panelToolDdi" class="tool-panel">
+        <h3>⚠️ Tra cứu & Kiểm tra Tương tác Thuốc đối đầu</h3>
+        <p class="muted">Chọn 2 thuốc bất kỳ để phân tích cơ chế tương tác, phân loại mức độ nguy cơ và hướng dẫn xử trí lâm sàng theo hướng dẫn Dược thư Quốc gia & ĐHYD.</p>
+        <div class="calc-grid">
+          <div class="calc-field">
+            <label>Thuốc thứ nhất (Thuốc A)</label>
+            <select id="ddiDrug1"><option value="">-- Chọn thuốc A --</option></select>
+          </div>
+          <div class="calc-field">
+            <label>Thuốc thứ hai (Thuốc B)</label>
+            <select id="ddiDrug2"><option value="">-- Chọn thuốc B --</option></select>
+          </div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px">
+          <button id="btnCheckDdi" class="btn">Kiểm tra tương tác</button>
+          <button id="btnPresetDdi" class="btn ghost">Xem các cặp tương tác kinh điển</button>
+        </div>
+        <div id="ddiResultArea"></div>
+      </div>
+
+      <!-- Tab 2: PK Calculator -->
+      <div id="panelToolPk" class="tool-panel" hidden>
+        <h3>🧮 Tính toán Dược động học Lâm sàng & Hiệu chỉnh liều</h3>
+        <p class="muted">Tính độ thanh thải Creatinine ($Cl_{cr}$) theo công thức Cockcroft-Gault và xác định liều nạp/duy trì cho thuốc có phạm vi trị liệu hẹp.</p>
+        <div class="calc-grid">
+          <div class="calc-field">
+            <label>Giới tính</label>
+            <select id="pkGender">
+              <option value="male">Nam</option>
+              <option value="female">Nữ (hệ số 0.85)</option>
+            </select>
+          </div>
+          <div class="calc-field">
+            <label>Tuổi (năm)</label>
+            <input type="number" id="pkAge" value="65" min="18" max="120">
+          </div>
+          <div class="calc-field">
+            <label>Cân nặng thực tế (kg)</label>
+            <input type="number" id="pkWeight" value="60" min="20" max="250">
+          </div>
+          <div class="calc-field">
+            <label>Creatinine huyết thanh (Scr)</label>
+            <div style="display:flex;gap:6px">
+              <input type="number" id="pkScr" value="1.2" step="0.1" min="0.1">
+              <select id="pkScrUnit" style="width:110px">
+                <option value="mgdl">mg/dL</option>
+                <option value="umol">μmol/L</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="calc-grid" style="margin-top:10px">
+          <div class="calc-field">
+            <label>Chọn thuốc để xem gợi ý liều chuyên biệt</label>
+            <select id="pkDrug">
+              <option value="none">-- Chỉ tính Clcr chung --</option>
+              <option value="digoxin">Digoxin (suy tim / rung nhĩ - mục tiêu 0.5-0.9 ng/mL)</option>
+              <option value="gentamicin">Gentamicin / Tobramycin (Aminoglycoside - lọc cầu thận)</option>
+              <option value="vancomycin">Vancomycin (Glycopeptide - mục tiêu AUC/MIC 400-600)</option>
+            </select>
+          </div>
+        </div>
+        <button id="btnCalcPk" class="btn" style="margin-top:8px">Tính toán kết quả</button>
+        <div id="pkResultArea"></div>
+      </div>
+    </section>
+
+    <!-- 9. Tiến độ Dược lý -->
+    <section class="page" id="page-duocly-progress">
+      <h2>📈 Tiến độ & Kết quả học Dược lý</h2>
+      <div id="dlProgressBox"></div>
     </section>
 
     <!-- Kháng sinh -->
@@ -234,6 +475,7 @@
       <div class="toolbar">
         <select id="fcDeck">
           <option value="all">Tất cả bộ thẻ</option>
+          <option value="dr">Thuốc Dược lý</option>
           <option value="ab">Kháng sinh</option>
           <option value="mo">Vi sinh vật</option>
           <option value="fc">Thẻ chuyên đề (IDSA / EUCAST / WHO / Bộ Y tế)</option>
@@ -295,7 +537,58 @@
   </div>
   <div id="toast" class="toast" hidden></div>
 
-  <footer>© AntiBio – Hệ thống học tập & tra cứu dựa trên Giáo trình Bộ Y tế, IDSA 2024, EUCAST v16.1, WHO BPPL 2024 & QĐ 1121/QĐ-TTg.</footer>
+  <!-- Modal / Popup Thông báo Đóng góp & Feedback (Tự động hiện mỗi khi truy cập, reload trang) -->
+  <div id="feedbackPopup" class="modal" hidden>
+    <div class="modal-content feedback-modal-content">
+      <button id="feedbackClose" class="close" aria-label="Đóng thông báo">✕</button>
+      <div class="feedback-banner">
+        <div class="feedback-banner-icon">📢</div>
+        <div>
+          <span class="tag" style="background:#dbeafe;color:#1e40af;font-weight:700">HÒM THƯ ĐÓNG GÓP & FEEDBACK</span>
+          <h2 style="margin:4px 0 0;font-size:1.3rem">Chào mừng bạn đến với PharmaBio!</h2>
+        </div>
+      </div>
+
+      <div class="feedback-body">
+        <p style="margin:10px 0;line-height:1.6">
+          <strong>PharmaBio</strong> là nền tảng học tập, tra cứu tích hợp toàn diện gồm 2 phân hệ chuyên sâu:
+          <br>• <strong>📚 Dược lý học & Thuốc:</strong> 22 Chuyên đề bài giảng, Giáo trình ĐHYD TPHCM & Katzung.
+          <br>• <strong>🧫 Kháng sinh & Vi sinh vật:</strong> Phác đồ IDSA 2024, Breakpoint EUCAST v16.1 & WHO BPPL.
+        </p>
+
+        <div class="panel" style="background:var(--accent);border-left:4px solid var(--primary);padding:14px;margin:12px 0">
+          <h4 style="margin:0 0 6px;color:var(--primary)">💌 Lời ngỏ từ Ban Biên Tập:</h4>
+          <p style="margin:0;font-size:0.92rem;line-height:1.55">
+            Nhằm không ngừng hoàn thiện chất lượng, đảm bảo tính chuẩn xác tuyệt đối của các câu hỏi trắc nghiệm, giải thích thụ thể và tương tác thuốc lâm sàng, chúng tôi rất mong nhận được những góp ý, phản hồi báo lỗi hoặc đề xuất từ quý Thầy Cô, Bác sĩ, Dược sĩ và các bạn sinh viên.
+          </p>
+        </div>
+
+        <div style="font-size:0.88rem;margin:12px 0 16px;background:var(--card);border:1px dashed var(--border);padding:12px 14px;border-radius:10px">
+          <b>📌 Các nội dung bạn có thể đóng góp:</b>
+          <ul style="margin:6px 0 0;padding-left:18px;line-height:1.55">
+            <li>💡 <b>Trắc nghiệm & Đáp án:</b> Phát hiện câu hỏi chưa phù hợp, lỗi đáp án hoặc cần giải thích rõ hơn.</li>
+            <li>💊 <b>Thuốc & Bài giảng:</b> Đề xuất bổ sung thêm thuốc, chuyên đề bài giảng hoặc sơ đồ tư duy.</li>
+            <li>⚙️ <b>Tính năng & Giao diện:</b> Đóng góp ý tưởng cải thiện giao diện trên máy tính, điện thoại.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feedback-actions" style="display:flex;gap:10px;justify-content:flex-end;align-items:center;flex-wrap:wrap">
+        <button id="feedbackDismissBtn" class="btn ghost">✓ Tiếp tục vào học</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRGjlqZWlgpDHU_h2enAP6H01OwJct1W7kMplCQ61PKQ5VcA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="btn" style="text-decoration:none">
+          ✍️ Gửi đóng góp & Feedback qua Google Form →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © PharmaBio – Hệ thống Học tập & Tra cứu Dược lý học, Thuốc & Kháng sinh – Vi sinh vật (Giáo trình Bộ Y tế / ĐHYD, Katzung, IDSA 2024, EUCAST v16.1, WHO BPPL 2024 & QĐ 1121/QĐ-TTg).
+    <br>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRGjlqZWlgpDHU_h2enAP6H01OwJct1W7kMplCQ61PKQ5VcA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" style="color:var(--primary);font-weight:600;margin-top:6px;display:inline-block">
+      ✍️ Gửi góp ý, báo lỗi hoặc đề xuất tính năng qua Google Form
+    </a>
+  </footer>
 
   <script src="data/bundle.js"></script>
   <script src="assets/js/core.js"></script>
@@ -304,6 +597,7 @@
   <script src="assets/js/study.js"></script>
   <script src="assets/js/mindmap.js"></script>
   <script src="assets/js/tools.js"></script>
+  <script src="assets/js/pharmacology.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

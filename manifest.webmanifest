@@ -1,6 +1,6 @@
 {
-  "name": "AntiBio – Kháng sinh & Vi sinh vật",
-  "short_name": "AntiBio",
+  "name": "PharmaBio – Dược lý học, Thuốc & Kháng sinh – Vi sinh vật",
+  "short_name": "PharmaBio",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
