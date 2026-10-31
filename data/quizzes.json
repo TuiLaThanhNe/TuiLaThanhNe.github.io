@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q1",
+    "topic": "Giáo trình Bộ Y tế – Đại cương & Di truyền",
+    "question": "Thành phần hóa học đặc trưng tạo nên bộ khung vững chắc của vách tế bào vi khuẩn và là đích tác động của nhóm kháng sinh β-lactam, glycopeptid là gì?",
+    "options": [
+      "Lipopolysaccharide (LPS / Nội độc tố)",
+      "Peptidoglycan (Murein / Mucopeptid)",
+      "Phospholipid kép và sterol",
+      "Acid ribonucleic (rARN)"
+    ],
+    "answer": 1,
+    "explanation": "Theo Giáo trình Vi Sinh Học (Bài 2 & Bài 10): Peptidoglycan (murein) là đại phân tử tạo nên khung vách tế bào vi khuẩn (chiếm 50–80% trọng lượng khô vách Gram dương và ~10% ở Gram âm). Nhóm β-lactam và Vancomycin đều ức chế tổng hợp lớp peptidoglycan này."
+  },
+  {
+    "id": "q2",
+    "topic": "Giáo trình Bộ Y tế – Đại cương & Di truyền",
+    "question": "Sự vận chuyển một đoạn ADN từ vi khuẩn cho sang vi khuẩn nhận thông qua trung gian của thực khuẩn thể (bacteriophage) được gọi là hiện tượng gì?",
+    "options": [
+      "Biến nạp (Transformation)",
+      "Giao phối / Tiếp hợp (Conjugation)",
+      "Tải nạp (Transduction)",
+      "Chuyển vị (Transposition)"
+    ],
+    "answer": 2,
+    "explanation": "Bài 5 (Di truyền vi khuẩn): Biến nạp là nhận ADN tự do hòa tan từ môi trường; Giao phối (tiếp hợp) là truyền ADN (plasmid F/R) qua cầu nối pili giới tính khi 2 vi khuẩn tiếp xúc trực tiếp; Tải nạp là truyền ADN nhờ thực khuẩn thể (phage) làm vật trung gian (ví dụ gen độc tố bạch hầu tox+ hoặc plasmid penicillinase ở tụ cầu)."
+  },
+  {
+    "id": "q3",
+    "topic": "Giáo trình Bộ Y tế – Đại cương & Di truyền",
+    "question": "Sự đề kháng thuốc kháng sinh có tính chất lây truyền nhanh nhất giữa các vi khuẩn đường ruột khác loài (như từ E. coli sang Shigella) chủ yếu qua cơ chế nào?",
+    "options": [
+      "Đột biến nhiễm sắc thể ngẫu nhiên",
+      "Truyền plasmid R qua hiện tượng giao phối (tiếp hợp)",
+      "Hình thành bào tử (nha bào) khi gặp kháng sinh",
+      "Sự thực bào không hoàn toàn"
+    ],
+    "answer": 1,
+    "explanation": "Bài 5 & Bài 10: Plasmid R (Resistance plasmid) chứa yếu tố truyền kháng thuốc (RTF) và các gen kháng nhiều loại kháng sinh (r-determinants), truyền rất nhanh giữa các trực khuẩn Gram âm đường ruột qua hiện tượng giao phối (conjugation)."
+  },
+  {
+    "id": "q4",
+    "topic": "Giáo trình Bộ Y tế – Miễn dịch & Huyết thanh",
+    "question": "Lớp kháng thể (Immunoglobulin) nào có trọng lượng phân tử nhỏ nhất, chiếm tỷ lệ cao nhất trong huyết thanh (~75–80%) và là lớp kháng thể DUY NHẤT đi qua được nhau thai để bảo vệ trẻ sơ sinh?",
+    "options": [
+      "IgM",
+      "IgA tiết (sIgA)",
+      "IgG",
+      "IgE"
+    ],
+    "answer": 2,
+    "explanation": "Bài 7 (Kháng nguyên - Kháng thể): IgG là kháng thể đơn phân (monomer, ~150 kDa) chiếm 75–80% tổng lượng kháng thể huyết thanh và là lớp duy nhất đi qua được màng nhau thai. IgM là pentamer lớn nhất xuất hiện sớm nhất khi mới nhiễm trùng (nếu phát hiện IgM trong máu cuống rốn trẻ sơ sinh chứng tỏ thai nhi đã bị nhiễm trùng bào thai)."
+  },
+  {
+    "id": "q5",
+    "topic": "Giáo trình Bộ Y tế – Miễn dịch & Huyết thanh",
+    "question": "Sốc phản vệ khi tiêm kháng sinh Penicillin thuộc loại phản ứng quá mẫn typ mấy theo phân loại Gell và Coombs?",
+    "options": [
+      "Quá mẫn typ I (kiểu phản vệ qua trung gian IgE và tế bào mast/basophil)",
+      "Quá mẫn typ II (độc tế bào phụ thuộc kháng thể IgG/IgM)",
+      "Quá mẫn typ III (do phức hợp miễn dịch lắng đọng)",
+      "Quá mẫn typ IV (quá mẫn muộn qua trung gian tế bào lympho T)"
+    ],
+    "answer": 0,
+    "explanation": "Bài 9 (Quá mẫn): Sốc phản vệ với Penicillin là quá mẫn tức khắc typ I: dị nguyên gắn chéo các phân tử IgE trên bề mặt dưỡng bào (mastocyte) và bạch cầu ái kiềm làm phóng thích ồ ạt histamin, leukotrien, bradykinin gây giãn mạch, tụt huyết áp và co thắt phế quản."
+  },
+  {
+    "id": "q6",
+    "topic": "Giáo trình Bộ Y tế – Đề kháng kháng sinh",
+    "question": "Nhóm kháng sinh nào sau đây tác động bằng cách ức chế tiểu đơn vị 30S của ribosom vi khuẩn?",
+    "options": [
+      "Macrolide, Lincosamide và Chloramphenicol",
+      "Aminoglycoside và Tetracycline",
+      "Fluoroquinolone và Rifamycin",
+      "Cephalosporin và Carbapenem"
+    ],
+    "answer": 1,
+    "explanation": "Bài 10 (Đề kháng kháng sinh): Aminoglycoside (Amikacin, Gentamicin, Streptomycin) và Tetracycline (Doxycycline, Minocycline) gắn vào tiểu đơn vị 30S của ribosom; trong khi Macrolide, Lincosamide, Chloramphenicol, Oxazolidinone (Linezolid) gắn vào tiểu đơn vị 50S."
+  },
+  {
+    "id": "q7",
+    "topic": "Giáo trình Bộ Y tế – Đề kháng kháng sinh",
+    "question": "Vì sao kháng sinh chỉ tiêu diệt được vi khuẩn đang ở giai đoạn tăng trưởng – phân chia mà hầu như KHÔNG tiêu diệt được vi khuẩn ở trạng thái nghỉ (bào tử hoặc vi khuẩn nằm yên trong ổ áp xe)?",
+    "options": [
+      "Vì vi khuẩn ở trạng thái nghỉ tự tiết ra enzyme phân hủy mọi kháng sinh",
+      "Vì ở trạng thái nghỉ, vi khuẩn ngừng tổng hợp peptidoglycan vách tế bào, acid nucleic và protein (đề kháng giả / đề kháng sinh lý)",
+      "Vì kháng sinh bị biến thành chất dinh dưỡng cho bào tử",
+      "Vì vi khuẩn ở trạng thái nghỉ chuyển toàn bộ ADN ra ngoài tế bào"
+    ],
+    "answer": 1,
+    "explanation": "Bài 10: Đây là hiện tượng đề kháng không do di truyền (đề kháng sinh lý / persisters): khi vi khuẩn không phân chia (như M. tuberculosis ngủ yên trong tổn thương bã đậu hoặc vi khuẩn trong biofilm), các quá trình tổng hợp vách peptidoglycan, sao chép ADN, dịch mã protein tạm ngừng nên các kháng sinh (đặc biệt là β-lactam) mất đích tác động."
+  },
+  {
+    "id": "q8",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn đường ruột",
+    "question": "Trong bệnh sốt thương hàn do Salmonella Typhi, xét nghiệm nào có tỷ lệ dương tính cao nhất (đến 90%) ngay trong TUẦN LỄ ĐẦU TIÊN của bệnh?",
+    "options": [
+      "Phản ứng huyết thanh ngưng kết Widal",
+      "Cấy máu (Hemoculture) trước khi dùng kháng sinh",
+      "Cấy nước tiểu",
+      "Phản ứng nội bì Mantoux"
+    ],
+    "answer": 1,
+    "explanation": "Bài 11 (Vi khuẩn gây bệnh đường ruột): Trong tuần đầu tiên của bệnh thương hàn, vi khuẩn từ hệ bạch huyết mạc treo đổ ồ ạt vào máu gây nhiễm khuẩn huyết nên Cấy máu cho tỷ lệ dương tính tới 90%. Phản ứng Widal tìm kháng thể O và H chỉ bắt đầu dương tính từ tuần lễ thứ 2 trở đi."
+  },
+  {
+    "id": "q9",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn đường ruột",
+    "question": "Trong phản ứng huyết thanh Widal chẩn đoán sốt thương hàn, kháng thể kháng kháng nguyên thân O và kháng nguyên lông H có đặc điểm động học như thế nào?",
+    "options": [
+      "Kháng thể O xuất hiện sớm (ngày 8–10) và biến mất nhanh sau ~6 tháng; kháng thể H xuất hiện muộn hơn (ngày 10–12) nhưng tồn tại rất lâu (nhiều năm)",
+      "Kháng thể H xuất hiện từ ngày thứ 2 và mất ngay sau 1 tuần; kháng thể O tồn tại suốt đời",
+      "Cả hai kháng thể O và H chỉ xuất hiện sau khi bệnh nhân đã khỏi bệnh 1 năm",
+      "Kháng thể O chỉ có ở người tiêm vắc xin, không có ở người mắc bệnh"
+    ],
+    "answer": 0,
+    "explanation": "Bài 11: Kháng thể O (chủ yếu là IgM) xuất hiện sớm từ ngày thứ 8–10, tăng cao rồi giảm nhanh và mất sau ~6 tháng nên phản ánh nhiễm trùng cấp tính đang tiến triển; Kháng thể H (IgG) xuất hiện muộn hơn nhưng tồn tại nhiều năm sau khi khỏi bệnh hoặc tiêm phòng."
+  },
+  {
+    "id": "q10",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn đường ruột",
+    "question": "Đặc điểm sinh học nào sau đây giúp phân biệt nhanh chi Shigella với chi Salmonella?",
+    "options": [
+      "Shigella là cầu khuẩn Gram dương, còn Salmonella là trực khuẩn Gram âm",
+      "Shigella KHÔNG có tiêm mao nên hoàn toàn không di động và không sinh H2S; còn đa số Salmonella có tiêm mao quanh thân di động và sinh H2S (+)",
+      "Shigella lên men lactose rất mạnh sau 2 giờ, còn Salmonella không lên men glucose",
+      "Shigella sinh bào tử chịu nhiệt 120°C"
+    ],
+    "answer": 1,
+    "explanation": "Bài 11: Cả Salmonella và Shigella đều là trực khuẩn Gram âm không lên men lactose (trừ S. sonnei lên men chậm), nhưng Shigella hoàn toàn không có tiêm mao (không di động), không sinh hơi và H2S (-), trong khi hầu hết Salmonella di động và H2S (+)."
+  },
+  {
+    "id": "q11",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn đường ruột",
+    "question": "Cơ chế bệnh sinh gây tiêu chảy phân toàn nước ồ ạt như nước vo gạo của Ngoại độc tố ruột phẩy khuẩn tả (Vibrio cholerae) là gì?",
+    "options": [
+      "Xâm nhập phá hủy thủng thành ruột non và vào máu gây nhiễm khuẩn huyết",
+      "Gắn vào thụ thể GM1 trên tế bào biểu mô ruột non, hoạt hóa enzyme adenylat cyclase làm tăng vọt nồng độ AMP vòng (cAMP) nội bào, gây tăng tiết ồ ạt nước và điện giải ra lòng ruột",
+      "Làm liệt cơ vòng hậu môn qua độc tố thần kinh trung ương",
+      "Ức chế tổng hợp peptidoglycan của vi khuẩn chí đường ruột"
+    ],
+    "answer": 1,
+    "explanation": "Bài 11: Vibrio cholerae không xâm nhập vào máu mà khu trú trên bề mặt niêm mạc ruột non, tiết độc tố tả (Choleragen) hoạt hóa adenylat cyclase làm tăng cAMP nội bào, khiến tế bào ruột bài tiết ồ ạt Cl-, Na+, HCO3- và nước ra lòng ruột."
+  },
+  {
+    "id": "q12",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn lây qua đường sinh dục",
+    "question": "Phương pháp chẩn đoán nhanh, đơn giản và có giá trị nhất đối với bệnh lậu CẤP TÍNH ở nam giới là gì?",
+    "options": [
+      "Phản ứng huyết thanh VDRL và TPHA",
+      "Nhuộm Gram dịch mủ niệu đạo lấy vào buổi sáng thấy song cầu khuẩn Gram âm hình hạt cà phê nằm bên trong tế bào bạch cầu đa nhân",
+      "Cấy máu trên môi trường Löwenstein-Jensen",
+      "Tiêm nội bì Lepromin"
+    ],
+    "answer": 1,
+    "explanation": "Bài 12: Ở nam giới bị viêm niệu đạo lậu cấp, nhuộm Gram giọt mủ niệu đạo buổi sáng thấy rất nhiều song cầu Gram âm hình hạt cà phê nằm trong bạch cầu đa nhân trung tính đã thoái hóa (độ nhạy và độ đặc hiệu > 95%). Ở nữ giới hoặc lậu mạn tính thì bắt buộc phải nuôi cấy trên môi trường Thayer-Martin hoặc làm PCR."
+  },
+  {
+    "id": "q13",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn lây qua đường sinh dục",
+    "question": "Trong chẩn đoán bệnh giang mai (Treponema pallidum), nhận định nào sau đây là ĐÚNG về hai nhóm phản ứng huyết thanh?",
+    "options": [
+      "VDRL và RPR dùng kháng nguyên xoắn khuẩn đặc hiệu; TPHA dùng kháng nguyên cardiolipin",
+      "VDRL và RPR dùng kháng nguyên cardiolipin (không đặc hiệu) có giá trị tầm soát và theo dõi đáp ứng điều trị; còn TPHA và FTA-abs dùng kháng nguyên xoắn khuẩn đặc hiệu để khẳng định chẩn đoán",
+      "Xoắn khuẩn giang mai dễ dàng nuôi cấy trên thạch máu thông thường sau 24 giờ",
+      "Bệnh giang mai hiện nay đã kháng hoàn toàn với Penicillin G"
+    ],
+    "answer": 1,
+    "explanation": "Bài 12: Treponema pallidum không nuôi cấy được trên môi trường nhân tạo và vẫn nhạy cảm hoàn toàn với Penicillin G. Huyết thanh học gồm: (1) Nhóm cardiolipin (VDRL, RPR) rẻ tiền, định lượng hiệu giá giảm dần khi điều trị thành công; (2) Nhóm kháng nguyên đặc hiệu xoắn khuẩn (TPHA, FTA-abs, TPI) có độ đặc hiệu cao dùng để khẳng định chẩn đoán."
+  },
+  {
+    "id": "q14",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn lây qua đường sinh dục",
+    "question": "Tác nhân nào sau đây là vi khuẩn ký sinh nội bào bắt buộc, có chu kỳ phát triển gồm Thể cơ bản (EB) và Thể lưới (RB), gây bệnh mắt hột, viêm niệu đạo – cổ tử cung và bệnh Nicolas-Favre (hột xoài)?",
+    "options": [
+      "Haemophilus ducreyi",
+      "Chlamydia trachomatis",
+      "Ureaplasma urealyticum",
+      "Neisseria gonorrhoeae"
+    ],
+    "answer": 1,
+    "explanation": "Bài 12: Chlamydia trachomatis ký sinh nội bào bắt buộc (không tự tổng hợp được ATP), chu kỳ gồm Thể cơ bản (EB – lây nhiễm ngoại bào) và Thể lưới (RB – nhân đôi nội bào tạo thể vùi). Điều trị bằng Doxycycline hoặc Azithromycin."
+  },
+  {
+    "id": "q15",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn hô hấp & Ngoài da",
+    "question": "Xét nghiệm huyết thanh định lượng kháng thể ASO (Antistreptolysin O) được sử dụng để hỗ trợ chẩn đoán biến chứng hậu nhiễm trùng của vi khuẩn nào?",
+    "options": [
+      "Staphylococcus aureus (Tụ cầu vàng)",
+      "Streptococcus pyogenes (Liên cầu khuẩn tan huyết β nhóm A) gây bệnh Thấp tim và Viêm cầu thận cấp",
+      "Streptococcus pneumoniae (Phế cầu khuẩn)",
+      "Corynebacterium diphtheriae (Trực khuẩn bạch hầu)"
+    ],
+    "answer": 1,
+    "explanation": "Bài 13: Liên cầu tan huyết β nhóm A (S. pyogenes) tiết dung huyết tố Streptolysin O kích thích cơ thể tạo kháng thể ASO. Định lượng ASO tăng cao (> 200 đơn vị Todd) giúp chẩn đoán xác nhận tiền sử nhiễm liên cầu nhóm A trong bệnh Sốt thấp khớp cấp (Thấp tim) và Viêm cầu thận cấp."
+  },
+  {
+    "id": "q16",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn hô hấp & Ngoài da",
+    "question": "Hai thử nghiệm vi sinh nào dùng để phân biệt Phế cầu khuẩn (Streptococcus pneumoniae) với Liên cầu Viridans khi cả hai đều cho vòng tiêu huyết α (xanh lục) trên thạch máu?",
+    "options": [
+      "Catalase và Coagulase",
+      "Thử nghiệm nhạy cảm với Optochin (+) và bị ly giải bởi muối mật (Bile solubility +)",
+      "Phản ứng Widal và thử nghiệm Urease",
+      "Phản ứng Elek và nhuộm Ziehl-Neelsen"
+    ],
+    "answer": 1,
+    "explanation": "Bài 13: Cả S. pneumoniae và liên cầu Viridans đều là cầu khuẩn Gram dương tiêu huyết α, Catalase (-). Tuy nhiên S. pneumoniae bị tan trong muối mật (hoặc natri desoxycholat) và nhạy cảm với đĩa giấy Optochin, còn liên cầu Viridans không tan trong mật và kháng Optochin."
+  },
+  {
+    "id": "q17",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn hô hấp & Ngoài da",
+    "question": "Nguyên tắc điều trị đặc hiệu và khẩn cấp nhất đối với bệnh nhân mắc bệnh Bạch hầu (Corynebacterium diphtheriae) là gì?",
+    "options": [
+      "Chỉ cần dùng kháng sinh Penicillin G hoặc Erythromycin đơn thuần trong 14 ngày",
+      "Tiêm ngay Huyết thanh kháng độc tố bạch hầu (SAD) càng sớm càng tốt để trung hòa ngoại độc tố tự do trong máu, kết hợp với kháng sinh (Penicillin G hoặc Erythromycin)",
+      "Tiêm ngay vắc xin giải độc tố bạch hầu (Anatoxin Ramon) để điều trị cấp cứu",
+      "Chỉ truyền dịch và hạ sốt vì bệnh do virus"
+    ],
+    "answer": 1,
+    "explanation": "Bài 13: Tử vong trong bệnh bạch hầu chủ yếu do Ngoại độc tố bạch hầu gắn không hồi phục vào tế bào cơ tim và thần kinh (ức chế EF-2). Khi độc tố đã gắn vào mô thì huyết thanh không trung hòa được nữa, do đó phải tiêm ngay Huyết thanh kháng độc tố bạch hầu (SAD) ngay khi nghi ngờ lâm sàng, đồng thời dùng Penicillin G hoặc Erythromycin/Azithromycin để diệt vi khuẩn."
+  },
+  {
+    "id": "q18",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn hô hấp & Ngoài da",
+    "question": "Thử nghiệm sinh hóa quan trọng nhất để phân biệt Tụ cầu vàng gây bệnh (Staphylococcus aureus) với các tụ cầu không sinh sắc tố / sống cộng sinh trên da (như S. epidermidis) là gì?",
+    "options": [
+      "Phản ứng Catalase dương tính",
+      "Phản ứng làm đông huyết tương Coagulase dương tính (kèm lên men đường Mannitol và DNase +)",
+      "Phản ứng Oxidase dương tính",
+      "Khả năng mọc trên môi trường kỵ khí tuyệt đối"
+    ],
+    "answer": 1,
+    "explanation": "Bài 14: Phản ứng Catalase (+) dùng để phân biệt họ Tụ cầu (Staphylococcus) với Liên cầu (Streptococcus, Catalase -). Còn để phân biệt S. aureus gây bệnh với các tụ cầu khác (CoNS như S. epidermidis), tiêu chuẩn vàng là phản ứng Coagulase (+) làm đông huyết tương và lên men Mannitol (+)."
+  },
+  {
+    "id": "q19",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn hô hấp & Ngoài da",
+    "question": "Đặc điểm nào sau đây là ĐÚNG đối với trực khuẩn gây bệnh phong Mycobacterium leprae (Trực khuẩn Hansen)?",
+    "options": [
+      "Mọc rất nhanh trên môi trường thạch thường sau 18 giờ",
+      "Là trực khuẩn kháng cồn-acid, KHÔNG nuôi cấy được trên môi trường nhân tạo, gây tổn thương da và dây thần kinh ngoại biên; phản ứng Lepromin dương tính ở thể phong củ và âm tính ở thể phong u",
+      "Lây truyền chủ yếu qua muỗi đốt và điều trị bằng một kháng sinh Penicillin đơn độc",
+      "Là xoắn khuẩn di động mạnh chỉ quan sát được dưới kính hiển vi nền đen"
+    ],
+    "answer": 1,
+    "explanation": "Bài 14: M. leprae là trực khuẩn kháng cồn-acid (nhuộm Ziehl-Neelsen), không nuôi cấy được trên môi trường nhân tạo (chỉ nhân lên trên gan bàn chân chuột hoặc cơ thể con tatu). Ở thể phong u (ác tính), miễn dịch tế bào suy giảm nặng nên rất nhiều vi khuẩn và phản ứng Lepromin âm tính; điều trị phải phối hợp đa hóa trị liệu (Rifampicin + Dapsone + Clofazimine)."
+  },
+  {
+    "id": "q20",
+    "topic": "Giáo trình Bộ Y tế – Virus học",
+    "question": "Vì sao các thuốc kháng sinh (như β-lactam, aminoglycoside, tetracycline, fluoroquinolone) hoàn toàn KHÔNG có tác dụng tiêu diệt Virus?",
+    "options": [
+      "Vì virus có vách peptidoglycan dày gấp 10 lần vi khuẩn",
+      "Vì virus không có cấu tạo tế bào, không có vách peptidoglycan và không có ribosom riêng mà ký sinh nội bào bắt buộc, sử dụng bộ máy tổng hợp protein và năng lượng của tế bào chủ",
+      "Vì tất cả các virus đều tiết enzyme β-lactamase",
+      "Vì virus có kích thước lớn hơn vi khuẩn nên kháng sinh không thấm vào được"
+    ],
+    "answer": 1,
+    "explanation": "Bài 15 (Virus gây bệnh): Virus có kích thước siêu hiển vi (15–300 nm), cấu tạo chỉ gồm lõi acid nucleic (ADN hoặc ARN, không bao giờ có cả hai) và vỏ capsid (một số có thêm màng bao envelope), hoàn toàn không có vách tế bào hay ribosom nên không có đích tác động của kháng sinh kháng khuẩn."
+  },
+  {
+    "id": "q21",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Theo Hướng dẫn IDSA 2024, đối với viêm bàng quang cấp không biến chứng do E. coli tiết ESBL (ESBL-E), hai kháng sinh đường uống nào được khuyến cáo là LỰA CHỌN ƯU TIÊN (Preferred)?",
+    "options": [
+      "Meropenem và Imipenem-cilastatin",
+      "Nitrofurantoin và Trimethoprim-sulfamethoxazole (TMP-SMX)",
+      "Piperacillin-tazobactam và Cefepime",
+      "Tigecycline và Polymyxin B"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 (Section 1, Question 1.1): Với viêm bàng quang không biến chứng do ESBL-E, Nitrofurantoin (100mg PO q12h x 5 ngày) và TMP-SMX (160/800mg PO q12h x 3 ngày) là lựa chọn ưu tiên vì an toàn, hiệu quả và giúp bảo tồn nhóm Carbapenem và Fluoroquinolone."
+  },
+  {
+    "id": "q22",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Theo IDSA 2024, tại sao Fosfomycin đường uống (3g 1 liều duy nhất) chỉ được khuyến cáo làm thuốc thay thế cho viêm bàng quang do E. coli tiết ESBL mà KHÔNG dùng cho Klebsiella pneumoniae hay Enterobacter spp.?",
+    "options": [
+      "Vì Fosfomycin bị acid dạ dày phân hủy hoàn toàn khi có mặt Klebsiella",
+      "Vì Klebsiella pneumoniae, Enterobacter spp. và Serratia marcescens thường mang sẵn gen fosA trên nhiễm sắc thể làm thủy phân và bất hoạt Fosfomycin",
+      "Vì Fosfomycin không bài tiết qua nước tiểu",
+      "Vì Klebsiella không có vách tế bào peptidoglycan"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 (Section 1): Khác với E. coli, các loài K. pneumoniae, K. aerogenes, E. cloacae, S. marcescens và P. aeruginosa mang gen fosA nội tại trên nhiễm sắc thể mã hóa enzyme glutathione S-transferase làm mở vòng epoxide và bất hoạt Fosfomycin."
+  },
+  {
+    "id": "q23",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Một bệnh nhân nhiễm khuẩn huyết từ đường mật do Klebsiella pneumoniae tiết ESBL, hiện đang có sốc nhiễm khuẩn và nồng độ Albumin máu rất thấp (1.9 g/dL). Theo IDSA 2024, kháng sinh nào được ưu tiên lựa chọn?",
+    "options": [
+      "Piperacillin-tazobactam 4.5g IV mỗi 6h (vì kháng sinh đồ báo nhạy cảm)",
+      "Ertapenem 1g IV mỗi 24h",
+      "Meropenem 1g IV mỗi 8h hoặc Imipenem-cilastatin 500mg IV mỗi 6h",
+      "Nitrofurantoin 100mg PO mỗi 12h"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 1, Question 1.3): Không dùng Pip-Tazo cho nhiễm khuẩn huyết do ESBL-E (thử nghiệm MERINO chứng minh tăng tỷ lệ tử vong so với Meropenem). Giữa các Carbapenem, ở bệnh nhân nguy kịch (sốc nhiễm khuẩn) hoặc giảm albumin máu nặng (< 2.5 g/dL), do Ertapenem gắn protein huyết tương tới 95% nên giảm albumin làm tăng thanh thải thuốc tự do dẫn đến không đạt đích PK/PD; vì vậy phải ưu tiên Meropenem hoặc Imipenem."
+  },
+  {
+    "id": "q24",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Theo IDSA 2024 (Section 2), 3 loài vi khuẩn Enterobacterales nào có nguy cơ TRUNG BÌNH – CAO cảm ứng sản xuất mạnh enzyme AmpC trên lâm sàng (khiến khoảng 20% trường hợp thất bại nếu điều trị bằng Ceftriaxone)?",
+    "options": [
+      "Escherichia coli, Shigella flexneri và Salmonella Typhi",
+      "Enterobacter cloacae complex, Klebsiella aerogenes và Citrobacter freundii",
+      "Serratia marcescens, Morganella morganii và Providencia stuartii",
+      "Proteus mirabilis, Klebsiella oxytoca và Citrobacter koseri"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 làm rõ: Thay vì dùng các từ viết tắt cũ (SPACE/SPICE), lâm sàng cần nhớ 3 tác nhân có nguy cơ giải ức chế AmpC cao nhất (~20% khi dùng Ceftriaxone/Ceftazidime) là: Enterobacter cloacae complex, Klebsiella aerogenes (trước đây là Enterobacter aerogenes) và Citrobacter freundii. Với 3 loài này, ưu tiên chọn Cefepime (nếu MIC ≤ 2 µg/mL) hoặc Carbapenem."
+  },
+  {
+    "id": "q25",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Bệnh nhân viêm phổi thở máy do Klebsiella pneumoniae kháng Carbapenem (CRE), xét nghiệm sinh học phân tử xác định vi khuẩn mang gen blaKPC (Ambler lớp A). Theo IDSA 2024, các kháng sinh nào là lựa chọn ƯU TIÊN?",
+    "options": [
+      "Polymyxin B phối hợp với Tigecycline",
+      "Meropenem-vaborbactam, Ceftazidime-avibactam hoặc Imipenem-cilastatin-relebactam",
+      "Ceftolozane-tazobactam đơn trị",
+      "Meropenem liều cao 2g mỗi 8h truyền kéo dài 3h"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 (Section 3): Đối với CRE sinh KPC, 3 thuốc ưu tiên hàng đầu là Meropenem-vaborbactam (4g IV q8h truyền 3h), Ceftazidime-avibactam (2.5g IV q8h truyền 3h) và Imipenem-cilastatin-relebactam (1.25g IV q6h). Ceftolozane-tazobactam không ức chế được KPC."
+  },
+  {
+    "id": "q26",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Bệnh nhân nhiễm khuẩn huyết do E. coli kháng Carbapenem (CRE), xét nghiệm Carba NP / PCR xác định dương tính với gen blaNDM (Metallo-β-lactamase – Ambler lớp B). Phác đồ ưu tiên theo IDSA 2024 là gì?",
+    "options": [
+      "Meropenem-vaborbactam đơn trị",
+      "Imipenem-cilastatin-relebactam đơn trị",
+      "Phối hợp Ceftazidime-avibactam + Aztreonam (truyền đồng thời trong 3h) HOẶC Cefiderocol đơn trị",
+      "Ceftazidime-avibactam đơn trị"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 3): Các chất ức chế β-lactamase mới (Avibactam, Vaborbactam, Relebactam) đều KHÔNG ức chế được Metallo-β-lactamase (NDM, VIM, IMP). Tuy nhiên, NDM không thủy phân được Aztreonam. Vì các chủng NDM thường mang kèm ESBL/AmpC/KPC/OXA-48 làm hỏng Aztreonam, việc truyền đồng thời Ceftazidime-avibactam + Aztreonam giúp Avibactam bảo vệ Aztreonam để tiêu diệt vi khuẩn. Lựa chọn ưu tiên thứ hai là Cefiderocol."
+  },
+  {
+    "id": "q27",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Với chủng CRE xác định sinh carbapenemase nhóm OXA-48-like (Ambler lớp D), thuốc β-lactam/ức chế β-lactamase nào được IDSA 2024 khuyến cáo là LỰA CHỌN ƯU TIÊN?",
+    "options": [
+      "Meropenem-vaborbactam",
+      "Imipenem-cilastatin-relebactam",
+      "Ceftazidime-avibactam (và Cefiderocol là lựa chọn thay thế)",
+      "Ceftolozane-tazobactam"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 3): Vaborbactam và Relebactam không có hoạt tính ức chế các carbapenemase lớp D (OXA-48-like). Trong 3 chất ức chế mới, chỉ có Avibactam (trong Ceftazidime-avibactam) ức chế được OXA-48-like."
+  },
+  {
+    "id": "q28",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Theo IDSA 2024, đối với nhiễm khuẩn do Pseudomonas aeruginosa khó điều trị (DTR-P. aeruginosa, không sinh MBL), 3 thuốc nào nằm trong nhóm LỰA CHỌN ƯU TIÊN?",
+    "options": [
+      "Ceftolozane-tazobactam, Ceftazidime-avibactam và Imipenem-cilastatin-relebactam",
+      "Meropenem-vaborbactam, Ertapenem và Tigecycline",
+      "Sulbactam-durlobactam, Minocycline và TMP-SMX",
+      "Colistin đơn trị và Amoxicillin-clavulanate"
+    ],
+    "answer": 0,
+    "explanation": "IDSA 2024 (Section 4): Ba thuốc ưu tiên hàng đầu cho DTR-P. aeruginosa là Ceftolozane-tazobactam (3g IV q8h truyền 3h), Ceftazidime-avibactam (2.5g IV q8h truyền 3h) và Imipenem-cilastatin-relebactam (1.25g IV q6h). Lưu ý: Vaborbactam không khôi phục được hoạt tính của Meropenem trên P. aeruginosa."
+  },
+  {
+    "id": "q29",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Theo IDSA 2024 (Section 5), nguyên tắc cốt lõi trong điều trị viêm phổi thở máy hoặc nhiễm khuẩn huyết do Acinetobacter baumannii kháng Carbapenem (CRAB) là gì?",
+    "options": [
+      "Đơn trị bằng Tigecycline liều chuẩn 50mg mỗi 12h",
+      "Phối hợp Colistin + Meropenem (không có sulbactam)",
+      "Bắt buộc dùng phác đồ phối hợp có thành phần Sulbactam: ưu tiên Sulbactam-durlobactam (+ Imipenem/Meropenem), hoặc Ampicillin-sulbactam liều cao (tổng 9g sulbactam/ngày) phối hợp với ít nhất 1 thuốc khác (Polymyxin B, Minocycline liều cao, Tigecycline liều cao hoặc Cefiderocol)",
+      "Phối hợp Colistin + Rifampicin thường quy"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 5): Sulbactam gắn trực tiếp PBP1/PBP3 của A. baumannii. Phác đồ ưu tiên số 1 là Sulbactam-durlobactam phối hợp carbapenem; nếu không có thì dùng Ampicillin-sulbactam liều cao (27g/ngày = 9g sulbactam/ngày) phối hợp Polymyxin B, Minocycline liều cao (200mg q12h) hoặc Cefiderocol. Hai thử nghiệm lớn AIDA và OVERCOME đã chứng minh Colistin + Meropenem (không có sulbactam) không cải thiện tử vong so với Colistin đơn độc."
+  },
+  {
+    "id": "q30",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Tại sao trong nhiễm khuẩn toàn thân ngoài đường tiết niệu (như viêm phổi, nhiễm khuẩn huyết), IDSA 2024 ưu tiên chọn Polymyxin B hơn là Colistin (Polymyxin E)?",
+    "options": [
+      "Vì Polymyxin B uống được qua đường tiêu hóa",
+      "Vì Polymyxin B được truyền trực tiếp dưới dạng thuốc có hoạt tính nên đạt nồng độ điều trị trong huyết tương ngay lập tức, dược động học ổn định hơn và ít độc thận hơn so với tiền thuốc Colistimethate sodium (CMS); còn Colistin chỉ ưu tiên cho nhiễm khuẩn tiết niệu vì CMS chuyển hóa thành colistin trong nước tiểu",
+      "Vì Colistin chỉ diệt được vi khuẩn Gram dương",
+      "Vì Polymyxin B không bao giờ gây độc thận"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024: Colistin dùng đường tiêm là tiền thuốc Colistimethate sodium (CMS) chuyển hóa rất chậm và biến thiên thành colistin có hoạt tính trong máu, nhưng lại thải trừ qua thận và chuyển thành colistin rất cao trong nước tiểu. Do đó: Nhiễm khuẩn toàn thân → chọn Polymyxin B; Nhiễm khuẩn đường tiết niệu dưới → chọn Colistin."
+  },
+  {
+    "id": "q31",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Theo IDSA 2024 (Section 6), phác đồ nào được khuyến cáo là LỰA CHỌN ƯU TIÊN cho nhiễm khuẩn trung bình – nặng do Stenotrophomonas maltophilia?",
+    "options": [
+      "Ceftazidime đơn trị hoặc Imipenem đơn trị",
+      "Amikacin phối hợp với Meropenem",
+      "(1) Phối hợp bất kỳ 2 trong 4 thuốc: Cefiderocol, Minocycline liều cao, TMP-SMX, Levofloxacin; HOẶC (2) Phối hợp Ceftazidime-avibactam + Aztreonam",
+      "Vancomycin phối hợp Piperacillin-tazobactam"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 6): S. maltophilia mang nội tại cả enzyme L1 (metallo-β-lactamase kháng mọi carbapenem) và L2 (serine cephalosporinase kháng ceftazidime/aztreonam) cùng enzyme bất hoạt aminoglycoside. Do đó Ceftazidime đã bị loại bỏ; phác đồ ưu tiên là phối hợp 2 trong 4 thuốc (Cefiderocol, Minocycline, TMP-SMX, Levofloxacin) hoặc Ceftazidime-avibactam + Aztreonam."
+  },
+  {
+    "id": "q32",
+    "topic": "EUCAST v16.1 – Tiêu chuẩn Kháng sinh đồ",
+    "question": "Trong bảng tiêu chuẩn EUCAST (từ năm 2019 đến v16.1 năm 2026), chữ cái 'I' trong kết quả kháng sinh đồ (S / I / R) được định nghĩa chính xác là gì?",
+    "options": [
+      "Indeterminate – Chưa xác định được độ nhạy cảm, không được sử dụng",
+      "Susceptible, increased exposure – Nhạy cảm khi tăng phơi nhiễm thuốc (bằng cách tăng liều, kéo dài thời gian truyền hoặc thuốc tập trung nồng độ cao tại vị trí nhiễm trùng)",
+      "Ineffective – Thuốc kém hiệu quả, khả năng thất bại cao",
+      "Inhibitory only – Thuốc chỉ có tác dụng kìm khuẩn"
+    ],
+    "answer": 1,
+    "explanation": "EUCAST v16.1 (Notes): 'I' không còn mang nghĩa 'Trung gian/nghi ngờ' cũ mà là 'Susceptible, increased exposure' (Nhạy cảm khi tăng phơi nhiễm). Khi kết quả kháng sinh đồ trả 'I', thuốc hoàn toàn có hiệu quả lâm sàng nếu bác sĩ áp dụng chế độ Liều cao (High dosage) ghi trong bảng liều của EUCAST."
+  },
+  {
+    "id": "q33",
+    "topic": "EUCAST v16.1 – Tiêu chuẩn Kháng sinh đồ",
+    "question": "Trong bảng EUCAST v16.1, tại sao nhiều kháng sinh trên Pseudomonas aeruginosa (như Piperacillin-tazobactam, Ceftazidime, Cefepime, Ciprofloxacin) có ngưỡng MIC nhạy cảm ghi là 'S ≤ 0.001 mg/L' và đường kính vòng vô khuẩn 'S ≥ 50 mm'?",
+    "options": [
+      "Do lỗi in ấn trong tài liệu của EUCAST",
+      "Vì đây là các ngưỡng ngoài thang đo thực tế nhằm đảm bảo các chủng P. aeruginosa hoang dại (wild-type) không bao giờ được trả kết quả là 'S' mà LUÔN trả là 'I', nhắc nhở bác sĩ bắt buộc phải dùng chế độ LIỀU CAO cho P. aeruginosa",
+      "Vì P. aeruginosa nhạy cảm với nồng độ kháng sinh cực kỳ thấp",
+      "Vì EUCAST cấm sử dụng tất cả các thuốc này cho P. aeruginosa"
+    ],
+    "answer": 1,
+    "explanation": "EUCAST v16.1 (Notes on off-scale breakpoints): Ngưỡng S ≤ 0.001 mg/L (và S ≥ 50 mm) là ngưỡng cố ý đặt ngoài thang đo để không chủng hoang dại nào rơi vào nhóm 'S' (liều chuẩn), mà mọi chủng không kháng đều được phân loại vào nhóm 'I' (Susceptible, increased exposure) – ví dụ trên P. aeruginosa chỉ có Meropenem và các thuốc mới là có mức S ở liều chuẩn, còn Pip-Tazo, Ceftazidime, Cefepime, Imipenem, Cipro, Levo đều phải dùng liều cao."
+  },
+  {
+    "id": "q34",
+    "topic": "EUCAST v16.1 – Tiêu chuẩn Kháng sinh đồ",
+    "question": "Thuật ngữ 'ATU' (Area of Technical Uncertainty) trong bảng EUCAST v16.1 có ý nghĩa gì đối với phòng xét nghiệm vi sinh?",
+    "options": [
+      "Là vùng nồng độ gây độc tính chắc chắn cho bệnh nhân",
+      "Là Vùng không chắc chắn về mặt kỹ thuật (nơi sự biến thiên kỹ thuật làm chồng lấp giữa quần thể nhạy và kháng), cảnh báo phòng xét nghiệm cần kiểm tra lại hoặc dùng phương pháp khác trước khi trả kết quả",
+      "Là đơn vị đo hoạt lực của kháng sinh nhóm Polymyxin",
+      "Là ký hiệu cho vi khuẩn kỵ khí bắt buộc"
+    ],
+    "answer": 1,
+    "explanation": "EUCAST v16.1: ATU (Area of Technical Uncertainty) là vùng giá trị MIC hoặc đường kính vòng vô khuẩn mà việc lặp lại xét nghiệm dễ cho kết quả dao động giữa S/I và R (ví dụ Piperacillin-tazobactam trên Enterobacterales có ATU tại MIC = 16 mg/L và vòng vô khuẩn 19 mm)."
+  },
+  {
+    "id": "q35",
+    "topic": "EUCAST v16.1 – Tiêu chuẩn Kháng sinh đồ",
+    "question": "Theo cả EUCAST v16.1 và CLSI 2024, phương pháp duy nhất được chấp nhận để xác định độ nhạy cảm của vi khuẩn với Colistin / Polymyxin B là gì?",
+    "options": [
+      "Khuếch tán đĩa giấy trên thạch Mueller-Hinton (Kirby-Bauer)",
+      "Dải kháng sinh gradient (Etest)",
+      "Vi pha loãng trong canh thang (Broth microdilution) xác định MIC",
+      "Quan sát màu sắc khuẩn lạc trên thạch máu"
+    ],
+    "answer": 2,
+    "explanation": "Do phân tử Polymyxin lớn và tích điện dương nên khuếch tán rất kém và không đều trong thạch, gây tỷ lệ nhạy cảm giả (very major error) rất cao nếu làm đĩa giấy hoặc Etest. Vì vậy cả EUCAST và CLSI đều bắt buộc dùng phương pháp Vi pha loãng trong canh thang (Broth microdilution)."
+  },
+  {
+    "id": "q36",
+    "topic": "EUCAST v16.1 – Tiêu chuẩn Kháng sinh đồ",
+    "question": "Theo EUCAST v16.1, một chủng Pseudomonas aeruginosa phân lập từ bệnh phẩm đờm có kết quả MIC với Ceftazidime là 4 mg/L (biết EUCAST quy định cho Pseudomonas: Ceftazidime S ≤ 0.001 mg/L, R > 8 mg/L). Kết quả phiên giải và liều dùng đúng là gì?",
+    "options": [
+      "Phiên giải là 'R' (Đề kháng) – không được dùng Ceftazidime",
+      "Phiên giải là 'I' (Nhạy cảm, tăng phơi nhiễm) – dùng Ceftazidime liều cao 2g IV mỗi 8 giờ (hoặc 1g mỗi 4 giờ)",
+      "Phiên giải là 'S' (Nhạy cảm liều chuẩn) – dùng Ceftazidime 1g IV mỗi 12 giờ",
+      "Phiên giải là 'ATU' – phải hủy mẫu bệnh phẩm"
+    ],
+    "answer": 1,
+    "explanation": "Vì 0.001 < MIC (4 mg/L) ≤ 8 mg/L nên kết quả phiên giải theo EUCAST v16.1 là 'I' (Susceptible, increased exposure). Bác sĩ hoàn toàn sử dụng được Ceftazidime nhưng phải kê chế độ liều cao: 2g IV x 3 lần/ngày (mỗi 8 giờ)."
+  },
+  {
+    "id": "q37",
+    "topic": "WHO BPPL 2024 & Chiến lược 1121/QĐ-TTg",
+    "question": "Theo Danh sách Vi khuẩn Ưu tiên của WHO năm 2024 (WHO BPPL 2024), 4 tác nhân nào nằm trong nhóm NGUY CẤP (Critical Priority)?",
+    "options": [
+      "Staphylococcus aureus (MRSA), Enterococcus faecium (VRE), Streptococcus pneumoniae và Haemophilus influenzae",
+      "Acinetobacter baumannii kháng carbapenem (CRAB), Enterobacterales kháng cephalosporin thế hệ 3 (3GCR-E), Enterobacterales kháng carbapenem (CRE) và Mycobacterium tuberculosis kháng rifampicin (RR-TB)",
+      "Helicobacter pylori, Campylobacter jejuni, Neisseria gonorrhoeae và Shigella spp.",
+      "Streptococcus pyogenes, Streptococcus agalactiae, Vibrio cholerae và Treponema pallidum"
+    ],
+    "answer": 1,
+    "explanation": "Theo WHO BPPL 2024: Nhóm Nguy cấp (Critical) gồm đúng 4 tác nhân: (1) A. baumannii kháng carbapenem, (2) Enterobacterales kháng cephalosporin thế hệ 3, (3) Enterobacterales kháng carbapenem, và (4) M. tuberculosis kháng rifampicin (RR-TB). (Lưu ý: P. aeruginosa kháng carbapenem trong bản 2024 được xếp vào nhóm High)."
+  },
+  {
+    "id": "q38",
+    "topic": "WHO BPPL 2024 & Chiến lược 1121/QĐ-TTg",
+    "question": "So với danh sách năm 2017, cập nhật WHO BPPL 2024 có sự thay đổi phân nhóm đáng chú ý nào đối với Pseudomonas aeruginosa kháng carbapenem (CRPA) và Liên cầu khuẩn nhóm A/B?",
+    "options": [
+      "CRPA được chuyển từ nhóm Critical xuống nhóm High (nhưng vẫn cần ưu tiên nghiên cứu cao ở vùng lưu hành MBL); đồng thời bổ sung Liên cầu nhóm A (S. pyogenes) kháng macrolide và Liên cầu nhóm B (S. agalactiae) kháng penicillin vào nhóm Medium",
+      "Loại bỏ hoàn toàn Pseudomonas aeruginosa và Klebsiella pneumoniae khỏi danh sách",
+      "Chuyển MRSA và VRE sang nhóm Critical",
+      "Đưa virus cúm và HIV vào danh sách vi khuẩn ưu tiên"
+    ],
+    "answer": 0,
+    "explanation": "Trong WHO BPPL 2024, nhờ có thêm các thuốc mới (Ceftolozane-tazobactam, Ceftazidime-avibactam, Imipenem-relebactam, Cefiderocol) và dữ liệu giám sát toàn cầu, CRPA chuyển từ Critical sang High; trong khi GAS kháng macrolide và GBS kháng penicillin lần đầu được đưa vào nhóm Medium."
+  },
+  {
+    "id": "q39",
+    "topic": "WHO BPPL 2024 & Chiến lược 1121/QĐ-TTg",
+    "question": "Trong báo cáo WHO BPPL 2024, phương pháp Phân tích quyết định đa tiêu chí (MCDA) đã sử dụng bao nhiêu tiêu chí để chấm điểm và xếp hạng các vi khuẩn kháng thuốc?",
+    "options": [
+      "3 tiêu chí (Hình thái Gram, Kích thước vi khuẩn, Nhiệt độ mọc)",
+      "8 tiêu chí (Tỷ lệ tử vong, Tỷ lệ mắc mới, Gánh nặng không tử vong YLD, Xu hướng kháng thuốc 10 năm, Khả năng lây truyền, Khả năng phòng ngừa, Khả năng điều trị, và Đường ống nghiên cứu thuốc mới Pipeline)",
+      "12 tiêu chí tài chính của các công ty dược phẩm",
+      "2 tiêu chí (Chỉ dựa vào MIC của Penicillin và Vancomycin)"
+    ],
+    "answer": 1,
+    "explanation": "WHO BPPL 2024 đánh giá 24 cặp vi khuẩn–kháng thuốc dựa trên đúng 8 tiêu chí MCDA kết hợp gánh nặng dịch tễ (Mortality, Incidence, Non-fatal burden YLD, 10-yr Resistance trend), đặc tính vi sinh/y tế công cộng (Transmissibility, Preventability) và lâm sàng/R&D (Treatability, Pipeline)."
+  },
+  {
+    "id": "q40",
+    "topic": "WHO BPPL 2024 & Chiến lược 1121/QĐ-TTg",
+    "question": "Theo Quyết định 1121/QĐ-TTg (25/09/2023) phê duyệt Chiến lược Quốc gia về phòng, chống kháng thuốc tại Việt Nam giai đoạn 2023–2030, chỉ tiêu về tỷ lệ bệnh viện tuyến tỉnh, tuyến huyện triển khai Chương trình Quản lý sử dụng kháng sinh (AMS) ở mức độ trung bình trở lên vào năm 2025 và năm 2030 lần lượt là bao nhiêu?",
+    "options": [
+      "Năm 2025 đạt ít nhất 10% và năm 2030 đạt ít nhất 20%",
+      "Năm 2025 đạt ít nhất 30% và năm 2030 đạt ít nhất 50%",
+      "Năm 2025 đạt 100% ở tất cả các trạm y tế xã",
+      "Không đặt chỉ tiêu cho bệnh viện tuyến tỉnh và tuyến huyện"
+    ],
+    "answer": 1,
+    "explanation": "Theo Mục tiêu cụ thể số 4 của Quyết định 1121/QĐ-TTg: Đến năm 2025 có ít nhất 30% và đến năm 2030 có ít nhất 50% bệnh viện tuyến tỉnh, tuyến huyện triển khai chương trình Quản lý sử dụng kháng sinh (AMS) ở mức độ trung bình trở lên."
+  },
+  {
+    "id": "q41",
+    "topic": "WHO BPPL 2024 & Chiến lược 1121/QĐ-TTg",
+    "question": "Quyết định 1121/QĐ-TTg (2023–2030) được xây dựng dựa trên nguyên tắc phối hợp liên ngành nào và giao cho các Bộ nào chủ trì 3 Đề án trọng điểm?",
+    "options": [
+      "Chỉ một mình Bộ Y tế thực hiện trong các bệnh viện trung ương",
+      "Tiếp cận Một Sức Khỏe (One Health) phối hợp giữa Y tế (Người) – Nông nghiệp (Động vật/Thủy sản) – Môi trường & Công Thương; với 3 Đề án trọng điểm do Bộ Y tế (2 đề án) và Bộ Nông nghiệp & Phát triển nông thôn (1 đề án) chủ trì",
+      "Chỉ áp dụng cho các công ty nhập khẩu thiết bị y tế",
+      "Giao hoàn toàn cho chính quyền cấp xã tự ban hành phác đồ điều trị"
+    ],
+    "answer": 1,
+    "explanation": "Quyết định 1121/QĐ-TTg nhấn mạnh tiếp cận Một Sức Khỏe (One Health) liên ngành giữa Bộ Y tế, Bộ NN&PTNT, Bộ TN&MT và Bộ Công Thương; trong đó phê duyệt 3 Đề án trọng điểm ở Phụ lục: Đề án 1 (Truyền thông – Bộ Y tế), Đề án 2 (Giám sát & AMS trong y tế – Bộ Y tế) và Đề án 3 (Giám sát & sử dụng kháng sinh hợp lý trong chăn nuôi, thủy sản – Bộ NN&PTNT)."
+  },
+  {
+    "id": "q42",
+    "topic": "IDSA 2024 – Phác đồ Gram âm đa kháng",
+    "question": "Tại sao kháng sinh Daptomycin được sử dụng rất hiệu quả trong nhiễm khuẩn huyết và viêm nội tâm mạc do MRSA hoặc VRE nhưng lại CHỐNG CHỈ ĐỊNH trong điều trị viêm phổi?",
+    "options": [
+      "Vì Daptomycin bị chất diện hoạt (surfactant) ở phế nang phổi gắn kết và bất hoạt hoàn toàn",
+      "Vì Daptomycin gây co thắt phế quản cấp tính ở 100% bệnh nhân",
+      "Vì phổi không có mạch máu nuôi dưỡng",
+      "Vì MRSA ở phổi không có màng tế bào"
+    ],
+    "answer": 0,
+    "explanation": "Daptomycin là lipopeptide vòng có đuôi lipid gắn và bị cô lập bởi pulmonary surfactant (chất diện hoạt bề mặt phế nang giàu lipid), dẫn đến mất hoàn toàn hoạt tính diệt khuẩn tại nhu mô phổi. Với viêm phổi do MRSA, chọn Vancomycin hoặc Linezolid."
+  },
+  {
+    "id": "q43",
+    "topic": "Giáo trình Bộ Y tế – Đại cương & Di truyền",
+    "question": "Sự khác biệt cơ bản nhất về cấu trúc vách tế bào giữa vi khuẩn Gram dương và vi khuẩn Gram âm (quyết định kết quả nhuộm Gram và tính thấm kháng sinh) là gì?",
+    "options": [
+      "Vi khuẩn Gram dương có lớp peptidoglycan rất dày (40–80% trọng lượng vách) và acid teichoic, không có màng ngoài; còn vi khuẩn Gram âm có lớp peptidoglycan mỏng nhưng có thêm lớp Màng ngoài (Outer membrane) chứa Lipopolysaccharide (LPS – nội độc tố) và các kênh porin",
+      "Vi khuẩn Gram dương không có vách tế bào, chỉ có màng nhân",
+      "Vi khuẩn Gram âm có vách bằng cellulose giống tế bào thực vật",
+      "Vi khuẩn Gram dương chứa nội độc tố LPS nhiều gấp 10 lần Gram âm"
+    ],
+    "answer": 0,
+    "explanation": "Bài 2 (Tế bào vi khuẩn): Vách Gram dương có lớp mạng lưới peptidoglycan rất dày giữ chặt phức hợp tím kết tinh – lugol khi tẩy bằng cồn (bắt màu tím). Vách Gram âm có peptidoglycan mỏng và lớp màng ngoài giàu lipid/LPS bị cồn hòa tan làm mất màu tím và bắt màu đỏ hồng của fuchsin. Lớp màng ngoài của Gram âm cùng kênh porin chính là hàng rào cản các kháng sinh phân tử lớn như Vancomycin."
+  },
+  {
+    "id": "q44",
+    "topic": "Giáo trình Bộ Y tế – Đại cương & Di truyền",
+    "question": "Bốn giai đoạn phát triển của quần thể vi khuẩn khi nuôi cấy trong môi trường lỏng không đổi mới (nuôi cấy tĩnh) theo đúng trình tự thời gian là gì?",
+    "options": [
+      "Pha suy tàn → Pha cân bằng → Pha lũy thừa → Pha tiềm phát",
+      "Pha tiềm phát (Lag phase – thích nghi) → Pha lũy thừa (Log/Exponential phase – phân chia cực đại, nhạy cảm nhất với kháng sinh β-lactam) → Pha cân bằng (Stationary phase) → Pha suy tàn (Death phase)",
+      "Pha bào tử → Pha giao phối → Pha tải nạp → Pha biến nạp",
+      "Pha kỵ khí → Pha hiếu khí → Pha lên men → Pha hô hấp"
+    ],
+    "answer": 1,
+    "explanation": "Bài 3 (Dinh dưỡng và Tăng trưởng): Đường cong tăng trưởng gồm 4 pha: (1) Pha tiềm phát (Lag: vi khuẩn tổng hợp enzyme thích nghi, số lượng chưa tăng), (2) Pha lũy thừa (Log: sinh sản theo cấp số nhân $2^n$, tổng hợp vách mạnh nhất nên nhạy cảm nhất với Penicillin/Cephalosporin), (3) Pha cân bằng (số sinh ra bằng số chết đi), (4) Pha suy tàn."
+  },
+  {
+    "id": "q45",
+    "topic": "Giáo trình Bộ Y tế – Miễn dịch & Huyết thanh",
+    "question": "Sự khác nhau cơ bản giữa Ngoại độc tố (Exotoxin) và Nội độc tố (Endotoxin) của vi khuẩn là gì?",
+    "options": [
+      "Ngoại độc tố có bản chất là protein do vi khuẩn sống tiết ra ngoài, độc lực rất mạnh, tác động đặc hiệu và có thể xử lý bằng formol/nhiệt thành Giải độc tố (Anatoxin/Toxoid) làm vắc xin; còn Nội độc tố là Lipopolysaccharide (LPS) gắn ở màng ngoài vi khuẩn Gram âm, chỉ giải phóng khi vi khuẩn bị ly giải, chịu nhiệt cao và KHÔNG chế tạo thành giải độc tố được",
+      "Nội độc tố chỉ có ở vi khuẩn Gram dương, còn Ngoại độc tố chỉ có ở virus",
+      "Ngoại độc tố bền với nhiệt độ 100°C trong nhiều giờ và không có tính kháng nguyên",
+      "Nội độc tố là enzyme ARN polymerase của tế bào chủ"
+    ],
+    "answer": 0,
+    "explanation": "Bài 6 (Liên hệ vật chủ - vi khuẩn): Ngoại độc tố (như độc tố bạch hầu, uốn ván, tả, ho gà) bản chất là protein, tính kháng nguyên mạnh và xử lý bằng formol 0.4% ở 37–40°C (phương pháp Ramon) tạo thành Giải độc tố (Anatoxin) dùng làm vắc xin. Nội độc tố là thành phần Lipid A của LPS vách Gram âm, gây sốt và sốc nội độc tố nhưng tính kháng nguyên yếu và không chuyển thành giải độc tố được."
+  },
+  {
+    "id": "q46",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn lây qua đường sinh dục",
+    "question": "Làm thế nào để phân biệt trên lâm sàng giữa vết loét của bệnh Hạ cam mềm (do Haemophilus ducreyi) và Săng giang mai thời kỳ I (do Treponema pallidum)?",
+    "options": [
+      "Vết loét Hạ cam mềm có bờ nham nhở, đáy bẩn nhiều mủ, nền mềm và RẤT ĐAU; còn Săng giang mai là vết loét tròn đều, đáy sạch đỏ tươi, nền cứng như sụn và KHÔNG ĐAU",
+      "Săng giang mai rất đau và chảy mủ xanh; còn Hạ cam mềm không đau",
+      "Cả hai bệnh đều do cùng một loại xoắn khuẩn gây ra",
+      "Hạ cam mềm chỉ xuất hiện ở lòng bàn tay, không xuất hiện ở bộ phận sinh dục"
+    ],
+    "answer": 0,
+    "explanation": "Bài 12: Trực khuẩn H. ducreyi gây bệnh Hạ cam mềm (Chancroid) với vết loét mềm, đáy mủ bẩn, bờ nham nhở và rất đau đớn kèm hạch bẹn hóa mủ; ngược lại xoắn khuẩn T. pallidum gây Săng giang mai (Hard chancre) với nền cứng, đáy sạch và hoàn toàn không đau."
+  },
+  {
+    "id": "q47",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn lây qua đường sinh dục",
+    "question": "Vì sao vi khuẩn Ureaplasma urealyticum và Mycoplasma hominis đề kháng tự nhiên tuyệt đối với tất cả các kháng sinh nhóm β-lactam (Penicillin, Cephalosporin, Carbapenem) và Vancomycin?",
+    "options": [
+      "Vì chúng sống trong xương nơi máu không tới được",
+      "Vì chúng hoàn toàn KHÔNG có vách tế bào peptidoglycan (chỉ có màng bào tương 3 lớp chứa sterol), nên các kháng sinh ức chế tổng hợp vách không có đích tác động",
+      "Vì chúng tiết ra enzyme Metallo-β-lactamase NDM-1",
+      "Vì chúng là virus ARN"
+    ],
+    "answer": 1,
+    "explanation": "Bài 12: Họ Mycoplasmataceae (Mycoplasma và Ureaplasma) là những vi khuẩn không có vách tế bào, đa hình thái, không bắt màu Gram và kháng tự nhiên hoàn toàn với mọi kháng sinh ức chế vách tế bào. Điều trị phải dùng nhóm ức chế ribosom (Doxycycline, Azithromycin) hoặc Fluoroquinolone."
+  },
+  {
+    "id": "q48",
+    "topic": "Giáo trình Bộ Y tế – Vi khuẩn hô hấp & Ngoài da",
+    "question": "Đặc điểm sinh hóa nào giúp phân biệt não mô cầu (Neisseria meningitidis) với lậu cầu (Neisseria gonorrhoeae) khi cả hai đều là song cầu Gram âm hình hạt cà phê, Oxidase (+)?",
+    "options": [
+      "Não mô cầu lên men được cả đường Glucose VÀ Maltose; còn Lậu cầu chỉ lên men được đường Glucose (không lên men Maltose)",
+      "Não mô cầu không có vỏ, còn Lậu cầu có bào tử",
+      "Lậu cầu mọc tốt ở nhiệt độ 4°C trong tủ lạnh",
+      "Não mô cầu kháng tự nhiên với Ceftriaxone"
+    ],
+    "answer": 0,
+    "explanation": "Bài 12 & Bài 13: Cả N. meningitidis và N. gonorrhoeae đều là song cầu Gram âm hình hạt cà phê, Oxidase (+). Thử nghiệm lên men đường chuẩn để phân biệt: N. meningitidis lên men Glucose (+) và Maltose (+); N. gonorrhoeae chỉ lên men Glucose (+), Maltose (-)."
+  },
+  {
+    "id": "q49",
+    "topic": "Giáo trình Bộ Y tế – Virus học",
+    "question": "Tác nhân gây bệnh nào sau đây có bản chất chỉ là một phân tử Protein biến đổi cấu trúc không gian (PrPSc), hoàn toàn KHÔNG chứa acid nucleic (không có ADN lẫn ARN), rất bền với nhiệt và tia tử ngoại, gây bệnh não xốp truyền nhiễm (bệnh bò điên, bệnh Creutzfeldt-Jakob)?",
+    "options": [
+      "Retrovirus (HIV)",
+      "Thực khuẩn thể (Bacteriophage)",
+      "Prion",
+      "Chlamydia trachomatis"
+    ],
+    "answer": 2,
+    "explanation": "Bài 15 (Mục 7 – Prion): Prion (Proteinaceous infectious particle) do Stanley Prusiner phát hiện là tác nhân gây bệnh chỉ cấu tạo từ protein bất thường kháng protease, hoàn toàn không có bộ gen ADN hay ARN, gây các bệnh thoái hóa thần kinh thể xốp ở động vật và người."
+  },
+  {
+    "id": "q50",
+    "topic": "Giáo trình Bộ Y tế – Đề kháng kháng sinh",
+    "question": "Trong kỹ thuật làm kháng sinh đồ trên Staphylococcus aureus và Streptococcus, nghiệm pháp đặt đĩa giấy Erythromycin gần đĩa giấy Clindamycin (D-test) nhằm phát hiện cơ chế kháng thuốc nào?",
+    "options": [
+      "Phát hiện tiết enzyme ESBL",
+      "Phát hiện đề kháng Clindamycin cảm ứng (kiểu hình MLSB cảm ứng do gen erm methyl hóa 23S rRNA) khi thấy vòng vô khuẩn quanh đĩa Clindamycin bị vạt phẳng thành hình chữ D về phía đĩa Erythromycin",
+      "Phát hiện kháng Vancomycin ở cầu khuẩn đường ruột",
+      "Phát hiện đột biến gen rpoB kháng Rifampicin"
+    ],
+    "answer": 1,
+    "explanation": "Bài 10 & EUCAST v16.1: Erythromycin (Macrolide), Clindamycin (Lincosamide) và Streptogramin B có vị trí gắn chồng lấp trên 23S rRNA của tiểu đơn vị 50S. Chủng mang gen erm cảm ứng sẽ nhạy giả tạo với Clindamycin nếu thử riêng rẽ, nhưng khi đặt cạnh Erythromycin thì Erythromycin cảm ứng gen erm làm vòng vô khuẩn Clindamycin bị vạt chữ D → phải báo kháng Clindamycin."
+  }
+]

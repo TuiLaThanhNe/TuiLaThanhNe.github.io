@@ -1,0 +1,756 @@
+[
+  {
+    "id": "penicillin-g",
+    "name": "Penicillin G / Amoxicillin",
+    "class": "Beta-lactam (Penicillin)",
+    "aware": "Access",
+    "brandNames": ["Benzylpenicillin", "Clamoxyl", "Ospamox"],
+    "mechanism": "Ức chế transpeptidase (gắn PBP) ngăn tạo cầu nối peptid của peptidoglycan vách tế bào vi khuẩn đang phân chia, gây ly giải vi khuẩn.",
+    "spectrum": "Cầu khuẩn Gram dương (Streptococcus pyogenes nhóm A, S. agalactiae nhóm B, S. pneumoniae nhạy cảm, Enterococcus faecalis), xoắn khuẩn Treponema pallidum, Corynebacterium diphtheriae, Neisseria meningitidis.",
+    "indications": [
+      "Giang mai (T. pallidum) tất cả các giai đoạn và giang mai thần kinh (Penicillin G)",
+      "Viêm họng, sốt thấp khớp cấp do liên cầu nhóm A (S. pyogenes)",
+      "Viêm phổi, viêm tai giữa do S. pneumoniae nhạy penicillin (Amoxicillin)",
+      "Nhiễm khuẩn do Enterococcus faecalis nhạy ampicillin/amoxicillin"
+    ],
+    "dosing": "EUCAST Liều chuẩn: Benzylpenicillin 0.6g (1 MU) IV x 4 lần/ngày; Amoxicillin 0.5g PO x 3 lần/ngày (hoặc 1g IV x 3–4 lần/ngày). Liều cao (I): Benzylpenicillin 1.2g (2 MU) IV x 4–6 lần/ngày; Amoxicillin 0.75–1g PO x 3 lần/ngày hoặc 2g IV x 6 lần/ngày (viêm màng não).",
+    "sideEffects": ["Dị ứng, mề đay, sốc phản vệ (quá mẫn typ I qua IgE)", "Phản ứng Jarisch-Herxheimer khi điều trị giang mai", "Tiêu chảy, co giật nếu liều rất cao ở suy thận"],
+    "contraindications": ["Tiền sử dị ứng hoặc sốc phản vệ với nhóm Penicillin"],
+    "notes": "Hơn 90% chủng S. aureus tiết penicillinase kháng Penicillin G/Amoxicillin. Treponema pallidum và Streptococcus pyogenes đến nay vẫn nhạy cảm hoàn toàn với Penicillin G."
+  },
+  {
+    "id": "amox-clav",
+    "name": "Amoxicillin-clavulanate",
+    "class": "Beta-lactam + Ức chế β-lactamase",
+    "aware": "Access",
+    "brandNames": ["Augmentin", "Klamentin", "Curam"],
+    "mechanism": "Amoxicillin ức chế tổng hợp peptidoglycan; Acid clavulanic là chất ức chế tự sát (suicide inhibitor) các β-lactamase lớp A (như TEM-1, SHV-1, penicillinase của S. aureus và H. influenzae), bảo vệ Amoxicillin.",
+    "spectrum": "MSSA, Streptococcus spp., Enterococcus faecalis, Haemophilus influenzae, Moraxella catarrhalis, một số Enterobacterales và vi khuẩn kỵ khí khoang miệng/ổ bụng.",
+    "indications": [
+      "Viêm tai giữa cấp, viêm xoang cấp, đợt cấp COPD",
+      "Viêm phổi mắc phải cộng đồng",
+      "Nhiễm khuẩn da mô mềm, vết cắn động vật",
+      "Nhiễm khuẩn đường tiết niệu dưới"
+    ],
+    "dosing": "EUCAST Liều chuẩn: 0.5g/0.125g PO x 3 lần/ngày hoặc 1g/0.2g IV x 3–4 lần/ngày. Liều cao (I): 0.875g/0.125g PO x 3 lần/ngày hoặc 2g/0.2g IV x 3 lần/ngày.",
+    "sideEffects": ["Tiêu chảy (rất thường gặp do clavulanate kích thích nhu động ruột)", "Vàng da ứ mật, tăng men gan", "Phản ứng dị ứng beta-lactam"],
+    "contraindications": ["Dị ứng penicillin", "Tiền sử vàng da/rối loạn chức năng gan do amoxicillin-clavulanate"],
+    "notes": "IDSA 2024: Không khuyến cáo dùng Amoxicillin-clavulanate điều trị nhiễm khuẩn do ESBL-E (kể cả viêm bàng quang ưu tiên chọn Nitrofurantoin hoặc TMP-SMX hơn). Acid clavulanic có thể cảm ứng enzyme AmpC."
+  },
+  {
+    "id": "amp-sulbactam",
+    "name": "Ampicillin-sulbactam",
+    "class": "Beta-lactam + Ức chế β-lactamase",
+    "aware": "Access",
+    "brandNames": ["Unasyn"],
+    "mechanism": "Ampicillin ức chế vách tế bào; Sulbactam ức chế β-lactamase lớp A VÀ đặc biệt có hoạt tính nội tại gắn trực tiếp vào PBP1 và PBP3 của Acinetobacter baumannii.",
+    "spectrum": "Streptococcus, Enterococcus faecalis, MSSA, H. influenzae, kỵ khí và đặc biệt là Acinetobacter baumannii (nhờ thành phần Sulbactam).",
+    "indications": [
+      "Nhiễm khuẩn do Acinetobacter baumannii kháng carbapenem (CRAB) – dùng liều cao phối hợp",
+      "Nhiễm khuẩn ổ bụng, phụ khoa, da và mô mềm",
+      "Viêm phổi hít"
+    ],
+    "dosing": "IDSA 2024 (cho CRAB – chức năng thận bình thường): Tổng liều 27 g/ngày (tương đương 9 g Sulbactam/ngày): truyền kéo dài 9g (6g ampicillin / 3g sulbactam) IV mỗi 8 giờ trong 4 giờ, hoặc truyền liên tục 27g/24h. EUCAST liều chuẩn: (2g+1g) IV x 3–4 lần/ngày.",
+    "sideEffects": ["Độc thận khi dùng liều rất cao", "Tiêu chảy, viêm đại tràng giả mạc", "Phát ban (đặc biệt khi nhiễm EBV)"],
+    "contraindications": ["Quá mẫn với penicillin"],
+    "notes": "IDSA 2024 nhấn mạnh: Với CRAB, khi không có Sulbactam-durlobactam, Ampicillin-sulbactam liều cao (9g sulbactam/ngày) là trụ cột không thể thiếu trong phác đồ phối hợp ngay cả khi kết quả kháng sinh đồ báo CRAB kháng ampicillin-sulbactam (nhằm bão hòa đích PBP1/PBP3)."
+  },
+  {
+    "id": "pip-tazo",
+    "name": "Piperacillin-tazobactam",
+    "class": "Beta-lactam + Ức chế β-lactamase",
+    "aware": "Watch",
+    "brandNames": ["Tazocin", "Zosyn"],
+    "mechanism": "Ureidopenicillin phổ rộng (Piperacillin) gắn PBP3 kết hợp Tazobactam ức chế các β-lactamase lớp A. Không bền vững trước AmpC mức độ cao, KPC, MBL và OXA-48.",
+    "spectrum": "Trực khuẩn Gram âm (Enterobacterales, Pseudomonas aeruginosa), cầu khuẩn Gram dương (Streptococcus, E. faecalis, MSSA) và vi khuẩn kỵ khí (Bacteroides fragilis).",
+    "indications": [
+      "Viêm phổi bệnh viện / viêm phổi thở máy (HAP/VAP)",
+      "Nhiễm khuẩn ổ bụng phức tạp, nhiễm khuẩn đường mật",
+      "Sốt giảm bạch cầu hạt theo kinh nghiệm"
+    ],
+    "dosing": "EUCAST Liều chuẩn: (4g + 0.5g) IV x 3 lần/ngày (hoặc x 4 lần/ngày truyền 30 phút). Liều cao (I / P. aeruginosa): (4g + 0.5g) IV mỗi 6 giờ truyền kéo dài 3 giờ (hoặc 16g+2g truyền liên tục 24h).",
+    "sideEffects": ["Giảm tiểu cầu, giảm bạch cầu khi dùng kéo dài", "Tăng nguy cơ tổn thương thận cấp (AKI) khi phối hợp với Vancomycin", "Rối loạn tiêu hóa, hạ kali máu"],
+    "contraindications": ["Dị ứng nặng với penicillin hoặc chất ức chế beta-lactamase"],
+    "notes": "IDSA 2024 & Thử nghiệm MERINO: KHÔNG khuyến cáo dùng Piperacillin-tazobactam cho nhiễm khuẩn ngoài đường niệu do ESBL-E hoặc AmpC-E xâm lấn (dù kháng sinh đồ báo nhạy cảm). Trên P. aeruginosa, EUCAST đặt S ≤ 0.001 mg/L nên chủng nhạy cảm luôn trả 'I' để dùng liều cao truyền kéo dài."
+  },
+  {
+    "id": "ceftriaxone",
+    "name": "Ceftriaxone",
+    "class": "Cephalosporin thế hệ 3",
+    "aware": "Watch",
+    "brandNames": ["Rocephin", "Lendacin"],
+    "mechanism": "Gắn PBP ức chế tổng hợp peptidoglycan vách tế bào; bền với nhiều β-lactamase thông thường nhưng bị thủy phân bởi ESBL, AmpC và Carbapenemase.",
+    "spectrum": "Mạnh trên trực khuẩn Gram âm Enterobacterales (E. coli, K. pneumoniae, Salmonella Typhi, Shigella), N. gonorrhoeae, N. meningitidis, H. influenzae, S. pneumoniae, xoắn khuẩn. Không có tác dụng trên P. aeruginosa và Enterococcus.",
+    "indications": [
+      "Viêm màng não mủ (S. pneumoniae, N. meningitidis, H. influenzae)",
+      "Bệnh lậu (Neisseria gonorrhoeae) – thuốc đầu tay hiện nay",
+      "Sốt thương hàn (Salmonella Typhi kháng fluoroquinolone)",
+      "Viêm phổi cộng đồng nặng, viêm thận-bể thận cấp"
+    ],
+    "dosing": "EUCAST Liều chuẩn: 2g IV x 1 lần/ngày (hoặc 1g IV/IM mỗi 24h cho nhiễm khuẩn nhẹ-vừa). Liều cao (I / Viêm màng não): 2g IV x 2 lần/ngày (hoặc 4g x 1 lần/ngày).",
+    "sideEffects": ["Tạo bùn mật / giả sỏi túi mật", "Kết tủa calci-ceftriaxone ở phổi và thận trẻ sơ sinh", "Loạn khuẩn ruột, chọn lọc chủng tiết ESBL và VRE"],
+    "contraindications": ["Trẻ sơ sinh tăng bilirubin máu (nguy cơ vàng da nhân não)", "Dùng đồng thời với dung dịch chứa Calci đường tĩnh mạch ở trẻ sơ sinh <28 ngày"],
+    "notes": "IDSA 2024: Tránh dùng Ceftriaxone cho Enterobacter cloacae complex, Klebsiella aerogenes và Citrobacter freundii (nguy cơ ~20% đột biến giải ức chế gen ampC làm thất bại điều trị ngay trong quá trình dùng thuốc)."
+  },
+  {
+    "id": "ceftazidime",
+    "name": "Ceftazidime",
+    "class": "Cephalosporin thế hệ 3",
+    "aware": "Watch",
+    "brandNames": ["Fortum", "Tazidime"],
+    "mechanism": "Gắn PBP3 của trực khuẩn Gram âm; cấu trúc chuỗi bên carboxypropyloxyimino giúp thấm tốt qua màng ngoài của Pseudomonas aeruginosa.",
+    "spectrum": "Mạnh trên trực khuẩn Gram âm hiếu khí, đặc biệt là Pseudomonas aeruginosa và Enterobacterales. Hoạt tính trên cầu khuẩn Gram dương (S. aureus, S. pneumoniae) rất yếu.",
+    "indications": [
+      "Nhiễm khuẩn do Pseudomonas aeruginosa nhạy cảm",
+      "Sốt giảm bạch cầu hạt",
+      "Bệnh Whitmore (Burkholderia pseudomallei)"
+    ],
+    "dosing": "EUCAST Liều chuẩn: 1g IV x 3 lần/ngày. Liều cao (I / P. aeruginosa): 2g IV mỗi 8 giờ (hoặc 1g IV mỗi 4 giờ) truyền kéo dài.",
+    "sideEffects": ["Độc thần kinh (rung giật cơ, bệnh não, co giật) nếu không chỉnh liều ở suy thận", "Dị ứng, tăng men gan thoáng qua"],
+    "contraindications": ["Quá mẫn nặng với cephalosporin"],
+    "notes": "IDSA 2024: Ngừng sử dụng Ceftazidime cho Stenotrophomonas maltophilia do vi khuẩn này mang β-lactamase L1 và L2 nội tại làm bất hoạt thuốc (CLSI đã xóa breakpoint của ceftazidime với S. maltophilia)."
+  },
+  {
+    "id": "cefepime",
+    "name": "Cefepime",
+    "class": "Cephalosporin thế hệ 4",
+    "aware": "Watch",
+    "brandNames": ["Maxipime"],
+    "mechanism": "Ion lưỡng cực (zwitterion) giúp thấm rất nhanh qua kênh porin màng ngoài Gram âm; ái lực thấp với enzyme AmpC và cảm ứng AmpC rất yếu.",
+    "spectrum": "Phổ rộng cả Gram dương (MSSA, Streptococcus) và Gram âm (Enterobacterales kể cả nhóm sinh AmpC như E. cloacae, K. aerogenes, C. freundii; và P. aeruginosa).",
+    "indications": [
+      "Thuốc ưu tiên cho nhiễm khuẩn xâm lấn do vi khuẩn nguy cơ sinh AmpC trung bình-cao (khi MIC ≤ 2 µg/mL)",
+      "Viêm phổi bệnh viện, nhiễm khuẩn huyết do P. aeruginosa",
+      "Sốt giảm bạch cầu hạt"
+    ],
+    "dosing": "IDSA 2024: 2g IV mỗi 8 giờ, truyền kéo dài trong 3 giờ. EUCAST Liều chuẩn: 1g IV x 3 lần/ngày hoặc 2g x 2 lần/ngày; Liều cao (I): 2g IV x 3 lần/ngày.",
+    "sideEffects": ["Độc tính thần kinh trung ương (bệnh não, lú lẫn, trạng thái động kinh không co giật – đặc biệt ở người già/suy thận)", "Dương tính giả nghiệm pháp Coombs"],
+    "contraindications": ["Tiền sử phản vệ với cephalosporin hoặc beta-lactam"],
+    "notes": "IDSA 2024: Không khuyến cáo dùng Cefepime cho nhiễm khuẩn do ESBL-E. Với nhóm AmpC-E có MIC Cefepime = 4–8 µg/mL (SDD), chủng đó rất có thể đồng thời mang gen ESBL nên ưu tiên chuyển sang Carbapenem."
+  },
+  {
+    "id": "ceftolozane-tazobactam",
+    "name": "Ceftolozane-tazobactam",
+    "class": "Beta-lactam / Ức chế β-lactamase thế hệ mới",
+    "aware": "Reserve",
+    "brandNames": ["Zerbaxa"],
+    "mechanism": "Ceftolozane là oxyimino-cephalosporin tối ưu hóa để bền vững trước AmpC của Pseudomonas (PDC), ít bị ảnh hưởng bởi mất porin OprD và bơm đẩy MexAB-OprM; kết hợp Tazobactam.",
+    "spectrum": "Chuyên biệt cho Pseudomonas aeruginosa đa kháng / khó điều trị (DTR P. aeruginosa) và Enterobacterales tiết ESBL.",
+    "indications": [
+      "Thuốc ưu tiên hàng đầu cho nhiễm khuẩn do DTR Pseudomonas aeruginosa (viêm phổi, cUTI, ổ bụng, nhiễm khuẩn huyết)",
+      "Nhiễm khuẩn ổ bụng phức tạp (phối hợp Metronidazole)",
+      "Viêm thận-bể thận và cUTI"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang: 1.5g IV mỗi 8 giờ (truyền 1 giờ). Tất cả nhiễm khuẩn khác (viêm phổi, nhiễm khuẩn huyết, cUTI): 3g IV (2g ceftolozane / 1g tazobactam) mỗi 8 giờ, truyền kéo dài trong 3 giờ.",
+    "sideEffects": ["Buồn nôn, tiêu chảy, sốt", "Tăng men gan nhẹ", "Nhiễm C. difficile"],
+    "contraindications": ["Quá mẫn nặng với beta-lactam"],
+    "notes": "IDSA 2024: Ceftolozane-tazobactam KHÔNG có tác dụng trên các chủng sinh Carbapenemase (như KPC, NDM, VIM, IMP, OXA-48). Để bảo tồn kháng sinh dự trữ, không dùng thường quy cho ESBL-E nếu Carbapenem còn dùng được."
+  },
+  {
+    "id": "ceftazidime-avibactam",
+    "name": "Ceftazidime-avibactam",
+    "class": "Beta-lactam / Ức chế β-lactamase thế hệ mới",
+    "aware": "Reserve",
+    "brandNames": ["Zavicefta", "Avycaz"],
+    "mechanism": "Avibactam là chất ức chế diazabicyclooctane (DBO) không có cấu trúc β-lactam, ức chế thuận nghịch các β-lactamase lớp A (ESBL, KPC), lớp C (AmpC) và một số lớp D (OXA-48-like). Không ức chế được Metallo-β-lactamase (lớp B: NDM, VIM, IMP).",
+    "spectrum": "CRE sinh KPC hoặc OXA-48-like, DTR Pseudomonas aeruginosa; khi phối hợp với Aztreonam sẽ tiêu diệt được CRE sinh NDM/MBL và Stenotrophomonas maltophilia.",
+    "indications": [
+      "Thuốc ưu tiên cho nhiễm khuẩn do CRE sinh KPC hoặc OXA-48-like",
+      "Thuốc ưu tiên cho DTR Pseudomonas aeruginosa",
+      "Phối hợp đồng thời với Aztreonam cho CRE sinh Metallo-β-lactamase (NDM, VIM, IMP) và S. maltophilia"
+    ],
+    "dosing": "IDSA 2024: 2.5g IV (2g ceftazidime / 0.5g avibactam) mỗi 8 giờ, truyền kéo dài trong 3 giờ.",
+    "sideEffects": ["Buồn nôn, nôn, tiêu chảy", "Chóng mặt, lo âu", "Có thể phát sinh đột biến KPC-3 (biến thể D179Y) gây kháng thuốc trong quá trình điều trị"],
+    "contraindications": ["Quá mẫn nặng với ceftazidime, avibactam hoặc cephalosporin"],
+    "notes": "Cơ chế hiệp đồng kinh điển (IDSA 2024): Ở chủng sinh NDM (thường đồng thời mang ESBL/AmpC/KPC/OXA-48), NDM không thủy phân được Aztreonam nhưng các ESBL/AmpC đi kèm lại phá hủy Aztreonam. Truyền đồng thời Ceftazidime-avibactam + Aztreonam giúp Avibactam khóa toàn bộ ESBL/AmpC/KPC để Aztreonam gắn vào PBP3 diệt vi khuẩn."
+  },
+  {
+    "id": "cefiderocol",
+    "name": "Cefiderocol",
+    "class": "Siderophore Cephalosporin",
+    "aware": "Reserve",
+    "brandNames": ["Fetroja", "Fetcroja"],
+    "mechanism": "Cấu trúc gắn nhân catechol đóng vai trò siderophore bắt giữ sắt (Fe3+), mượn hệ thống vận chuyển sắt chủ động của vi khuẩn ('Chiến thuật Ngựa gỗ thành Troy') để đi xuyên qua màng ngoài, đồng thời bền vững trước hầu hết các β-lactamase cả 4 lớp Ambler A, B (NDM, VIM, IMP), C và D (OXA).",
+    "spectrum": "Trực khuẩn Gram âm đa kháng: CRE (đặc biệt là chủng sinh NDM và các MBL khác), DTR P. aeruginosa, Stenotrophomonas maltophilia và CRAB. Không có hoạt tính trên Gram dương và kỵ khí.",
+    "indications": [
+      "Thuốc ưu tiên cho CRE sinh NDM và các Metallo-β-lactamase khác",
+      "Thuốc ưu tiên cho DTR P. aeruginosa sinh MBL",
+      "Thuốc ưu tiên (trong phác đồ phối hợp) cho Stenotrophomonas maltophilia",
+      "Lựa chọn thay thế trong phác đồ phối hợp điều trị CRAB"
+    ],
+    "dosing": "IDSA 2024: 2g IV mỗi 8 giờ, truyền kéo dài trong 3 giờ (nếu độ thanh thải creatinin ≥ 120 mL/phút thì tăng lên 2g IV mỗi 6 giờ).",
+    "sideEffects": ["Tiêu chảy, phản ứng tại chỗ tiêm", "Hạ kali máu, tăng men gan", "Thử nghiệm CREDIBLE-CR ghi nhận tỷ lệ tử vong cao hơn ở nhóm CRAB dùng đơn độc"],
+    "contraindications": ["Dị ứng nặng với beta-lactam"],
+    "notes": "IDSA 2024: Đối với CRAB, chỉ dùng Cefiderocol khi phối hợp cùng thuốc khác (như sulbactam), không khuyến cáo dùng đơn độc."
+  },
+  {
+    "id": "ertapenem",
+    "name": "Ertapenem",
+    "class": "Carbapenem",
+    "aware": "Watch",
+    "brandNames": ["Invanz"],
+    "mechanism": "Gắn PBP ức chế tổng hợp vách tế bào; bền vững trước ESBL và AmpC; gắn kết rất cao với protein huyết tương (~95%) nên thời gian bán thải dài, cho phép dùng 1 lần/ngày.",
+    "spectrum": "Enterobacterales (kể cả chủng sinh ESBL và AmpC), cầu khuẩn Gram dương nhạy penicillin và vi khuẩn kỵ khí. KHÔNG có tác dụng trên Pseudomonas aeruginosa, Acinetobacter baumannii và Enterococcus.",
+    "indications": [
+      "Nhiễm khuẩn do ESBL-E hoặc AmpC-E (khi bệnh nhân không có sốc nhiễm khuẩn và không giảm albumin máu nặng)",
+      "Điều trị ngoại trú bằng kháng sinh đường tĩnh mạch (OPAT) nhờ dùng 1 lần/ngày",
+      "Nhiễm khuẩn ổ bụng, nhiễm khuẩn bàn chân đái tháo đường"
+    ],
+    "dosing": "IDSA 2024 & EUCAST: 1g IV (hoặc IM) mỗi 24 giờ, truyền trong 30 phút.",
+    "sideEffects": ["Tiêu chảy, buồn nôn, viêm tĩnh mạch tại chỗ tiêm", "Độc thần kinh / co giật (hiếm gặp, tăng ở suy thận)"],
+    "contraindications": ["Phản vệ với carbapenem hoặc beta-lactam; tiêm bắp chống chỉ định nếu dị ứng lidocain"],
+    "notes": "IDSA 2024: Ở bệnh nhân nguy kịch (sốc nhiễm khuẩn) hoặc giảm albumin máu nặng (< 2.5 g/dL), thể tích phân bố và độ thanh thải phần thuốc tự do của Ertapenem tăng mạnh làm giảm fT>MIC, do đó ưu tiên chọn Meropenem hoặc Imipenem thay vì Ertapenem."
+  },
+  {
+    "id": "meropenem",
+    "name": "Meropenem (và Imipenem-cilastatin)",
+    "class": "Carbapenem",
+    "aware": "Watch",
+    "brandNames": ["Meronem", "Tienam (Imipenem-cilastatin)"],
+    "mechanism": "Gắn PBP1a, PBP1b, PBP2 và PBP3 làm ly giải nhanh vi khuẩn; rất bền với ESBL và AmpC. Imipenem đi kèm Cilastatin để ức chế enzyme dehydropeptidase-I (DHP-I) ở ống thận.",
+    "spectrum": "Phổ rất rộng: Enterobacterales (kể cả ESBL-E, AmpC-E), Pseudomonas aeruginosa, Acinetobacter nhạy cảm, MSSA, Streptococcus và vi khuẩn kỵ khí (B. fragilis).",
+    "indications": [
+      "Thuốc ưu tiên cho nhiễm khuẩn ngoài đường niệu / nhiễm khuẩn huyết nặng do ESBL-E và AmpC-E",
+      "Nhiễm khuẩn do CRE không sinh carbapenemase (kháng Ertapenem nhưng còn nhạy Meropenem/Imipenem)",
+      "Viêm màng não mủ bệnh viện, nhiễm khuẩn ổ bụng nặng, sốt giảm bạch cầu hạt"
+    ],
+    "dosing": "IDSA 2024: Nhiễm khuẩn ESBL-E/AmpC-E (ngoài hệ thần kinh): Meropenem 1g IV mỗi 8h (truyền 30 phút). Với CRE (Ertapenem-R, Meropenem-S, không sinh carbapenemase) hoặc viêm màng não / P. aeruginosa (I): Meropenem 2g IV mỗi 8 giờ truyền kéo dài 3 giờ.",
+    "sideEffects": ["Buồn nôn, tiêu chảy", "Co giật (Imipenem có nguy cơ co giật cao hơn Meropenem)", "Tương tác làm giảm mạnh nồng độ Acid Valproic trong máu gây tái phát động kinh"],
+    "contraindications": ["Quá mẫn nặng với carbapenem"],
+    "notes": "IDSA 2024: Không dùng Meropenem truyền kéo dài nếu chủng CRE đã kháng Meropenem (MIC ≥ 4 µg/mL) hoặc đã xác định sinh KPC/NDM/OXA-48."
+  },
+  {
+    "id": "meropenem-vaborbactam",
+    "name": "Meropenem-vaborbactam",
+    "class": "Beta-lactam / Ức chế β-lactamase thế hệ mới",
+    "aware": "Reserve",
+    "brandNames": ["Vabomere", "Vaborem"],
+    "mechanism": "Vaborbactam là chất ức chế gốc acid boronic vòng, được thiết kế chuyên biệt để ức chế mạnh carbapenemase lớp A (đặc biệt là KPC) và lớp C, khôi phục hoàn toàn hoạt tính của Meropenem. Không ức chế được NDM/MBL và OXA-48.",
+    "spectrum": "Enterobacterales kháng carbapenem (CRE) sinh enzyme KPC.",
+    "indications": [
+      "Lựa chọn ưu tiên hàng đầu cho nhiễm khuẩn do CRE sinh KPC (viêm phổi, nhiễm khuẩn huyết, cUTI, ổ bụng)"
+    ],
+    "dosing": "IDSA 2024 & EUCAST: 4g IV (2g meropenem / 2g vaborbactam) mỗi 8 giờ, truyền kéo dài trong 3 giờ.",
+    "sideEffects": ["Đau đầu, viêm tĩnh mạch, tiêu chảy", "Giảm nồng độ acid valproic"],
+    "contraindications": ["Quá mẫn với carbapenem hoặc beta-lactam"],
+    "notes": "IDSA 2024: So với Ceftazidime-avibactam, Meropenem-vaborbactam có tỷ lệ phát sinh đột biến kháng thuốc trong quá trình điều trị KPC thấp hơn đáng kể."
+  },
+  {
+    "id": "imipenem-relebactam",
+    "name": "Imipenem-cilastatin-relebactam",
+    "class": "Beta-lactam / Ức chế β-lactamase thế hệ mới",
+    "aware": "Reserve",
+    "brandNames": ["Recarbrio"],
+    "mechanism": "Relebactam là chất ức chế DBO ức chế β-lactamase lớp A (KPC, ESBL) và lớp C (AmpC, PDC của P. aeruginosa). Vì Imipenem ít bị bơm đẩy MexAB-OprM đẩy ra ngoài, Relebactam khóa PDC giúp khôi phục độ nhạy của DTR P. aeruginosa.",
+    "spectrum": "CRE sinh KPC và Pseudomonas aeruginosa khó điều trị (DTR P. aeruginosa). Không tác dụng trên MBL (NDM) và OXA-48.",
+    "indications": [
+      "Thuốc ưu tiên cho nhiễm khuẩn do CRE sinh KPC",
+      "Thuốc ưu tiên cho nhiễm khuẩn do DTR Pseudomonas aeruginosa (HAP/VAP, cUTI, ổ bụng)"
+    ],
+    "dosing": "IDSA 2024 & EUCAST: 1.25g IV (500mg imipenem / 500mg cilastatin / 250mg relebactam) mỗi 6 giờ, truyền trong 30 phút.",
+    "sideEffects": ["Buồn nôn, tiêu chảy, tăng men gan", "Nguy cơ co giật ở bệnh nhân có bệnh lý thần kinh trung ương hoặc suy thận không chỉnh liều"],
+    "contraindications": ["Quá mẫn với carbapenem; tránh dùng đồng thời với ganciclovir hoặc acid valproic"],
+    "notes": "Thời gian truyền chuẩn là 30 phút mỗi 6 giờ (không bắt buộc truyền kéo dài 3 giờ như các thuốc mới khác)."
+  },
+  {
+    "id": "aztreonam",
+    "name": "Aztreonam",
+    "class": "Monobactam",
+    "aware": "Reserve",
+    "brandNames": ["Azactam"],
+    "mechanism": "Cấu trúc vòng β-lactam đơn (monobactam) gắn chọn lọc PBP3 của trực khuẩn Gram âm hiếu khí. Điểm đặc biệt nhất: KHÔNG bị thủy phân bởi các Metallo-β-lactamase (như NDM, VIM, IMP hay enzyme L1 của S. maltophilia), nhưng bị thủy phân bởi ESBL, AmpC và KPC.",
+    "spectrum": "Chỉ tác dụng trên trực khuẩn Gram âm hiếu khí (Enterobacterales, P. aeruginosa). Hoàn toàn không có tác dụng trên vi khuẩn Gram dương và vi khuẩn kỵ khí.",
+    "indications": [
+      "Phối hợp đồng thời với Ceftazidime-avibactam điều trị CRE sinh NDM/MBL và Stenotrophomonas maltophilia",
+      "Nhiễm khuẩn Gram âm ở bệnh nhân dị ứng phản vệ nặng với Penicillin/Cephalosporin (trừ dị ứng Ceftazidime do chung chuỗi bên R1)"
+    ],
+    "dosing": "IDSA 2024 (khi phối hợp Ceftazidime-avibactam): 2g IV mỗi 8 giờ, truyền kéo dài trong 3 giờ ĐỒNG THỜI (qua chạc chữ Y) với Ceftazidime-avibactam 2.5g IV mỗi 8 giờ.",
+    "sideEffects": ["Viêm tĩnh mạch, phát ban, tăng transaminase thoáng qua", "Khả năng dị ứng chéo với Ceftazidime và Cefiderocol (do giống chuỗi bên R1)"],
+    "contraindications": ["Quá mẫn với aztreonam"],
+    "notes": "IDSA 2024 khuyến cáo truyền đồng thời (simultaneous infusion) Ceftazidime-avibactam và Aztreonam trong 3 giờ mỗi 8h để tối ưu hóa hiệp đồng dược động học/dược lực học (PK/PD)."
+  },
+  {
+    "id": "sulbactam-durlobactam",
+    "name": "Sulbactam-durlobactam",
+    "class": "Beta-lactam / Ức chế β-lactamase thế hệ mới",
+    "aware": "Reserve",
+    "brandNames": ["Xacduro"],
+    "mechanism": "Sulbactam là tác nhân diệt Acinetobacter thông qua ức chế PBP1 và PBP3; Durlobactam là chất ức chế DBO phổ rộng khóa các β-lactamase lớp A, lớp C (ADC) và đặc biệt là các carbapenemase lớp D (OXA-23, OXA-24/40, OXA-58) của A. baumannii, bảo vệ Sulbactam khỏi bị phân hủy.",
+    "spectrum": "Chuyên biệt cho phức hợp Acinetobacter baumannii-calcoaceticus (bao gồm cả chủng kháng carbapenem CRAB).",
+    "indications": [
+      "Lựa chọn ưu tiên số 1 (theo IDSA 2024) cho viêm phổi bệnh viện/thở máy và nhiễm khuẩn huyết do Acinetobacter baumannii kháng carbapenem (CRAB)"
+    ],
+    "dosing": "IDSA 2024: 2g IV (1g sulbactam / 1g durlobactam) mỗi 6 giờ, truyền kéo dài trong 3 giờ (khuyến cáo dùng phối hợp với Imipenem-cilastatin hoặc Meropenem).",
+    "sideEffects": ["Tiêu chảy, thiếu máu, hạ kali máu, tăng men gan", "Ít độc thận hơn nhiều so với phác đồ chứa Colistin/Polymyxin B (thử nghiệm ATTACK)"],
+    "contraindications": ["Quá mẫn nặng với beta-lactam"],
+    "notes": "IDSA 2024 khuyến cáo dùng Sulbactam-durlobactam kết hợp với Imipenem-cilastatin hoặc Meropenem (như trong thiết kế thử nghiệm ATTACK và để gắn bổ sung vào PBP2)."
+  },
+  {
+    "id": "vancomycin",
+    "name": "Vancomycin",
+    "class": "Glycopeptide",
+    "aware": "Watch",
+    "brandNames": ["Vancocin", "Edicin"],
+    "mechanism": "Gắn chặt vào đuôi D-Alanyl-D-Alanine của tiền chất peptidoglycan, tạo cản trở không gian ngăn cả transglycosylase và transpeptidase tổng hợp vách tế bào vi khuẩn Gram dương. Phân tử lớn không qua được màng ngoài của vi khuẩn Gram âm.",
+    "spectrum": "Chỉ tác dụng trên vi khuẩn Gram dương: Staphylococcus aureus kháng methicillin (MRSA), S. epidermidis, Streptococcus spp., Enterococcus nhạy cảm, Clostridium difficile (đường uống).",
+    "indications": [
+      "Nhiễm khuẩn huyết, viêm nội tâm mạc, viêm phổi, viêm tủy xương do MRSA",
+      "Viêm màng não mủ nghi ngờ S. pneumoniae kháng penicillin (phối hợp Ceftriaxone)",
+      "Viêm đại tràng giả mạc do Clostridioides difficile (chỉ dùng đường uống 125mg x 4 lần/ngày)"
+    ],
+    "dosing": "EUCAST: 0.5g IV x 4 lần/ngày hoặc 1g IV x 2 lần/ngày (hoặc 15–20 mg/kg mỗi 8–12h), điều chỉnh theo giám sát nồng độ thuốc trong máu (TDM: AUC/MIC mục tiêu 400–600).",
+    "sideEffects": ["Hội chứng truyền Vancomycin (Red man syndrome – đỏ bừng cổ/mặt, tụt huyết áp do giải phóng histamin khi truyền quá nhanh)", "Độc thận (đặc biệt khi dùng chung Aminoglycoside hoặc Piperacillin-tazobactam)", "Độc tai"],
+    "contraindications": ["Quá mẫn với vancomycin"],
+    "notes": "Cơ chế kháng thuốc ở VRE (Enterococcus faecium kháng vancomycin – nhóm High của WHO 2024) và VRSA: gen vanA/vanB làm biến đổi đích từ D-Ala-D-Ala thành D-Ala-D-Lactate khiến ái lực của Vancomycin giảm 1.000 lần."
+  },
+  {
+    "id": "linezolid",
+    "name": "Linezolid",
+    "class": "Oxazolidinone",
+    "aware": "Reserve",
+    "brandNames": ["Zyvox"],
+    "mechanism": "Gắn vào vị trí P trên tiểu đơn vị 50S của ribosom (23S rRNA), ngăn cản sự hình thành phức hợp khởi đầu 70S (fMet-tRNA + 30S + 50S), ức chế tổng hợp protein ở giai đoạn sớm nhất.",
+    "spectrum": "Cầu khuẩn Gram dương đa kháng: Enterococcus kháng vancomycin (VRE – E. faecium), MRSA, S. pneumoniae đa kháng và Mycobacterium tuberculosis kháng thuốc.",
+    "indications": [
+      "Nhiễm khuẩn do Enterococcus faecium kháng vancomycin (VRE)",
+      "Viêm phổi bệnh viện (HAP/VAP) và nhiễm khuẩn da-mô mềm phức tạp do MRSA (thấm vào dịch lót biểu mô phổi rất tốt)",
+      "Phác đồ điều trị Lao đa kháng thuốc / kháng Rifampicin (RR-TB/MDR-TB)"
+    ],
+    "dosing": "EUCAST: 0.6g (600 mg) IV hoặc PO x 2 lần/ngày (sinh khả dụng đường uống đạt ~100%).",
+    "sideEffects": ["Ức chế tủy xương có hồi phục (giảm tiểu cầu, thiếu máu – thường xuất hiện khi dùng > 14 ngày)", "Bệnh thần kinh ngoại biên và thần kinh thị giác", "Hội chứng Serotonin khi dùng chung thuốc ức chế tái hấp thu serotonin (SSRI) do Linezolid ức chế MAO yếu"],
+    "contraindications": ["Đang dùng thuốc IMAO hoặc hội chứng serotonin chưa kiểm soát"],
+    "notes": "Sinh khả dụng đường uống đạt gần 100%, giúp chuyển đổi từ đường tiêm sang đường uống (IV-to-PO) rất thuận lợi với cùng liều 600mg mỗi 12 giờ."
+  },
+  {
+    "id": "daptomycin",
+    "name": "Daptomycin",
+    "class": "Lipopeptide vòng",
+    "aware": "Reserve",
+    "brandNames": ["Cubicin"],
+    "mechanism": "Phụ thuộc ion Ca2+, chèn đuôi lipid vào màng tế bào vi khuẩn Gram dương gây khử cực màng nhanh chóng, làm thoát ion K+ nội bào, đình chỉ tổng hợp ADN, ARN, protein và diệt khuẩn nhanh.",
+    "spectrum": "Vi khuẩn Gram dương hiếu khí: MRSA, VISA, VRSA và Enterococcus kháng vancomycin (VRE).",
+    "indications": [
+      "Nhiễm khuẩn huyết và viêm nội tâm mạc tim phải do S. aureus (MSSA/MRSA)",
+      "Nhiễm khuẩn da và cấu trúc da phức tạp",
+      "Nhiễm khuẩn huyết do VRE (thường dùng liều cao 8–12 mg/kg/ngày)"
+    ],
+    "dosing": "EUCAST: 4–6 mg/kg IV x 1 lần/ngày (với nhiễm khuẩn huyết nặng do S. aureus hoặc VRE thường dùng 8–12 mg/kg IV mỗi 24h).",
+    "sideEffects": ["Tăng men cơ CPK, đau cơ, tiêu cơ vân (cần theo dõi CPK hàng tuần)", "Viêm phổi tăng bạch cầu ái toan (hiếm)"],
+    "contraindications": ["KHÔNG dùng điều trị viêm phổi vì Daptomycin bị chất diện hoạt (surfactant) ở phế nang gắn kết và bất hoạt hoàn toàn"],
+    "notes": "Lưu ý lâm sàng kinh điển: Tuyệt đối không dùng Daptomycin cho viêm phổi do MRSA (chọn Vancomycin hoặc Linezolid thay thế)."
+  },
+  {
+    "id": "ciprofloxacin",
+    "name": "Ciprofloxacin",
+    "class": "Fluoroquinolone",
+    "aware": "Watch",
+    "brandNames": ["Ciprobay", "Cipro"],
+    "mechanism": "Ức chế enzyme ADN gyrase (topoisomerase II – đích chính ở vi khuẩn Gram âm) và topoisomerase IV, ngăn cản sự tháo xoắn và sao chép ADN của vi khuẩn (diệt khuẩn phụ thuộc nồng độ).",
+    "spectrum": "Trực khuẩn Gram âm Enterobacterales (E. coli, Salmonella, Shigella), Pseudomonas aeruginosa, Vibrio cholerae, Campylobacter, Neisseria. Hoạt tính trên phế cầu (S. pneumoniae) yếu.",
+    "indications": [
+      "Viêm thận-bể thận cấp, nhiễm khuẩn đường tiết niệu phức tạp (cUTI) và viêm tuyến tiền liệt (hoặc hạ bậc đường uống cho ESBL-E/AmpC-E khi nhạy cảm)",
+      "Nhiễm khuẩn do Pseudomonas aeruginosa (kháng sinh đường uống hiếm hoi có tác dụng trên trực khuẩn mủ xanh)",
+      "Tiêu chảy nhiễm trùng nặng, sốt thương hàn (nếu còn nhạy cảm)"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang: 500 mg PO/IV mỗi 12h (hoặc 400mg IV q12h). cUTI / Nhiễm khuẩn ngoài đường niệu: 500–750 mg PO mỗi 12h hoặc 400 mg IV mỗi 8–12h. EUCAST Liều cao (P. aeruginosa – luôn trả 'I'): 0.75g PO x 2 lần/ngày hoặc 0.4g IV x 3 lần/ngày.",
+    "sideEffects": ["Viêm gân, đứt gân gót Achilles", "Kéo dài khoảng QT trên điện tâm đồ", "Rối loạn đường huyết, bệnh thần kinh ngoại biên, kích thích thần kinh trung ương", "Tổn thương sụn tiếp hợp trên động vật non"],
+    "contraindications": ["Tiền sử viêm/đứt gân do quinolone", "Bệnh nhược cơ (Myasthenia gravis – làm nặng tình trạng yếu cơ)"],
+    "notes": "Sinh khả dụng đường uống cao (~70–80%). Không uống cùng lúc với antacid chứa Al3+/Mg2+, sắt, calci, kẽm vì tạo phức chelat làm giảm hấp thu mạnh. WHO BPPL 2024 xếp Salmonella Typhi, Shigella và Non-typhoidal Salmonella kháng fluoroquinolone vào nhóm Ưu tiên Cao (High Priority)."
+  },
+  {
+    "id": "levofloxacin",
+    "name": "Levofloxacin",
+    "class": "Fluoroquinolone (Hô hấp)",
+    "aware": "Watch",
+    "brandNames": ["Tavanic", "Cravit"],
+    "mechanism": "Đồng phân quang học L-isomer của ofloxacin; ức chế đồng thời cả ADN gyrase và topoisomerase IV mạnh hơn Ciprofloxacin trên cầu khuẩn Gram dương.",
+    "spectrum": "Trực khuẩn Gram âm (Enterobacterales, P. aeruginosa, H. influenzae, Stenotrophomonas maltophilia), cầu khuẩn Gram dương (S. pneumoniae) và vi khuẩn không điển hình (Mycoplasma, Chlamydia, Legionella).",
+    "indications": [
+      "Viêm phổi cộng đồng và viêm phổi bệnh viện",
+      "Viêm thận-bể thận cấp, cUTI, viêm tuyến tiền liệt và điều trị hạ bậc đường uống cho ESBL-E/AmpC-E",
+      "Nhiễm khuẩn do Stenotrophomonas maltophilia (luôn dùng trong phác đồ phối hợp 2 thuốc theo IDSA 2024)"
+    ],
+    "dosing": "IDSA 2024 & EUCAST: 750 mg IV hoặc PO mỗi 24 giờ (EUCAST Liều cao cho P. aeruginosa hoặc S. pneumoniae: 0.5g IV/PO x 2 lần/ngày hoặc 0.75g x 1 lần/ngày).",
+    "sideEffects": ["Viêm/đứt gân Achilles", "Kéo dài khoảng QT, hạ/tăng đường huyết", "Mất ngủ, kích động, lú lẫn ở người cao tuổi"],
+    "contraindications": ["Bệnh nhược cơ", "Tiền sử đứt gân do fluoroquinolone"],
+    "notes": "Sinh khả dụng đường uống đạt ~99% (liều uống và liều tiêm tĩnh mạch tương đương 1:1). Trong S. maltophilia, IDSA 2024 khuyến cáo không dùng Levofloxacin đơn trị vì bơm đẩy SmeDEF nhanh chóng được cảm ứng gây kháng thuốc."
+  },
+  {
+    "id": "amikacin",
+    "name": "Amikacin (và Gentamicin / Tobramycin)",
+    "class": "Aminoglycoside",
+    "aware": "Access",
+    "brandNames": ["Amikin", "Gentamycin", "Nebcin"],
+    "mechanism": "Vận chuyển qua màng phụ thuộc oxy vào nội bào, gắn không thuận nghịch vào tiểu đơn vị 30S của ribosom gây đọc sai mã di truyền mARN tạo protein bất thường làm hỏng màng tế bào (diệt khuẩn nhanh phụ thuộc nồng độ Cmax/MIC và có tác dụng hậu kháng sinh PAE kéo dài).",
+    "spectrum": "Trực khuẩn Gram âm hiếu khí (Enterobacterales, P. aeruginosa, A. baumannii) và Mycobacterium tuberculosis (Amikacin). Không có tác dụng trên vi khuẩn kỵ khí (do cần oxy để vận chuyển qua màng). Phối hợp hiệp đồng với β-lactam/Vancomycin trên cầu khuẩn Gram dương.",
+    "indications": [
+      "Viêm bàng quang không biến chứng do ESBL-E/CRE (dùng 1 liều duy nhất)",
+      "Viêm thận-bể thận và cUTI do Gram âm đa kháng (dùng 1 lần/ngày)",
+      "Phối hợp hiệp đồng trong viêm nội tâm mạc nhiễm khuẩn"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang: Amikacin 15 mg/kg IV x 1 liều duy nhất (Gentamicin/Tobramycin 5 mg/kg x 1 liều). cUTI / Nhiễm khuẩn khác: Amikacin 15–20 mg/kg IV mỗi 24h (Gentamicin/Tobramycin 5–7 mg/kg IV mỗi 24h) kèm theo dõi TDM.",
+    "sideEffects": ["Độc thận (hoại tử ống thận cấp – có khả năng hồi phục)", "Độc tai tiền đình và ốc tai (điếc không hồi phục)", "Ức chế dẫn truyền thần kinh-cơ"],
+    "contraindications": ["Bệnh nhược cơ", "Thận trọng tối đa ở bệnh nhân suy thận và phụ nữ mang thai"],
+    "notes": "IDSA 2024 & EUCAST v16.1: Aminoglycoside tập trung nồng độ rất cao tại nhu mô thận và nước tiểu nhưng kém hiệu quả khi dùng đơn độc cho nhiễm khuẩn ngoài đường tiết niệu (viêm phổi, ổ bụng). Stenotrophomonas maltophilia mang enzyme acetyltransferase nội tại kháng Aminoglycoside."
+  },
+  {
+    "id": "doxycycline",
+    "name": "Doxycycline",
+    "class": "Tetracycline",
+    "aware": "Access",
+    "brandNames": ["Vibramycin", "Doxyhexal"],
+    "mechanism": "Gắn thuận nghịch vào tiểu đơn vị 30S của ribosom, ngăn cản aminoacyl-tRNA gắn vào vị trí A (Acceptor) trên phức hợp mARN-ribosom, từ đó ức chế kéo dài chuỗi polypeptid (kìm khuẩn).",
+    "spectrum": "Phổ rộng: Vi khuẩn nội bào và không điển hình (Chlamydia trachomatis, Ureaplasma urealyticum, Mycoplasma pneumoniae, Rickettsia), Vibrio cholerae, xoắn khuẩn (T. pallidum, Borrelia), MRSA cộng đồng.",
+    "indications": [
+      "Nhiễm khuẩn sinh dục do Chlamydia trachomatis, bệnh Nicolas-Favre (LGV) và Ureaplasma urealyticum",
+      "Bệnh tả (Vibrio cholerae)",
+      "Thay thế Penicillin ở bệnh nhân giang mai dị ứng penicillin (không mang thai)",
+      "Sốt mò (Orientia tsutsugamushi), bệnh dịch hạch, mụn trứng cá"
+    ],
+    "dosing": "EUCAST: 100 mg PO x 2 lần/ngày (hoặc ngày đầu 200 mg, sau đó 100–200 mg x 1 lần/ngày).",
+    "sideEffects": ["Nhạy cảm ánh sáng (bỏng nắng da)", "Viêm loét thực quản (cần uống với nhiều nước và giữ tư thế đứng/ngồi 30 phút)", "Gắn vào mô xương và răng đang phát triển gây xỉn màu men răng vĩnh viễn ở trẻ nhỏ"],
+    "contraindications": ["Phụ nữ có thai, trẻ em dưới 8 tuổi (trừ chỉ định bắt buộc như sốt mò/rickettsia)"],
+    "notes": "Thải trừ chủ yếu qua đường mật-phân nên an toàn hơn các tetracycline cổ điển ở bệnh nhân suy thận."
+  },
+  {
+    "id": "minocycline",
+    "name": "Minocycline (và Tigecycline / Eravacycline)",
+    "class": "Tetracycline / Glycylcycline",
+    "aware": "Reserve",
+    "brandNames": ["Minocin", "Tygacil (Tigecycline)", "Xerava (Eravacycline)"],
+    "mechanism": "Gắn tiểu đơn vị 30S ribosom với ái lực rất cao; ít bị ảnh hưởng bởi các bơm đẩy đặc hiệu với tetracycline cổ điển (như TetB ở A. baumannii) và protein bảo vệ ribosom.",
+    "spectrum": "Acinetobacter baumannii kháng carbapenem (CRAB), Stenotrophomonas maltophilia, CRE (Tigecycline/Eravacycline), MRSA và VRE. (Lưu ý: Tigecycline/Eravacycline KHÔNG có tác dụng trên Pseudomonas aeruginosa, Proteus, Providencia và Morganella).",
+    "indications": [
+      "Nhiễm khuẩn do CRAB (Minocycline liều cao hoặc Tigecycline liều cao phối hợp với Sulbactam)",
+      "Nhiễm khuẩn do Stenotrophomonas maltophilia (Minocycline liều cao phối hợp thuốc thứ 2)",
+      "Nhiễm khuẩn ổ bụng / da mô mềm do CRE (Tigecycline liều cao hoặc Eravacycline thay thế)"
+    ],
+    "dosing": "IDSA 2024 (Liều cao cho AMR): Minocycline 200 mg PO/IV mỗi 12 giờ. Tigecycline liều cao: Liều nạp 200 mg IV, sau đó 100 mg IV mỗi 12 giờ. Eravacycline: 1 mg/kg IV mỗi 12 giờ.",
+    "sideEffects": ["Buồn nôn và nôn (rất phổ biến với Tigecycline)", "Chóng mặt, rối loạn tiền đình (Minocycline)", "Tăng men gan, viêm tụy cấp"],
+    "contraindications": ["Tránh dùng đơn độc cho nhiễm khuẩn huyết hoặc nhiễm khuẩn đường tiết niệu (do Tigecycline/Eravacycline/Minocycline phân bố nhanh vào mô làm nồng độ trong máu và nước tiểu rất thấp)"],
+    "notes": "IDSA 2024 ưu tiên Minocycline liều cao (200mg q12h) hơn Tigecycline trong điều trị CRAB và S. maltophilia vì dung nạp tiêu hóa tốt hơn, có cả dạng uống và có breakpoint CLSI rõ ràng."
+  },
+  {
+    "id": "azithromycin",
+    "name": "Azithromycin (và Erythromycin / Clarithromycin)",
+    "class": "Macrolide",
+    "aware": "Watch",
+    "brandNames": ["Zithromax", "Erythrocin", "Klacid"],
+    "mechanism": "Gắn thuận nghịch vào tiểu đơn vị 50S của ribosom (23S rRNA), ức chế quá trình chuyển vị (translocation) của peptidyl-tRNA từ vị trí A sang vị trí P, làm ngừng kéo dài chuỗi peptid.",
+    "spectrum": "Cầu khuẩn Gram dương (S. pyogenes, S. pneumoniae nhạy cảm), vi khuẩn không điển hình/nội bào (Chlamydia trachomatis, Mycoplasma, Legionella), Corynebacterium diphtheriae, Bordetella pertussis, Campylobacter jejuni, Haemophilus ducreyi, Shigella/Salmonella.",
+    "indications": [
+      "Viêm phổi cộng đồng (phối hợp β-lactam để bao phủ vi khuẩn không điển hình)",
+      "Bệnh mắt hột và nhiễm khuẩn sinh dục do Chlamydia trachomatis, bệnh hạ cam mềm (H. ducreyi)",
+      "Bạch hầu (C. diphtheriae), ho gà, viêm ruột do Campylobacter jejuni",
+      "Thay thế penicillin ở bệnh nhân dị ứng penicillin"
+    ],
+    "dosing": "EUCAST: Azithromycin 500 mg IV/PO ngày 1, sau đó 250 mg/ngày (hoặc 500 mg/ngày trong 3 ngày; 1g liều duy nhất cho Chlamydia/H. ducreyi).",
+    "sideEffects": ["Rối loạn tiêu hóa (đau bụng, buồn nôn – do kích thích thụ thể motilin, gặp nhiều nhất ở Erythromycin)", "Kéo dài khoảng QT, loạn nhịp thất (Torsades de pointes)", "Viêm gan ứ mật", "Ức chế CYP3A4 mạnh (Erythromycin, Clarithromycin; còn Azithromycin hầu như không ức chế CYP3A4)"],
+    "contraindications": ["Hội chứng QT dài bẩm sinh", "Dùng chung các thuốc kéo dài QT hoặc chất nền CYP3A4 có khoảng điều trị hẹp (với Erythromycin/Clarithromycin)"],
+    "notes": "WHO BPPL 2024 xếp Streptococcus pyogenes (nhóm A) kháng macrolide và Streptococcus pneumoniae kháng macrolide vào nhóm ưu tiên Trung bình (Medium Priority). Cơ chế kháng phổ biến là gen erm (methyl hóa 23S rRNA gây kháng chéo MLSB) hoặc bơm đẩy mef(A)."
+  },
+  {
+    "id": "tmp-smx",
+    "name": "Trimethoprim-sulfamethoxazole (TMP-SMX)",
+    "class": "Sulfonamide + Kháng folate",
+    "aware": "Access",
+    "brandNames": ["Bactrim", "Biseptol", "Cotrimoxazole"],
+    "mechanism": "Ức chế hiệp đồng 2 bước liên tiếp trong chu trình tổng hợp acid tetrahydrofolic (cần cho tổng hợp purin và ADN) của vi khuẩn: Sulfamethoxazole ức chế dihydropteroate synthase (cạnh tranh với PABA); Trimethoprim ức chế dihydrofolate reductase (DHFR).",
+    "spectrum": "Enterobacterales (E. coli, Klebsiella, Enterobacter, Salmonella, Shigella), Stenotrophomonas maltophilia, Staphylococcus aureus (kể cả MRSA cộng đồng), S. pneumoniae, H. influenzae, Burkholderia, Pneumocystis jirovecii. Không có tác dụng trên Pseudomonas aeruginosa và Enterococcus.",
+    "indications": [
+      "Thuốc ưu tiên cho viêm bàng quang, viêm thận-bể thận và điều trị hạ bậc đường uống cho nhiễm khuẩn ESBL-E và AmpC-E (khi nhạy cảm)",
+      "Thuốc trụ cột (phối hợp với thuốc thứ 2) trong điều trị Stenotrophomonas maltophilia (IDSA 2024)",
+      "Nhiễm khuẩn da và mô mềm do MRSA cộng đồng",
+      "Điều trị và dự phòng viêm phổi do Pneumocystis jirovecii (PCP)"
+    ],
+    "dosing": "IDSA 2024 (tính theo thành phần Trimethoprim): Viêm bàng quang: 160 mg TMP (1 viên DS 160/800mg) PO mỗi 12h. Nhiễm khuẩn khác (ESBL-E/AmpC-E/CRE): 8–12 mg/kg/ngày (tính theo TMP) IV/PO chia mỗi 8–12h. Với S. maltophilia: 8–12 mg/kg/ngày (TMP) IV/PO chia mỗi 8–12h (tối đa 960mg TMP/ngày).",
+    "sideEffects": ["Tăng kali máu (do Trimethoprim ức chế kênh Na+ ENaC ở ống góp tương tự amiloride)", "Tăng giả tạo creatinin huyết thanh (do ức chế bài tiết creatinin ở ống thận) và tổn thương thận cấp thực sự", "Phản ứng da nặng (Hội chứng Stevens-Johnson / TEN)", "Thiếu máu nguyên hồng cầu khổng lồ, giảm bạch cầu/tiểu cầu, tan máu ở người thiếu men G6PD"],
+    "contraindications": ["Thiếu hụt G6PD nặng", "Phụ nữ mang thai 3 tháng đầu và cuối thai kỳ, trẻ sơ sinh < 6 tuần tuổi (nguy cơ vàng da nhân não)"],
+    "notes": "EUCAST v16.1 đối với Stenotrophomonas maltophilia: TMP-SMX có S ≤ 0.001 mg/L và R > 4 mg/L (nghĩa là chủng hoang dại luôn được trả kết quả 'I' để bắt buộc dùng liều cao)."
+  },
+  {
+    "id": "nitrofurantoin",
+    "name": "Nitrofurantoin",
+    "class": "Nitrofuran (Sát khuẩn tiết niệu)",
+    "aware": "Access",
+    "brandNames": ["Macrobid", "Furadantin"],
+    "mechanism": "Tiền thuốc được các enzyme nitroreductase nội bào của vi khuẩn khử thành các chất trung gian phản ứng cao, tấn công đồng thời vào protein ribosom, ADN, hô hấp tế bào và chuyển hóa pyruvat (đa đích nên rất ít phát sinh kháng thuốc).",
+    "spectrum": "E. coli (kể cả chủng tiết ESBL và CRE), Staphylococcus saprophyticus, Enterococcus faecalis (kể cả VRE). Kháng tự nhiên ở Proteus, Providencia, Morganella, Serratia, Pseudomonas và Acinetobacter.",
+    "indications": [
+      "Lựa chọn ưu tiên số 1 cho viêm bàng quang cấp không biến chứng (kể cả do ESBL-E hoặc CRE theo IDSA 2024)"
+    ],
+    "dosing": "IDSA 2024: Dạng macrocrystal/monohydrate (Macrobid): 100 mg PO mỗi 12 giờ trong 5 ngày.",
+    "sideEffects": ["Buồn nôn, nước tiểu sẫm màu", "Viêm phổi kẽ / xơ phổi khi dùng dự phòng kéo dài", "Bệnh thần kinh ngoại biên, tan máu ở người thiếu men G6PD"],
+    "contraindications": ["KHÔNG dùng cho viêm thận-bể thận, nhiễm khuẩn đường tiết niệu có sốt hoặc nhiễm khuẩn huyết (vì nồng độ thuốc trong máu và nhu mô thận rất thấp)", "Suy thận (tránh dùng khi CrCl < 30 mL/phút)"],
+    "notes": "IDSA 2024 nhấn mạnh: Chỉ sử dụng Nitrofurantoin cho viêm bàng quang dưới không biến chứng; tuyệt đối không dùng cho viêm thận-bể thận hoặc viêm tuyến tiền liệt."
+  },
+  {
+    "id": "fosfomycin",
+    "name": "Fosfomycin",
+    "class": "Dẫn xuất Acid Phosphonic",
+    "aware": "Watch",
+    "brandNames": ["Monurol (PO)", "Fomicyt (IV)"],
+    "mechanism": "Chất tương tự phosphoenolpyruvate (PEP), gắn bất hoạt không thuận nghịch enzyme MurA (UDP-N-acetylglucosamine enolpyruvyl transferase), ức chế bước đầu tiên của quá trình tổng hợp peptidoglycan vách tế bào.",
+    "spectrum": "Escherichia coli (kể cả chủng tiết ESBL và KPC), Enterococcus faecalis, Staphylococcus. Lưu ý: Klebsiella spp., Enterobacter spp., Serratia marcescens và P. aeruginosa thường mang sẵn gen fosA trên nhiễm sắc thể làm thủy phân Fosfomycin.",
+    "indications": [
+      "Viêm bàng quang không biến chứng do E. coli tiết ESBL (lựa chọn thay thế dùng 1 liều uống duy nhất 3g)"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang không biến chứng (chỉ dùng cho E. coli): 3g PO pha nước uống 1 liều duy nhất.",
+    "sideEffects": ["Tiêu chảy, buồn nôn, đau đầu", "Dạng truyền tĩnh mạch (IV) chứa hàm lượng Natri rất cao gây quá tải dịch và hạ kali máu"],
+    "contraindications": ["Không dùng Fosfomycin đường uống cho viêm thận-bể thận hoặc cho viêm bàng quang do Klebsiella pneumoniae / Enterobacter (do mang gen fosA nội tại)"],
+    "notes": "IDSA 2024: Chỉ khuyến cáo Fosfomycin đường uống cho viêm bàng quang do E. coli (không dùng cho Klebsiella hay các Enterobacterales khác vì gen fosA nội tại gây thất bại lâm sàng)."
+  },
+  {
+    "id": "polymyxin-b",
+    "name": "Polymyxin B (và Colistin / Polymyxin E)",
+    "class": "Polymyxin (Polypeptide vòng)",
+    "aware": "Reserve",
+    "brandNames": ["Coly-Mycin M (Colistimethate sodium - CMS)", "Poly-Rx"],
+    "mechanism": "Chất diện hoạt tích điện dương (cationic detergent) gắn vào thành phần Lipid A tích điện âm của lipopolysaccharide (LPS) màng ngoài vi khuẩn Gram âm, đẩy các cầu nối Ca2+/Mg2+, làm thủng màng ngoài và màng bào tương gây thoát chất nội bào và ly giải vi khuẩn.",
+    "spectrum": "Trực khuẩn Gram âm đa kháng: Acinetobacter baumannii (CRAB), Pseudomonas aeruginosa, Enterobacterales (Klebsiella, E. coli, Enterobacter). KHÁNG TỰ NHIÊN trên toàn bộ vi khuẩn Gram dương, kỵ khí và các Gram âm: Proteus, Providencia, Morganella, Serratia marcescens, Burkholderia, Neisseria.",
+    "indications": [
+      "Phối hợp với Ampicillin-sulbactam trong điều trị CRAB khi không có Sulbactam-durlobactam (ưu tiên Polymyxin B cho nhiễm khuẩn toàn thân; ưu tiên Colistin cho nhiễm khuẩn đường tiết niệu)",
+      "Viêm bàng quang do CRE/DTR-PA khi không còn lựa chọn khác (dùng Colistin)"
+    ],
+    "dosing": "IDSA 2024: Polymyxin B (ưu tiên cho nhiễm khuẩn toàn thân vì là thuốc có hoạt tính ngay, PK ổn định, không cần chỉnh liều theo thận): Liều nạp 2.0–2.5 mg/kg IV, sau đó 1.25–1.5 mg/kg IV mỗi 12 giờ. Colistin (CMS là tiền thuốc chuyển hóa thành colistin trong nước tiểu – chỉ ưu tiên cho nhiễm khuẩn tiết niệu): tương đương 300 mg CBA nạp, sau đó duy trì theo CrCl.",
+    "sideEffects": ["Độc thận tỷ lệ rất cao (30–50%)", "Độc thần kinh (dị cảm quanh miệng, chóng mặt, ức chế thần kinh-cơ gây ngừng thở)"],
+    "contraindications": ["Quá mẫn với polymyxin; tránh dùng cho CRE hoặc DTR P. aeruginosa nếu các β-lactam thế hệ mới còn nhạy cảm"],
+    "notes": "Cả CLSI và EUCAST đều có lưu ý đặc biệt: Polymyxin B và Colistin khuếch tán rất kém trên thạch nên KHÔNG ĐƯỢC dùng phương pháp khuếch tán đĩa giấy hay Etest mà bắt buộc phải đo MIC bằng vi pha loãng trong canh thang (broth microdilution). Cơ chế kháng truyền ngang đáng sợ là gen mcr-1 gắn phosphoethanolamine vào Lipid A."
+  },
+  {
+    "id": "rifampicin",
+    "name": "Rifampicin (và Isoniazid / Phác đồ kháng lao)",
+    "class": "Rifamycin (Kháng lao)",
+    "aware": "Watch",
+    "brandNames": ["Rifadin", "Rimactane"],
+    "mechanism": "Rifampicin gắn chặt vào tiểu đơn vị β (mã hóa bởi gen rpoB) của enzyme ARN polymerase phụ thuộc ADN của vi khuẩn, ngăn cản sự khởi đầu tổng hợp chuỗi mARN. (Isoniazid là tiền thuốc được catalase-peroxidase KatG hoạt hóa, ức chế InhA ngăn tổng hợp acid mycolic của vách tế bào vi khuẩn lao).",
+    "spectrum": "Mycobacterium tuberculosis, Mycobacterium leprae (bệnh phong), cầu khuẩn Gram dương (Staphylococcus) và Neisseria meningitidis / H. influenzae (dự phòng người tiếp xúc).",
+    "indications": [
+      "Thuốc trụ cột trong phác đồ điều trị bệnh Lao (Mycobacterium tuberculosis) nhạy cảm (phối hợp HRZE)",
+      "Phác đồ đa hóa trị liệu bệnh Phong (Mycobacterium leprae – phối hợp Rifampicin + Dapsone + Clofazimine)",
+      "Dự phòng viêm màng não do N. meningitidis hoặc H. influenzae cho người tiếp xúc gần"
+    ],
+    "dosing": "Lao nhạy cảm: Rifampicin 10 mg/kg/ngày (thường 450–600 mg PO x 1 lần/ngày lúc đói) phối hợp Isoniazid 5 mg/kg, Pyrazinamide, Ethambutol.",
+    "sideEffects": ["Nhuộm màu đỏ-cam nước tiểu, nước mắt, mồ hôi", "Độc gan (viêm gan tăng cao khi phối hợp Isoniazid và Pyrazinamide)", "Cảm ứng cực mạnh hệ enzyme gan CYP450 (CYP3A4, CYP2C9...) và P-gp làm giảm nồng độ hàng loạt thuốc dùng kèm (thuốc kháng HIV, thuốc chống đông, thuốc tránh thai)", "Hội chứng giả cúm, giảm tiểu cầu miễn dịch"],
+    "contraindications": ["Vàng da, suy gan cấp", "KHÔNG BAO GIỜ dùng Rifampicin đơn trị để điều trị nhiễm trùng đang hoạt động vì đột biến điểm trên gen rpoB xuất hiện cực kỳ nhanh"],
+    "notes": "WHO BPPL 2024 xếp Mycobacterium tuberculosis kháng Rifampicin (RR-TB, chủ yếu do đột biến vùng RRDR của gen rpoB, phát hiện nhanh bằng Xpert MTB/RIF) vào nhóm ưu tiên Nguy cấp (Critical Priority). IDSA 2024 cũng khuyến cáo KHÔNG thêm Rifampicin vào phác đồ điều trị CRAB vì không cải thiện tử vong mà tăng độc gan."
+  },
+  {
+    "id": "imipenem",
+    "name": "Imipenem-cilastatin",
+    "class": "Carbapenem",
+    "aware": "Watch",
+    "brandNames": ["Tienam", "Primaxin"],
+    "mechanism": "Imipenem gắn ái lực cao vào PBP1a, PBP1b và PBP2 làm ly giải nhanh tế bào vi khuẩn; bền vững trước ESBL và AmpC. Cilastatin là chất ức chế đặc hiệu enzyme dehydropeptidase-I (DHP-I) ở bờ bàn chải ống lượn gần của thận, ngăn Imipenem bị phân hủy và giảm độc tính trên thận.",
+    "spectrum": "Trực khuẩn Gram âm (Enterobacterales kể cả ESBL-E và AmpC-E, Pseudomonas aeruginosa, Acinetobacter nhạy cảm), cầu khuẩn Gram dương (MSSA, Streptococcus, Enterococcus faecalis) và vi khuẩn kỵ khí (Bacteroides fragilis). Lưu ý: Proteus, Providencia, Morganella giảm nhạy cảm tự nhiên với Imipenem.",
+    "indications": [
+      "Thuốc ưu tiên cho nhiễm khuẩn huyết / ngoài đường tiết niệu do ESBL-E và AmpC-E (đặc biệt ở bệnh nhân nguy kịch hoặc giảm albumin máu < 2.5 g/dL)",
+      "Phối hợp với Sulbactam-durlobactam trong phác đồ điều trị CRAB (IDSA 2024)",
+      "Viêm phổi bệnh viện, nhiễm khuẩn ổ bụng phức tạp, sốt giảm bạch cầu hạt"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang / ESBL-E / AmpC-E: 500 mg IV mỗi 6h (truyền 30 phút). Với CRE (Ertapenem-R, Imipenem-S, không sinh carbapenemase): 500 mg IV mỗi 6h truyền kéo dài 3 giờ. EUCAST Liều cao (P. aeruginosa – luôn trả 'I'): 1 g IV mỗi 6h (4 lần/ngày) truyền 30 phút.",
+    "sideEffects": ["Buồn nôn, nôn (khi truyền nhanh)", "Nguy cơ co giật cao hơn Meropenem (đặc biệt ở người có tổn thương thần kinh trung ương hoặc suy thận không chỉnh liều)", "Giảm mạnh nồng độ Acid Valproic huyết tương"],
+    "contraindications": ["Quá mẫn nặng với carbapenem", "Thận trọng tối đa ở bệnh nhân viêm màng não hoặc tiền sử động kinh (ưu tiên chọn Meropenem hơn)"],
+    "notes": "EUCAST v16.1: Trên Pseudomonas aeruginosa, Imipenem có ngưỡng S ≤ 0.001 mg/L và R > 4 mg/L (luôn phiên giải chủng nhạy là 'I' để bắt buộc dùng liều cao 1g x 4 lần/ngày). Họ Morganellaceae (Proteus, Providencia, Morganella) có cơ chế giảm nhạy Imipenem nội tại do PBP."
+  },
+  {
+    "id": "cefotaxime",
+    "name": "Cefotaxime",
+    "class": "Cephalosporin thế hệ 3",
+    "aware": "Watch",
+    "brandNames": ["Claforan"],
+    "mechanism": "Gắn các PBP ức chế tổng hợp peptidoglycan vách tế bào; bền với penicillinase thông thường nhưng bị thủy phân bởi ESBL, AmpC và Carbapenemase. Thải trừ qua thận nên không gây bùn mật hay kết tủa calci như Ceftriaxone.",
+    "spectrum": "Enterobacterales (E. coli, Klebsiella, Salmonella, Shigella), H. influenzae, N. meningitidis, N. gonorrhoeae, Streptococcus pneumoniae, S. pyogenes, S. agalactiae. Không có tác dụng trên P. aeruginosa và Enterococcus.",
+    "indications": [
+      "Viêm màng não mủ và nhiễm khuẩn huyết ở trẻ sơ sinh (ưu tiên hơn Ceftriaxone vì an toàn ở trẻ sơ sinh)",
+      "Viêm màng não mủ do phế cầu, não mô cầu, H. influenzae",
+      "Viêm phúc mạc nhiễm khuẩn nguyên phát ở bệnh nhân xơ gan"
+    ],
+    "dosing": "EUCAST Liều chuẩn: 1 g IV x 3 lần/ngày. Liều cao (I / Viêm màng não mủ): 2 g IV x 3–4 lần/ngày (tới 2g mỗi 4h).",
+    "sideEffects": ["Viêm tĩnh mạch tại chỗ tiêm, tiêu chảy", "Phản ứng dị ứng beta-lactam, giảm bạch cầu hạt thoáng qua"],
+    "contraindications": ["Quá mẫn nặng với cephalosporin"],
+    "notes": "Là Cephalosporin thế hệ 3 được ưu tiên lựa chọn ở trẻ sơ sinh (thay vì Ceftriaxone) vì không đẩy bilirubin khỏi albumin huyết tương và không tạo tủa với dịch truyền chứa calci."
+  },
+  {
+    "id": "tigecycline",
+    "name": "Tigecycline",
+    "class": "Glycylcycline (Dẫn xuất Tetracycline)",
+    "aware": "Reserve",
+    "brandNames": ["Tygacil"],
+    "mechanism": "Dẫn xuất 9-t-butylglycylamido của minocycline; gắn vào tiểu đơn vị 30S của ribosom mạnh gấp 5 lần tetracycline cổ điển, vượt qua được cả hai cơ chế kháng tetracycline phổ biến là bơm đẩy đặc hiệu (tetA–E, tetK) và protein bảo vệ ribosom (tetM).",
+    "spectrum": "Phổ rất rộng: CRE, Acinetobacter baumannii (CRAB), Stenotrophomonas maltophilia, MRSA, VRE và vi khuẩn kỵ khí. KHÁNG TỰ NHIÊN (do bơm đẩy RND): Pseudomonas aeruginosa, Proteus spp., Providencia spp., Morganella morganii.",
+    "indications": [
+      "Nhiễm khuẩn ổ bụng phức tạp và nhiễm khuẩn da – mô mềm phức tạp do CRE (lựa chọn thay thế theo IDSA 2024)",
+      "Phối hợp trong phác đồ điều trị CRAB và S. maltophilia (luôn dùng chế độ LIỀU CAO theo IDSA 2024)"
+    ],
+    "dosing": "IDSA 2024 (Liều cao cho Gram âm đa kháng): Liều nạp 200 mg IV, sau đó duy trì 100 mg IV mỗi 12 giờ (gấp đôi liều chuẩn 100mg nạp / 50mg mỗi 12h trong tờ hướng dẫn gốc).",
+    "sideEffects": ["Buồn nôn và nôn tỷ lệ rất cao (30–40%)", "Viêm tụy cấp, tăng bilirubin và men gan", "Cảnh báo hộp đen (Black-box warning) của FDA về tăng tỷ lệ tử vong khi dùng đơn trị cho viêm phổi thở máy / nhiễm khuẩn huyết"],
+    "contraindications": ["KHÔNG dùng đơn trị cho nhiễm khuẩn huyết (BSI) hoặc nhiễm khuẩn đường tiết niệu (UTI) do thể tích phân bố quá lớn (~7–10 L/kg) làm nồng độ thuốc trong máu (< 1 µg/mL) và nước tiểu cực kỳ thấp"],
+    "notes": "IDSA 2024: Khi phải dùng Tigecycline cho CRAB, CRE hoặc S. maltophilia, bắt buộc dùng chế độ LIỀU CAO (nạp 200mg, duy trì 100mg mỗi 12h) để cải thiện fAUC/MIC tại mô phổi và ổ bụng."
+  },
+  {
+    "id": "eravacycline",
+    "name": "Eravacycline",
+    "class": "Fluorocycline tổng hợp hoàn toàn",
+    "aware": "Reserve",
+    "brandNames": ["Xerava"],
+    "mechanism": "Tetracycline tổng hợp có gắn nguyên tử Fluor ở vị trí C7 và nhóm pyrrolidinoacetamido ở C9; gắn tiểu đơn vị 30S ribosom ức chế tổng hợp protein, bền trước các bơm đẩy tetracycline và enzyme tet(X) mức độ thấp.",
+    "spectrum": "Enterobacterales kháng carbapenem (CRE kể cả KPC, NDM, OXA-48), CRAB, S. maltophilia, MRSA, VRE và vi khuẩn kỵ khí. Không có tác dụng trên Pseudomonas aeruginosa.",
+    "indications": [
+      "Nhiễm khuẩn ổ bụng phức tạp (cIAI) do CRE (lựa chọn thay thế khi không dùng được β-lactam mới hoặc chủng sinh MBL)"
+    ],
+    "dosing": "IDSA 2024: 1 mg/kg IV mỗi 12 giờ (truyền trong 60 phút; nếu dùng chung thuốc cảm ứng mạnh CYP3A4 như rifampicin thì tăng lên 1.5 mg/kg mỗi 12h).",
+    "sideEffects": ["Buồn nôn, nôn (nhưng tỷ lệ thấp hơn Tigecycline)", "Viêm tĩnh mạch tại chỗ tiêm"],
+    "contraindications": ["Không dùng đơn trị cho nhiễm khuẩn huyết hoặc nhiễm khuẩn đường tiết niệu (thất bại trong thử nghiệm lâm sàng cUTI IGNITE3 do nồng độ trong nước tiểu thấp)"],
+    "notes": "IDSA 2024: Eravacycline có MIC in vitro thấp hơn Tigecycline từ 2–4 lần trên CRE và CRAB, nhưng dữ liệu lâm sàng trên CRAB còn hạn chế."
+  },
+  {
+    "id": "colistin",
+    "name": "Colistin (Polymyxin E / Colistimethate sodium)",
+    "class": "Polymyxin (Polypeptide vòng)",
+    "aware": "Reserve",
+    "brandNames": ["Coly-Mycin M", "Colomycin"],
+    "mechanism": "Được tiêm tĩnh mạch dưới dạng tiền thuốc không có hoạt tính là Colistimethate sodium (CMS). Trong cơ thể và đặc biệt là trong đường tiết niệu, CMS thủy phân thành Colistin tích điện dương gắn vào Lipid A của LPS màng ngoài Gram âm, làm thủng màng ngoài và màng bào tương.",
+    "spectrum": "CRAB, CRE, Pseudomonas aeruginosa đa kháng. Kháng tự nhiên ở mọi vi khuẩn Gram dương, kỵ khí và Proteus, Providencia, Morganella, Serratia marcescens, Burkholderia, Neisseria.",
+    "indications": [
+      "Viêm bàng quang hoặc nhiễm khuẩn đường tiết niệu do CRE, DTR-PA hoặc CRAB khi không còn lựa chọn an toàn hơn (IDSA 2024 ưu tiên Colistin hơn Polymyxin B riêng cho nhiễm khuẩn đường tiết niệu)"
+    ],
+    "dosing": "IDSA 2024: Liều nạp tương đương 300 mg Colistin Base Activity (CBA, ~9 triệu đơn vị IU) truyền trong 30–60 phút; liều duy trì bắt đầu sau 12–24h tùy theo độ thanh thải creatinin (1 MU ≈ 33 mg CBA ≈ 80 mg CMS).",
+    "sideEffects": ["Độc thận cấp tính tỷ lệ rất cao (40–50%)", "Độc thần kinh (dị cảm mặt, yếu cơ, ức chế hô hấp)"],
+    "contraindications": ["Tránh dùng cho nhiễm khuẩn ngoài đường tiết niệu nếu có sẵn Polymyxin B hoặc các β-lactam mới"],
+    "notes": "IDSA 2024 phân biệt rõ: Với nhiễm khuẩn toàn thân (viêm phổi, nhiễm khuẩn huyết), ưu tiên chọn Polymyxin B hơn Colistin vì CMS chuyển hóa thành colistin trong máu rất chậm và phụ thuộc chức năng thận; ngược lại, khoảng 60–70% CMS được lọc qua cầu thận và chuyển thành colistin có hoạt tính ngay trong nước tiểu nên Colistin được ưu tiên hơn Polymyxin B cho nhiễm khuẩn đường tiết niệu dưới."
+  },
+  {
+    "id": "plazomicin",
+    "name": "Plazomicin",
+    "class": "Aminoglycoside thế hệ mới (Neoglycoside)",
+    "aware": "Reserve",
+    "brandNames": ["Zemdri"],
+    "mechanism": "Bán tổng hợp từ sisomicin với các nhóm thế bảo vệ giúp không bị bất hoạt bởi hầu hết các enzyme biến đổi aminoglycoside (AMEs: acetyltransferase AAC, phosphotransferase APH, nucleotidyltransferase ANT) ở Enterobacterales. Tuy nhiên vẫn bị kháng nếu vi khuẩn mang 16S rRNA methyltransferase (như armA, rmtB thường đi kèm gen blaNDM). Gắn tiểu đơn vị 30S ribosom diệt khuẩn.",
+    "spectrum": "Enterobacterales đa kháng (ESBL-E và CRE sinh KPC hoặc OXA-48). Hoạt tính trên Pseudomonas aeruginosa và Acinetobacter baumannii không vượt trội so với Amikacin/Tobramycin.",
+    "indications": [
+      "Viêm thận-bể thận và nhiễm khuẩn đường tiết niệu phức tạp (cUTI) do ESBL-E hoặc CRE",
+      "Viêm bàng quang do CRE (dùng 1 liều duy nhất)"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang: 15 mg/kg IV x 1 liều duy nhất. cUTI: 15 mg/kg IV mỗi 24 giờ (truyền 30 phút, theo dõi TDM).",
+    "sideEffects": ["Độc thận", "Độc tai (tiền đình – ốc tai)", "Ức chế thần kinh-cơ"],
+    "contraindications": ["Bệnh nhược cơ, phụ nữ mang thai"],
+    "notes": "IDSA 2024: Plazomicin giữ được hoạt tính trên nhiều chủng CRE kháng Gentamicin, Tobramycin và Amikacin (trừ các chủng NDM đồng thời mang 16S rRNA methyltransferase)."
+  },
+  {
+    "id": "gentamicin",
+    "name": "Gentamicin (và Tobramycin)",
+    "class": "Aminoglycoside",
+    "aware": "Access",
+    "brandNames": ["Garamycin", "Nebcin (Tobramycin)"],
+    "mechanism": "Gắn không thuận nghịch vào tiểu đơn vị 30S của ribosom gây đọc sai mã mARN và đình chỉ tổng hợp protein; diệt khuẩn nhanh phụ thuộc nồng độ (Cmax/MIC ≥ 8–10).",
+    "spectrum": "Trực khuẩn Gram âm hiếu khí (Enterobacterales, Pseudomonas aeruginosa – trong đó Tobramycin có hoạt tính mạnh nhất trên P. aeruginosa). Phối hợp hiệp đồng với β-lactam hoặc Vancomycin trên Enterococcus, Streptococcus và Staphylococcus.",
+    "indications": [
+      "Viêm thận-bể thận / cUTI hoặc viêm bàng quang (1 liều duy nhất) do Gram âm nhạy cảm",
+      "Phối hợp hiệp đồng liều thấp với Ampicillin/Penicillin/Vancomycin trong viêm nội tâm mạc nhiễm khuẩn do Enterococcus hoặc Streptococcus",
+      "Nhiễm khuẩn sơ sinh (phối hợp Ampicillin)"
+    ],
+    "dosing": "IDSA 2024: Viêm bàng quang: 5 mg/kg IV x 1 liều duy nhất. cUTI / Nhiễm khuẩn Gram âm: 5–7 mg/kg IV mỗi 24 giờ (truyền 30 phút, chỉnh liều theo TDM). Hiệp đồng Gram dương: Gentamicin 3 mg/kg/ngày.",
+    "sideEffects": ["Độc thận (hoại tử ống thận)", "Độc tai tiền đình và ốc tai không hồi phục", "Phong bế thần kinh-cơ"],
+    "contraindications": ["Nhược cơ, thủng màng nhĩ (với dạng nhỏ tai)"],
+    "notes": "EUCAST v16.1: Tobramycin có MIC thấp hơn Gentamicin 2 lần trên P. aeruginosa (Breakpoint EUCAST cho P. aeruginosa với Tobramycin là S ≤ 2 mg/L, Amikacin là S ≤ 16 mg/L, trong khi Gentamicin không còn được khuyến cáo cho P. aeruginosa)."
+  },
+  {
+    "id": "clindamycin",
+    "name": "Clindamycin",
+    "class": "Lincosamide",
+    "aware": "Access",
+    "brandNames": ["Dalacin C"],
+    "mechanism": "Gắn vào vị trí 23S rRNA trên tiểu đơn vị 50S của ribosom (vị trí chồng lấp với Macrolide và Chloramphenicol), ức chế enzyme peptidyl transferase và làm ngừng tổng hợp protein, đồng thời ức chế mạnh sự sản xuất ngoại độc tố của tụ cầu và liên cầu.",
+    "spectrum": "Cầu khuẩn Gram dương hiếu khí (MSSA, MRSA cộng đồng, Streptococcus pyogenes, S. pneumoniae) và vi khuẩn kỵ khí (đặc biệt là kỵ khí trên cơ hoành, Clostridium perfringens). KHÔNG có tác dụng trên trực khuẩn Gram âm hiếu khí và Enterococcus.",
+    "indications": [
+      "Nhiễm khuẩn da và mô mềm, viêm cân cơ hoại tử, hội chứng sốc nhiễm độc do S. pyogenes hoặc S. aureus (phối hợp Penicillin/Vancomycin để ức chế tổng hợp độc tố)",
+      "Nhiễm khuẩn xương khớp, áp xe phổi, nhiễm khuẩn răng miệng kỵ khí"
+    ],
+    "dosing": "EUCAST Liều chuẩn: 300 mg PO x 3–4 lần/ngày hoặc 600 mg IV x 3 lần/ngày. Liều cao (I): 450 mg PO x 3 lần/ngày hoặc 600 mg IV x 4 lần/ngày (hoặc 900 mg IV x 3 lần/ngày).",
+    "sideEffects": ["Tiêu chảy và Viêm đại tràng giả mạc do Clostridioides difficile (nguy cơ cao nhất trong các kháng sinh)", "Phát ban da, tăng men gan"],
+    "contraindications": ["Tiền sử viêm đại tràng giả mạc hoặc viêm ruột khu vực"],
+    "notes": "Giáo trình Bộ Y tế (Bài 10) & EUCAST v16.1: Cần làm nghiệm pháp D-test (đặt đĩa Erythromycin cạnh đĩa Clindamycin) trên Staphylococcus và Streptococcus: nếu vòng vô khuẩn Clindamycin bị vạt phẳng hình chữ D phía giáp Erythromycin chứng tỏ vi khuẩn mang gen erm cảm ứng (đề kháng chéo MLSB cảm ứng) → phải báo kháng Clindamycin vì sẽ thất bại lâm sàng."
+  },
+  {
+    "id": "chloramphenicol",
+    "name": "Chloramphenicol",
+    "class": "Phenicol",
+    "aware": "Access",
+    "brandNames": ["Chloromycetin", "Clorocid"],
+    "mechanism": "Gắn thuận nghịch vào tiểu đơn vị 50S của ribosom (23S rRNA), ức chế trực tiếp enzyme peptidyl transferase ngăn cản việc hình thành liên kết peptid giữa các acid amin (kìm khuẩn trên đa số vi khuẩn, nhưng diệt khuẩn trên H. influenzae, N. meningitidis, S. pneumoniae).",
+    "spectrum": "Phổ rất rộng: Trực khuẩn Gram âm (Salmonella Typhi, Shigella, H. influenzae), cầu khuẩn (N. meningitidis, S. pneumoniae), Rickettsia, Chlamydia và vi khuẩn kỵ khí. Thấm qua hàng rào máu não vào dịch não tủy cực kỳ tốt (đạt 60–80% nồng độ máu).",
+    "indications": [
+      "Lựa chọn dự phòng/thay thế trong viêm màng não mủ khi bệnh nhân dị ứng phản vệ nặng với toàn bộ β-lactam",
+      "Sốt Rickettsia, nhiễm khuẩn mắt tại chỗ (thuốc nhỏ mắt)"
+    ],
+    "dosing": "EUCAST Liều chuẩn: 1 g IV/PO x 4 lần/ngày; Liều cao (I / Viêm màng não): 2 g IV x 4 lần/ngày.",
+    "sideEffects": [
+      "Ức chế tủy xương gồm 2 dạng: (1) Phụ thuộc liều, có hồi phục; (2) Bất sản tủy không phụ thuộc liều, không hồi phục (thiếu máu bất sản gây tử vong)",
+      "Hội chứng xám ở trẻ sơ sinh (Gray baby syndrome – trụy tuần hoàn, tím xám do gan trẻ sơ sinh thiếu enzyme glucuronyl transferase để liên hợp thuốc)",
+      "Viêm dây thần kinh thị giác"
+    ],
+    "contraindications": ["Trẻ sơ sinh, phụ nữ có thai/cho con bú, suy tủy xương"],
+    "notes": "Giáo trình Bộ Y tế (Bài 10 & Bài 11): Trước đây là thuốc đầu tay trị sốt thương hàn (Salmonella Typhi), nhưng do độc tính suy tủy xương và sự lan rộng của plasmid R mang gen kháng chloramphenicol (enzyme chloramphenicol acetyltransferase – CAT) nên hiện nay đã được thay thế bằng Ceftriaxone và Azithromycin."
+  },
+  {
+    "id": "metronidazole",
+    "name": "Metronidazole",
+    "class": "5-Nitroimidazole",
+    "aware": "Access",
+    "brandNames": ["Flagyl", "Klion"],
+    "mechanism": "Tiền thuốc khuếch tán vào tế bào; chỉ trong điều kiện KỴ KHÍ (nhờ hệ thống vận chuyển điện tử ferredoxin/flavodoxin có thế oxy hóa-khử rất âm của vi khuẩn kỵ khí và đơn bào), nhóm 5-nitro mới bị khử tạo thành các gốc tự do nitroso độc tính cao làm đứt gãy chuỗi xoắn kép ADN (diệt khuẩn nhanh phụ thuộc nồng độ).",
+    "spectrum": "Vi khuẩn kỵ khí bắt buộc (Bacteroides fragilis, Prevotella, Fusobacterium, Clostridium perfringens, Clostridioides difficile), Helicobacter pylori và đơn bào (Entamoeba histolytica, Giardia lamblia, Trichomonas vaginalis). Hoàn toàn KHÔNG có tác dụng trên vi khuẩn hiếu khí.",
+    "indications": [
+      "Nhiễm khuẩn ổ bụng, áp xe gan, áp xe não, nhiễm khuẩn phụ khoa do vi khuẩn kỵ khí (thường phối hợp với Ceftriaxone, Cefepime, Ciprofloxacin hoặc Ceftolozane-tazobactam)",
+      "Viêm đại tràng giả mạc do C. difficile nhẹ (khi không có Vancomycin uống hoặc Fidaxomicin)",
+      "Phác đồ tiệt trừ Helicobacter pylori và điều trị lỵ amip, viêm âm đạo do Trichomonas"
+    ],
+    "dosing": "EUCAST: 400–500 mg IV hoặc PO x 3 lần/ngày (sinh khả dụng đường uống đạt ~100%).",
+    "sideEffects": ["Vị kim loại đắng trong miệng, buồn nôn, nước tiểu màu nâu đỏ", "Phản ứng giống Disulfiram (đỏ bừng mặt, nôn mửa dữ dội, nhịp nhanh) khi uống rượu bia", "Bệnh thần kinh ngoại biên hoặc bệnh não (tiểu não) khi dùng liều cao kéo dài"],
+    "contraindications": ["Tuyệt đối kiêng rượu bia trong thời gian dùng thuốc và ít nhất 48–72 giờ sau khi ngừng thuốc"],
+    "notes": "Do sinh khả dụng đường uống gần 100% và thấm rất tốt vào mọi mô (kể cả áp xe não), Metronidazole đường uống có hiệu quả tương đương đường truyền tĩnh mạch."
+  },
+  {
+    "id": "isoniazid",
+    "name": "Isoniazid (INH) & Các thuốc kháng lao hàng 1",
+    "class": "Hydrazid của Acid Isonicotinic (Kháng lao)",
+    "aware": "Access",
+    "brandNames": ["Rimifon"],
+    "mechanism": "Isoniazid là tiền thuốc được enzyme catalase-peroxidase của vi khuẩn lao (mã hóa bởi gen katG) hoạt hóa thành dạng gốc tự do, gắn bất hoạt enzyme enoyl-ACP reductase (mã hóa bởi gen inhA), từ đó ức chế tổng hợp Acid Mycolic – thành phần cấu trúc sống còn của vách tế bào Mycobacterium tuberculosis.",
+    "spectrum": "Đặc hiệu cao trên Mycobacterium tuberculosis đang nhân lên (diệt khuẩn mạnh đối với quần thể lao ngoại bào đang phân chia nhanh).",
+    "indications": [
+      "Phác đồ điều trị bệnh Lao nhạy cảm (phối hợp 4 thuốc giai đoạn tấn công 2 tháng HRZE: Isoniazid + Rifampicin + Pyrazinamide + Ethambutol, duy trì 4 tháng HR)",
+      "Điều trị dự phòng lao tiềm ẩn (LTBI)"
+    ],
+    "dosing": "Người lớn: 5 mg/kg/ngày (thường 300 mg PO x 1 lần/ngày lúc đói), kèm Pyridoxine (Vitamin B6 10–50 mg/ngày) để phòng viêm dây thần kinh ngoại biên.",
+    "sideEffects": [
+      "Viêm gan nhiễm độc (tăng nguy cơ theo tuổi và khi uống rượu hoặc dùng chung Rifampicin/Pyrazinamide)",
+      "Viêm đa dây thần kinh ngoại biên (tê bì tay chân do INH làm tăng thải trừ Vitamin B6)",
+      "Hội chứng lupus ban đỏ do thuốc"
+    ],
+    "contraindications": ["Bệnh gan cấp tính hoặc tiền sử tổn thương gan nặng do Isoniazid"],
+    "notes": "Giáo trình Bộ Y tế (Bài 13) & EUCAST v16.1: Hai cơ chế kháng Isoniazid chính là đột biến gen katG (mất catalase-peroxidase, gây kháng INH mức độ cao) và đột biến vùng khởi động gen inhA (gây kháng INH mức độ thấp và kháng chéo với Ethionamide/Prothionamide)."
+  },
+  {
+    "id": "dapsone",
+    "name": "Dapsone (và Clofazimine – Đa hóa trị liệu bệnh Phong)",
+    "class": "Sulfone (Kháng phong)",
+    "aware": "Access",
+    "brandNames": ["Avlosulfon", "Lamprene (Clofazimine)"],
+    "mechanism": "Dapsone (4,4'-diaminodiphenylsulfone) có cấu trúc tương tự PABA, ức chế cạnh tranh enzyme dihydropteroate synthase (mã hóa bởi gen folP1) ngăn cản tổng hợp acid folic của Mycobacterium leprae. Clofazimine gắn vào ADN giàu guanin của vi khuẩn phong và có tác dụng kháng viêm ngăn ngừa phản ứng phong hồng ban nút.",
+    "spectrum": "Mycobacterium leprae (Trực khuẩn Hansen gây bệnh phong) và Pneumocystis jirovecii.",
+    "indications": [
+      "Phác đồ Đa hóa trị liệu (MDT) bệnh Phong của WHO và Chương trình Chống phong Quốc gia (phối hợp Rifampicin + Dapsone + Clofazimine)",
+      "Dự phòng Pneumocystis jirovecii (PCP) ở bệnh nhân dị ứng TMP-SMX"
+    ],
+    "dosing": "Đa hóa trị liệu bệnh phong (WHO MDT người lớn): Dapsone 100 mg PO mỗi ngày + Clofazimine 50 mg mỗi ngày (kèm 300 mg 1 lần/tháng) + Rifampicin 600 mg 1 lần/tháng (kéo dài 6 tháng cho phong ít khuẩn PB và 12 tháng cho phong nhiều khuẩn MB).",
+    "sideEffects": [
+      "Tan máu cấp tính (đặc biệt ở người thiếu hụt men G6PD) và Methemoglobin máu (Dapsone)",
+      "Hội chứng quá mẫn Dapsone (sốt, phát ban, viêm gan, sưng hạch)",
+      "Đổi màu da sang đỏ nâu / sẫm màu có hồi phục và khô da (Clofazimine)"
+    ],
+    "contraindications": ["Thiếu hụt men G6PD nặng, thiếu máu nặng"],
+    "notes": "Giáo trình Bộ Y tế (Bài 14): Bắt buộc phải phối hợp thuốc (Rifampicin + Dapsone + Clofazimine) để ngăn chặn sự chọn lọc chủng M. leprae kháng thuốc và cắt đứt nguồn lây trong cộng đồng."
+  }
+]

@@ -1,0 +1,890 @@
+[
+  {
+    "id": "pathogen-directed",
+    "title": "🎯 Chọn kháng sinh theo định danh vi khuẩn (Bộ Y tế & IDSA 2024 / EUCAST)",
+    "root": {
+      "text": "Chọn kháng sinh theo Định danh Vi khuẩn",
+      "sub": "Bấm vào từng thẻ để mở nhánh con hoặc bấm 'Mở toàn bộ'",
+      "info": "Sơ đồ tra cứu kháng sinh đích (Targeted therapy) sau khi có kết quả định danh vi sinh & kháng sinh đồ, tích hợp Hướng dẫn Bộ Y tế Việt Nam, IDSA 2024 và EUCAST v16.1.",
+      "children": [
+        {
+          "text": "🟣 Cầu khuẩn & Trực khuẩn Gram dương (+)",
+          "sub": "Staphylococcus, Streptococcus, Enterococcus, Corynebacterium",
+          "info": "Nhóm vi khuẩn Gram dương có lớp vách peptidoglycan dày. Lưu ý phân biệt MSSA vs MRSA và E. faecalis vs VRE E. faecium.",
+          "children": [
+            {
+              "text": "Staphylococcus aureus (Tụ cầu vàng)",
+              "sub": "MSSA vs MRSA · Áp-xe, du khuẩn huyết, viêm nội tâm mạc",
+              "ref": "mo:s-aureus",
+              "info": "Tụ cầu vàng tiết coagulase (+). Luôn kiểm tra tính nhạy cảm Oxacillin/Cefoxitin (gen mecA mã hóa PBP2a) để phân biệt MSSA và MRSA.",
+              "children": [
+                {
+                  "text": "MSSA (Nhạy cảm Methicillin / Oxacillin)",
+                  "sub": "β-lactam kháng penicilinase là chuẩn vàng",
+                  "info": "Không dùng Vancomycin điều trị đích cho MSSA nếu không dị ứng nặng β-lactam vì tốc độ diệt khuẩn của Vancomycin chậm hơn.",
+                  "children": [
+                    {
+                      "text": "✅ Ưu tiên: Oxacillin / Nafcillin IV hoặc Cefazolin IV",
+                      "sub": "Nhiễm khuẩn nhẹ uống: Cephalexin, Cloxacillin, Amoxicillin-clavulanate",
+                      "ref": "ab:amox-clav"
+                    },
+                    {
+                      "text": "🔄 Thay thế (Dị ứng β-lactam): Vancomycin, Clindamycin, TMP-SMX",
+                      "sub": "Cần làm D-test trước khi dùng Clindamycin",
+                      "ref": "ab:vancomycin"
+                    }
+                  ]
+                },
+                {
+                  "text": "MRSA (Kháng Methicillin - có gen mecA / PBP2a)",
+                  "sub": "Kháng hầu hết các β-lactam thông thường",
+                  "info": "MRSA kháng toàn bộ Penicillin, Cephalosporin thế hệ 1–4 và Carbapenem.",
+                  "children": [
+                    {
+                      "text": "✅ Nhiễm khuẩn huyết / Nội tâm mạc: Vancomycin hoặc Daptomycin",
+                      "sub": "Vancomycin cần TDM (AUC24/MIC = 400–600); Daptomycin 8–10 mg/kg/ngày",
+                      "ref": "ab:vancomycin"
+                    },
+                    {
+                      "text": "✅ Viêm phổi bệnh viện do MRSA: Vancomycin hoặc Linezolid",
+                      "sub": "KHÔNG dùng Daptomycin cho viêm phổi (bị bất hoạt bởi surfactant phổi)",
+                      "ref": "ab:linezolid"
+                    },
+                    {
+                      "text": "🔄 Nhiễm khuẩn da-mô mềm nhẹ/vừa: TMP-SMX, Doxycycline, Clindamycin",
+                      "sub": "Đường uống ngoại trú kèm rạch dẫn lưu ổ áp-xe",
+                      "ref": "ab:tmp-smx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Streptococcus pneumoniae (Phế cầu khuẩn)",
+              "sub": "Song cầu hình ngọn nến · Viêm phổi, viêm màng não mủ",
+              "ref": "mo:s-pneumoniae",
+              "info": "Đề kháng β-lactam của phế cầu do đột biến PBP (không sinh β-lactamase). Breakpoint của màng não thấp hơn rất nhiều so với ngoài màng não.",
+              "children": [
+                {
+                  "text": "✅ Viêm phổi / Ngoài màng não: Amoxicillin liều cao hoặc Ceftriaxone",
+                  "sub": "Amoxicillin 1 g × 3 lần/ngày PO hoặc Ceftriaxone 1–2 g/24h IV",
+                  "ref": "ab:ceftriaxone"
+                },
+                {
+                  "text": "✅ Viêm màng não mủ: Ceftriaxone 2g q12h + Vancomycin (± Rifampicin)",
+                  "sub": "Ngừng Vancomycin nếu MIC Penicillin ≤ 0.06 mg/L và Ceftriaxone ≤ 0.5 mg/L",
+                  "ref": "ab:vancomycin"
+                },
+                {
+                  "text": "🔄 Thay thế (Dị ứng β-lactam nặng): Levofloxacin / Moxifloxacin / Linezolid",
+                  "sub": "Tỷ lệ phế cầu kháng Macrolide (Azithromycin) tại VN rất cao (>70%)",
+                  "ref": "ab:levofloxacin"
+                }
+              ]
+            },
+            {
+              "text": "Streptococcus pyogenes (GAS) & S. agalactiae (GBS)",
+              "sub": "Liên cầu tan máu β nhóm A & B · Luôn nhạy Penicillin 100%",
+              "ref": "mo:s-pyogenes",
+              "info": "S. pyogenes (viêm họng, sốt tinh hồng nhiệt, viêm cân mạc hoại tử, thấp tim) chưa ghi nhận chủng nào kháng Penicillin trên toàn cầu.",
+              "children": [
+                {
+                  "text": "✅ Ưu tiên: Penicillin G / V hoặc Amoxicillin (ủ 10 ngày ngừa thấp tim)",
+                  "sub": "Dị ứng nhẹ: Cephalosporin thế hệ 1; Dị ứng phản vệ: Azithromycin / Clindamycin",
+                  "ref": "ab:penicillin-g"
+                },
+                {
+                  "text": "🚨 Nhiễm trùng hoại tử / Sốc độc tố: Penicillin G liều cao + Clindamycin",
+                  "sub": "Clindamycin ức chế ribosom 50S giúp chặn đứng sản xuất ngoại độc tố (Hiệu ứng Eagle)",
+                  "ref": "ab:clindamycin"
+                }
+              ]
+            },
+            {
+              "text": "Enterococcus faecalis & Enterococcus faecium (Cầu khuẩn ruột)",
+              "sub": "Đề kháng tự nhiên với mọi Cephalosporin, Clindamycin, TMP-SMX",
+              "ref": "mo:e-faecium",
+              "info": "Enterococcus đề kháng nội tại với Cephalosporin, Aminoglycoside mức độ thấp, Clindamycin và TMP-SMX in vivo.",
+              "children": [
+                {
+                  "text": "E. faecalis (Đa số còn nhạy Ampicillin & Vancomycin)",
+                  "sub": "Viêm nội tâm mạc: Ampicillin + Ceftriaxone (hoặc Gentamicin hiệp đồng)",
+                  "children": [
+                    {
+                      "text": "✅ Ưu tiên: Ampicillin / Amoxicillin (± Gentamicin hoặc Ceftriaxone)",
+                      "sub": "Viêm bàng quang: Amoxicillin, Nitrofurantoin, Fosfomycin",
+                      "ref": "ab:penicillin-g"
+                    }
+                  ]
+                },
+                {
+                  "text": "E. faecium kháng Vancomycin (VRE - mang gen vanA / vanB)",
+                  "sub": "Đa số kháng cả Ampicillin lẫn Vancomycin",
+                  "children": [
+                    {
+                      "text": "✅ Nhiễm khuẩn xâm lấn / Du khuẩn huyết: Linezolid hoặc Daptomycin liều cao",
+                      "sub": "Linezolid 600 mg q12h hoặc Daptomycin 10–12 mg/kg/24h IV (± Ampicillin)",
+                      "ref": "ab:linezolid"
+                    },
+                    {
+                      "text": "✅ Viêm bàng quang VRE không biến chứng: Nitrofurantoin hoặc Fosfomycin",
+                      "sub": "Đường uống đạt nồng độ cao trong nước tiểu",
+                      "ref": "ab:nitrofurantoin"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Corynebacterium diphtheriae (Trực khuẩn Bạch hầu)",
+              "sub": "Giả mạc trắng xám dai dính + Ngoại độc tố bạch hầu",
+              "ref": "mo:c-diphtheriae",
+              "children": [
+                {
+                  "text": "✅ Huyết thanh kháng độc tố (SAD) CẤP CỨU + Erythromycin / Azithromycin",
+                  "sub": "Hoặc Penicillin G tiêm bắp/tĩnh mạch trong 14 ngày để diệt vi khuẩn",
+                  "ref": "ab:azithromycin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔴 Trực khuẩn đường ruột Gram âm (Enterobacterales & Đa kháng)",
+          "sub": "E. coli, K. pneumoniae, E. cloacae, Salmonella, Shigella, V. cholerae",
+          "info": "Nhóm trực khuẩn Gram âm đường ruột. Trọng tâm lâm sàng là phân tầng theo cơ chế β-lactamase: ESBL, AmpC, và Carbapenemase (KPC, NDM, OXA-48).",
+          "children": [
+            {
+              "text": "ESBL-E (Sinh β-lactamase phổ rộng CTX-M / SHV / TEM)",
+              "sub": "Kháng Ceftriaxone, Cefotaxime, Ceftazidime, Aztreonam",
+              "ref": "mo:e-coli",
+              "info": "Theo IDSA 2024: Không dùng Piperacillin-tazobactam hay Cefepime cho nhiễm khuẩn nặng ngoài đường niệu do ESBL-E ngay cả khi in vitro báo nhạy.",
+              "children": [
+                {
+                  "text": "✅ Viêm bàng quang không biến chứng: Nitrofurantoin hoặc TMP-SMX",
+                  "sub": "Thay thế: Fosfomycin (chỉ cho E. coli), Amoxicillin-clavulanate, Aminoglycoside 1 liều",
+                  "ref": "ab:nitrofurantoin"
+                },
+                {
+                  "text": "✅ Viêm thận-bể thận (cUTI) & Nhiễm khuẩn huyết: Meropenem / Imipenem / Ertapenem",
+                  "sub": "Hạ thang đường uống khi ổn định: Ciprofloxacin, Levofloxacin hoặc TMP-SMX (nếu nhạy)",
+                  "ref": "ab:meropenem"
+                }
+              ]
+            },
+            {
+              "text": "AmpC-E nguy cơ cao (E. cloacae, K. aerogenes, C. freundii)",
+              "sub": "Nguy cơ cảm ứng AmpC gây thất bại Ceftriaxone & Pip-Tazo",
+              "ref": "mo:e-cloacae",
+              "info": "Ba loài E. cloacae complex, K. aerogenes, C. freundii có nguy cơ trung bình–cao đột biến giải ức chế AmpC ngay trong quá trình điều trị bằng Cephalosporin thế hệ 3.",
+              "children": [
+                {
+                  "text": "✅ Ưu tiên (Nặng / Xâm lấn): Cefepime (nếu MIC ≤ 2 mg/L) hoặc Carbapenem",
+                  "sub": "Nếu Cefepime MIC ≥ 4 mg/L (khả năng đồng sinh ESBL) → Bắt buộc dùng Meropenem/Ertapenem",
+                  "ref": "ab:cefepime"
+                },
+                {
+                  "text": "🔄 Hạ thang / Đường uống: TMP-SMX hoặc Ciprofloxacin / Levofloxacin",
+                  "sub": "Viêm bàng quang nhẹ: Nitrofurantoin",
+                  "ref": "ab:ciprofloxacin"
+                }
+              ]
+            },
+            {
+              "text": "CRE (Enterobacterales kháng Carbapenem – theo kiểu gen)",
+              "sub": "Cần xét nghiệm phân biệt KPC (Ambler A) · NDM/MBL (B) · OXA-48 (D)",
+              "ref": "mo:k-pneumoniae",
+              "info": "IDSA 2024 nhấn mạnh: Phải làm xét nghiệm tìm kiểu Carbapenemase (PCR/xét nghiệm miễn dịch) vì thuốc đích hoàn toàn khác nhau giữa KPC, NDM và OXA-48.",
+              "children": [
+                {
+                  "text": "🧬 CRE sinh KPC (Ambler lớp A - Serine carbapenemase)",
+                  "sub": "Meropenem-vaborbactam · Ceftazidime-avibactam · Imipenem-relebactam",
+                  "ref": "ab:meropenem-vaborbactam"
+                },
+                {
+                  "text": "🧬 CRE sinh NDM / VIM / IMP (Ambler lớp B - Metallo-β-lactamase)",
+                  "sub": "✅ Phối hợp Ceftazidime-avibactam + Aztreonam (truyền đồng thời 3h) hoặc Cefiderocol",
+                  "ref": "ab:ceftazidime-avibactam"
+                },
+                {
+                  "text": "🧬 CRE sinh OXA-48-like (Ambler lớp D)",
+                  "sub": "✅ Ưu tiên: Ceftazidime-avibactam (Vaborbactam và Relebactam KHÔNG ức chế OXA-48)",
+                  "ref": "ab:ceftazidime-avibactam"
+                },
+                {
+                  "text": "🔄 Khi không có β-lactam thế hệ mới (cUTI / Ổ bụng): Plazomicin, Amikacin, Tigecycline",
+                  "sub": "Tigecycline/Eravacycline KHÔNG dùng đơn trị cho nhiễm khuẩn huyết hoặc tiết niệu",
+                  "ref": "ab:tigecycline"
+                }
+              ]
+            },
+            {
+              "text": "Vi khuẩn Gây bệnh Đường tiêu hóa (Salmonella, Shigella, V. cholerae, H. pylori)",
+              "sub": "Thương hàn, Lỵ trực khuẩn, Dịch tả, Viêm loét dạ dày - tá tràng",
+              "children": [
+                {
+                  "text": "Salmonella Typhi (Thương hàn): Ceftriaxone IV hoặc Azithromycin PO",
+                  "sub": "Lưu ý: Ciprofloxacin kháng cao tại Châu Á (nếu pefloxacin kháng = kháng FQ)",
+                  "ref": "mo:s-typhi"
+                },
+                {
+                  "text": "Shigella spp. (Lỵ trực khuẩn): Ciprofloxacin, Azithromycin hoặc Ceftriaxone",
+                  "sub": "Không dùng thuốc cầm tiêu chảy giảm nhu động ruột (Loperamide)",
+                  "ref": "mo:shigella"
+                },
+                {
+                  "text": "Vibrio cholerae (Tả): Bù dịch điện giải + Azithromycin hoặc Doxycycline",
+                  "sub": "Doxycycline 300 mg liều duy nhất (người lớn) hoặc Azithromycin 1 g liều duy nhất",
+                  "ref": "mo:v-cholerae"
+                },
+                {
+                  "text": "Helicobacter pylori: Phác đồ 4 thuốc có Bismuth (PPI + Bismuth + Tetra + Metro)",
+                  "sub": "Điều trị 14 ngày theo khuyến cáo Hội Khoa học Tiêu hóa VN & Bộ Y tế",
+                  "ref": "mo:h-pylori"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🟠 Trực khuẩn Gram âm Không lên men (Non-fermenters)",
+          "sub": "P. aeruginosa, A. baumannii (CRAB), S. maltophilia, B. pseudomallei",
+          "info": "Nhóm trực khuẩn môi trường/nội viện có nhiều bơm đẩy (efflux) và porin màng ngoài kém thấm, rất dễ kháng đa thuốc.",
+          "children": [
+            {
+              "text": "Pseudomonas aeruginosa (Trực khuẩn mủ xanh)",
+              "sub": "Nhạy cảm truyền thống vs Khó điều trị (DTR-P. aeruginosa)",
+              "ref": "mo:p-aeruginosa",
+              "children": [
+                {
+                  "text": "✅ Chủng nhạy cảm: Pip-Tazo, Ceftazidime, Cefepime, Meropenem, Ciprofloxacin",
+                  "sub": "EUCAST xếp S ≤ 0.001 (hiển thị I) cho Pip-Tazo, Ceftazidime, Cefepime → Cần dùng LIỀU CAO",
+                  "ref": "ab:pip-tazo"
+                },
+                {
+                  "text": "🚨 Chủng DTR-P. aeruginosa (Kháng hết β-lactam cổ điển & Fluoroquinolone)",
+                  "sub": "✅ Ưu tiên: Ceftolozane-tazobactam · Ceftazidime-avibactam · Imipenem-relebactam · Cefiderocol",
+                  "ref": "ab:ceftolozane-tazobactam"
+                },
+                {
+                  "text": "🧬 DTR-PA sinh Metallo-β-lactamase (VIM/NDM): Cefiderocol",
+                  "sub": "Liều 2 g IV mỗi 8 giờ truyền kéo dài 3 giờ",
+                  "ref": "ab:cefiderocol"
+                }
+              ]
+            },
+            {
+              "text": "Acinetobacter baumannii kháng Carbapenem (CRAB)",
+              "sub": "Tác nhân hàng đầu gây VAP/HAP và nhiễm khuẩn huyết tại ICU",
+              "ref": "mo:a-baumannii",
+              "info": "IDSA 2024: Bắt buộc phối hợp ít nhất 2 thuốc có hoạt tính cho tới khi cải thiện lâm sàng. Nền tảng là Sulbactam.",
+              "children": [
+                {
+                  "text": "✅ Ưu tiên số 1: Sulbactam-durlobactam (1g/1g q6h truyền 3h) + Carbapenem",
+                  "sub": "Durlobactam ức chế OXA carbapenemase, giải phóng Sulbactam gắn đích PBP1/PBP3",
+                  "ref": "ab:sulbactam-durlobactam"
+                },
+                {
+                  "text": "✅ Phác đồ thay thế tại VN: Ampicillin-sulbactam LIỀU CAO + 1 thuốc thứ 2",
+                  "sub": "9g Sulbactam/ngày (27g Amp-Sul/ngày) phối hợp Minocycline/Tigecycline, Polymyxin B/Colistin hoặc Cefiderocol",
+                  "ref": "ab:amp-sulbactam"
+                }
+              ]
+            },
+            {
+              "text": "Stenotrophomonas maltophilia",
+              "sub": "Kháng tự nhiên Carbapenem (do chứa sẵn enzyme L1 MBL + L2)",
+              "ref": "mo:s-maltophilia",
+              "children": [
+                {
+                  "text": "✅ Phối hợp 2 trong 4: TMP-SMX · Minocycline/Tigecycline · Cefiderocol · Levofloxacin",
+                  "sub": "Hoặc phối hợp Ceftazidime-avibactam + Aztreonam khi không dung nạp các thuốc trên",
+                  "ref": "ab:tmp-smx"
+                }
+              ]
+            },
+            {
+              "text": "Burkholderia pseudomallei (Bệnh Whitmore / Melioidosis)",
+              "sub": "Kháng tự nhiên Penicillin, Cephalosporin thế hệ 1–2, Aminoglycoside, Polymyxin",
+              "ref": "mo:b-pseudomallei",
+              "children": [
+                {
+                  "text": "✅ Giai đoạn cấp tấn công (≥ 2–4 tuần IV): Ceftazidime liều cao hoặc Meropenem",
+                  "sub": "Ceftazidime 2g IV mỗi 6–8h hoặc Meropenem 1–2g IV mỗi 8h (nếu nặng / thần kinh)",
+                  "ref": "ab:ceftazidime"
+                },
+                {
+                  "text": "✅ Giai đoạn duy trì tiệt căn (3–6 tháng PO): TMP-SMX (hoặc Amox-Clav / Doxycycline)",
+                  "sub": "Bắt buộc uống đủ 3–6 tháng để tránh tái phát từ ổ áp-xe nội tạng",
+                  "ref": "ab:tmp-smx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔵 Vi khuẩn STI, Nội bào, Khó nuôi & Kháng cồn-toan (AFB)",
+          "sub": "N. gonorrhoeae, N. meningitidis, H. influenzae, Giang mai, Lao, Phong",
+          "children": [
+            {
+              "text": "Neisseria gonorrhoeae (Lậu cầu) & Chlamydia trachomatis",
+              "sub": "Song cầu Gram âm hạt cà phê · Viêm niệu đạo, cổ tử cung",
+              "ref": "mo:n-gonorrhoeae",
+              "children": [
+                {
+                  "text": "✅ Lậu không biến chứng: Ceftriaxone 500mg – 1g tiêm bắp (IM) liều duy nhất",
+                  "sub": "Phối hợp Doxycycline 100mg × 2 lần/ngày × 7 ngày (hoặc Azithromycin 1g) nếu chưa loại trừ Chlamydia",
+                  "ref": "ab:ceftriaxone"
+                }
+              ]
+            },
+            {
+              "text": "Treponema pallidum (Xoắn khuẩn Giang mai)",
+              "sub": "Chẩn đoán sàng lọc RPR/VDRL + khẳng định TPHA/TPPA",
+              "ref": "mo:t-pallidum",
+              "children": [
+                {
+                  "text": "✅ Chuẩn vàng: Benzathine Penicillin G 2.4 triệu đv IM (Sớm: 1 liều; Muộn: 3 liều)",
+                  "sub": "Giang mai thần kinh: Aqueous Penicillin G IV 18–24 triệu đv/ngày × 10–14 ngày; Dị ứng: Doxycycline",
+                  "ref": "ab:penicillin-g"
+                }
+              ]
+            },
+            {
+              "text": "Neisseria meningitidis (Não mô cầu) & Haemophilus influenzae",
+              "sub": "Viêm màng não mủ, nhiễm khuẩn huyết tối cấp, viêm phổi",
+              "ref": "mo:n-meningitidis",
+              "children": [
+                {
+                  "text": "✅ Điều trị đích: Ceftriaxone 2g IV mỗi 12h (hoặc Cefotaxime)",
+                  "sub": "Dự phòng người tiếp xúc gần não mô cầu: Rifampicin, Ciprofloxacin (1 liều) hoặc Ceftriaxone IM",
+                  "ref": "ab:ceftriaxone"
+                }
+              ]
+            },
+            {
+              "text": "Mycobacterium tuberculosis (Lao) & Mycobacterium leprae (Phong)",
+              "sub": "Trực khuẩn kháng cồn-toan (Ziehl-Neelsen đỏ trên nền xanh)",
+              "ref": "mo:m-tuberculosis",
+              "children": [
+                {
+                  "text": "✅ Lao nhạy cảm thuốc (Bộ Y tế): Phác đồ 2RHZE / 4RHE (6 tháng)",
+                  "sub": "2 tháng tấn công (Rifampicin + Isoniazid + Pyrazinamide + Ethambutol) + 4 tháng duy trì",
+                  "ref": "ab:rifampicin"
+                },
+                {
+                  "text": "✅ Đa hóa trị liệu bệnh Phong (WHO / Bộ Y tế): Dapsone + Rifampicin + Clofazimine",
+                  "sub": "Nhóm ít khuẩn (PB): 6 tháng; Nhóm nhiều khuẩn (MB): 12 tháng",
+                  "ref": "ab:dapsone"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "empirical-moh-vn",
+    "title": "🩺 Chọn kháng sinh theo kinh nghiệm – Phác đồ Bộ Y tế Việt Nam mới nhất",
+    "root": {
+      "text": "Kháng sinh theo Kinh nghiệm (Phác đồ Bộ Y tế VN)",
+      "sub": "QĐ 708/QĐ-BYT · QĐ 4815/QĐ-BYT · QĐ 5631/QĐ-BYT & Hướng dẫn chuyên khoa",
+      "info": "Nguyên tắc Bộ Y tế: (1) Đánh giá vị trí nhiễm khuẩn, mức độ nặng và yếu tố nguy cơ nhiễm vi khuẩn đa kháng (MDR); (2) Lấy bệnh phẩm cấy vi sinh trước khi tiêm liều kháng sinh đầu tiên; (3) Tối ưu hóa PK/PD; (4) Đánh giá lại sau 48–72 giờ để hạ thang (de-escalation).",
+      "children": [
+        {
+          "text": "🫁 Nhiễm khuẩn Hô hấp (Trên & Dưới)",
+          "sub": "Viêm họng/xoang/tai giữa · Viêm phổi cộng đồng (CAP) · HAP/VAP",
+          "info": "Căn nguyên hô hấp cộng đồng chủ yếu là S. pneumoniae, H. influenzae, M. catarrhalis và vi khuẩn không điển hình (Mycoplasma, Chlamydia, Legionella). Tại bệnh viện (HAP/VAP) nổi bật là K. pneumoniae, P. aeruginosa, A. baumannii và MRSA.",
+          "children": [
+            {
+              "text": "Nhiễm khuẩn Hô hấp trên cấp tính (Viêm họng liên cầu, Viêm xoang, Viêm tai giữa)",
+              "sub": "Chỉ dùng kháng sinh khi nghi ngờ do vi khuẩn (Centor ≥ 3 hoặc triệu chứng nặng/kéo dài)",
+              "children": [
+                {
+                  "text": "✅ Đầu tay: Amoxicillin (50–90 mg/kg/ngày) hoặc Amoxicillin-clavulanate",
+                  "sub": "Viêm họng do liên cầu nhóm A (GAS) cần điều trị đủ 10 ngày để phòng thấp tim",
+                  "ref": "ab:amox-clav"
+                },
+                {
+                  "text": "🔄 Dị ứng β-lactam: Cefdinir/Cefuroxime (không phản vệ) hoặc Azithromycin/Clarithromycin",
+                  "sub": "Hoặc Levofloxacin ở người lớn thất bại điều trị ban đầu",
+                  "ref": "ab:azithromycin"
+                }
+              ]
+            },
+            {
+              "text": "Viêm phổi mắc phải tại cộng đồng (CAP – Theo QĐ 4815/QĐ-BYT)",
+              "sub": "Phân tầng theo CURB-65 / PSI và yếu tố nguy cơ P. aeruginosa hoặc MRSA",
+              "children": [
+                {
+                  "text": "🟢 CAP Ngoại trú (CURB-65 = 0–1, khỏe mạnh, không bệnh đồng mắc)",
+                  "sub": "Amoxicillin liều cao (1g × 3 lần/ngày) ± Macrolide (Azithromycin) hoặc Doxycycline",
+                  "ref": "ab:penicillin-g"
+                },
+                {
+                  "text": "🟡 CAP Ngoại trú có bệnh đồng mắc (COPD, ĐTĐ, suy tim, thận, dùng KS trong 3 tháng)",
+                  "sub": "Amoxicillin-clavulanate (hoặc Cephalosporin thế hệ 2/3) + Macrolide/Doxycycline; HOẶC Fluoroquinolone hô hấp (Levofloxacin 750mg/ngày)",
+                  "ref": "ab:levofloxacin"
+                },
+                {
+                  "text": "🟠 CAP Nội trú khoa thường (Mức độ trung bình, không nguy cơ MDR)",
+                  "sub": "Phối hợp β-lactam IV (Ceftriaxone, Cefotaxime, Ampicillin-sulbactam, Ertapenem) + Macrolide (Azithromycin); HOẶC Levofloxacin/Moxifloxacin đơn trị",
+                  "ref": "ab:ceftriaxone"
+                },
+                {
+                  "text": "🔴 CAP Nặng (ICU) KHÔNG có nguy cơ Pseudomonas",
+                  "sub": "Ceftriaxone / Cefotaxime / Ampicillin-sulbactam IV + Azithromycin HOẶC + Levofloxacin/Moxifloxacin",
+                  "ref": "ab:ceftriaxone"
+                },
+                {
+                  "text": "🚨 CAP Nặng có nguy cơ P. aeruginosa hoặc MRSA",
+                  "sub": "β-lactam diệt Pseudomonas (Pip-Tazo, Cefepime, Ceftazidime, Meropenem/Imipenem) + Ciprofloxacin/Levofloxacin (hoặc Aminoglycoside) ± Vancomycin/Linezolid (nếu nghi MRSA)",
+                  "ref": "ab:pip-tazo"
+                }
+              ]
+            },
+            {
+              "text": "Viêm phổi bệnh viện (HAP) & Viêm phổi thở máy (VAP)",
+              "sub": "Khởi phát ≥ 48h sau nhập viện hoặc sau đặt nội khí quản",
+              "info": "Tại các ICU Việt Nam, căn nguyên hàng đầu của HAP/VAP là A. baumannii (CRAB), K. pneumoniae (ESBL/CRE), P. aeruginosa và MRSA.",
+              "children": [
+                {
+                  "text": "🟡 HAP khởi phát sớm (< 5 ngày), nguy cơ đa kháng thấp",
+                  "sub": "Ceftriaxone, Levofloxacin, Ampicillin-sulbactam hoặc Ertapenem",
+                  "ref": "ab:ertapenem"
+                },
+                {
+                  "text": "🔴 HAP/VAP muộn (≥ 5 ngày) hoặc Nguy cơ đa kháng cao / Sốc nhiễm khuẩn",
+                  "sub": "Phối hợp 2 thuốc diệt Gram âm chống Pseudomonas (Meropenem/Imipenem, Pip-Tazo, Cefepime, Ceftazidime-avibactam + Amikacin/Ciprofloxacin/Colistin) + 1 thuốc diệt MRSA (Vancomycin hoặc Linezolid)",
+                  "ref": "ab:meropenem"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💧 Nhiễm khuẩn Đường tiết niệu – Sinh dục",
+          "sub": "Viêm bàng quang cấp · Viêm thận-bể thận · Nhiễm khuẩn niệu biến chứng (cUTI)",
+          "info": "Tác nhân chính là E. coli (70–85%), K. pneumoniae, Proteus mirabilis, P. aeruginosa và Enterococcus spp. Lưu ý tỷ lệ E. coli kháng Fluoroquinolone và sinh ESBL cộng đồng tại VN khá cao.",
+          "children": [
+            {
+              "text": "Viêm bàng quang cấp không biến chứng (Phụ nữ không mang thai)",
+              "sub": "Ưu tiên kháng sinh tập trung nồng độ cao tại nước tiểu, tiết kiệm Carbapenem/FQ",
+              "children": [
+                {
+                  "text": "✅ Ưu tiên: Fosfomycin trometamol (3g PO 1 liều) hoặc Nitrofurantoin (100mg × 2 lần × 5 ngày)",
+                  "sub": "Thay thế: TMP-SMX (3 ngày), Amoxicillin-clavulanate hoặc Cefuroxime/Cefixime (3–5 ngày)",
+                  "ref": "ab:fosfomycin"
+                }
+              ]
+            },
+            {
+              "text": "Viêm thận – bể thận cấp & Nhiễm khuẩn tiết niệu có biến chứng (cUTI)",
+              "sub": "Sốt cao, rét run, đau hố thắt lưng, tắc nghẽn niệu quản / sonde tiểu",
+              "children": [
+                {
+                  "text": "🟡 Mức độ nhẹ – trung bình (Cộng đồng, không nguy cơ ESBL)",
+                  "sub": "Ceftriaxone 1–2g/24h IV (hoặc Cefotaxime) ± Aminoglycoside (Gentamicin/Amikacin); hoặc Ciprofloxacin/Levofloxacin nếu địa phương còn nhạy",
+                  "ref": "ab:ceftriaxone"
+                },
+                {
+                  "text": "🟠 Nghi ngờ Enterobacterales sinh ESBL (nhưng chưa sốc)",
+                  "sub": "Ertapenem 1g/24h IV, hoặc Piperacillin-tazobactam, hoặc Amikacin/Gentamicin",
+                  "ref": "ab:ertapenem"
+                },
+                {
+                  "text": "🔴 Mức độ nặng / Sốc nhiễm khuẩn từ đường niệu / Nhiễm khuẩn bệnh viện",
+                  "sub": "Meropenem 1g q8h (hoặc Imipenem) ± Amikacin; nếu nghi CRE/DTR-PA: Ceftazidime-avibactam hoặc Ceftolozane-tazobactam",
+                  "ref": "ab:meropenem"
+                }
+              ]
+            },
+            {
+              "text": "Viêm tuyến tiền liệt cấp do vi khuẩn",
+              "sub": "Cần kháng sinh thấm tốt vào mô tuyến tiền liệt (dùng 2–4 tuần)",
+              "children": [
+                {
+                  "text": "✅ Kinh nghiệm: Ceftriaxone IV (± Gentamicin) sau đó chuyển Levofloxacin / Ciprofloxacin hoặc TMP-SMX đường uống",
+                  "sub": "Nitrofurantoin không đạt nồng độ điều trị tại mô tuyến tiền liệt",
+                  "ref": "ab:levofloxacin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🫃 Nhiễm khuẩn Tiêu hóa – Ổ bụng – Đường mật",
+          "sub": "Tiêu chảy nhiễm khuẩn · Viêm phúc mạc · Áp-xe ổ bụng · Viêm túi mật/đường mật",
+          "info": "Nguyên tắc điều trị nhiễm khuẩn ổ bụng & đường mật (Bộ Y tế & Tokyo Guidelines): Kiểm soát nguồn nhiễm (phẫu thuật/dẫn lưu) kết hợp kháng sinh bao phủ Trực khuẩn Gram âm đường ruột (E. coli, Klebsiella) + Kỵ khí (Bacteroides fragilis - bắt buộc khi tổn thương đại tràng/ruột thừa hoặc đường mật có can thiệp).",
+          "children": [
+            {
+              "text": "Tiêu chảy nhiễm khuẩn cấp (Có sốt, phân nhầy máu / hội chứng lỵ)",
+              "sub": "Bù nước điện giải Oresol là nền tảng",
+              "children": [
+                {
+                  "text": "✅ Kinh nghiệm: Azithromycin (500mg/ngày × 3 ngày) hoặc Ciprofloxacin (500mg × 2 lần × 3–5 ngày)",
+                  "sub": "Nặng / Nhiễm độc / Trẻ nhỏ: Ceftriaxone IV 1–2g/ngày. Áp-xe gan amip / Giardia / C. difficile: Metronidazole hoặc Vancomycin uống",
+                  "ref": "ab:azithromycin"
+                }
+              ]
+            },
+            {
+              "text": "Nhiễm khuẩn Ổ bụng & Đường mật mắc phải cộng đồng (Nhẹ – Trung bình)",
+              "sub": "Viêm ruột thừa biến chứng, thủng tạng rỗng, viêm túi mật cấp độ I–II",
+              "children": [
+                {
+                  "text": "✅ Phác đồ phối hợp: Ceftriaxone (hoặc Cefotaxime / Ciprofloxacin) + Metronidazole",
+                  "sub": "Metronidazole 500mg IV mỗi 8 giờ để bao phủ trực khuẩn kỵ khí Bacteroides fragilis",
+                  "ref": "ab:metronidazole"
+                },
+                {
+                  "text": "✅ Phác đồ đơn trị: Ertapenem (1g/24h), Ampicillin-sulbactam, hoặc Piperacillin-tazobactam",
+                  "sub": "Các thuốc này đã có sẵn phổ kháng kỵ khí mạnh nên không cần cộng thêm Metronidazole",
+                  "ref": "ab:ertapenem"
+                }
+              ]
+            },
+            {
+              "text": "Nhiễm khuẩn Ổ bụng / Đường mật Nặng (Độ III) hoặc Nhiễm khuẩn bệnh viện",
+              "sub": "Viêm phúc mạc sau mổ, sốc nhiễm khuẩn đường mật, nguy cơ ESBL / Pseudomonas",
+              "children": [
+                {
+                  "text": "✅ Ưu tiên: Meropenem (1g q8h) / Imipenem-cilastatin hoặc Piperacillin-tazobactam (4.5g q6h)",
+                  "sub": "Cân nhắc phối hợp Vancomycin/Linezolid (phủ Enterococcus) và thuốc kháng nấm (Echinocandin/Fluconazole) nếu thủng ống tiêu hóa tái phát",
+                  "ref": "ab:meropenem"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🧠 Nhiễm khuẩn Hệ Thần kinh Trung ương (Viêm màng não mủ)",
+          "sub": "Cấp cứu nội khoa: Dùng kháng sinh tĩnh mạch LIỀU CAO thấm qua hàng rào máu–não",
+          "info": "Dùng Dexamethasone (0.15 mg/kg mỗi 6h × 2–4 ngày) trước hoặc cùng lúc với liều kháng sinh đầu tiên khi nghi ngờ viêm màng não mủ do Phế cầu hoặc H. influenzae.",
+          "children": [
+            {
+              "text": "Người lớn 18–50 tuổi & Trẻ em > 1 tháng (Mắc phải cộng đồng)",
+              "sub": "Căn nguyên chính: S. pneumoniae, N. meningitidis, H. influenzae, S. suis (liên cầu lợn)",
+              "children": [
+                {
+                  "text": "✅ Kinh nghiệm chuẩn: Ceftriaxone 2g IV mỗi 12h (4g/ngày) + Vancomycin (15–20 mg/kg q8–12h)",
+                  "sub": "Hoặc Cefotaxime 2g IV mỗi 4–6h + Vancomycin (thêm Vancomycin để bao phủ phế cầu giảm nhạy Cephalosporin)",
+                  "ref": "ab:ceftriaxone"
+                }
+              ]
+            },
+            {
+              "text": "Người > 50 tuổi, Phụ nữ mang thai, Nghiện rượu hoặc Suy giảm miễn dịch",
+              "sub": "Bắt buộc bao phủ thêm trực khuẩn Gram dương Listeria monocytogenes",
+              "children": [
+                {
+                  "text": "✅ Kinh nghiệm: Ceftriaxone (2g q12h) + Vancomycin + Ampicillin (2g IV mỗi 4 giờ)",
+                  "sub": "Cephalosporin hoàn toàn KHÔNG có tác dụng trên Listeria monocytogenes → Phải cộng Ampicillin (hoặc TMP-SMX nếu dị ứng)",
+                  "ref": "ab:penicillin-g"
+                }
+              ]
+            },
+            {
+              "text": "Viêm màng não sau Phẫu thuật Thần kinh / Chấn thương sọ não hở / Shunt",
+              "sub": "Căn nguyên: MRSA, CoNS, P. aeruginosa, A. baumannii, K. pneumoniae",
+              "children": [
+                {
+                  "text": "✅ Kinh nghiệm: Vancomycin + Meropenem (2g IV mỗi 8 giờ) hoặc Cefepime/Ceftazidime (2g q8h)",
+                  "sub": "Nếu do CRAB đa kháng tại ICU: Phối hợp Colistin truyền tĩnh mạch + tiêm nội tủy/não thất",
+                  "ref": "ab:meropenem"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🩹 Nhiễm khuẩn Da – Mô mềm & Xương khớp",
+          "sub": "Viêm mô bào · Áp-xe da · Viêm cân mạc hoại tử · Bàn chân ĐTĐ",
+          "children": [
+            {
+              "text": "Viêm quầng / Viêm mô bào KHÔNG mủ (Chủ yếu do Liên cầu β-tan huyết & MSSA)",
+              "sub": "Nhẹ: Amoxicillin-clavulanate, Cephalexin; Nặng: Cefazolin hoặc Ceftriaxone IV",
+              "ref": "ab:amox-clav"
+            },
+            {
+              "text": "Nhọt / Áp-xe da / Viêm mô bào CÓ MỦ (Nguy cơ cao tụ cầu vàng & MRSA)",
+              "sub": "Rạch dẫn lưu mủ + TMP-SMX hoặc Doxycycline/Clindamycin (nhẹ); Nặng: Vancomycin hoặc Linezolid IV",
+              "ref": "ab:vancomycin"
+            },
+            {
+              "text": "🚨 Viêm cân mạc hoại tử (Necrotizing fasciitis) & Nhiễm trùng bàn chân ĐTĐ nặng",
+              "sub": "Cắt lọc ngoại khoa khẩn cấp + Meropenem (hoặc Pip-Tazo) + Vancomycin + Clindamycin (kháng độc tố)",
+              "ref": "ab:clindamycin"
+            }
+          ]
+        },
+        {
+          "text": "🚨 Nhiễm khuẩn huyết & Sốc nhiễm khuẩn (Sepsis & Septic Shock)",
+          "sub": "Cấy 2 bộ máu (ái khí + kỵ khí) và tiêm kháng sinh IV trong vòng 1 GIỜ ĐẦU",
+          "info": "Theo Hướng dẫn Bộ Y tế & Surviving Sepsis Campaign: Mỗi giờ trì hoãn kháng sinh hợp lý trong sốc nhiễm khuẩn làm tăng tỷ lệ tử vong ~7.6%. Dùng liều nạp (Loading dose) tối đa trong 24h đầu bất kể suy thận cấp, sau đó mới chỉnh liều theo eGFR/CRRT.",
+          "children": [
+            {
+              "text": "Nhiễm khuẩn huyết từ Cộng đồng (Chưa rõ ổ, không nguy cơ đa kháng)",
+              "sub": "Ceftriaxone / Cefepime / Piperacillin-tazobactam / Ertapenem IV ± Aminoglycoside (Amikacin/Gentamicin) ± Vancomycin",
+              "ref": "ab:ceftriaxone"
+            },
+            {
+              "text": "Sốc nhiễm khuẩn / Nhiễm khuẩn bệnh viện / Nguy cơ cao vi khuẩn Đa kháng (MDR)",
+              "sub": "Meropenem (hoặc Imipenem / Pip-Tazo truyền kéo dài 3–4h) + Amikacin/Levofloxacin + Vancomycin (hoặc Linezolid/Daptomycin nếu nghi từ Catheter/MRSA)",
+              "ref": "ab:meropenem"
+            },
+            {
+              "text": "Nhiễm khuẩn huyết ở vùng dịch tễ lưu hành (Mùa mưa / Tiếp xúc bùn đất / Mò đốt)",
+              "sub": "Nghi ngờ Whitmore (B. pseudomallei): Meropenem hoặc Ceftazidime liều cao; Nghi ngờ Sốt mò (Rickettsia / Orientia tsutsugamushi): Phối hợp thêm Doxycycline hoặc Azithromycin",
+              "ref": "ab:doxycycline"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mechanism-of-action",
+    "title": "🧬 Sơ đồ cây phân loại kháng sinh theo cơ chế tác động (Mechanism of Action)",
+    "root": {
+      "text": "Phân loại Kháng sinh theo Cơ chế Tác động",
+      "sub": "4 Đích tác động phân tử cốt lõi & Đặc tính Dược lực học (PK/PD)",
+      "info": "Bấm vào từng cơ chế để mở các họ kháng sinh và thuốc đại diện. Dựa vào đích tác động giúp hiểu rõ phổ kháng khuẩn, tính chất Diệt khuẩn vs Kìm khuẩn, nguyên tắc phối hợp kháng sinh và cơ chế đề kháng.",
+      "children": [
+        {
+          "text": "🧱 1. Ức chế tổng hợp Vách tế bào (Peptidoglycan)",
+          "sub": "Diệt khuẩn (Bactericidal) · Đặc hiệu cao trên vi khuẩn đang nhân lên",
+          "info": "Tế bào người không có vách peptidoglycan nên nhóm kháng sinh ức chế vách tế bào có tính chọn lọc cao. Tuy nhiên không tác dụng trên vi khuẩn không có vách (Mycoplasma, Ureaplasma).",
+          "children": [
+            {
+              "text": "Họ β-lactam (Gắn & bất hoạt enzyme PBP - Transpeptidase)",
+              "sub": "PK/PD: Phụ thuộc thời gian (fT > MIC) → Tối ưu bằng truyền kéo dài 3–4 giờ",
+              "info": "Cấu trúc vòng β-lactam bắt chước đoạn D-Alanyl-D-Alanine, gắn cộng hóa trị vào PBP ngăn tạo cầu nối chéo peptidoglycan.",
+              "children": [
+                {
+                  "text": "Nhóm Penicillin (Tự nhiên, Aminopenicillin, Kháng penicilinase)",
+                  "sub": "Penicillin G/V, Amoxicillin, Ampicillin, Oxacillin",
+                  "ref": "ab:penicillin-g"
+                },
+                {
+                  "text": "β-lactam + Chất ức chế β-lactamase cổ điển (Ambler lớp A)",
+                  "sub": "Amoxicillin-clavulanate, Ampicillin-sulbactam, Piperacillin-tazobactam",
+                  "ref": "ab:pip-tazo"
+                },
+                {
+                  "text": "Họ Cephalosporin (Thế hệ 1 → 4 & Siderophore)",
+                  "sub": "Ceftriaxone, Cefotaxime, Ceftazidime (TH3) · Cefepime (TH4) · Cefiderocol (Siderophore 'Ngựa thành Troy')",
+                  "ref": "ab:cefiderocol"
+                },
+                {
+                  "text": "Họ Carbapenem (Phổ rộng nhất trong β-lactam cổ điển, bền với ESBL & AmpC)",
+                  "sub": "Meropenem, Imipenem-cilastatin, Ertapenem (không phủ Pseudomonas/Acinetobacter)",
+                  "ref": "ab:meropenem"
+                },
+                {
+                  "text": "Họ Monobactam (Chỉ phủ Gram âm hiếu khí, KHÔNG bị thủy phân bởi MBL NDM/VIM)",
+                  "sub": "Aztreonam (an toàn khi dị ứng Penicillin, ngoại trừ dị ứng Ceftazidime do trùng chuỗi bên R1)",
+                  "ref": "ab:aztreonam"
+                },
+                {
+                  "text": "β-lactam / Ức chế β-lactamase thế hệ mới (Đặc trị CRE, DTR-PA, CRAB)",
+                  "sub": "Ceftazidime-avibactam, Meropenem-vaborbactam, Imipenem-relebactam, Ceftolozane-tazobactam, Sulbactam-durlobactam",
+                  "ref": "ab:ceftazidime-avibactam"
+                }
+              ]
+            },
+            {
+              "text": "Họ Glycopeptide (Gắn trực tiếp vào đuôi D-Ala-D-Ala của tiền chất vách)",
+              "sub": "PK/PD: Phụ thuộc tổng lượng phơi nhiễm (AUC24/MIC = 400–600) · Chỉ diệt Gram (+)",
+              "info": "Phân tử lượng lớn (~1450 Da) không đi qua được porin màng ngoài của vi khuẩn Gram âm. Đề kháng (VRE) do đổi đuôi thành D-Ala-D-Lactate.",
+              "children": [
+                {
+                  "text": "Vancomycin (và Teicoplanin)",
+                  "sub": "Đặc trị MRSA, Enterococcus, S. pneumoniae kháng thuốc & C. difficile (đường uống)",
+                  "ref": "ab:vancomycin"
+                }
+              ]
+            },
+            {
+              "text": "Dẫn xuất Acid Phosphonic (Ức chế enzyme MurA ở bước đầu tiên tại bào tương)",
+              "sub": "Phân tử cực nhỏ, thấm tốt vào màng sinh học (biofilm) & đường tiết niệu",
+              "children": [
+                {
+                  "text": "Fosfomycin",
+                  "sub": "Chặn tổng hợp acid N-acetylmuramic; dùng đường uống cho viêm bàng quang cấp do E. coli (kể cả ESBL)",
+                  "ref": "ab:fosfomycin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚡ 2. Gây rối loạn chức năng Màng tế bào chất",
+          "sub": "Diệt khuẩn nhanh cả trên vi khuẩn đang nghỉ · Phá hủy tính thấm chọn lọc",
+          "info": "Làm rò rỉ các ion nội bào (K+, Na+) và đại phân tử, gây khử cực màng và chết tế bào nhanh chóng.",
+          "children": [
+            {
+              "text": "Họ Lipopeptide vòng (Chỉ tác dụng trên vi khuẩn Gram dương)",
+              "sub": "PK/PD: Phụ thuộc nồng độ (Cmax/MIC & AUC/MIC) · Phụ thuộc ion Ca2+",
+              "children": [
+                {
+                  "text": "Daptomycin",
+                  "sub": "Chèn đuôi lipid vào màng tế bào Gram (+) gây khử cực. Lưu ý: Bị bất hoạt bởi Surfactant phổi, theo dõi men cơ CPK",
+                  "ref": "ab:daptomycin"
+                }
+              ]
+            },
+            {
+              "text": "Họ Polymyxin / Polypeptide vòng (Chỉ tác dụng trên trực khuẩn Gram âm)",
+              "sub": "Gắn vào Lipid A của Lipopolysaccharide (LPS) màng ngoài, đẩy Ca2+/Mg2+",
+              "info": "Vi khuẩn Proteus, Providencia, Morganella, Serratia và Burkholderia pseudomallei đề kháng tự nhiên với Polymyxin.",
+              "children": [
+                {
+                  "text": "Polymyxin B (Hoạt chất trực tiếp - ưu tiên cho nhiễm khuẩn toàn thân ngoài niệu)",
+                  "sub": "Dược động học ổn định, không phụ thuộc chuyển hóa qua thận",
+                  "ref": "ab:polymyxin-b"
+                },
+                {
+                  "text": "Colistin / Polymyxin E (Tiền chất CMS chuyển hóa thành Colistin tại đường niệu)",
+                  "sub": "Ưu tiên hơn Polymyxin B khi điều trị nhiễm khuẩn đường tiết niệu do vi khuẩn đa kháng",
+                  "ref": "ab:colistin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🏭 3. Ức chế tổng hợp Protein tại Ribosom 70S (30S & 50S)",
+          "sub": "Đa số Kìm khuẩn (trừ Aminoglycoside là Diệt khuẩn mạnh)",
+          "info": "Ribosom vi khuẩn là 70S (gồm tiểu đơn vị 30S và 50S), khác với ribosom 80S ở bào tương người (40S + 60S).",
+          "children": [
+            {
+              "text": "Gắn vào Tiểu đơn vị 30S của Ribosom",
+              "sub": "Aminoglycoside (đọc sai mã mARN) · Tetracycline (ngăn tARN gắn vào vị trí A)",
+              "children": [
+                {
+                  "text": "Họ Aminoglycoside (DIỆT KHUẨN phụ thuộc nồng độ Cmax/MIC + Hiệu ứng hậu kháng sinh PAE dài)",
+                  "sub": "Amikacin, Gentamicin, Tobramycin, Plazomicin (vận chuyển qua màng cần Oxy → Kỵ khí kháng tự nhiên)",
+                  "ref": "ab:amikacin"
+                },
+                {
+                  "text": "Họ Tetracycline cổ điển (Kìm khuẩn phổ rộng, nội bào, Rickettsia, Chlamydia, Tả)",
+                  "sub": "Doxycycline, Minocycline (bền hơn với các bơm đẩy Tet của A. baumannii & S. maltophilia)",
+                  "ref": "ab:doxycycline"
+                },
+                {
+                  "text": "Glycylcycline & Fluorocycline thế hệ mới (Vượt qua bơm đẩy & protein bảo vệ ribosom)",
+                  "sub": "Tigecycline, Eravacycline (Thể tích phân bố Vd rất lớn vào mô/ổ bụng → nồng độ trong máu và nước tiểu thấp)",
+                  "ref": "ab:tigecycline"
+                }
+              ]
+            },
+            {
+              "text": "Gắn vào Tiểu đơn vị 50S của Ribosom (rARN 23S)",
+              "sub": "Macrolide · Lincosamide · Phenicol · Oxazolidinone",
+              "children": [
+                {
+                  "text": "Họ Macrolide (Ngăn chuyển vị peptidyl-tARN từ vị trí A sang P)",
+                  "sub": "Azithromycin, Clarithromycin, Erythromycin (Phủ vi khuẩn không điển hình, Thương hàn, Lỵ, Ho gà, Bạch hầu)",
+                  "ref": "ab:azithromycin"
+                },
+                {
+                  "text": "Họ Lincosamide (Gắn 50S trùng vị trí Macrolide → lưu ý kháng chéo MLSB / D-test)",
+                  "sub": "Clindamycin (Phủ Cầu khuẩn Gram dương + Kỵ khí trên cơ hoành + Ức chế sản xuất ngoại độc tố)",
+                  "ref": "ab:clindamycin"
+                },
+                {
+                  "text": "Họ Oxazolidinone (Gắn vùng P của 23S rARN, ngăn tạo phức hợp khởi đầu 70S)",
+                  "sub": "Linezolid (Sinh khả dụng uống ~100%, thấm rất tốt vào dịch lót biểu mô phổi → đặc trị MRSA & VRE)",
+                  "ref": "ab:linezolid"
+                },
+                {
+                  "text": "Họ Phenicol (Ức chế enzyme Peptidyl transferase tại 50S)",
+                  "sub": "Chloramphenicol (Thấm rất tốt qua hàng rào máu-não nhưng lưu ý độc tính suy tủy xương & hội chứng xám ở trẻ sơ sinh)",
+                  "ref": "ab:chloramphenicol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🧬 4. Ức chế tổng hợp Acid Nucleic, Chuyển hóa Folate & Acid Mycolic",
+          "sub": "Fluoroquinolone · Rifamycin · Nitroimidazole · TMP-SMX · Kháng lao/phong",
+          "children": [
+            {
+              "text": "Ức chế ADN Gyrase (Topoisomerase II) & Topoisomerase IV (Diệt khuẩn)",
+              "sub": "Họ Fluoroquinolone · PK/PD phụ thuộc fAUC24/MIC và Cmax/MIC",
+              "children": [
+                {
+                  "text": "Fluoroquinolone hướng Gram âm (Đặc biệt P. aeruginosa & Enterobacterales)",
+                  "sub": "Ciprofloxacin",
+                  "ref": "ab:ciprofloxacin"
+                },
+                {
+                  "text": "Fluoroquinolone Hô hấp (Tăng cường hoạt tính trên S. pneumoniae & Vi khuẩn không điển hình)",
+                  "sub": "Levofloxacin, Moxifloxacin (Lưu ý: Moxifloxacin thải qua gan/mật nên KHÔNG dùng cho nhiễm khuẩn tiết niệu)",
+                  "ref": "ab:levofloxacin"
+                }
+              ]
+            },
+            {
+              "text": "Ức chế ARN Polymerase phụ thuộc ADN (Ngăn phiên mã mARN)",
+              "sub": "Họ Rifamycin · Không dùng đơn trị vì đột biến điểm trên gen rpoB xuất hiện rất nhanh",
+              "children": [
+                {
+                  "text": "Rifampicin (Rifampin)",
+                  "sub": "Trụ cột điều trị Lao (phác đồ 2RHZE/4RHE), dự phòng Não mô cầu, phối hợp diệt biofilm tụ cầu trên dụng cụ nhân tạo",
+                  "ref": "ab:rifampicin"
+                }
+              ]
+            },
+            {
+              "text": "Tạo gốc tự do Nitro gây đứt gãy chuỗi xoắn ADN (Diệt khuẩn phụ thuộc nồng độ)",
+              "sub": "Nhóm 5-Nitroimidazole & Nitrofuran",
+              "children": [
+                {
+                  "text": "Metronidazole (Chỉ được khử hoạt hóa bởi hệ Ferredoxin của vi khuẩn KỴ KHÍ & Đơn bào)",
+                  "sub": "Chuẩn vàng diệt kỵ khí (Bacteroides fragilis, Clostridium), H. pylori, Amip, Giardia, Trichomonas",
+                  "ref": "ab:metronidazole"
+                },
+                {
+                  "text": "Nitrofurantoin (Khử bởi nitroreductase vi khuẩn tạo chất trung gian tấn công ADN, ARN, Ribosom)",
+                  "sub": "Đạt nồng độ diệt khuẩn cao trong bàng quang, tỉ lệ kháng thuốc thấp",
+                  "ref": "ab:nitrofurantoin"
+                }
+              ]
+            },
+            {
+              "text": "Ức chế 2 chặng liên tiếp trong chu trình tổng hợp Acid Folic (Tetrahydrofolate)",
+              "sub": "Hiệp đồng diệt khuẩn (Synergistic bactericidal) · Vi khuẩn phải tự tổng hợp Folate từ PABA",
+              "children": [
+                {
+                  "text": "Trimethoprim-sulfamethoxazole (TMP-SMX / Co-trimoxazole)",
+                  "sub": "Sulfamethoxazole ức chế Dihydropteroate synthase (chặng 1) + Trimethoprim ức chế Dihydrofolate reductase (chặng 2)",
+                  "ref": "ab:tmp-smx"
+                },
+                {
+                  "text": "Dapsone (4,4'-diaminodiphenylsulfone – Ức chế tổng hợp folate của M. leprae)",
+                  "sub": "Thuốc nền tảng trong Đa hóa trị liệu bệnh Phong (MDT) và dự phòng PCP",
+                  "ref": "ab:dapsone"
+                }
+              ]
+            },
+            {
+              "text": "Ức chế tổng hợp Acid Mycolic của vách tế bào Kháng cồn-toan (Mycobacteria)",
+              "sub": "Hoạt hóa bởi enzyme Catalase-peroxidase (gen katG) rồi ức chế InhA",
+              "children": [
+                {
+                  "text": "Isoniazid (INH) & Các thuốc kháng lao hàng 1 (R - H - Z - E)",
+                  "sub": "Đột biến gen katG hoặc vùng khởi động inhA gây kháng Isoniazid (kèm Rifampicin → Lao đa kháng MDR-TB)",
+                  "ref": "ab:isoniazid"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

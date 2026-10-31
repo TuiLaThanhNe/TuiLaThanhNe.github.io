@@ -1,0 +1,794 @@
+{
+  "idsaRegimens": [
+    {
+      "id": "esbl-cystitis",
+      "group": "ESBL-E (Enterobacterales tiết ESBL)",
+      "syndrome": "Viêm bàng quang không biến chứng (Uncomplicated Cystitis)",
+      "preferred": [
+        "Nitrofurantoin 100 mg PO mỗi 12h x 5 ngày",
+        "Trimethoprim-sulfamethoxazole (TMP-SMX) 160/800 mg (1 viên DS) PO mỗi 12h x 3 ngày"
+      ],
+      "alternative": [
+        "Ciprofloxacin 500 mg PO mỗi 12h hoặc Levofloxacin 750 mg PO mỗi 24h",
+        "Aminoglycoside (Amikacin 15 mg/kg hoặc Gentamicin/Tobramycin 5 mg/kg) IV x 1 liều duy nhất",
+        "Fosfomycin 3 g PO x 1 liều duy nhất (CHỈ dùng cho E. coli, không dùng cho Klebsiella/Enterobacter)",
+        "Meropenem, Imipenem-cilastatin hoặc Ertapenem (khi không dùng được các thuốc trên)"
+      ],
+      "pearls": "Nếu bệnh nhân đã được khởi trị kinh nghiệm bằng Amoxicillin-clavulanate hoặc Ciprofloxacin/Cefpodoxime và lâm sàng đã cải thiện rõ thì không nhất thiết phải đổi kháng sinh, nhưng không chọn Amoxicillin-clavulanate làm phác đồ đích."
+    },
+    {
+      "id": "esbl-cuti",
+      "group": "ESBL-E (Enterobacterales tiết ESBL)",
+      "syndrome": "Viêm thận-bể thận & Nhiễm khuẩn tiết niệu phức tạp (Pyelonephritis / cUTI)",
+      "preferred": [
+        "Trimethoprim-sulfamethoxazole (TMP-SMX) 8–12 mg/kg/ngày (tính theo TMP) PO/IV chia mỗi 8–12h",
+        "Ciprofloxacin 500–750 mg PO mỗi 12h (hoặc 400 mg IV mỗi 8–12h)",
+        "Levofloxacin 750 mg PO/IV mỗi 24h",
+        "Ertapenem 1 g IV mỗi 24h, Meropenem 1 g IV mỗi 8h hoặc Imipenem-cilastatin 500 mg IV mỗi 6h"
+      ],
+      "alternative": [
+        "Aminoglycoside (Amikacin 15 mg/kg/ngày hoặc Gentamicin/Tobramycin 5–7 mg/kg/ngày hoặc Plazomicin 15 mg/kg/ngày) IV mỗi 24h"
+      ],
+      "pearls": "Nếu nhạy cảm với TMP-SMX hoặc Fluoroquinolone, ưu tiên chọn các thuốc này hơn Carbapenem để bảo tồn Carbapenem và thuận tiện dùng đường uống. Tuyệt đối KHÔNG dùng Nitrofurantoin hay Fosfomycin đường uống cho viêm thận-bể thận."
+    },
+    {
+      "id": "esbl-bsi",
+      "group": "ESBL-E (Enterobacterales tiết ESBL)",
+      "syndrome": "Nhiễm khuẩn ngoài đường tiết niệu & Nhiễm khuẩn huyết (Outside UTI / BSI)",
+      "preferred": [
+        "Meropenem 1 g IV mỗi 8h (ưu tiên ở bệnh nhân nguy kịch / sốc nhiễm khuẩn hoặc giảm albumin máu < 2.5 g/dL)",
+        "Imipenem-cilastatin 500 mg IV mỗi 6h (ưu tiên ở bệnh nhân nguy kịch hoặc giảm albumin máu)",
+        "Ertapenem 1 g IV mỗi 24h (khi bệnh nhân ổn định, không sốc, albumin máu bình thường)",
+        "Hạ bậc đường uống (Oral step-down): TMP-SMX, Ciprofloxacin hoặc Levofloxacin khi thỏa 4 điều kiện: (1) chứng minh nhạy cảm, (2) hết sốt & huyết động ổn định, (3) đã kiểm soát ổ nhiễm trùng, (4) hấp thu tiêu hóa tốt"
+      ],
+      "alternative": [
+        "Aminoglycoside (chỉ cân nhắc ngắn ngày khi chờ chuyển thuốc khác)"
+      ],
+      "pearls": "Thử nghiệm MERINO: KHÔNG dùng Piperacillin-tazobactam hoặc Cefepime cho nhiễm khuẩn ngoài đường niệu do ESBL-E ngay cả khi MIC nằm trong ngưỡng nhạy cảm. Không dùng Ceftazidime-avibactam hay Ceftolozane-tazobactam để dành cho CRE/DTR-PA."
+    },
+    {
+      "id": "ampc-invasive",
+      "group": "AmpC-E (E. cloacae complex, K. aerogenes, C. freundii)",
+      "syndrome": "Nhiễm khuẩn xâm lấn do vi khuẩn có nguy cơ sinh AmpC cảm ứng trung bình–cao",
+      "preferred": [
+        "Cefepime 2 g IV mỗi 8h truyền kéo dài 3h (khi Cefepime MIC ≤ 2 µg/mL)",
+        "Meropenem 1 g IV mỗi 8h, Imipenem-cilastatin 500 mg IV mỗi 6h hoặc Ertapenem 1 g IV mỗi 24h (ưu tiên chọn Carbapenem nếu Cefepime MIC = 4–8 µg/mL [SDD] vì nguy cơ đồng biểu hiện ESBL)",
+        "TMP-SMX hoặc Fluoroquinolone (Ciprofloxacin / Levofloxacin) đường tiêm hoặc uống nếu chứng minh nhạy cảm"
+      ],
+      "alternative": [
+        "Ceftazidime-avibactam, Meropenem-vaborbactam, Imipenem-relebactam, Cefiderocol (chỉ giữ làm dự trữ)",
+        "Với viêm bàng quang không biến chứng: Nitrofurantoin, TMP-SMX, Fluoroquinolone, Aminoglycoside 1 liều (hoặc thậm chí Ceftriaxone vẫn có thể dùng cho viêm bàng quang nhẹ)"
+      ],
+      "pearls": "Ba loài nguy cơ cảm ứng AmpC trung bình-cao (~20% kháng thuốc phát sinh khi điều trị bằng Ceftriaxone): Enterobacter cloacae complex, Klebsiella aerogenes và Citrobacter freundii. Tránh dùng Ceftriaxone, Ceftazidime và Piperacillin-tazobactam cho nhiễm khuẩn xâm lấn do 3 loài này."
+    },
+    {
+      "id": "cre-uti",
+      "group": "CRE (Enterobacterales kháng Carbapenem)",
+      "syndrome": "Viêm bàng quang & cUTI / Viêm thận-bể thận do CRE",
+      "preferred": [
+        "Viêm bàng quang: Nitrofurantoin, TMP-SMX, Ciprofloxacin hoặc Levofloxacin (nếu nhạy)",
+        "cUTI / Viêm thận-bể thận: TMP-SMX, Ciprofloxacin hoặc Levofloxacin (nếu nhạy); hoặc Ceftazidime-avibactam, Meropenem-vaborbactam, Imipenem-relebactam, Cefiderocol tùy theo cơ chế carbapenemase"
+      ],
+      "alternative": [
+        "Aminoglycoside (Amikacin 15 mg/kg/ngày, Gentamicin/Tobramycin 5 mg/kg/ngày hoặc Plazomicin 15 mg/kg/ngày) IV 1 liều (viêm bàng quang) hoặc mỗi 24h (cUTI)",
+        "Meropenem truyền kéo dài (2g IV mỗi 8h truyền 3h) CHỈ khi Ertapenem kháng nhưng Meropenem còn nhạy (MIC ≤ 1 µg/mL) và xét nghiệm Carbapenemase ÂM TÍNH",
+        "Fosfomycin 3g PO 1 liều (chỉ cho viêm bàng quang do E. coli) hoặc Colistin IV (chỉ cho viêm bàng quang khi hết lựa chọn)"
+      ],
+      "pearls": "Aminoglycoside đạt nồng độ rất cao tại thận và nước tiểu nên có hiệu quả ngang ngửa β-lactam mới trong cUTI do CRE."
+    },
+    {
+      "id": "cre-kpc",
+      "group": "CRE (Enterobacterales kháng Carbapenem)",
+      "syndrome": "Nhiễm khuẩn ngoài đường niệu do CRE sinh KPC (Ambler lớp A) hoặc chưa rõ gen nhưng kháng Meropenem",
+      "preferred": [
+        "Meropenem-vaborbactam 4 g IV mỗi 8h (truyền kéo dài 3h)",
+        "Ceftazidime-avibactam 2.5 g IV mỗi 8h (truyền kéo dài 3h)",
+        "Imipenem-cilastatin-relebactam 1.25 g IV mỗi 6h (truyền 30 phút)"
+      ],
+      "alternative": [
+        "Cefiderocol 2 g IV mỗi 8h (truyền kéo dài 3h)",
+        "Tigecycline liều cao (nạp 200 mg, duy trì 100 mg IV mỗi 12h) hoặc Eravacycline 1 mg/kg IV mỗi 12h (CHỈ dùng cho nhiễm khuẩn ổ bụng/mô mềm, KHÔNG dùng cho nhiễm khuẩn huyết hoặc tiết niệu)"
+      ],
+      "pearls": "Khi chủng CRE đã nhạy với một trong các β-lactam thế hệ mới (Meropenem-vaborbactam, Ceftazidime-avibactam, Imipenem-relebactam), KHÔNG khuyến cáo phối hợp thêm Polymyxin hay Aminoglycoside vì chỉ làm tăng độc thận mà không tăng hiệu quả."
+    },
+    {
+      "id": "cre-ndm",
+      "group": "CRE (Enterobacterales kháng Carbapenem)",
+      "syndrome": "Nhiễm khuẩn ngoài đường niệu do CRE sinh NDM hoặc Metallo-β-lactamase khác (VIM, IMP – Ambler lớp B)",
+      "preferred": [
+        "Ceftazidime-avibactam 2.5 g IV mỗi 8h + Aztreonam 2 g IV mỗi 8h (truyền ĐỒNG THỜI trong 3 giờ)",
+        "Cefiderocol 2 g IV mỗi 8h (truyền kéo dài 3h)"
+      ],
+      "alternative": [
+        "Tigecycline liều cao (nạp 200 mg, sau đó 100 mg IV mỗi 12h) hoặc Eravacycline 1 mg/kg IV mỗi 12h (chỉ cho nhiễm khuẩn ổ bụng/mô mềm không kèm nhiễm khuẩn huyết)",
+        "Aminoglycoside (chỉ cho cUTI)"
+      ],
+      "pearls": "MBL (NDM, VIM, IMP) có nhân kẽm Zn2+ ở vùng hoạt động: phân hủy mọi β-lactam TRỪ Aztreonam, nhưng không bị ức chế bởi Avibactam, Vaborbactam hay Relebactam. Phối hợp Ceftazidime-avibactam + Aztreonam giúp Avibactam khóa các ESBL/AmpC/KPC/OXA-48 đi kèm để Aztreonam tiêu diệt vi khuẩn."
+    },
+    {
+      "id": "cre-oxa48",
+      "group": "CRE (Enterobacterales kháng Carbapenem)",
+      "syndrome": "Nhiễm khuẩn ngoài đường niệu do CRE sinh OXA-48-like (Ambler lớp D)",
+      "preferred": [
+        "Ceftazidime-avibactam 2.5 g IV mỗi 8h (truyền kéo dài 3h)"
+      ],
+      "alternative": [
+        "Cefiderocol 2 g IV mỗi 8h (truyền kéo dài 3h)",
+        "Tigecycline liều cao hoặc Eravacycline (chỉ cho nhiễm khuẩn ổ bụng/mô mềm)"
+      ],
+      "pearls": "Vaborbactam và Relebactam KHÔNG ức chế được enzyme OXA-48-like, do đó Meropenem-vaborbactam và Imipenem-relebactam không có tác dụng trên nhóm này; chỉ có Avibactam (trong Ceftazidime-avibactam) ức chế được OXA-48."
+    },
+    {
+      "id": "dtr-pa",
+      "group": "MDR / DTR Pseudomonas aeruginosa",
+      "syndrome": "Nhiễm khuẩn do Trực khuẩn mủ xanh khó điều trị (DTR-P. aeruginosa)",
+      "preferred": [
+        "Ceftolozane-tazobactam 3 g IV mỗi 8h truyền 3h (viêm bàng quang dùng 1.5 g mỗi 8h truyền 1h)",
+        "Ceftazidime-avibactam 2.5 g IV mỗi 8h (truyền kéo dài 3h)",
+        "Imipenem-cilastatin-relebactam 1.25 g IV mỗi 6h (truyền 30 phút)",
+        "Nếu DTR-PA xác định sinh Metallo-β-lactamase (VIM, IMP, NDM): Ưu tiên Cefiderocol 2 g IV mỗi 8h (truyền 3h)"
+      ],
+      "alternative": [
+        "Cefiderocol 2 g IV mỗi 8h (truyền kéo dài 3h)",
+        "Aminoglycoside (Tobramycin, Amikacin) một liều (viêm bàng quang) hoặc mỗi 24h (cUTI)"
+      ],
+      "pearls": "Nếu P. aeruginosa kháng Carbapenem nhưng còn nhạy với β-lactam truyền thống (Pip-Tazo, Ceftazidime, Cefepime, Aztreonam) hoặc Fluoroquinolone, ưu tiên dùng các thuốc truyền thống ở chế độ liều cao truyền kéo dài trước khi dùng thuốc mới. KHÔNG khuyến cáo phối hợp kháng sinh thường quy hoặc dùng kháng sinh khí dung (Colistin/Aminoglycoside khí dung) trong viêm phổi do DTR-PA."
+    },
+    {
+      "id": "crab",
+      "group": "CRAB (Acinetobacter baumannii kháng Carbapenem)",
+      "syndrome": "Viêm phổi bệnh viện/thở máy, Nhiễm khuẩn huyết và Nhiễm khuẩn nặng do CRAB",
+      "preferred": [
+        "Sulbactam-durlobactam 2 g IV (1g sulbactam / 1g durlobactam) mỗi 6h truyền 3h PHỐI HỢP với Imipenem-cilastatin (1 g mỗi 6h) hoặc Meropenem (2 g mỗi 8h)"
+      ],
+      "alternative": [
+        "Ampicillin-sulbactam liều cao (tổng 27 g/ngày = 9 g sulbactam/ngày: 9 g IV mỗi 8h truyền 4h) PHỐI HỢP với ít nhất 1 thuốc sau:",
+        "  + Polymyxin B (nạp 2–2.5 mg/kg, sau đó 1.25–1.5 mg/kg IV mỗi 12h; dùng Colistin nếu là nhiễm khuẩn tiết niệu)",
+        "  + Minocycline liều cao (200 mg PO/IV mỗi 12h – ưu tiên hơn Tigecycline) hoặc Tigecycline liều cao (nạp 200 mg, sau đó 100 mg IV mỗi 12h)",
+        "  + Cefiderocol 2 g IV mỗi 8h truyền 3h (luôn dùng phối hợp, không dùng đơn độc cho CRAB)"
+      ],
+      "pearls": "Sulbactam là thành phần có hoạt tính diệt khuẩn trực tiếp lên PBP1/PBP3 của A. baumannii. Kể cả khi kháng sinh đồ báo CRAB kháng Ampicillin-sulbactam, liều cao 9g sulbactam/ngày vẫn được khuyến cáo trong phác đồ phối hợp. KHÔNG dùng phác đồ Polymyxin + Meropenem (mà không có sulbactam – thử nghiệm AIDA & OVERCOME chứng minh không có lợi ích), KHÔNG dùng Rifampicin và KHÔNG dùng kháng sinh khí dung."
+    },
+    {
+      "id": "s-maltophilia",
+      "group": "Stenotrophomonas maltophilia",
+      "syndrome": "Nhiễm khuẩn mức độ trung bình – nặng do S. maltophilia",
+      "preferred": [
+        "Cách tiếp cận 1: Phối hợp BẤT KỲ 2 TRONG 4 thuốc sau (cho đến khi lâm sàng cải thiện rõ):",
+        "  + Cefiderocol 2 g IV mỗi 8h (truyền 3h)",
+        "  + Minocycline liều cao 200 mg IV/PO mỗi 12h",
+        "  + Trimethoprim-sulfamethoxazole (TMP-SMX) 8–12 mg/kg/ngày (tính theo TMP) IV/PO chia mỗi 8–12h",
+        "  + Levofloxacin 750 mg IV/PO mỗi 24h",
+        "Cách tiếp cận 2: Phối hợp Ceftazidime-avibactam 2.5 g IV mỗi 8h + Aztreonam 2 g IV mỗi 8h (truyền đồng thời trong 3h)"
+      ],
+      "alternative": [
+        "Tigecycline liều cao (nạp 200 mg, duy trì 100 mg IV mỗi 12h) thay cho Minocycline",
+        "Với nhiễm khuẩn nhẹ: có thể đơn trị TMP-SMX hoặc Minocycline (không khuyến cáo đơn trị Levofloxacin vì nhanh phát sinh kháng thuốc)"
+      ],
+      "pearls": "S. maltophilia mang 2 β-lactamase nội tại L1 (MBL) và L2 (serine cephalosporinase). Ceftazidime không còn được khuyến cáo điều trị S. maltophilia (CLSI đã xóa breakpoint của Ceftazidime)."
+    }
+  ],
+  "idsaDosing": [
+    {"drug": "Amikacin", "cystitis": "15 mg/kg IV x 1 liều", "systemic": "15–20 mg/kg IV mỗi 24h (TDM)", "infusion": "30 phút", "targets": "ESBL-E, AmpC-E, CRE, DTR-PA"},
+    {"drug": "Ampicillin-sulbactam", "cystitis": "—", "systemic": "9 g IV (6g amp / 3g sulbactam) mỗi 8h (hoặc 27g/24h truyền liên tục)", "infusion": "Truyền kéo dài 4 giờ (hoặc liên tục)", "targets": "CRAB (tổng 9 g sulbactam/ngày)"},
+    {"drug": "Cefepime", "cystitis": "1 g IV mỗi 8–12h", "systemic": "2 g IV mỗi 8h", "infusion": "Truyền kéo dài 3 giờ", "targets": "AmpC-E (khi MIC ≤ 2 µg/mL)"},
+    {"drug": "Cefiderocol", "cystitis": "2 g IV mỗi 8h", "systemic": "2 g IV mỗi 8h (CrCl ≥120: mỗi 6h)", "infusion": "Truyền kéo dài 3 giờ", "targets": "CRE (NDM/MBL), DTR-PA, CRAB, S. maltophilia"},
+    {"drug": "Ceftazidime-avibactam", "cystitis": "2.5 g IV mỗi 8h", "systemic": "2.5 g IV mỗi 8h", "infusion": "Truyền kéo dài 3 giờ", "targets": "CRE (KPC, OXA-48), DTR-PA"},
+    {"drug": "Ceftazidime-avibactam + Aztreonam", "cystitis": "—", "systemic": "CZA 2.5g + ATM 2g IV mỗi 8h", "infusion": "Truyền ĐỒNG THỜI trong 3 giờ", "targets": "CRE sinh MBL (NDM/VIM/IMP), S. maltophilia"},
+    {"drug": "Ceftolozane-tazobactam", "cystitis": "1.5 g IV mỗi 8h", "systemic": "3 g IV mỗi 8h", "infusion": "Truyền kéo dài 3 giờ (viêm bàng quang: 1h)", "targets": "DTR P. aeruginosa"},
+    {"drug": "Ciprofloxacin", "cystitis": "400 mg IV hoặc 500 mg PO mỗi 12h", "systemic": "400 mg IV mỗi 8–12h hoặc 500–750 mg PO mỗi 12h", "infusion": "60 phút (IV)", "targets": "ESBL-E, AmpC-E, CRE (cUTI/hạ bậc)"},
+    {"drug": "Colistin (CMS)", "cystitis": "Tối đa 300 mg CBA nạp, duy trì theo CrCl", "systemic": "Không ưu tiên cho nhiễm khuẩn ngoài tiết niệu (chọn Polymyxin B)", "infusion": "30–60 phút", "targets": "Viêm bàng quang do CRE, DTR-PA, CRAB"},
+    {"drug": "Eravacycline", "cystitis": "—", "systemic": "1 mg/kg IV mỗi 12h", "infusion": "60 phút", "targets": "CRE, CRAB (chỉ ổ bụng/mô mềm, tránh BSI/UTI)"},
+    {"drug": "Ertapenem", "cystitis": "1 g IV mỗi 24h", "systemic": "1 g IV mỗi 24h", "infusion": "30 phút", "targets": "ESBL-E, AmpC-E (khi không sốc & albumin ≥2.5)"},
+    {"drug": "Fosfomycin (Uống)", "cystitis": "3 g PO x 1 liều duy nhất", "systemic": "Không dùng cho cUTI hoặc toàn thân", "infusion": "Đường uống", "targets": "Viêm bàng quang do E. coli (ESBL-E, CRE)"},
+    {"drug": "Gentamicin / Tobramycin", "cystitis": "5 mg/kg IV x 1 liều", "systemic": "5–7 mg/kg IV mỗi 24h (TDM)", "infusion": "30 phút", "targets": "ESBL-E, AmpC-E, CRE, DTR-PA"},
+    {"drug": "Imipenem-cilastatin", "cystitis": "500 mg IV mỗi 6h", "systemic": "500 mg IV mỗi 6h (CRE: truyền 3h)", "infusion": "30 phút (hoặc 3 giờ cho CRE/CRAB)", "targets": "ESBL-E, AmpC-E, CRE, CRAB (phối hợp)"},
+    {"drug": "Imipenem-cilastatin-relebactam", "cystitis": "1.25 g IV mỗi 6h", "systemic": "1.25 g IV mỗi 6h", "infusion": "30 phút", "targets": "CRE (KPC), DTR P. aeruginosa"},
+    {"drug": "Levofloxacin", "cystitis": "750 mg IV/PO mỗi 24h", "systemic": "750 mg IV/PO mỗi 24h", "infusion": "90 phút (IV)", "targets": "ESBL-E, AmpC-E, CRE, S. maltophilia"},
+    {"drug": "Meropenem", "cystitis": "1 g IV mỗi 8h", "systemic": "1 g IV mỗi 8h (CRE không sinh CP / CRAB: 2 g IV mỗi 8h truyền 3h)", "infusion": "30 phút (hoặc 3 giờ khi dùng liều 2g)", "targets": "ESBL-E, AmpC-E, CRE (non-CP), CRAB"},
+    {"drug": "Meropenem-vaborbactam", "cystitis": "4 g IV mỗi 8h", "systemic": "4 g IV (2g mero / 2g vabor) mỗi 8h", "infusion": "Truyền kéo dài 3 giờ", "targets": "CRE sinh KPC"},
+    {"drug": "Minocycline (Liều cao)", "cystitis": "—", "systemic": "200 mg IV/PO mỗi 12h", "infusion": "60 phút (IV)", "targets": "CRAB, S. maltophilia"},
+    {"drug": "Nitrofurantoin", "cystitis": "Macrocrystal/monohydrate 100 mg PO mỗi 12h", "systemic": "Không dùng ngoài bàng quang", "infusion": "Đường uống", "targets": "Viêm bàng quang do ESBL-E, CRE"},
+    {"drug": "Plazomicin", "cystitis": "15 mg/kg IV x 1 liều", "systemic": "15 mg/kg IV mỗi 24h (TDM)", "infusion": "30 phút", "targets": "ESBL-E, AmpC-E, CRE (cUTI)"},
+    {"drug": "Polymyxin B", "cystitis": "Ưu tiên dùng Colistin cho UTI", "systemic": "Nạp 2.0–2.5 mg/kg IV, duy trì 1.25–1.5 mg/kg IV mỗi 12h", "infusion": "Liều nạp 2h; duy trì 1h", "targets": "CRAB (phối hợp với sulbactam)"},
+    {"drug": "Sulbactam-durlobactam", "cystitis": "—", "systemic": "2 g IV (1g sulbactam / 1g durlobactam) mỗi 6h", "infusion": "Truyền kéo dài 3 giờ", "targets": "CRAB (phối hợp với Imipenem/Meropenem)"},
+    {"drug": "Tigecycline (Liều cao)", "cystitis": "—", "systemic": "Nạp 200 mg IV, sau đó 100 mg IV mỗi 12h", "infusion": "30–60 phút", "targets": "CRE, CRAB, S. maltophilia (tránh BSI/UTI đơn trị)"},
+    {"drug": "Trimethoprim-sulfamethoxazole", "cystitis": "160 mg TMP (1 viên DS) PO mỗi 12h", "systemic": "8–12 mg/kg/ngày (tính theo TMP) IV/PO chia mỗi 8–12h", "infusion": "60–90 phút (IV)", "targets": "ESBL-E, AmpC-E, CRE, S. maltophilia"}
+  ],
+  "breakpoints": [
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Piperacillin-tazobactam",
+      "micS": 8,
+      "micR": 8,
+      "zoneS": 20,
+      "zoneR": 20,
+      "atuMic": "16",
+      "atuZone": "19",
+      "clsiS": "≤ 8/4 µg/mL (SDD: 16/4)",
+      "stdDose": "(4g + 0.5g) IV x 3 lần/ngày (hoặc x 4 lần/ngày truyền 30p)",
+      "highDose": "(4g + 0.5g) IV x 4 lần/ngày truyền kéo dài 3h",
+      "note": "EUCAST v16.1: Không có vùng 'I' (S ≤ 8, R > 8 mg/L), ATU tại MIC = 16 mg/L và vòng vô khuẩn 19 mm."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Ceftriaxone / Cefotaxime",
+      "micS": 1,
+      "micR": 2,
+      "zoneS": 25,
+      "zoneR": 22,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 1 µg/mL",
+      "stdDose": "Ceftriaxone 2g IV x 1 lần/ngày; Cefotaxime 1g IV x 3 lần/ngày",
+      "highDose": "Ceftriaxone 2g IV x 2 lần/ngày (hoặc 4g x 1); Cefotaxime 2g IV x 3 lần/ngày",
+      "note": "MIC > 1 mg/L trên E. coli, K. pneumoniae gợi ý mạnh sàng lọc tiết ESBL hoặc AmpC."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Ceftazidime",
+      "micS": 1,
+      "micR": 4,
+      "zoneS": 22,
+      "zoneR": 19,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4 µg/mL",
+      "stdDose": "1g IV x 3 lần/ngày",
+      "highDose": "2g IV x 3 lần/ngày (hoặc 1g x 6 lần/ngày)",
+      "note": "Đĩa giấy Ceftazidime 10 µg (theo EUCAST)."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Cefepime",
+      "micS": 1,
+      "micR": 4,
+      "zoneS": 27,
+      "zoneR": 24,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2 µg/mL (SDD: 4–8 µg/mL)",
+      "stdDose": "1g IV x 3 lần/ngày hoặc 2g x 2 lần/ngày",
+      "highDose": "2g IV x 3 lần/ngày",
+      "note": "IDSA 2024: Với AmpC-E, ưu tiên dùng Cefepime khi MIC ≤ 2 µg/mL; nếu MIC = 4–8 µg/mL nên chuyển sang Carbapenem."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Meropenem",
+      "micS": 2,
+      "micR": 8,
+      "zoneS": 22,
+      "zoneR": 16,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 1 µg/mL",
+      "stdDose": "1g IV x 3 lần/ngày (truyền 30 phút)",
+      "highDose": "2g IV x 3 lần/ngày (truyền kéo dài 3 giờ)",
+      "note": "Viêm màng não mủ (EUCAST): S ≤ 2, R > 2 mg/L. Sàng lọc sinh Carbapenemase trên Enterobacterales khi Meropenem MIC > 0.125 mg/L (hoặc đường kính đĩa 10 µg < 28 mm)."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Ertapenem",
+      "micS": 0.5,
+      "micR": 0.5,
+      "zoneS": 25,
+      "zoneR": 25,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 0.5 µg/mL",
+      "stdDose": "1g IV x 1 lần/ngày (truyền 30 phút)",
+      "highDose": "Không có chế độ liều cao",
+      "note": "Ertapenem rất nhạy để phát hiện giảm thấm/carbapenemase nhưng độ đặc hiệu thấp hơn Meropenem."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Ceftazidime-avibactam",
+      "micS": 8,
+      "micR": 8,
+      "zoneS": 13,
+      "zoneR": 13,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 8/4 µg/mL",
+      "stdDose": "(2g + 0.5g) IV x 3 lần/ngày (truyền 2–3 giờ)",
+      "highDose": "—",
+      "note": "Đĩa giấy EUCAST (10–4 µg): S ≥ 13 mm, R < 13 mm."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Meropenem-vaborbactam",
+      "micS": 8,
+      "micR": 8,
+      "zoneS": 20,
+      "zoneR": 20,
+      "atuMic": "—",
+      "atuZone": "15–19",
+      "clsiS": "≤ 4/8 µg/mL",
+      "stdDose": "(2g + 2g) IV x 3 lần/ngày (truyền 3 giờ)",
+      "highDose": "—",
+      "note": "EUCAST v16.1: S ≤ 8 mg/L (CLSI 2024: S ≤ 4/8 µg/mL). ATU vòng vô khuẩn: 15–19 mm."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Imipenem-relebactam",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": 22,
+      "zoneR": 22,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 1/4 µg/mL",
+      "stdDose": "(0.5g + 0.25g) IV x 4 lần/ngày (truyền 30 phút)",
+      "highDose": "—",
+      "note": "Không áp dụng cho họ Morganellaceae (Proteus, Providencia, Morganella) do kháng Imipenem nội tại."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Cefiderocol",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": 23,
+      "zoneR": 23,
+      "atuMic": "—",
+      "atuZone": "21–22",
+      "clsiS": "≤ 4 µg/mL",
+      "stdDose": "2g IV x 3 lần/ngày (truyền 3 giờ)",
+      "highDose": "2g IV x 4 lần/ngày (nếu tăng thanh thải thận)",
+      "note": "EUCAST v16.1: S ≤ 2, R > 2 mg/L (CLSI 2024: S ≤ 4 µg/mL). Đo MIC phải dùng canh thang Mueller-Hinton đã khử sắt (ID-CAMHB)."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Ciprofloxacin",
+      "micS": 0.25,
+      "micR": 0.5,
+      "zoneS": 25,
+      "zoneR": 22,
+      "atuMic": "0.5",
+      "atuZone": "22–24",
+      "clsiS": "≤ 0.25 µg/mL (Salmonella: ≤ 0.06 µg/mL)",
+      "stdDose": "0.5g PO x 2 lần/ngày hoặc 0.4g IV x 2 lần/ngày",
+      "highDose": "0.75g PO x 2 lần/ngày hoặc 0.4g IV x 3 lần/ngày",
+      "note": "Lưu ý ĐẶC BIỆT cho Salmonella spp.: S ≤ 0.001 mg/L và R > 0.06 mg/L (dùng đĩa Pefloxacin 5 µg để sàng lọc kháng fluoroquinolone trên Salmonella)."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Amikacin",
+      "micS": 8,
+      "micR": 8,
+      "zoneS": 18,
+      "zoneR": 18,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4 µg/mL (CLSI 2024 hạ từ 16 xuống 4)",
+      "stdDose": "15–20 mg/kg IV x 1 lần/ngày",
+      "highDose": "—",
+      "note": "EUCAST v16.1: Với nhiễm khuẩn toàn thân ngoài đường tiết niệu, Aminoglycoside phải dùng phối hợp với thuốc khác."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Trimethoprim-sulfamethoxazole",
+      "micS": 2,
+      "micR": 4,
+      "zoneS": 14,
+      "zoneR": 11,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2/38 µg/mL",
+      "stdDose": "0.16g TMP / 0.8g SMX PO/IV x 2 lần/ngày",
+      "highDose": "0.24g TMP / 1.2g SMX (hoặc 8–12 mg/kg/ngày TMP) chia 2–3 lần",
+      "note": "MIC biểu thị theo nồng độ Trimethoprim (tỷ lệ TMP:SMX = 1:19)."
+    },
+    {
+      "group": "Enterobacterales",
+      "antibiotic": "Colistin / Polymyxin B",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": null,
+      "zoneR": null,
+      "atuMic": "—",
+      "atuZone": "Không dùng đĩa giấy",
+      "clsiS": "Không có mức S (CLSI chỉ có I ≤ 2 µg/mL, R ≥ 4 µg/mL)",
+      "stdDose": "Colistin: nạp 9 MU, duy trì 4.5 MU IV x 2 lần/ngày",
+      "highDose": "—",
+      "note": "BẮT BUỘC đo MIC bằng vi pha loãng trong canh thang (Broth microdilution); tuyệt đối không dùng khuếch tán đĩa giấy hoặc dải gradient Etest."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Piperacillin-tazobactam",
+      "micS": 0.001,
+      "micR": 16,
+      "zoneS": 50,
+      "zoneR": 18,
+      "atuMic": "—",
+      "atuZone": "18–19",
+      "clsiS": "≤ 16/4 µg/mL",
+      "stdDose": "Không áp dụng liều chuẩn cho P. aeruginosa",
+      "highDose": "(4g + 0.5g) IV x 4 lần/ngày (mỗi 6h) truyền kéo dài 3h",
+      "note": "Quy tắc EUCAST S ≤ 0.001 mg/L (S ≥ 50 mm): Chủng P. aeruginosa nhạy cảm (MIC ≤ 16 mg/L, Zone ≥ 18 mm) LUÔN được trả kết quả là 'I' (Nhạy cảm - cần tăng phơi nhiễm bằng liều cao truyền kéo dài)."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Ceftazidime",
+      "micS": 0.001,
+      "micR": 8,
+      "zoneS": 50,
+      "zoneR": 17,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 8 µg/mL",
+      "stdDose": "Không áp dụng liều chuẩn",
+      "highDose": "2g IV x 3 lần/ngày (hoặc 1g x 6 lần/ngày)",
+      "note": "EUCAST S ≤ 0.001 mg/L: Chủng có MIC ≤ 8 mg/L (hoặc vòng vô khuẩn ≥ 17 mm với đĩa 10 µg) được phiên giải là 'I' (dùng liều cao 2g mỗi 8h)."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Cefepime",
+      "micS": 0.001,
+      "micR": 8,
+      "zoneS": 50,
+      "zoneR": 21,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 8 µg/mL",
+      "stdDose": "Không áp dụng liều chuẩn",
+      "highDose": "2g IV x 3 lần/ngày (mỗi 8h truyền kéo dài)",
+      "note": "EUCAST S ≤ 0.001 mg/L: Chủng có MIC ≤ 8 mg/L (Zone ≥ 21 mm) được phiên giải là 'I' (dùng liều cao 2g mỗi 8h)."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Meropenem",
+      "micS": 2,
+      "micR": 8,
+      "zoneS": 24,
+      "zoneR": 18,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2 µg/mL",
+      "stdDose": "1g IV x 3 lần/ngày (truyền 30 phút)",
+      "highDose": "2g IV x 3 lần/ngày (truyền kéo dài 3 giờ)",
+      "note": "Meropenem là β-lactam truyền thống duy nhất trên P. aeruginosa có mức 'S' ở liều chuẩn (MIC ≤ 2 mg/L → S; MIC 4–8 mg/L → I dùng liều 2g q8h truyền 3h; MIC > 8 mg/L → R)."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Ceftolozane-tazobactam",
+      "micS": 4,
+      "micR": 4,
+      "zoneS": 23,
+      "zoneR": 23,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4/4 µg/mL",
+      "stdDose": "(2g + 1g) IV x 3 lần/ngày (truyền 3 giờ)",
+      "highDose": "—",
+      "note": "Breakpoint của EUCAST đối với P. aeruginosa dựa trên chế độ liều 3g (2g/1g) mỗi 8 giờ."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Ceftazidime-avibactam",
+      "micS": 8,
+      "micR": 8,
+      "zoneS": 17,
+      "zoneR": 17,
+      "atuMic": "—",
+      "atuZone": "16–17",
+      "clsiS": "≤ 8/4 µg/mL",
+      "stdDose": "(2g + 0.5g) IV x 3 lần/ngày",
+      "highDose": "—",
+      "note": "S ≤ 8 mg/L, R > 8 mg/L (Zone ≥ 17 mm với đĩa 10–4 µg)."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Imipenem-relebactam",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": 22,
+      "zoneR": 22,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2/4 µg/mL",
+      "stdDose": "(0.5g + 0.25g) IV x 4 lần/ngày (truyền 30 phút)",
+      "highDose": "—",
+      "note": "S ≤ 2 mg/L, R > 2 mg/L."
+    },
+    {
+      "group": "Pseudomonas spp.",
+      "antibiotic": "Ciprofloxacin",
+      "micS": 0.001,
+      "micR": 0.5,
+      "zoneS": 50,
+      "zoneR": 26,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 0.5 µg/mL",
+      "stdDose": "Không áp dụng liều chuẩn",
+      "highDose": "0.75g PO x 2 lần/ngày hoặc 0.4g IV x 3 lần/ngày",
+      "note": "EUCAST S ≤ 0.001 mg/L: Chủng có MIC ≤ 0.5 mg/L (Zone ≥ 26 mm) luôn phiên giải là 'I' (bắt buộc dùng liều cao Ciprofloxacin)."
+    },
+    {
+      "group": "Acinetobacter spp.",
+      "antibiotic": "Meropenem / Imipenem",
+      "micS": 2,
+      "micR": 8,
+      "zoneS": 21,
+      "zoneR": 15,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2 µg/mL",
+      "stdDose": "Meropenem 1g IV x 3 lần/ngày; Imipenem 0.5g IV x 4 lần/ngày",
+      "highDose": "Meropenem 2g IV x 3 lần/ngày (truyền 3h); Imipenem 1g IV x 4 lần/ngày",
+      "note": "Với Imipenem trên Acinetobacter: MIC S ≤ 2, R > 4 mg/L (Zone S ≥ 24, R < 21 mm)."
+    },
+    {
+      "group": "Acinetobacter spp.",
+      "antibiotic": "Sulbactam-durlobactam",
+      "micS": 4,
+      "micR": 4,
+      "zoneS": 17,
+      "zoneR": 17,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4/4 µg/mL (SDD: 8/4)",
+      "stdDose": "2g (1g sulbactam / 1g durlobactam) IV mỗi 6h truyền 3h",
+      "highDose": "—",
+      "note": "Theo CLSI 2024 Table 2 (IDSA 2024): S ≤ 4/4 µg/mL (đĩa giấy ≥ 17 mm)."
+    },
+    {
+      "group": "Acinetobacter spp.",
+      "antibiotic": "Colistin / Polymyxin B",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": null,
+      "zoneR": null,
+      "atuMic": "—",
+      "atuZone": "Không dùng đĩa giấy",
+      "clsiS": "CLSI chỉ có I ≤ 2 µg/mL, R ≥ 4 µg/mL",
+      "stdDose": "Polymyxin B: nạp 2–2.5 mg/kg, duy trì 1.25–1.5 mg/kg mỗi 12h",
+      "highDose": "—",
+      "note": "Chỉ xác định MIC bằng vi pha loãng trong canh thang (Broth microdilution)."
+    },
+    {
+      "group": "Stenotrophomonas maltophilia",
+      "antibiotic": "Trimethoprim-sulfamethoxazole",
+      "micS": 0.001,
+      "micR": 4,
+      "zoneS": 50,
+      "zoneR": 16,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2/38 µg/mL",
+      "stdDose": "Không áp dụng liều chuẩn",
+      "highDose": "0.24g TMP / 1.2g SMX IV/PO x 2 lần/ngày (hoặc 8–12 mg/kg/ngày TMP)",
+      "note": "EUCAST S ≤ 0.001 mg/L: Chủng hoang dại có MIC ≤ 4 mg/L (Zone ≥ 16 mm) luôn trả kết quả 'I' để bắt buộc dùng liều cao TMP-SMX."
+    },
+    {
+      "group": "Stenotrophomonas maltophilia",
+      "antibiotic": "Cefiderocol",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": 20,
+      "zoneR": 20,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 1 µg/mL",
+      "stdDose": "2g IV mỗi 8 giờ (truyền 3 giờ)",
+      "highDose": "—",
+      "note": "EUCAST ECOFF cho S. maltophilia là 0.5 mg/L (đường kính đĩa giấy 30 µg ≥ 20 mm); CLSI 2024 đặt S ≤ 1 µg/mL."
+    },
+    {
+      "group": "Staphylococcus aureus",
+      "antibiotic": "Cefoxitin (Sàng lọc MRSA)",
+      "micS": 4,
+      "micR": 4,
+      "zoneS": 22,
+      "zoneR": 22,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4 µg/mL (Zone ≥ 22 mm = MSSA)",
+      "stdDose": "Chỉ dùng để sàng lọc trong phòng xét nghiệm (đĩa 30 µg)",
+      "highDose": "—",
+      "note": "Nếu Cefoxitin MIC > 4 mg/L hoặc đường kính vòng vô khuẩn < 22 mm → khẳng định MRSA (mang mecA/mecC), báo kháng toàn bộ β-lactam trừ Ceftaroline/Ceftobiprole."
+    },
+    {
+      "group": "Staphylococcus aureus",
+      "antibiotic": "Vancomycin",
+      "micS": 2,
+      "micR": 2,
+      "zoneS": null,
+      "zoneR": null,
+      "atuMic": "—",
+      "atuZone": "Không dùng đĩa giấy",
+      "clsiS": "≤ 2 µg/mL (VISA: 4–8, VRSA: ≥ 16)",
+      "stdDose": "0.5g IV x 4 lần/ngày hoặc 1g IV x 2 lần/ngày (TDM AUC/MIC 400–600)",
+      "highDose": "—",
+      "note": "EUCAST & CLSI: Không dùng phương pháp khuếch tán đĩa giấy cho Vancomycin trên S. aureus vì không phân biệt được MSSA/MRSA nhạy với chủng giảm nhạy (VISA); bắt buộc đo MIC."
+    },
+    {
+      "group": "Staphylococcus aureus",
+      "antibiotic": "Linezolid",
+      "micS": 4,
+      "micR": 4,
+      "zoneS": 21,
+      "zoneR": 21,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4 µg/mL",
+      "stdDose": "600 mg IV/PO x 2 lần/ngày",
+      "highDose": "—",
+      "note": "Đĩa giấy Linezolid 10 µg (EUCAST): S ≥ 21 mm, R < 21 mm."
+    },
+    {
+      "group": "Enterococcus spp.",
+      "antibiotic": "Ampicillin / Amoxicillin",
+      "micS": 4,
+      "micR": 8,
+      "zoneS": 10,
+      "zoneR": 8,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 8 µg/mL",
+      "stdDose": "Ampicillin 2g IV x 3 lần/ngày; Amoxicillin 0.5g PO x 3 lần/ngày",
+      "highDose": "Ampicillin 2g IV x 4–6 lần/ngày; Amoxicillin 1g PO x 3 lần/ngày",
+      "note": "Nếu nhạy với Ampicillin thì suy ra nhạy với Amoxicillin và Piperacillin. E. faecalis đa số nhạy, còn E. faecium đa số kháng."
+    },
+    {
+      "group": "Enterococcus spp.",
+      "antibiotic": "Vancomycin",
+      "micS": 4,
+      "micR": 4,
+      "zoneS": 12,
+      "zoneR": 12,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 4 µg/mL (R ≥ 32 µg/mL)",
+      "stdDose": "1g IV x 2 lần/ngày (hoặc 15–20 mg/kg mỗi 12h)",
+      "highDose": "—",
+      "note": "Đĩa giấy Vancomycin 5 µg (EUCAST): S ≥ 12 mm VÀ quan sát mép vòng vô khuẩn không bị mờ (nếu mép mờ hoặc có khuẩn lạc bên trong phải đo MIC xác nhận VRE)."
+    },
+    {
+      "group": "Streptococcus pneumoniae",
+      "antibiotic": "Benzylpenicillin (Ngoài màng não / Viêm phổi)",
+      "micS": 0.06,
+      "micR": 2,
+      "zoneS": 20,
+      "zoneR": 20,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 2 µg/mL (IV non-meningitis)",
+      "stdDose": "0.6g (1 MU) IV x 4 lần/ngày",
+      "highDose": "1.2g (2 MU) IV x 4–6 lần/ngày (hoặc 2.4g x 4 lần/ngày)",
+      "note": "Với Viêm màng não mủ do S. pneumoniae: Breakpoint nghiêm ngặt hơn nhiều: S ≤ 0.06 mg/L và R > 0.06 mg/L (không có mức I). Sàng lọc bằng đĩa Oxacillin 1 µg ≥ 20 mm."
+    },
+    {
+      "group": "Streptococcus pneumoniae",
+      "antibiotic": "Ceftriaxone",
+      "micS": 0.5,
+      "micR": 2,
+      "zoneS": 25,
+      "zoneR": 22,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 1 µg/mL ( ngoài màng não); ≤ 0.5 µg/mL (màng não)",
+      "stdDose": "2g IV x 1 lần/ngày",
+      "highDose": "2g IV x 2 lần/ngày (bắt buộc cho viêm màng não mủ)",
+      "note": "Với Viêm màng não do phế cầu: EUCAST quy định S ≤ 0.5 mg/L, R > 0.5 mg/L."
+    },
+    {
+      "group": "Haemophilus influenzae",
+      "antibiotic": "Ampicillin / Amoxicillin",
+      "micS": 1,
+      "micR": 1,
+      "zoneS": 18,
+      "zoneR": 18,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 1 µg/mL",
+      "stdDose": "Amoxicillin 0.5g PO x 3 lần/ngày (hoặc 1g IV x 3 lần/ngày)",
+      "highDose": "Amoxicillin 0.75–1g PO x 3 lần/ngày (uống có mức I đến 2 mg/L)",
+      "note": "Sàng lọc kháng β-lactam bằng đĩa Benzylpenicillin 1 unit (Zone ≥ 12 mm → loại trừ cả β-lactamase và đột biến PBP3 BLNAR)."
+    },
+    {
+      "group": "Neisseria gonorrhoeae",
+      "antibiotic": "Ceftriaxone",
+      "micS": 0.125,
+      "micR": 0.125,
+      "zoneS": 35,
+      "zoneR": 35,
+      "atuMic": "—",
+      "atuZone": "—",
+      "clsiS": "≤ 0.25 µg/mL",
+      "stdDose": "0.5g–1g IM x 1 liều duy nhất",
+      "highDose": "—",
+      "note": "Ceftriaxone là thuốc đầu tay điều trị lậu. Nếu MIC > 0.125 mg/L cần báo cáo ngay cho hệ thống giám sát kháng thuốc."
+    }
+  ],
+  "whoBppl2024": {
+    "criteria": [
+      "1. Tỷ lệ tử vong (Case fatality ratio / Mortality)",
+      "2. Tỷ lệ mắc mới (Incidence)",
+      "3. Gánh nặng bệnh tật không tử vong (Non-fatal health burden – YLDs)",
+      "4. Xu hướng gia tăng đề kháng trong 10 năm qua (10-year trend of resistance)",
+      "5. Khả năng lây truyền dễ dàng (Transmissibility)",
+      "6. Khả năng phòng ngừa trong bệnh viện & cộng đồng (Preventability – vắc xin, IPC, nước sạch)",
+      "7. Khả năng điều trị hiện tại (Treatability – số lượng thuốc hiệu quả, dạng uống, chi phí)",
+      "8. Đường ống nghiên cứu kháng sinh mới (Pipeline – số thuốc đang thử nghiệm lâm sàng)"
+    ],
+    "tiers": [
+      {
+        "tier": "Critical (Nhóm Nguy cấp)",
+        "badgeClass": "R",
+        "description": "Các tác nhân gây mối đe dọa nghiêm trọng nhất cho y tế công cộng toàn cầu, tỷ lệ tử vong cao, gánh nặng lớn ở các nước thu nhập thấp–trung bình và còn cực kỳ ít lựa chọn điều trị.",
+        "items": [
+          {"pathogen": "Acinetobacter baumannii kháng carbapenem (CRAB)", "microbeId": "a-baumannii"},
+          {"pathogen": "Enterobacterales kháng cephalosporin thế hệ 3 (3GCR-E)", "microbeId": "e-coli"},
+          {"pathogen": "Enterobacterales kháng carbapenem (CRE)", "microbeId": "k-pneumoniae"},
+          {"pathogen": "Mycobacterium tuberculosis kháng rifampicin (RR-TB)", "microbeId": "m-tuberculosis"}
+        ]
+      },
+      {
+        "tier": "High (Nhóm Ưu tiên Cao)",
+        "badgeClass": "I",
+        "description": "Các tác nhân kháng thuốc rất khó điều trị, gây gánh nặng bệnh tật lớn tại cả bệnh viện (VRE, CRPA, MRSA) và cộng đồng ở các nước đang phát triển (Thương hàn, Lỵ, Lậu).",
+        "items": [
+          {"pathogen": "Salmonella Typhi kháng fluoroquinolone", "microbeId": "s-typhi"},
+          {"pathogen": "Shigella spp. kháng fluoroquinolone", "microbeId": "shigella"},
+          {"pathogen": "Enterococcus faecium kháng vancomycin (VRE)", "microbeId": "e-faecium"},
+          {"pathogen": "Pseudomonas aeruginosa kháng carbapenem (CRPA)", "microbeId": "p-aeruginosa"},
+          {"pathogen": "Non-typhoidal Salmonella kháng fluoroquinolone", "microbeId": "s-typhi"},
+          {"pathogen": "Neisseria gonorrhoeae kháng cephalosporin thế hệ 3 và/hoặc fluoroquinolone", "microbeId": "n-gonorrhoeae"},
+          {"pathogen": "Staphylococcus aureus kháng methicillin (MRSA)", "microbeId": "s-aureus"}
+        ]
+      },
+      {
+        "tier": "Medium (Nhóm Ưu tiên Trung bình)",
+        "badgeClass": "S",
+        "description": "Các tác nhân có xu hướng kháng thuốc gia tăng, gây gánh nặng đặc biệt ở nhóm dân số dễ tổn thương (trẻ em, trẻ sơ sinh, người cao tuổi) tại các vùng hạn chế nguồn lực.",
+        "items": [
+          {"pathogen": "Liên cầu khuẩn nhóm A (Streptococcus pyogenes) kháng macrolide", "microbeId": "s-pyogenes"},
+          {"pathogen": "Phế cầu khuẩn (Streptococcus pneumoniae) kháng macrolide", "microbeId": "s-pneumoniae"},
+          {"pathogen": "Haemophilus influenzae kháng ampicillin", "microbeId": "h-influenzae"},
+          {"pathogen": "Liên cầu khuẩn nhóm B (Streptococcus agalactiae) kháng penicillin", "microbeId": "s-pyogenes"}
+        ]
+      }
+    ]
+  },
+  "vnStrategy1121": {
+    "title": "Quyết định 1121/QĐ-TTg (25/09/2023) – Chiến lược Quốc gia về Phòng, chống Kháng thuốc tại Việt Nam giai đoạn 2023–2030, tầm nhìn đến năm 2045",
+    "vision2045": "Kiểm soát hiệu quả tình trạng kháng thuốc, có hệ thống giám sát kháng thuốc đồng bộ hiện đại liên ngành Một Sức Khỏe (One Health) ngang tầm các nước tiên tiến, bảo đảm sử dụng kháng sinh hợp lý, an toàn và bền vững.",
+    "targets": [
+      {
+        "goal": "Mục tiêu 1: Nâng cao nhận thức của các cấp chính quyền và người dân",
+        "metrics": [
+          "Tổ chức Tuần lễ truyền thông thế giới về phòng, chống kháng thuốc hàng năm (18–24/11) tại 100% tỉnh, thành phố vào năm 2030.",
+          "Tăng tỷ lệ người dân, người chăn nuôi hiểu đúng về việc chỉ mua và sử dụng kháng sinh khi có đơn của bác sĩ / bác sĩ thú y."
+        ]
+      },
+      {
+        "goal": "Mục tiêu 2: Củng cố hệ thống giám sát kháng thuốc quốc gia",
+        "metrics": [
+          "Phát triển các Phòng xét nghiệm tham chiếu quốc gia và mạng lưới bệnh viện giám sát kháng thuốc kết nối hệ thống GLASS của WHO.",
+          "Triển khai giám sát kháng thuốc và tồn dư kháng sinh trong chăn nuôi, thủy sản, thực phẩm và môi trường."
+        ]
+      },
+      {
+        "goal": "Mục tiêu 3: Giảm sự lan truyền của vi sinh vật và bệnh truyền nhiễm",
+        "metrics": [
+          "Tăng cường kiểm soát nhiễm khuẩn (IPC) tại các cơ sở khám bệnh, chữa bệnh; giám sát nhiễm khuẩn bệnh viện tại các khoa Hồi sức tích cực (ICU).",
+          "Đảm bảo an toàn sinh học, tiêm phòng vắc xin trong chăn nuôi và xử lý nước thải y tế, nông nghiệp."
+        ]
+      },
+      {
+        "goal": "Mục tiêu 4: Sử dụng thuốc kháng vi sinh vật hợp lý, an toàn và có trách nhiệm",
+        "metrics": [
+          "Năm 2025: Ít nhất 30% bệnh viện tuyến tỉnh, tuyến huyện triển khai chương trình Quản lý sử dụng kháng sinh (AMS) ở mức độ trung bình trở lên.",
+          "Năm 2030: Ít nhất 50% bệnh viện tuyến tỉnh, tuyến huyện triển khai chương trình AMS ở mức độ trung bình trở lên; 100% bệnh viện tuyến trung ương thực hiện tốt AMS.",
+          "Kiểm soát chặt chẽ việc bán kháng sinh phải có đơn thuốc tại các nhà thuốc và cơ sở thú y."
+        ]
+      }
+    ],
+    "projects": [
+      "Đề án 1 (Bộ Y tế chủ trì): Truyền thông, nâng cao nhận thức của cộng đồng và cán bộ y tế, thú y về phòng, chống kháng thuốc.",
+      "Đề án 2 (Bộ Y tế chủ trì): Tăng cường năng lực hệ thống giám sát kháng thuốc và quản lý sử dụng kháng sinh hợp lý trong y tế.",
+      "Đề án 3 (Bộ Nông nghiệp & Phát triển nông thôn chủ trì): Tăng cường năng lực giám sát kháng thuốc và quản lý sử dụng kháng sinh trong chăn nuôi và nuôi trồng thủy sản."
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "case-1",
+    "title": "Ca 1: Nhiễm khuẩn huyết từ đường tiết niệu do E. coli tiết ESBL kèm sốc nhiễm khuẩn",
+    "scenario": "Bệnh nhân nữ 68 tuổi nhập khoa ICU vì sốt 39.5°C, rét run, đau hông lưng phải và tụt huyết áp 80/50 mmHg phải duy trì Noradrenalin. Xét nghiệm máu: Bạch cầu 22.000/mm3, Albumin huyết tương giảm nặng 2.1 g/dL, Creatinin 1.0 mg/dL. Cấy máu và cấy nước tiểu mọc Escherichia coli tiết ESBL. Kháng sinh đồ: Kháng Ceftriaxone (MIC > 32), nhạy Piperacillin-tazobactam (MIC = 4 µg/mL), nhạy Cefepime (MIC = 2 µg/mL), nhạy Ertapenem (MIC ≤ 0.25), nhạy Meropenem (MIC ≤ 0.25), nhạy TMP-SMX.",
+    "question": "Theo Hướng dẫn IDSA 2024, phác đồ kháng sinh khởi trị đích tối ưu nhất cho bệnh nhân tại thời điểm đang có sốc nhiễm khuẩn và giảm albumin máu này là gì?",
+    "options": [
+      "Piperacillin-tazobactam 4.5g IV mỗi 6 giờ vì MIC còn nhạy (4 µg/mL)",
+      "Ertapenem 1g IV mỗi 24 giờ để dùng 1 lần/ngày cho tiện lợi",
+      "Meropenem 1g IV mỗi 8 giờ (hoặc Imipenem-cilastatin 500mg IV mỗi 6 giờ), sau đó khi bệnh nhân hết sốc, ổn định huyết động có thể hạ bậc sang uống TMP-SMX",
+      "Nitrofurantoin 100mg PO mỗi 12 giờ"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 1): (1) Không dùng Piperacillin-tazobactam hay Cefepime cho nhiễm khuẩn ngoài bàng quang do ESBL-E dù in vitro báo nhạy (thử nghiệm MERINO cho thấy tăng tỷ lệ tử vong 30 ngày so với Meropenem); (2) Giữa Ertapenem và Meropenem/Imipenem, ở bệnh nhân nguy kịch (sốc nhiễm khuẩn) hoặc giảm albumin máu < 2.5 g/dL, Ertapenem (gắn protein 95%) bị tăng thanh thải phần thuốc tự do làm giảm hiệu quả điều trị, nên bắt buộc ưu tiên Meropenem hoặc Imipenem. Khi bệnh nhân đã ổn định lâm sàng hoàn toàn, có thể hạ bậc sang đường uống bằng TMP-SMX."
+  },
+  {
+    "id": "case-2",
+    "title": "Ca 2: Viêm phổi thở máy do Enterobacter cloacae complex (Nguy cơ cảm ứng AmpC)",
+    "scenario": "Bệnh nhân nam 55 tuổi thở máy ngày thứ 7 tại ICU sau chấn thương sọ não, xuất hiện sốt cao, đờm mủ đặc và thâm nhiễm mới thùy dưới phổi phải. Cấy dịch hút phế quản định lượng mọc Enterobacter cloacae complex (> 10^6 CFU/mL). Kháng sinh đồ ban đầu báo: Nhạy Ceftriaxone (MIC = 0.5 µg/mL), nhạy Piperacillin-tazobactam (MIC = 8 µg/mL), nhạy Cefepime (MIC = 1 µg/mL), nhạy Meropenem (MIC ≤ 0.25 µg/mL).",
+    "question": "Theo IDSA 2024 (Section 2), quyết định lựa chọn kháng sinh nào sau đây là ĐÚNG?",
+    "options": [
+      "Chọn Ceftriaxone 2g IV mỗi 24 giờ vì MIC rất thấp (0.5 µg/mL) và phổ hẹp hơn",
+      "Chọn Cefepime 2g IV mỗi 8 giờ (truyền kéo dài 3 giờ) hoặc Meropenem 1g IV mỗi 8 giờ; tránh dùng Ceftriaxone vì nguy cơ ~20% đột biến giải ức chế AmpC gây thất bại điều trị",
+      "Chọn Amoxicillin-clavulanate 1.2g IV mỗi 8 giờ",
+      "Chọn Fosfomycin 3g đường uống"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 (Section 2): Enterobacter cloacae complex (cùng với Klebsiella aerogenes và Citrobacter freundii) thuộc nhóm có nguy cơ trung bình–cao đột biến giải ức chế gen ampC ngay trong quá trình điều trị bằng Ceftriaxone hoặc Ceftazidime (~20%). Vì Cefepime của chủng này có MIC = 1 µg/mL (≤ 2 µg/mL), Cefepime (2g IV q8h truyền 3h) là lựa chọn ưu tiên hàng đầu giúp tiết kiệm Carbapenem (hoặc dùng Meropenem). Nếu Cefepime MIC = 4–8 µg/mL (SDD) thì nên ưu tiên Meropenem vì nguy cơ đồng nhiễm ESBL."
+  },
+  {
+    "id": "case-3",
+    "title": "Ca 3: Nhiễm khuẩn huyết do Klebsiella pneumoniae kháng Carbapenem (CRE) sinh enzyme NDM",
+    "scenario": "Bệnh nhân nam 62 tuổi suy tủy xương đang hóa trị, sốt cao 39.8°C. Cấy máu dương tính với Klebsiella pneumoniae kháng Meropenem (MIC = 32 µg/mL), kháng Imipenem, kháng Ceftazidime-avibactam đơn độc (MIC > 64 µg/mL), kháng Meropenem-vaborbactam (MIC > 64 µg/mL) và kháng Aztreonam đơn độc (MIC > 64 µg/mL). Xét nghiệm sinh học phân tử nhanh (PCR) phát hiện gen blaNDM-1 và blaCTX-M-15.",
+    "question": "Giải thích tại sao vi khuẩn kháng cả Ceftazidime-avibactam lẫn Aztreonam khi thử riêng lẻ, và phác đồ điều trị ưu tiên số 1 theo IDSA 2024 là gì?",
+    "options": [
+      "Do vi khuẩn không có PBP3; điều trị bằng Vancomycin + Linezolid",
+      "NDM là Metallo-β-lactamase (lớp B) không bị ức chế bởi Avibactam/Vaborbactam nên kháng Ceftazidime-avibactam; tuy NDM không phân hủy được Aztreonam nhưng enzyme CTX-M-15 (ESBL) đi kèm lại phá hủy Aztreonam. Phác đồ ưu tiên: Truyền ĐỒNG THỜI Ceftazidime-avibactam 2.5g + Aztreonam 2g IV mỗi 8h (trong 3 giờ) hoặc dùng Cefiderocol",
+      "Dùng Meropenem truyền kéo dài liều cao đơn độc",
+      "Dùng Tigecycline đơn trị 50mg IV mỗi 12h cho nhiễm khuẩn huyết"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 (Section 3): Đây là cơ chế hiệp đồng kinh điển trên CRE sinh MBL (NDM): NDM chứa ion Zn2+ thủy phân mọi β-lactam ngoại trừ Aztreonam, và không bị Avibactam ức chế. Ngược lại, CTX-M-15 (ESBL) thủy phân Aztreonam nhưng lại bị Avibactam khóa chặt. Khi truyền đồng thời Ceftazidime-avibactam + Aztreonam trong 3 giờ mỗi 8h, Avibactam sẽ 'che chắn' cho Aztreonam đi tới gắn vào PBP3 tiêu diệt vi khuẩn. Lựa chọn ưu tiên tương đương là Cefiderocol 2g IV mỗi 8h truyền 3h."
+  },
+  {
+    "id": "case-4",
+    "title": "Ca 4: Viêm phổi bệnh viện do DTR Pseudomonas aeruginosa & Phiên giải EUCAST v16.1",
+    "scenario": "Bệnh nhân nam 70 tuổi đợt cấp giãn phế quản nặng thở máy tại ICU. Cấy đờm qua nội khí quản mọc Pseudomonas aeruginosa. Đợt 1 cách đây 1 tháng: Ceftazidime có MIC = 4 mg/L (EUCAST v16.1 quy định: S ≤ 0.001 mg/L, R > 8 mg/L). Đến đợt này, chủng P. aeruginosa đã kháng Piperacillin-tazobactam, Ceftazidime (MIC = 64), Cefepime (MIC = 32), Meropenem (MIC = 32), Imipenem, Ciprofloxacin và Levofloxacin; xét nghiệm MBL âm tính; còn nhạy với Ceftolozane-tazobactam (MIC = 1 mg/L) và Ceftazidime-avibactam (MIC = 2 mg/L).",
+    "question": "Hãy cho biết: (1) Ở đợt 1, giá trị MIC Ceftazidime = 4 mg/L được EUCAST phiên giải là gì? (2) Ở đợt này (DTR-P. aeruginosa), phác đồ nào được IDSA 2024 khuyến cáo ưu tiên?",
+    "options": [
+      "(1) Đợt 1 là 'R' (Kháng); (2) Đợt này dùng Ertapenem 1g mỗi 24h",
+      "(1) Đợt 1 là 'I' (Nhạy cảm khi tăng phơi nhiễm – dùng liều cao 2g q8h); (2) Đợt này là DTR-P. aeruginosa nên ưu tiên dùng Ceftolozane-tazobactam 3g IV mỗi 8h (truyền 3h) hoặc Ceftazidime-avibactam 2.5g IV mỗi 8h (truyền 3h), không cần phối hợp thêm Colistin khí dung",
+      "(1) Đợt 1 là 'S' (dùng liều thấp 0.5g); (2) Đợt này dùng Tigecycline đơn trị",
+      "(1) Đợt 1 là 'ATU'; (2) Đợt này dùng Meropenem-vaborbactam"
+    ],
+    "answer": 1,
+    "explanation": "Kết hợp EUCAST v16.1 & IDSA 2024 (Section 4): (1) Với Ceftazidime trên P. aeruginosa, EUCAST đặt S ≤ 0.001 mg/L và R > 8 mg/L, nên MIC = 4 mg/L được trả kết quả là 'I' (cần dùng liều cao 2g IV mỗi 8h). (2) Khi đã thành DTR-P. aeruginosa (không nhạy với tất cả các thuốc truyền thống), lựa chọn ưu tiên cho viêm phổi là Ceftolozane-tazobactam 3g IV mỗi 8h (chú ý liều viêm phổi là 3g, gấp đôi liều viêm bàng quang 1.5g), Ceftazidime-avibactam hoặc Imipenem-relebactam."
+  },
+  {
+    "id": "case-5",
+    "title": "Ca 5: Viêm phổi thở máy kèm nhiễm khuẩn huyết do CRAB tại khoa Hồi sức",
+    "scenario": "Bệnh nhân nữ 64 tuổi thở máy ngày thứ 12 tại ICU vì đa chấn thương, sốt 39.2°C, X-quang phổi thâm nhiễm lan tỏa 2 bên, cấy máu và dịch rửa phế quản-phế nang (BAL) cùng mọc Acinetobacter baumannii kháng Carbapenem (CRAB: Meropenem MIC > 32 µg/mL, Imipenem MIC > 32 µg/mL, Ampicillin-sulbactam MIC = 32/16 µg/mL [R], Polymyxin B MIC = 0.5 µg/mL, Minocycline MIC = 2 µg/mL). Bệnh viện hiện chưa có thuốc Sulbactam-durlobactam.",
+    "question": "Theo Hướng dẫn IDSA 2024 (Section 5), phác đồ nào sau đây là phù hợp nhất khi cơ sở y tế chưa có Sulbactam-durlobactam?",
+    "options": [
+      "Dùng Colistin đơn trị kết hợp với Rifampicin đường uống",
+      "Dùng Polymyxin B phối hợp với Meropenem (không có sulbactam)",
+      "Dùng Ampicillin-sulbactam LIỀU CAO (tổng 27g/ngày = 9g sulbactam/ngày: truyền 9g IV mỗi 8h trong 4 giờ) PHỐI HỢP với ít nhất 1 thuốc khác còn hoạt tính như Polymyxin B (nạp 2–2.5 mg/kg, duy trì 1.25–1.5 mg/kg q12h) hoặc Minocycline liều cao (200mg IV/PO mỗi 12h)",
+      "Dùng Tigecycline liều chuẩn 50mg mỗi 12h đơn trị"
+    ],
+    "answer": 2,
+    "explanation": "IDSA 2024 (Section 5): Khi không có Sulbactam-durlobactam, phác đồ thay thế bắt buộc phải lấy Ampicillin-sulbactam liều cao (9g sulbactam/ngày) làm nền tảng (kể cả khi kháng sinh đồ báo kháng Ampicillin-sulbactam, vì liều cao truyền kéo dài vẫn giúp sulbactam bão hòa PBP1/PBP3 của A. baumannii), phối hợp với Polymyxin B (ưu tiên hơn Colistin cho nhiễm khuẩn toàn thân/viêm phổi) hoặc Minocycline liều cao 200mg q12h. Tránh dùng Colistin + Meropenem (thử nghiệm AIDA/OVERCOME thất bại) và tránh dùng Rifampicin."
+  },
+  {
+    "id": "case-6",
+    "title": "Ca 6: Nhiễm khuẩn huyết và viêm phổi xuất huyết do Stenotrophomonas maltophilia",
+    "scenario": "Bệnh nhân nam 48 tuổi mắc bệnh bạch cầu cấp dòng tủy (AML) đang giảm bạch cầu hạt sâu sau hóa trị và đã dùng Meropenem 14 ngày. Bệnh nhân đột ngột sốt cao trở lại, khó thở, ho khạc đờm lẫn máu. Cấy máu và đờm mọc trực khuẩn Gram âm Stenotrophomonas maltophilia.",
+    "question": "Theo IDSA 2024 (Section 6), vì sao vi khuẩn này xuất hiện đột phá ngay khi đang dùng Meropenem, và phác đồ điều trị ưu tiên là gì?",
+    "options": [
+      "Do vi khuẩn không có vách tế bào; điều trị bằng Vancomycin đơn trị",
+      "Vì S. maltophilia mang sẵn enzyme Metallo-β-lactamase L1 trên nhiễm sắc thể làm thủy phân mọi Carbapenem (và enzyme L2 thủy phân Ceftazidime). Phác đồ ưu tiên: Phối hợp 2 thuốc (ví dụ TMP-SMX liều 8–12 mg/kg/ngày TMP + Minocycline liều cao 200mg q12h hoặc Cefiderocol hoặc Levofloxacin) HOẶC dùng Ceftazidime-avibactam + Aztreonam",
+      "Điều trị bằng Ceftazidime 2g IV mỗi 8 giờ đơn trị",
+      "Điều trị bằng Amikacin phối hợp với Gentamicin"
+    ],
+    "answer": 1,
+    "explanation": "IDSA 2024 (Section 6): Việc dùng Meropenem kéo dài đã chọn lọc ra S. maltophilia vì loài này mang gen β-lactamase L1 (MBL kháng mọi carbapenem) và L2 (serine cephalosporinase kháng cephalosporin/aztreonam) nội tại, đồng thời kháng aminoglycoside. Do đó phải khởi trị ngay bằng phác đồ phối hợp 2 thuốc (trong nhóm TMP-SMX, Minocycline liều cao, Cefiderocol, Levofloxacin) hoặc phối hợp Ceftazidime-avibactam + Aztreonam cho đến khi lâm sàng cải thiện."
+  },
+  {
+    "id": "case-7",
+    "title": "Ca 7: Sốt cao kéo dài, mạch nhiệt phân ly & Phản ứng huyết thanh Widal",
+    "scenario": "Bệnh nhân nam 26 tuổi sau chuyến đi công tác vùng ngập lụt trở về, sốt tăng dần từ từ trong 10 ngày nay, hiện sốt cao liên tục 39.5–40°C (hình cao nguyên), nhưng mạch chỉ 76 lần/phút (mạch nhiệt phân ly), vẻ mặt thờ ơ, bụng chướng nhẹ, ùng ục hố chậu phải, gan lách mấp mé bờ sườn và có vài nốt hồng ban (đào ban) ở bụng. Công thức máu: Bạch cầu không tăng (5.200/mm3).",
+    "question": "Theo Giáo trình Vi Sinh Học (Bài 11) và WHO BPPL 2024, tác nhân gây bệnh nghĩ đến đầu tiên là gì, xét nghiệm nào cần làm và lựa chọn kháng sinh hiện nay như thế nào?",
+    "options": [
+      "Vibrio cholerae; chỉ cần làm phản ứng VDRL và dùng Penicillin G",
+      "Salmonella enterica serovar Typhi (Sốt thương hàn); cần Cấy máu, Cấy phân và làm phản ứng huyết thanh ngưng kết Widal (2 lần cách nhau 7–10 ngày tìm động lực kháng thể O và H). Do tỷ lệ kháng Fluoroquinolone cao (nhóm High của WHO 2024), ưu tiên điều trị bằng Ceftriaxone IV hoặc Azithromycin",
+      "Shigella dysenteriae; chỉ làm phản ứng ASO và dùng Vancomycin",
+      "Staphylococcus aureus; làm phản ứng Coagulase và dùng Nitrofurantoin"
+    ],
+    "answer": 1,
+    "explanation": "Bệnh cảnh lâm sàng điển hình của Sốt thương hàn do Salmonella Typhi: sốt cao nguyên, mạch nhiệt phân ly, đào ban, lách to, bạch cầu bình thường hoặc giảm. Tuần đầu cấy máu dương tính 90%; từ tuần thứ 2 cấy phân dương tính cao và phản ứng Widal dương tính (kháng thể O ≥ 1/100, H ≥ 1/200 hoặc tăng gấp 4 lần ở lần 2). Do S. Typhi kháng Fluoroquinolone nằm trong nhóm Ưu tiên Cao (High) của WHO 2024, Ceftriaxone và Azithromycin là lựa chọn đầu tay."
+  },
+  {
+    "id": "case-8",
+    "title": "Ca 8: Vết loét sinh dục không đau & Giải thích kết quả huyết thanh VDRL / TPHA",
+    "scenario": "Bệnh nhân nam 30 tuổi đến khám vì phát hiện một vết loét đơn độc ở rãnh quy đầu từ 2 tuần nay после quan hệ tình dục không an toàn cách đây 1 tháng. Khám: Vết loét tròn, bờ đều, đáy sạch màu đỏ tươi như thịt sống, bóp vào thấy nền cứng như mảnh sụn, hoàn toàn KHÔNG đau, KHÔNG ngứa, không có mủ, kèm chùm hạch bẹn hai bên di động không đau. Xét nghiệm máu: RPR dương tính (hiệu giá 1:32) và TPHA dương tính.",
+    "question": "Theo Giáo trình Vi Sinh Học (Bài 12), chẩn đoán xác định, phương pháp điều trị đầu tay và cách theo dõi sau điều trị cho bệnh nhân này là gì?",
+    "options": [
+      "Bệnh Hạ cam mềm do Haemophilus ducreyi; điều trị bằng Vancomycin",
+      "Bệnh Giang mai thời kỳ I (săng giang mai) do xoắn khuẩn Treponema pallidum; điều trị đầu tay bằng Benzathine Penicillin G tiêm bắp và theo dõi sự giảm hiệu giá của xét nghiệm RPR/VDRL định lượng (vì TPHA sẽ còn dương tính suốt đời)",
+      "Bệnh Lậu cấp do Neisseria gonorrhoeae; điều trị bằng Metronidazole",
+      "Dương tính giả sinh học nên không cần điều trị"
+    ],
+    "answer": 1,
+    "explanation": "Bài 12: Vết loét nông, đáy sạch, nền cứng, không đau, không ngứa là Săng giang mai (thời kỳ I) điển hình do Treponema pallidum (ngược lại với Hạ cam mềm do H. ducreyi là vết loét bờ nham nhở, đáy nhiều mủ bẩn và RẤT ĐAU). Khi cả RPR (cardiolipin) và TPHA (đặc hiệu xoắn khuẩn) đều dương tính thì khẳng định giang mai. Điều trị chuẩn là Penicillin G; sau điều trị, dùng hiệu giá RPR/VDRL định lượng để theo dõi khỏi bệnh (hiệu giá giảm ≥ 4 lần sau 6–12 tháng)."
+  },
+  {
+    "id": "case-9",
+    "title": "Ca 9: Viêm đa khớp di chuyển, tiếng thổi tâm thu ở tim sau viêm họng & Xét nghiệm ASO",
+    "scenario": "Bệnh nhi 11 tuổi nhập viện vì sốt, sưng nóng đỏ đau di chuyển các khớp lớn (khớp gối, cổ chân, khuỷu tay) và nghe thấy tiếng thổi tâm thu mới xuất hiện ở mỏm tim. Khai thác tiền sử: Cách đây 3 tuần trẻ bị sốt cao, đau họng, nuốt đau, amidan sưng đỏ có chấm mủ trắng nhưng tự uống thuốc hạ sốt rồi tự hết, không điều trị kháng sinh. Xét nghiệm máu hiện tại: Tốc độ máu lắng tăng cao, CRP tăng, định lượng kháng thể ASO = 640 đơn vị Todd (bình thường < 200).",
+    "question": "Theo Giáo trình Vi Sinh Học (Bài 13), cơ chế bệnh sinh của biến chứng này và chiến lược kháng sinh điều trị – dự phòng là gì?",
+    "options": [
+      "Do tụ cầu vàng S. aureus xâm nhập trực tiếp vào van tim; dùng Ciprofloxacin",
+      "Biến chứng Sốt thấp khớp cấp (Thấp tim) hậu nhiễm Liên cầu khuẩn tan huyết β nhóm A (Streptococcus pyogenes) do kháng thể kháng Protein M của liên cầu phản ứng chéo tự miễn với glycoprotein cơ tim và van tim. Cần dùng Penicillin G/V (hoặc Amoxicillin) để tiệt trừ liên cầu ở họng và tiêm Benzathine Penicillin G định kỳ hàng tháng để dự phòng tái phát thấp tim",
+      "Do độc tố bạch hầu gây viêm cơ tim; phải tiêm ngay huyết thanh SAD",
+      "Do phế cầu khuẩn S. pneumoniae; chỉ cần nhỏ mũi nước muối"
+    ],
+    "answer": 1,
+    "explanation": "Bài 13: Sau nhiễm viêm họng do S. pyogenes (liên cầu nhóm A) không được điều trị kháng sinh đầy đủ 2–3 tuần, cơ thể sinh kháng thể chống lại kháng nguyên Protein M và carbohydrat của vách liên cầu, gây phản ứng chéo tự miễn với mô cơ tim, van tim và màng hoạt dịch khớp (Sốt thấp khớp cấp). Xét nghiệm ASO tăng cao (640 đv Todd) chứng minh tiền sử mới nhiễm liên cầu nhóm A. S. pyogenes luôn nhạy cảm 100% với Penicillin."
+  },
+  {
+    "id": "case-10",
+    "title": "Ca 10: Ho khạc đờm kéo dài, nhuộm Ziehl-Neelsen (+) và Đột biến gen rpoB trên Xpert MTB/RIF",
+    "scenario": "Bệnh nhân nam 42 tuổi ho khạc đờm kéo dài 1 tháng, sốt nhẹ về chiều, ra mồ hôi đêm, sụt 5 kg, X-quang ngực có tổn thương thâm nhiễm và hang nhỏ ở đỉnh phổi phải. Nhuộm đờm theo phương pháp Ziehl-Neelsen thấy nhiều trực khuẩn mảnh bắt màu đỏ tươi đứng thành đám trên nền xanh (AFB 2+). Xét nghiệm sinh học phân tử nhanh Xpert MTB/RIF phát hiện Mycobacterium tuberculosis và báo CÓ đột biến trên gen rpoB.",
+    "question": "Theo Giáo trình Vi Sinh Học (Bài 13) và WHO BPPL 2024, kết quả đột biến gen rpoB có ý nghĩa gì và chủng vi khuẩn này được xếp vào nhóm ưu tiên nào của WHO 2024?",
+    "options": [
+      "Vi khuẩn kháng Amikacin; thuộc nhóm Medium của WHO",
+      "Đột biến gen rpoB (mã hóa tiểu đơn vị β của ARN polymerase) cho biết đây là chủng Lao kháng Rifampicin (RR-TB) – được WHO BPPL 2024 xếp vào nhóm NGUY CẤP (Critical Priority). Bệnh nhân cần được chuyển sang phác đồ điều trị Lao kháng thuốc (MDR/RR-TB, có chứa các thuốc như Bedaquiline, Pretomanid/Delamanid, Linezolid, Levofloxacin/Moxifloxacin)",
+      "Vi khuẩn còn nhạy cảm hoàn toàn với Rifampicin, chỉ cần uống Rifampicin đơn độc",
+      "Đây là vi khuẩn phong Mycobacterium leprae"
+    ],
+    "answer": 1,
+    "explanation": "Hơn 95% các chủng M. tuberculosis kháng Rifampicin (RR-TB) là do đột biến tại vùng quyết định kháng rifampicin (RRDR) của gen rpoB. Trong bản cập nhật WHO BPPL 2024, Mycobacterium tuberculosis kháng rifampicin (RR-TB) đã được đưa vào nhóm ưu tiên cao nhất – Nhóm Nguy cấp (Critical Priority) cùng với CRAB, 3GCR-E và CRE."
+  }
+]

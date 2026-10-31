@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fc1",
+    "front": "Phân loại Ambler 4 lớp enzyme β-lactamase (A, B, C, D) và ví dụ điển hình?",
+    "back": "• Lớp A (Serine): Penicillinase, ESBL (TEM, SHV, CTX-M) và Carbapenemase KPC.\n• Lớp B (Metallo-β-lactamase chứa kẽm Zn2+): NDM, VIM, IMP và L1 (của S. maltophilia) → Phân hủy mọi β-lactam TRỪ Aztreonam; không bị ức chế bởi Avibactam/Vaborbactam/Relebactam.\n• Lớp C (Serine): AmpC (E. cloacae, K. aerogenes, C. freundii), PDC (P. aeruginosa), ADC (A. baumannii).\n• Lớp D (Serine oxacillinase): OXA-48-like (Enterobacterales), OXA-23/24/58 (CRAB)."
+  },
+  {
+    "id": "fc2",
+    "front": "Phổ ức chế β-lactamase của 3 chất ức chế mới: Avibactam vs Vaborbactam vs Relebactam?",
+    "back": "• Avibactam (trong Ceftazidime-avibactam): Ức chế lớp A (ESBL, KPC), lớp C (AmpC) VÀ lớp D (OXA-48-like). Không ức chế lớp B (MBL).\n• Vaborbactam (trong Meropenem-vaborbactam): Ức chế rất mạnh lớp A (KPC) và lớp C. KHÔNG ức chế lớp B (MBL) và lớp D (OXA-48).\n• Relebactam (trong Imipenem-relebactam): Ức chế lớp A (KPC) và lớp C (AmpC, PDC của P. aeruginosa). KHÔNG ức chế lớp B (MBL) và lớp D (OXA-48)."
+  },
+  {
+    "id": "fc3",
+    "front": "IDSA 2024: Phác đồ ưu tiên cho CRE theo từng cơ chế Carbapenemase (KPC, NDM/MBL, OXA-48)?",
+    "back": "• KPC (+): Meropenem-vaborbactam (4g q8h truyền 3h), Ceftazidime-avibactam (2.5g q8h truyền 3h) hoặc Imipenem-relebactam (1.25g q6h).\n• NDM / VIM / IMP (MBL +): Ceftazidime-avibactam (2.5g q8h) + Aztreonam (2g q8h) truyền ĐỒNG THỜI trong 3 giờ HOẶC Cefiderocol (2g q8h truyền 3h).\n• OXA-48-like (+): Ưu tiên Ceftazidime-avibactam (thay thế: Cefiderocol)."
+  },
+  {
+    "id": "fc4",
+    "front": "IDSA 2024: Ba loài Enterobacterales có nguy cơ cảm ứng AmpC trung bình–cao và lựa chọn kháng sinh?",
+    "back": "• 3 loài cần nhớ: Enterobacter cloacae complex, Klebsiella aerogenes và Citrobacter freundii (~20% đột biến giải ức chế AmpC khi dùng Ceftriaxone/Ceftazidime).\n• Phác đồ ưu tiên: Cefepime (2g IV q8h truyền 3h khi MIC ≤ 2 µg/mL) hoặc Carbapenem (Meropenem/Imipenem/Ertapenem, nhất là khi Cefepime MIC = 4–8 µg/mL). Hạ bậc uống bằng TMP-SMX hoặc Fluoroquinolone."
+  },
+  {
+    "id": "fc5",
+    "front": "IDSA 2024: Khi nào KHÔNG nên dùng Ertapenem mà phải chọn Meropenem/Imipenem trong nhiễm khuẩn ESBL-E?",
+    "back": "• Ở bệnh nhân nguy kịch (sốc nhiễm khuẩn / huyết động không ổn định) HOẶC có giảm Albumin máu nặng (< 2.5 g/dL).\n• Lý do: Ertapenem gắn kết tới 95% với protein huyết tương; khi giảm albumin máu hoặc tăng dịch ngoại bào trong sốc, độ thanh thải phần thuốc tự do của Ertapenem tăng mạnh làm giảm fT>MIC và tăng tỷ lệ tử vong."
+  },
+  {
+    "id": "fc6",
+    "front": "IDSA 2024: Phác đồ điều trị Acinetobacter baumannii kháng Carbapenem (CRAB)?",
+    "back": "• Nguyên tắc: Bắt buộc dùng phác đồ phối hợp có chứa thành phần Sulbactam (đích gắn PBP1/PBP3 của A. baumannii).\n• Ưu tiên số 1: Sulbactam-durlobactam (2g IV q6h truyền 3h) + Imipenem hoặc Meropenem.\n• Thay thế (khi chưa có Sulbactam-durlobactam): Ampicillin-sulbactam LIỀU CAO (27g/ngày = 9g sulbactam/ngày: truyền 9g mỗi 8h trong 4h) phối hợp với ít nhất 1 thuốc khác: Polymyxin B, Minocycline liều cao (200mg q12h), Tigecycline liều cao hoặc Cefiderocol."
+  },
+  {
+    "id": "fc7",
+    "front": "IDSA 2024: Phác đồ điều trị Stenotrophomonas maltophilia?",
+    "back": "• S. maltophilia mang nội tại enzyme L1 (MBL kháng mọi carbapenem) và L2 (serine β-lactamase kháng ceftazidime/aztreonam).\n• 2 cách tiếp cận ưu tiên cho nhiễm khuẩn trung bình-nặng:\n  1. Phối hợp bất kỳ 2 trong 4 thuốc: Cefiderocol, Minocycline liều cao (200mg q12h), TMP-SMX (8–12 mg/kg/ngày TMP), Levofloxacin.\n  2. Phối hợp Ceftazidime-avibactam + Aztreonam (truyền đồng thời 3h).\n• Ngừng sử dụng Ceftazidime."
+  },
+  {
+    "id": "fc8",
+    "front": "EUCAST v16.1: Ý nghĩa của phân loại S / I / R mới và quy tắc 'S ≤ 0.001 mg/L'?",
+    "back": "• S (Susceptible, standard dosing regimen): Nhạy cảm với chế độ liều chuẩn.\n• I (Susceptible, increased exposure): Nhạy cảm khi tăng phơi nhiễm (dùng liều cao / truyền kéo dài).\n• R (Resistant): Đề kháng.\n• Khi EUCAST ghi S ≤ 0.001 mg/L (hoặc S ≥ 50 mm): Không chủng hoang dại nào được trả là 'S', mà tất cả chủng nhạy đều trả là 'I' để bắt buộc bác sĩ kê chế độ LIỀU CAO (ví dụ Pip-Tazo, Ceftazidime, Cefepime, Cipro trên P. aeruginosa)."
+  },
+  {
+    "id": "fc9",
+    "front": "WHO BPPL 2024: 4 tác nhân thuộc nhóm NGUY CẤP (Critical Priority) và 7 tác nhân nhóm CAO (High Priority)?",
+    "back": "🔴 Critical (4): (1) Acinetobacter baumannii kháng carbapenem (CRAB); (2) Enterobacterales kháng cephalosporin thế hệ 3; (3) Enterobacterales kháng carbapenem (CRE); (4) Mycobacterium tuberculosis kháng rifampicin (RR-TB).\n🟠 High (7): Salmonella Typhi kháng FQ; Shigella spp. kháng FQ; Enterococcus faecium kháng vancomycin (VRE); Pseudomonas aeruginosa kháng carbapenem; Non-typhoidal Salmonella kháng FQ; Neisseria gonorrhoeae kháng 3GC/FQ; Staphylococcus aureus kháng methicillin (MRSA)."
+  },
+  {
+    "id": "fc10",
+    "front": "Quyết định 1121/QĐ-TTg (2023–2030): 4 mục tiêu cụ thể và chỉ tiêu AMS bệnh viện năm 2025 & 2030?",
+    "back": "• 4 Mục tiêu: (1) Nâng cao nhận thức; (2) Củng cố hệ thống giám sát kháng thuốc quốc gia (GLASS); (3) Giảm lan truyền vi sinh vật & kiểm soát nhiễm khuẩn; (4) Sử dụng kháng sinh hợp lý, an toàn (AMS).\n• Chỉ tiêu AMS ở bệnh viện tuyến tỉnh, tuyến huyện (mức độ trung bình trở lên): Đạt ít nhất 30% vào năm 2025 và ít nhất 50% vào năm 2030 (100% bệnh viện tuyến trung ương)."
+  },
+  {
+    "id": "fc11",
+    "front": "Giáo trình Bộ Y tế: Phân biệt Phản ứng huyết thanh Widal, VDRL/RPR, TPHA và ASO?",
+    "back": "• Widal: Phản ứng ngưng kết tìm kháng thể O (IgM, xuất hiện sớm, mất sau 6 tháng) và H (IgG, tồn tại lâu) trong bệnh Sốt thương hàn (Salmonella Typhi) từ tuần thứ 2.\n• VDRL / RPR: Phản ứng kết tủa bông dùng kháng nguyên Cardiolipin (không đặc hiệu) để sàng lọc và theo dõi đáp ứng điều trị Giang mai.\n• TPHA / FTA-abs: Dùng kháng nguyên xoắn khuẩn T. pallidum đặc hiệu để khẳng định Giang mai.\n• ASO: Trung hòa định lượng kháng thể kháng Streptolysin O (>200 đv Todd) chẩn đoán Thấp tim & Viêm cầu thận cấp hậu nhiễm Liên cầu nhóm A."
+  },
+  {
+    "id": "fc12",
+    "front": "Giáo trình Bộ Y tế: Các quy tắc 'Không dùng' kinh điển trên lâm sàng kháng sinh?",
+    "back": "1. KHÔNG dùng Daptomycin cho Viêm phổi (bị surfactant phế nang bất hoạt).\n2. KHÔNG dùng Tigecycline / Eravacycline đơn trị cho Nhiễm khuẩn huyết hoặc Nhiễm khuẩn tiết niệu (nồng độ trong máu và nước tiểu quá thấp).\n3. KHÔNG dùng Nitrofurantoin hoặc Fosfomycin đường uống cho Viêm thận-bể thận.\n4. KHÔNG dùng Aminoglycoside cho vi khuẩn kỵ khí (cần vận chuyển phụ thuộc oxy).\n5. KHÔNG dùng Cephalosporin đơn trị cho Enterococcus (kháng tự nhiên)."
+  }
+]

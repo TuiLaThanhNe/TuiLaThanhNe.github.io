@@ -1,0 +1,79 @@
+[
+  {
+    "id": "doc-1121",
+    "title": "Quyết định 1121/QĐ-TTg (2023) – Chiến lược Quốc gia về Phòng, chống Kháng thuốc tại Việt Nam giai đoạn 2023–2030, tầm nhìn 2045",
+    "category": "Chính sách Quốc gia (Việt Nam)",
+    "source": "Thủ tướng Chính phủ (25/09/2023)",
+    "file": "data/documents/1121_QD-TTg_580479.md",
+    "description": "Văn bản pháp lý định hướng chiến lược quốc gia theo tiếp cận Một Sức Khỏe (One Health) giữa Y tế – Nông nghiệp – Công Thương – Tài nguyên & Môi trường nhằm làm chậm sự tiến triển kháng thuốc tại Việt Nam.",
+    "highlights": [
+      "Mục tiêu tổng quát: Làm chậm sự tiến triển kháng thuốc và ngăn chặn, kiểm soát sự lây lan của các vi sinh vật kháng thuốc, bệnh truyền nhiễm, đồng thời đảm bảo sự sẵn có, liên tục các thuốc kháng vi sinh vật và sử dụng hợp lý ở người và động vật.",
+      "Mục tiêu 1 (Nhận thức): Tuyên truyền, giáo dục nâng cao nhận thức của người dân, nhân viên y tế, thú y về nguyên nhân và hậu quả của kháng thuốc.",
+      "Mục tiêu 2 (Giám sát & Nghiên cứu): Củng cố hệ thống giám sát kháng thuốc quốc gia kết nối GLASS (WHO), năng lực phòng xét nghiệm tham chiếu quốc gia, giám sát tồn dư kháng sinh trong thực phẩm và môi trường.",
+      "Mục tiêu 3 (Kiểm soát nhiễm khuẩn): Giảm sự lan truyền của vi sinh vật và bệnh truyền nhiễm tại bệnh viện, trang trại chăn nuôi, nuôi trồng thủy sản và cộng đồng.",
+      "Mục tiêu 4 (Sử dụng kháng sinh hợp lý - AMS): Năm 2025 có ít nhất 30% (và năm 2030 có ít nhất 50%) bệnh viện tuyến tỉnh, tuyến huyện triển khai chương trình Quản lý sử dụng kháng sinh (AMS) mức độ trung bình trở lên.",
+      "3 Đề án trọng điểm: (1) Bộ Y tế chủ trì Đề án nâng cao nhận thức cộng đồng; (2) Bộ Y tế chủ trì Đề án tăng cường năng lực hệ thống giám sát kháng thuốc và sử dụng kháng sinh hợp lý ở người; (3) Bộ NN&PTNT chủ trì Đề án giám sát kháng thuốc và sử dụng hợp lý trong chăn nuôi, thủy sản."
+    ]
+  },
+  {
+    "id": "doc-who-2024",
+    "title": "WHO Bacterial Priority Pathogens List, 2024 (BPPL 2024)",
+    "category": "Tổ chức Y tế Thế giới (WHO)",
+    "source": "World Health Organization (2024)",
+    "file": "data/documents/WHO.md",
+    "description": "Danh sách cập nhật năm 2024 của WHO phân tầng 24 cặp vi khuẩn – kháng thuốc (thuộc 15 họ tác nhân) thành 3 nhóm ưu tiên (Critical, High, Medium) dựa trên phân tích quyết định đa tiêu chí (MCDA) gồm 8 tiêu chí.",
+    "highlights": [
+      "8 tiêu chí MCDA đánh giá: (1) Tỷ lệ tử vong (Mortality), (2) Tỷ lệ mắc mới (Incidence), (3) Gánh nặng bệnh tật không tử vong (YLD), (4) Xu hướng đề kháng 10 năm qua, (5) Khả năng lây truyền, (6) Khả năng phòng ngừa (vắc xin, IPC), (7) Khả năng điều trị hiện tại, (8) Đường ống nghiên cứu thuốc mới (Pipeline).",
+      "Nhóm Nguy cấp (Critical Priority - 4 tác nhân): Acinetobacter baumannii kháng carbapenem (CRAB); Enterobacterales kháng cephalosporin thế hệ 3 (3GCR-E); Enterobacterales kháng carbapenem (CRE); Mycobacterium tuberculosis kháng rifampicin (RR-TB).",
+      "Nhóm Cao (High Priority - 7 tác nhân): Salmonella Typhi kháng fluoroquinolone; Shigella spp. kháng fluoroquinolone; Enterococcus faecium kháng vancomycin (VRE); Pseudomonas aeruginosa kháng carbapenem (CRPA); Non-typhoidal Salmonella kháng fluoroquinolone; Neisseria gonorrhoeae kháng cephalosporin thế hệ 3 và/hoặc fluoroquinolone; Staphylococcus aureus kháng methicillin (MRSA).",
+      "Nhóm Trung bình (Medium Priority - 4 tác nhân): Liên cầu nhóm A (Streptococcus pyogenes) kháng macrolide; Phế cầu (Streptococcus pneumoniae) kháng macrolide; Haemophilus influenzae kháng ampicillin; Liên cầu nhóm B (Streptococcus agalactiae) kháng penicillin.",
+      "Thay đổi nổi bật so với BPPL 2017: Đưa RR-TB vào danh sách chính thức nhóm Critical; chuyển CRPA từ Critical xuống High (nhưng vẫn đặc biệt quan ngại ở vùng có metallo-beta-lactamase); bổ sung Liên cầu nhóm A (GAS) và nhóm B (GBS) vào nhóm Medium."
+    ]
+  },
+  {
+    "id": "doc-idsa-2024",
+    "title": "IDSA 2024 Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections",
+    "category": "Phác đồ điều trị Lâm sàng (IDSA)",
+    "source": "Infectious Diseases Society of America – Tamma et al. (2024)",
+    "file": "data/documents/gram_negative.md",
+    "description": "Hướng dẫn thực hành lâm sàng chuyên sâu của Hiệp hội Bệnh truyền nhiễm Hoa Kỳ (IDSA 2024) về lựa chọn kháng sinh ưu tiên, thay thế và liều truyền cho 6 nhóm trực khuẩn Gram âm đa kháng: ESBL-E, AmpC-E, CRE, DTR P. aeruginosa, CRAB và S. maltophilia.",
+    "highlights": [
+      "ESBL-E: Viêm bàng quang ưu tiên Nitrofurantoin, TMP-SMX; Viêm thận-bể thận/cUTI dùng TMP-SMX, Ciprofloxacin, Levofloxacin hoặc Carbapenem; Nhiễm khuẩn ngoài đường niệu ưu tiên Meropenem/Imipenem (nhất là khi sốc nhiễm khuẩn hoặc giảm albumin <2.5 g/dL) hoặc Ertapenem. Tránh dùng Piperacillin-tazobactam và Cefepime dù in vitro nhạy.",
+      "AmpC-E (nguy cơ cảm ứng trung bình-cao: E. cloacae complex, K. aerogenes, C. freundii): Ưu tiên Cefepime (khi MIC ≤ 2 µg/mL), Carbapenem, TMP-SMX hoặc Fluoroquinolone. Tránh dùng Ceftriaxone, Ceftazidime và hạn chế Piperacillin-tazobactam cho nhiễm khuẩn xâm lấn.",
+      "CRE: Định danh cơ chế carbapenemase là then chốt! KPC → ưu tiên Meropenem-vaborbactam, Ceftazidime-avibactam, Imipenem-relebactam. NDM / Metallo-β-lactamase (MBL) → ưu tiên phối hợp Ceftazidime-avibactam + Aztreonam (truyền đồng thời) hoặc Cefiderocol đơn trị. OXA-48-like → ưu tiên Ceftazidime-avibactam. Không phối hợp thêm Polymyxin/Aminoglycoside thường quy khi đã nhạy với β-lactam thế hệ mới.",
+      "DTR P. aeruginosa: Ưu tiên Ceftolozane-tazobactam, Ceftazidime-avibactam, Imipenem-cilastatin-relebactam; Cefiderocol là thay thế (hoặc ưu tiên nếu sinh MBL). Không khuyến cáo kháng sinh khí dung thường quy.",
+      "CRAB (A. baumannii kháng carbapenem): Bắt buộc có thành phần Sulbactam! Ưu tiên Sulbactam-durlobactam phối hợp Imipenem/Meropenem; thay thế bằng Ampicillin-sulbactam liều cao (27g/ngày = 9g sulbactam/ngày) phối hợp ít nhất 1 thuốc khác (Polymyxin B, Minocycline liều cao 200mg q12h, Tigecycline liều cao hoặc Cefiderocol).",
+      "Stenotrophomonas maltophilia: Mang nội tại L1 (MBL) và L2 (serine β-lactamase). Ưu tiên (1) Phối hợp 2 trong 4 thuốc: Cefiderocol, Minocycline liều cao, TMP-SMX, Levofloxacin HOẶC (2) Ceftazidime-avibactam + Aztreonam. Ngừng sử dụng Ceftazidime."
+    ]
+  },
+  {
+    "id": "doc-eucast-16-1",
+    "title": "EUCAST Breakpoint Tables for Interpretation of MICs and Zone Diameters – Version 16.1 (2026)",
+    "category": "Tiêu chuẩn Kháng sinh đồ (EUCAST)",
+    "source": "European Committee on Antimicrobial Susceptibility Testing (v16.1, 2026-06-24)",
+    "file": "data/documents/v_16.1_Breakpoint_Tables.md",
+    "description": "Bảng chuẩn phiên giải giá trị MIC (mg/L) và đường kính vòng vô khuẩn khuếch tán đĩa giấy (mm) phiên bản 16.1 của Châu Âu, kèm bảng liều chuẩn (Standard dosage) và liều tăng phơi nhiễm (High dosage).",
+    "highlights": [
+      "Định nghĩa phân loại S / I / R mới của EUCAST: S = Nhạy cảm với chế độ liều chuẩn; I = Nhạy cảm nhưng cần tăng phơi nhiễm thuốc (tăng liều, kéo dài thời gian truyền hoặc tập trung tại nước tiểu); R = Đề kháng (khả năng thất bại điều trị cao ngay cả khi tăng phơi nhiễm).",
+      "Quy tắc Breakpoint ngoài thang đo (S ≤ 0.001 mg/L hoặc S ≥ 50 mm): Chủng hoang dại (wild-type) không bao giờ được trả kết quả là 'S' mà luôn trả là 'I' để bắt buộc lâm sàng sử dụng chế độ liều cao (ví dụ: Piperacillin-tazobactam, Ceftazidime, Cefepime, Imipenem, Ciprofloxacin, Levofloxacin trên P. aeruginosa; hoặc Ciprofloxacin trên Salmonella).",
+      "ATU (Area of Technical Uncertainty – Vùng không chắc chắn kỹ thuật): Cảnh báo phòng xét nghiệm khi giá trị MIC hoặc đường kính đĩa giấy rơi vào vùng chồng lấp kỹ thuật cần kiểm tra lại hoặc dùng phương pháp thay thế trước khi trả kết quả.",
+      "Bảng Liều chuẩn vs Liều cao (Dosages Table): Quy định rõ mức liều làm cơ sở cho mọi breakpoint (ví dụ Meropenem liều chuẩn 1g q8h truyền 30 phút vs liều cao 2g q8h truyền 3 giờ).",
+      "Bao phủ đầy đủ bảng MIC & Zone Diameter cho Enterobacterales, Pseudomonas, S. maltophilia, Acinetobacter, Staphylococcus, Enterococcus, Streptococcus A/B/C/G, S. pneumoniae, H. influenzae, N. gonorrhoeae, N. meningitidis, Kỵ khí, H. pylori, M. tuberculosis..."
+    ]
+  },
+  {
+    "id": "doc-vi-sinh-hoc",
+    "title": "Giáo trình Vi Sinh Học – Đào tạo Dược sĩ Đại học (Bộ Y tế)",
+    "category": "Giáo trình Đại học (Bộ Y tế)",
+    "source": "PGS.TS. Nguyễn Văn Thanh (Chủ biên) – NXB Y học (2006)",
+    "file": "data/documents/sach-vi-sinh-hoc-nhathuocngocanh.md",
+    "description": "Giáo trình chính thống 15 bài dành cho sinh viên Dược đại học, bao gồm 3 phần: Đại cương vi sinh vật học (Bài 1–5), Miễn dịch & Đề kháng kháng sinh (Bài 6–10), và Vi sinh vật gây bệnh & Virus học (Bài 11–15) kèm câu hỏi tự lượng giá và đáp án.",
+    "highlights": [
+      "Phần I – Đại cương (Bài 1–5): Lịch sử vi sinh (Pasteur, Koch), cấu tạo tế bào vi khuẩn (vách peptidoglycan Gram dương dày vs Gram âm mỏng có màng ngoài LPS/porin), sinh lý dinh dưỡng – tăng trưởng và di truyền vi khuẩn (đột biến, biến nạp, tải nạp qua phage, giao phối qua pili giới tính F, plasmid R và transposon).",
+      "Phần II – Miễn dịch & Đề kháng kháng sinh (Bài 6–10): Kháng nguyên (O, H, K/Vi) – Kháng thể (IgG, IgM, IgA, IgE, IgD); Phản ứng huyết thanh học (ngưng kết Widal, kết tủa VDRL/RPR, cố định bổ thể, trung hòa ASO, miễn dịch huỳnh quang, ELISA, Western blot); Quá mẫn typ I–IV (sốc phản vệ penicillin); 4 đích tác động của kháng sinh và 7 cơ chế đề kháng của vi khuẩn.",
+      "Bài 11 – Vi khuẩn gây bệnh đường ruột: Salmonella (thương hàn, chẩn đoán cấy máu tuần 1 & phản ứng Widal tìm kháng thể O, H), Shigella (lỵ trực khuẩn, độc tố Shiga), Vibrio cholerae (tả, độc tố ruột hoạt hóa adenylat cyclase làm tăng AMP vòng), E. coli (EPEC, EIEC, EHEC O157:H7, ETEC), Campylobacter jejuni.",
+      "Bài 12 – Vi khuẩn lây qua đường sinh dục: Neisseria gonorrhoeae (song cầu Gram âm hình hạt cà phê), Treponema pallidum (xoắn khuẩn giang mai 3 thời kỳ, phản ứng VDRL/RPR và TPHA/FTA-abs), Haemophilus ducreyi (hạ cam mềm), Chlamydia trachomatis (mắt hột, bệnh Nicolas-Favre), Ureaplasma urealyticum.",
+      "Bài 13–15 – Vi khuẩn đường hô hấp, ngoài da & Virus: Streptococcus nhóm A/B/Viridans/D (thử nghiệm ASO, bacitracin), S. pneumoniae (thử nghiệm Optochin, muối mật), N. meningitidis, C. diphtheriae (bạch hầu, phản ứng Elek, tiêm SAD + kháng sinh), M. tuberculosis (nhuộm Ziehl-Neelsen, phản ứng Mantoux, vắc xin BCG), S. aureus (coagulase dương, độc tố ruột, TSST-1, exfoliatin), M. leprae (bệnh phong củ vs phong u, phản ứng Mitsuda/lepromin) và Virus gây bệnh / Prion."
+    ]
+  }
+]

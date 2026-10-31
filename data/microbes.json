@@ -1,0 +1,518 @@
+[
+  {
+    "id": "e-coli",
+    "name": "Escherichia coli",
+    "commonName": "Trực khuẩn đại tràng (E. coli) & ESBL-E",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Nhiễm khuẩn đường tiết niệu (viêm bàng quang, viêm thận-bể thận cấp – nguyên nhân số 1)",
+      "Nhiễm khuẩn huyết, nhiễm khuẩn đường mật và ổ bụng",
+      "Tiêu chảy cấp do 4 nhóm chính: EPEC (nhũ nhi), ETEC (tiêu chảy du lịch, độc tố LT/ST), EIEC (giống lỵ), EHEC O157:H7 (viêm đại tràng xuất huyết, hội chứng huyết tán urê huyết HUS)",
+      "Viêm màng não mủ ở trẻ sơ sinh (chủng mang kháng nguyên vỏ K1)"
+    ],
+    "characteristics": "Trực khuẩn Gram âm họ Enterobacterales, di động bằng tiêm mao quanh thân, lên men lactose sinh hơi trên thạch MacConkey/EMB (khuẩn lạc ánh kim), thử nghiệm IMViC: Indol (+), Đỏ methyl (+), Voges-Proskauer (-), Citrat (-). Cấu trúc kháng nguyên O (thân LPS), K (vỏ), H (tiêm mao).",
+    "antibioticIds": ["nitrofurantoin", "tmp-smx", "fosfomycin", "ceftriaxone", "ertapenem", "meropenem", "ciprofloxacin", "amikacin"],
+    "resistance": "Tỷ lệ tiết ESBL (đặc biệt là CTX-M-15) rất cao tại Việt Nam và thế giới, kháng các Penicillin và Cephalosporin thế hệ 1–3–4 và Aztreonam; một số chủng mang carbapenemase (NDM, KPC, OXA-48). WHO BPPL 2024 xếp Enterobacterales kháng Cephalosporin thế hệ 3 và kháng Carbapenem vào nhóm Nguy cấp (Critical).",
+    "notes": "IDSA 2024: Với ESBL-E gây viêm bàng quang ưu tiên Nitrofurantoin hoặc TMP-SMX (Fosfomycin uống 3g 1 liều chỉ dùng cho E. coli); nhiễm khuẩn huyết/ngoài đường niệu ưu tiên Meropenem/Imipenem hoặc Ertapenem (tránh dùng Pip-Tazo và Cefepime). Lưu ý: Không dùng kháng sinh cho EHEC O157:H7 vì làm tăng giải phóng độc tố Shiga-like (Verotoxin) gây suy thận cấp HUS."
+  },
+  {
+    "id": "k-pneumoniae",
+    "name": "Klebsiella pneumoniae",
+    "commonName": "Trực khuẩn phổi Friedländer (ESBL / CRE)",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Viêm phổi bệnh viện / viêm phổi thở máy và viêm phổi thùy hoại tử (đờm đặc quánh màu gạch cua)",
+      "Nhiễm khuẩn đường tiết niệu phức tạp (cUTI) liên quan ống thông",
+      "Áp xe gan nguyên phát (chủng tăng độc lực hvKp, kèm viêm nội nhãn/viêm màng não)",
+      "Nhiễm khuẩn huyết bệnh viện"
+    ],
+    "characteristics": "Trực khuẩn Gram âm ngắn, KHÔNG di động, có vỏ (nang) polysaccharide rất dày giúp chống thực bào và tạo khuẩn lạc nhầy nhớt (mucoid), lên men lactose, Urease (+), Citrat (+), Indol (-).",
+    "antibioticIds": ["ceftriaxone", "ertapenem", "meropenem", "meropenem-vaborbactam", "ceftazidime-avibactam", "imipenem-relebactam", "cefiderocol", "amikacin"],
+    "resistance": "Kháng tự nhiên với Ampicillin/Amoxicillin (do gen β-lactamase SHV-1 trên nhiễm sắc thể) và mang sẵn gen fosA kháng Fosfomycin đường uống. Là tác nhân hàng đầu mang ESBL (CTX-M) và các Carbapenemase: KPC (lớp A), NDM (lớp B – MBL) và OXA-48-like (lớp D).",
+    "notes": "IDSA 2024 cho CRE: Phải xét nghiệm định danh cơ chế carbapenemase! Nếu KPC (+) → ưu tiên Meropenem-vaborbactam, Ceftazidime-avibactam hoặc Imipenem-relebactam; nếu NDM/MBL (+) → ưu tiên Ceftazidime-avibactam + Aztreonam (truyền đồng thời 3h) hoặc Cefiderocol; nếu OXA-48-like (+) → ưu tiên Ceftazidime-avibactam."
+  },
+  {
+    "id": "e-cloacae",
+    "name": "Enterobacter cloacae complex (và K. aerogenes, C. freundii)",
+    "commonName": "Trực khuẩn đường ruột sinh AmpC cảm ứng (AmpC-E)",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Nhiễm khuẩn huyết liên quan catheter tĩnh mạch trung tâm",
+      "Viêm phổi bệnh viện / thở máy (HAP/VAP)",
+      "Nhiễm khuẩn đường tiết niệu phức tạp, nhiễm khuẩn vết mổ và ổ bụng"
+    ],
+    "characteristics": "Trực khuẩn Gram âm hiếu kỵ khí tùy nghi, có tiêm mao di động, thuộc nhóm Enterobacterales có nguy cơ trung bình–cao sinh enzyme β-lactamase AmpC cảm ứng trên nhiễm sắc thể.",
+    "antibioticIds": ["cefepime", "ertapenem", "meropenem", "tmp-smx", "ciprofloxacin", "levofloxacin", "ceftazidime-avibactam"],
+    "resistance": "Kháng tự nhiên với Ampicillin, Amoxicillin-clavulanate, Ampicillin-sulbactam và Cephalosporin thế hệ 1–2. Khi tiếp xúc với Ceftriaxone hoặc Ceftazidime, khoảng 20% trường hợp xảy ra đột biến gen ampD/ampR làm giải ức chế sản xuất AmpC mức độ rất cao ngay trong quá trình điều trị.",
+    "notes": "IDSA 2024 (Section 2): Ba loài có nguy cơ cảm ứng AmpC lâm sàng cao nhất cần nhớ là Enterobacter cloacae complex, Klebsiella aerogenes (tên cũ Enterobacter aerogenes) và Citrobacter freundii. Thuốc ưu tiên cho nhiễm khuẩn xâm lấn: Cefepime (khi MIC ≤ 2 µg/mL, truyền 2g mỗi 8h trong 3h) hoặc Carbapenem (Meropenem/Imipenem/Ertapenem); có thể hạ bậc uống TMP-SMX hoặc Fluoroquinolone. Tránh dùng Ceftriaxone, Ceftazidime và Piperacillin-tazobactam."
+  },
+  {
+    "id": "p-aeruginosa",
+    "name": "Pseudomonas aeruginosa",
+    "commonName": "Trực khuẩn mủ xanh (MDR / DTR-PA)",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "High (Cao)",
+    "diseases": [
+      "Viêm phổi bệnh viện / viêm phổi thở máy (HAP/VAP) và nhiễm trùng phổi mạn ở bệnh nhân giãn phế quản / xơ nang",
+      "Nhiễm trùng vết bỏng nặng, vết thương ngoại khoa (mủ có màu xanh ánh vàng và mùi thơm hoa nho)",
+      "Nhiễm khuẩn huyết ở bệnh nhân suy giảm miễn dịch / giảm bạch cầu hạt",
+      "Viêm tai ngoài ác tính, viêm giác mạc (người đeo kính áp tròng), cUTI liên quan sonde tiểu"
+    ],
+    "characteristics": "Trực khuẩn Gram âm hiếu khí bắt buộc, di động mạnh nhờ 1 tiêm mao ở đầu, Oxidase (+), không lên men đường, tiết sắc tố Pyocyanin (xanh lam) và Pyoverdin (huỳnh quang xanh lục).",
+    "antibioticIds": ["pip-tazo", "ceftazidime", "cefepime", "meropenem", "ciprofloxacin", "levofloxacin", "ceftolozane-tazobactam", "ceftazidime-avibactam", "imipenem-relebactam", "cefiderocol", "amikacin"],
+    "resistance": "Kháng tự nhiên với nhiều kháng sinh (Ampicillin, Amox-clav, Ceftriaxone, Cefotaxime, Ertapenem, TMP-SMX, Tetracycline/Tigecycline) do màng ngoài rất ít thấm. Đề kháng mắc phải đa cơ chế: mất kênh porin OprD (kháng Imipenem), tăng biểu hiện bơm đẩy đa thuốc (MexAB-OprM kháng Meropenem/β-lactam), tăng sản xuất AmpC nội tại (PDC) và thu nhận Metallo-β-lactamase (VIM, IMP, NDM).",
+    "notes": "IDSA 2024 định nghĩa DTR-P. aeruginosa là chủng không nhạy cảm với tất cả các thuốc truyền thống: Pip-Tazo, Ceftazidime, Cefepime, Aztreonam, Meropenem, Imipenem, Ciprofloxacin và Levofloxacin. Phác đồ ưu tiên cho DTR-PA: Ceftolozane-tazobactam (3g q8h truyền 3h), Ceftazidime-avibactam (2.5g q8h) hoặc Imipenem-relebactam (1.25g q6h); nếu sinh MBL thì ưu tiên Cefiderocol. EUCAST v16.1 đặt S ≤ 0.001 mg/L cho Pip-Tazo, Ceftazidime, Cefepime, Imipenem, Cipro, Levo nên chủng nhạy luôn trả kết quả 'I' (cần dùng liều cao)."
+  },
+  {
+    "id": "a-baumannii",
+    "name": "Acinetobacter baumannii",
+    "commonName": "Cầu trực khuẩn Acinetobacter (CRAB)",
+    "gram": "Gram âm",
+    "shape": "Cầu trực khuẩn",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Viêm phổi thở máy (VAP) và viêm phổi bệnh viện tại khoa hồi sức tích cực (ICU)",
+      "Nhiễm khuẩn huyết liên quan đường truyền trung tâm",
+      "Viêm màng não mủ sau phẫu thuật thần kinh",
+      "Nhiễm khuẩn vết thương chiến tranh / bỏng và cUTI"
+    ],
+    "characteristics": "Cầu trực khuẩn Gram âm (dễ bắt màu lưỡng tính khi nhuộm), hiếu khí bắt buộc, KHÔNG di động, Oxidase (-), Catalase (+), sống sót rất dai dẳng trên các bề mặt khô trong bệnh viện.",
+    "antibioticIds": ["sulbactam-durlobactam", "amp-sulbactam", "meropenem", "minocycline", "polymyxin-b", "cefiderocol"],
+    "resistance": "WHO BPPL 2024 xếp CRAB đứng đầu nhóm Nguy cấp (Critical). Cơ chế kháng carbapenem chủ yếu do sản xuất các carbapenemase lớp D (OXA-23, OXA-24/40, OXA-58) và lớp B (NDM), kết hợp mất porin và bơm đẩy AdeABC. Kháng tự nhiên với Ertapenem, Fosfomycin, Trimethoprim và Ampicillin/Amoxicillin đơn độc.",
+    "notes": "IDSA 2024 (Section 5): Điều trị CRAB mức độ trung bình-nặng BẮT BUỘC dùng phác đồ phối hợp có chứa dẫn xuất Sulbactam: (1) Ưu tiên số 1: Sulbactam-durlobactam (2g q6h truyền 3h) phối hợp với Imipenem hoặc Meropenem; (2) Khi không có Sulbactam-durlobactam: dùng Ampicillin-sulbactam liều cao (27g/ngày = 9g sulbactam/ngày) phối hợp với ít nhất 1 thuốc khác như Polymyxin B, Minocycline liều cao (200mg q12h), Tigecycline liều cao hoặc Cefiderocol. Không dùng Rifampicin hay kháng sinh khí dung."
+  },
+  {
+    "id": "s-maltophilia",
+    "name": "Stenotrophomonas maltophilia",
+    "commonName": "Trực khuẩn S. maltophilia đa kháng nội tại",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "Lâm sàng đặc biệt (IDSA 2024)",
+    "diseases": [
+      "Viêm phổi bệnh viện xuất huyết / hoại tử ở bệnh nhân suy giảm miễn dịch hoặc thở máy kéo dài",
+      "Nhiễm khuẩn huyết liên quan catheter ở bệnh nhân ung thư / giảm bạch cầu hạt",
+      "Nhiễm khuẩn đường mật, tiết niệu và vết thương"
+    ],
+    "characteristics": "Trực khuẩn Gram âm hiếu khí không lên men đường, di động, Oxidase thường âm tính, thủy phân esculin và sản xuất DNase. Thường định cư trong đường hô hấp và thiết bị y tế ẩm ướt sau khi bệnh nhân đã dùng kháng sinh phổ rộng (đặc biệt là Carbapenem).",
+    "antibioticIds": ["tmp-smx", "minocycline", "cefiderocol", "levofloxacin", "ceftazidime-avibactam", "aztreonam"],
+    "resistance": "Đề kháng nội tại cực mạnh: mang đồng thời 2 gen β-lactamase trên nhiễm sắc thể là L1 (Metallo-β-lactamase phân hủy mọi Carbapenem và β-lactam trừ Aztreonam) và L2 (Serine cephalosporinase phân hủy Cephalosporin và Aztreonam, nhưng bị ức chế bởi Avibactam), cộng thêm các enzyme biến đổi Aminoglycoside và bơm đẩy SmeDEF.",
+    "notes": "IDSA 2024 (Section 6): Có 2 hướng tiếp cận ưu tiên ngang nhau cho nhiễm khuẩn trung bình-nặng: (1) Phối hợp bất kỳ 2 trong 4 thuốc: Cefiderocol, Minocycline liều cao (200mg q12h), TMP-SMX (8–12 mg/kg/ngày tính theo TMP) hoặc Levofloxacin; HOẶC (2) Phối hợp Ceftazidime-avibactam + Aztreonam (Avibactam khóa L2 để Aztreonam vượt qua L1 tiêu diệt vi khuẩn). Tuyệt đối không dùng Ceftazidime đơn độc."
+  },
+  {
+    "id": "s-typhi",
+    "name": "Salmonella enterica (S. Typhi & Non-typhoidal)",
+    "commonName": "Trực khuẩn thương hàn & phó thương hàn",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "High (Cao)",
+    "diseases": [
+      "Bệnh sốt thương hàn và phó thương hàn (S. Typhi, S. Paratyphi A/B/C): sốt cao kéo dài hình cao nguyên, mạch nhiệt phân ly, bụng chướng, đào ban, biến chứng xuất huyết hoặc thủng ruột (mảng Peyer)",
+      "Nhiễm trùng nhiễm độc thức ăn / viêm dạ dày-ruột cấp và nhiễm khuẩn huyết xâm lấn (Non-typhoidal Salmonella: S. Typhimurium, S. Enteritidis)"
+    ],
+    "characteristics": "Trực khuẩn Gram âm có tiêm mao quanh thân di động, KHÔNG lên men lactose, lên men glucose, sản xuất H2S (+, khuẩn lạc có tâm đen trên thạch SS/XLD). Có 3 loại kháng nguyên: Kháng nguyên thân O (bền với nhiệt, kích thích tạo IgM), Kháng nguyên lông H (bản chất protein, kích thích tạo IgG) và Kháng nguyên vỏ Vi (ở S. Typhi chống thực bào).",
+    "antibioticIds": ["ceftriaxone", "azithromycin", "ciprofloxacin", "tmp-smx", "meropenem"],
+    "resistance": "WHO BPPL 2024 xếp cả Salmonella Typhi kháng fluoroquinolone và Non-typhoidal Salmonella kháng fluoroquinolone vào nhóm Ưu tiên Cao (High). Các chủng XDR S. Typhi (kháng Ampicillin, Chloramphenicol, TMP-SMX, Fluoroquinolone và cả Ceftriaxone do mang blaCTX-M-15) đang lan rộng tại Nam Á.",
+    "notes": "Giáo trình Bộ Y tế (Bài 11): Chẩn đoán trực tiếp: Cấy máu tuần lễ đầu của bệnh đạt tỷ lệ dương tính cao nhất (90%); cấy phân dương tính cao từ tuần thứ 2–3; cấy dịch mật/tủy xương. Chẩn đoán gián tiếp: Phản ứng huyết thanh ngưng kết Widal (từ tuần thứ 2) làm 2 lần cách nhau 7–10 ngày để tìm động lực tăng hiệu giá kháng thể O và H (kháng thể O xuất hiện sớm và mất sau ~6 tháng; kháng thể H xuất hiện muộn hơn nhưng tồn tại nhiều năm)."
+  },
+  {
+    "id": "shigella",
+    "name": "Shigella spp. (S. dysenteriae, S. flexneri, S. sonnei)",
+    "commonName": "Trực khuẩn lỵ (Bệnh lỵ trực trùng)",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "High (Cao)",
+    "diseases": [
+      "Hội chứng lỵ trực khuẩn cấp tính: đau quặn bụng, mót rặn nhiều lần, phân nhầy máu mũi kèm sốt",
+      "Hội chứng huyết tán urê huyết (HUS) và biến chứng thần kinh (do độc tố Shiga của S. dysenteriae typ 1)"
+    ],
+    "characteristics": "Trực khuẩn Gram âm mảnh, KHÔNG có tiêm mao (không di động – điểm khác biệt cơ bản với Salmonella), không vỏ, không sinh bào tử, không lên men lactose (trừ S. sonnei lên men chậm), không sinh hơi, H2S (-). Chia thành 4 nhóm huyết thanh dựa trên kháng nguyên O: Nhóm A (S. dysenteriae), Nhóm B (S. flexneri), Nhóm C (S. boydii), Nhóm D (S. sonnei).",
+    "antibioticIds": ["azithromycin", "ceftriaxone", "ciprofloxacin", "tmp-smx"],
+    "resistance": "WHO BPPL 2024 xếp Shigella spp. kháng fluoroquinolone vào nhóm Ưu tiên Cao (High). Đề kháng rộng rãi với Tetracycline, Sulfonamide, Ampicillin, TMP-SMX (qua plasmid R truyền ngang giữa E. coli và Shigella) và tăng nhanh kháng Ciprofloxacin/Azithromycin.",
+    "notes": "Giáo trình Bộ Y tế (Bài 11): Liều gây nhiễm rất thấp (chỉ 10–100 vi khuẩn). Vi khuẩn xâm nhập và nhân lên trong tế bào biểu mô niêm mạc đại tràng gây loét nông nhưng rất hiếm khi vào máu (nên chẩn đoán chủ yếu là cấy phân tươi lấy chỗ nhầy máu, không dùng phản ứng huyết thanh). Ngoại độc tố Shiga của S. dysenteriae vừa có tính độc ruột, độc tế bào (bất hoạt ribosom 60S) và độc thần kinh."
+  },
+  {
+    "id": "v-cholerae",
+    "name": "Vibrio cholerae (O1 và O139)",
+    "commonName": "Phẩy khuẩn tả",
+    "gram": "Gram âm",
+    "shape": "Phẩy khuẩn (Trực khuẩn cong)",
+    "whoPriority": "Dịch tễ đặc biệt",
+    "diseases": [
+      "Bệnh tả (Cholera): tiêu chảy cấp tính ồ ạt, phân toàn nước đục như nước vo gạo, mùi tanh, không đau quặn bụng, không mót rặn, không sốt, dẫn đến mất nước – điện giải cấp tính, trụy tim mạch và tử vong nhanh nếu không bù dịch"
+    ],
+    "characteristics": "Trực khuẩn Gram âm hơi cong hình dấu phẩy, di động cực nhanh như 'sao đổi ngôi' nhờ 1 tiêm mao ở một đầu, hiếu khí, Oxidase (+), mọc rất nhanh trên môi trường kiềm mặn (pH 8.5–9.5 như nước pepton kiềm, tạo váng trên bề mặt sau 6–8 giờ) và thạch TCBS (lên men saccharose tạo khuẩn lạc màu vàng). Nhóm huyết thanh gây dịch là O1 (sinh typ cổ điển và El Tor; huyết thanh typ Ogawa, Inaba, Hikojima) và O139.",
+    "antibioticIds": ["doxycycline", "azithromycin", "ciprofloxacin"],
+    "resistance": "Đã xuất hiện các chủng kháng Tetracycline, TMP-SMX và giảm nhạy cảm với Fluoroquinolone qua các yếu tố di truyền vận động (SXT constin / plasmid).",
+    "notes": "Giáo trình Bộ Y tế (Bài 11): Phẩy khuẩn tả KHÔNG xâm nhập qua biểu mô ruột vào máu mà bám trên bề mặt niêm mạc ruột non và tiết Ngoại độc tố ruột tả (Cholera toxin / Choleragen). Tiểu phần B của độc tố gắn vào thụ thể ganglioside GM1, đưa tiểu phần A1 vào tế bào hoạt hóa vĩnh viễn enzyme adenylat cyclase làm tăng vọt nồng độ AMP vòng (cAMP) nội bào, khiến tế bào ruột bài tiết ồ ạt ion Cl- và nước ra lòng ruột. Điều trị quan trọng số 1 là bù nước và điện giải (Oresol / truyền Ringer lactat) kết hợp kháng sinh."
+  },
+  {
+    "id": "c-jejuni",
+    "name": "Campylobacter jejuni (và C. coli)",
+    "commonName": "Xoắn khuẩn / Phẩy khuẩn Campylobacter",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn cong hình cánh chim hải âu / dấu phẩy",
+    "whoPriority": "Giám sát kháng thuốc",
+    "diseases": [
+      "Viêm dạ dày-ruột cấp (tiêu chảy phân lỏng hoặc phân có máu, đau bụng, sốt)",
+      "Biến chứng hậu nhiễm trùng: Hội chứng Guillain-Barré (viêm đa dây thần kinh cấp tính gây liệt hướng lên) và viêm khớp phản ứng"
+    ],
+    "characteristics": "Trực khuẩn Gram âm mảnh, cong hình chữ S hoặc cánh chim hải âu, di động nhờ tiêm mao ở đầu, vi hiếu khí (cần 5% O2, 10% CO2), C. jejuni phát triển tối ưu ở nhiệt độ 42°C (ưa ấm), Oxidase (+), Catalase (+).",
+    "antibioticIds": ["azithromycin", "ciprofloxacin"],
+    "resistance": "Tỷ lệ kháng Fluoroquinolone (Ciprofloxacin) ở Campylobacter tại Đông Nam Á và Việt Nam rất cao (do đột biến điểm trên gen gyrA liên quan đến sử dụng fluoroquinolone trong chăn nuôi gia cầm), nên Macrolide (Azithromycin/Erythromycin) là thuốc lựa chọn ưu tiên.",
+    "notes": "Nguồn lây chủ yếu từ gia cầm nấu chưa chín, sữa tươi chưa tiệt trùng hoặc nước nhiễm bẩn."
+  },
+  {
+    "id": "h-influenzae",
+    "name": "Haemophilus influenzae",
+    "commonName": "Trực khuẩn Pfeiffer (H. influenzae)",
+    "gram": "Gram âm",
+    "shape": "Cầu trực khuẩn đa hình thái",
+    "whoPriority": "Medium (Trung bình)",
+    "diseases": [
+      "Viêm màng não mủ và viêm thanh thiệt cấp ở trẻ nhỏ (chủng có vỏ typ b – Hib)",
+      "Viêm tai giữa cấp, viêm xoang cấp, viêm kết mạc",
+      "Đợt cấp bệnh phổi tắc nghẽn mạn tính (COPD) và viêm phổi cộng đồng"
+    ],
+    "characteristics": "Cầu trực khuẩn Gram âm nhỏ, đa hình thái, không di động. Đòi hỏi bắt buộc cả 2 yếu tố tăng trưởng có trong hồng cầu là yếu tố X (hemin, bền với nhiệt) và yếu tố V (NAD, dễ bị phá hủy bởi nhiệt) nên chỉ mọc trên thạch máu đun nóng (thạch Chocolate) hoặc hiện tượng mọc vệ tinh quanh khuẩn lạc S. aureus.",
+    "antibioticIds": ["amox-clav", "ceftriaxone", "azithromycin", "levofloxacin", "tmp-smx"],
+    "resistance": "WHO BPPL 2024 xếp H. influenzae kháng ampicillin vào nhóm Trung bình (Medium). Hai cơ chế đề kháng β-lactam chính: (1) Tiết β-lactamase TEM-1/ROB-1 (nhạy lại với Amoxicillin-clavulanate); (2) Đột biến biến đổi PBP3 gọi là chủng BLNAR (Beta-lactamase negative ampicillin-resistant, kháng cả Amoxicillin-clavulanate nên cần dùng Ceftriaxone hoặc Fluoroquinolone).",
+    "notes": "Vắc xin liên hợp Hib đã giúp giảm mạnh tỷ lệ viêm màng não và viêm thanh thiệt do H. influenzae typ b ở trẻ em."
+  },
+  {
+    "id": "n-gonorrhoeae",
+    "name": "Neisseria gonorrhoeae",
+    "commonName": "Song cầu khuẩn lậu (Gonococcus)",
+    "gram": "Gram âm",
+    "shape": "Song cầu hình hạt cà phê",
+    "whoPriority": "High (Cao)",
+    "diseases": [
+      "Bệnh lậu cấp và mạn tính: viêm niệu đạo mủ cấp ở nam (tiểu buốt, chảy mủ vàng đặc vào buổi sáng), viêm cổ tử cung – phần phụ ở nữ (dễ gây vô sinh, thai ngoài tử cung)",
+      "Viêm kết mạc mủ ở trẻ sơ sinh (nhiễm khi qua đường sinh dục mẹ, có thể gây mù lòa)",
+      "Nhiễm lậu cầu lan tỏa (viêm khớp mủ, viêm da mụn mủ, nhiễm khuẩn huyết)"
+    ],
+    "characteristics": "Song cầu khuẩn Gram âm hình hạt cà phê xếp từng đôi mặt lõm quay vào nhau, thường nằm TRONG tế bào bạch cầu đa nhân trung tính đã thoái hóa trên tiêu bản mủ niệu đạo cấp. Rất yếu ở ngoại cảnh (chết nhanh khi ra ngoài cơ thể và ở nhiệt độ lạnh), nuôi cấy đòi hỏi môi trường giàu chất dinh dưỡng có chọn lọc (Thayer-Martin) trong khí trường 5–10% CO2. Oxidase (+), chỉ lên men đường Glucose (không lên men Maltose).",
+    "antibioticIds": ["ceftriaxone", "azithromycin"],
+    "resistance": "WHO BPPL 2024 xếp N. gonorrhoeae kháng Cephalosporin thế hệ 3 và/hoặc Fluoroquinolone vào nhóm Ưu tiên Cao (High). Đã đề kháng hoàn toàn với Sulfonamide, Penicillin (qua plasmid PPNG hoặc đột biến nhiễm sắc thể), Tetracycline và Ciprofloxacin; hiện nay Ceftriaxone tiêm bắp là vũ khí tuyến đầu cuối cùng.",
+    "notes": "Giáo trình Bộ Y tế (Bài 12): Ở nam giới bị lậu cấp, nhuộm Gram dịch mủ niệu đạo thấy song cầu Gram âm nội bào bạch cầu đa nhân có độ nhạy và độ đặc hiệu > 95%. Ở nữ giới hoặc lậu mạn tính, cần nuôi cấy trên môi trường Thayer-Martin hoặc xét nghiệm khuếch đại acid nucleic (NAAT/PCR). Điều trị lậu luôn cần kết hợp điều trị cho bạn tình và tầm soát đồng nhiễm Chlamydia trachomatis."
+  },
+  {
+    "id": "n-meningitidis",
+    "name": "Neisseria meningitidis",
+    "commonName": "Não mô cầu (Meningococcus)",
+    "gram": "Gram âm",
+    "shape": "Song cầu hình hạt cà phê",
+    "whoPriority": "Dịch tễ đặc biệt",
+    "diseases": [
+      "Viêm màng não mủ dịch tễ (sốt cao đột ngột, đau đầu dữ dội, nôn vọt, cứng gáy)",
+      "Nhiễm khuẩn huyết tối cấp do não mô cầu kèm ban xuất huyết hoại tử hình sao và suy thượng thận cấp (Hội chứng Waterhouse-Friderichsen)"
+    ],
+    "characteristics": "Song cầu Gram âm hình hạt cà phê có vỏ polysaccharide (chia thành các nhóm huyết thanh A, B, C, Y, W-135), nằm trong và ngoài bạch cầu đa nhân trong dịch não tủy. Oxidase (+), Catalase (+), lên men cả 2 đường Glucose VÀ Maltose (điểm phân biệt sinh hóa quan trọng với lậu cầu chỉ lên men Glucose).",
+    "antibioticIds": ["ceftriaxone", "penicillin-g", "meropenem", "rifampicin", "ciprofloxacin"],
+    "resistance": "Một số chủng giảm nhạy cảm với Penicillin G (do thay đổi PBP2) và một số hiếm chủng mang β-lactamase ROB-1 kháng cả Penicillin và Ciprofloxacin, nhưng vẫn rất nhạy cảm với Ceftriaxone/Cefotaxime.",
+    "notes": "Giáo trình Bộ Y tế (Bài 13): Lây truyền qua giọt bắn đường hô hấp từ người bệnh hoặc người lành mang trùng ở vùng tỵ hầu. Dự phòng cho người tiếp xúc gần bằng Rifampicin, Ciprofloxacin (1 liều) hoặc Ceftriaxone tiêm bắp."
+  },
+  {
+    "id": "t-pallidum",
+    "name": "Treponema pallidum",
+    "commonName": "Xoắn khuẩn giang mai",
+    "gram": "Xoắn khuẩn (Không bắt màu Gram)",
+    "shape": "Xoắn khuẩn mảnh (8–14 vòng xoắn đều)",
+    "whoPriority": "Bệnh lây qua đường tình dục",
+    "diseases": [
+      "Bệnh giang mai mắc phải qua 3 thời kỳ: Thời kỳ I (săng giang mai – vết loét nông, đáy sạch, nền cứng như sụn, KHÔNG đau, KHÔNG ngứa kèm hạch bẹn, tự lành sau 3–6 tuần); Thời kỳ II (đào ban, mảng niêm mạc, sẩn giang mai rất giàu xoắn khuẩn); Thời kỳ III (gôm giang mai ở da/xương/gan, giang mai tim mạch và giang mai thần kinh)",
+      "Giang mai bẩm sinh (lây từ mẹ sang thai nhi qua nhau thai từ tháng thứ 4–5 của thai kỳ)"
+    ],
+    "characteristics": "Xoắn khuẩn rất mảnh (rộng chỉ 0.2 µm), có 8–14 vòng xoắn đều đặn, di động uyển chuyển (uốn khúc, xoay quanh trục và tiến lùi), KHÔNG bắt màu thuốc nhuộm Gram thông thường mà phải quan sát dưới kính hiển vi nền đen, nhuộm bạc Fontana-Tribondeau hoặc miễn dịch huỳnh quang. KHÔNG nuôi cấy được trên môi trường nhân tạo.",
+    "antibioticIds": ["penicillin-g", "doxycycline", "ceftriaxone"],
+    "resistance": "Đến nay Treponema pallidum vẫn nhạy cảm hoàn toàn với Penicillin G (chưa ghi nhận kháng Penicillin), nhưng đã có nhiều chủng kháng Macrolide (Azithromycin) do đột biến điểm A2058G trên 23S rRNA.",
+    "notes": "Giáo trình Bộ Y tế (Bài 12): Chẩn đoán huyết thanh học chia làm 2 nhóm: (1) Phản ứng không đặc hiệu dùng kháng nguyên Cardiolipin (VDRL, RPR, phản ứng cố định bổ thể BW): dương tính từ tuần thứ 2–3 sau khi có săng, hiệu giá giảm dần khi điều trị khỏi nên dùng để SÀNG LỌC và THEO DÕI ĐÁP ỨNG ĐIỀU TRỊ (nhưng có thể dương tính giả trong sốt rét, bệnh phong, lupus); (2) Phản ứng đặc hiệu dùng kháng nguyên xoắn khuẩn (TPHA, FTA-abs, TPI): dùng để KHẲNG ĐỊNH chẩn đoán và tồn tại dương tính suốt đời."
+  },
+  {
+    "id": "c-trachomatis",
+    "name": "Chlamydia trachomatis (và H. ducreyi, U. urealyticum)",
+    "commonName": "Vi khuẩn nội bào bắt buộc Chlamydia & Tác nhân STI",
+    "gram": "Vi khuẩn nội bào / Không điển hình",
+    "shape": "Hình cầu nhỏ (Thể cơ bản EB & Thể lưới RB)",
+    "whoPriority": "Bệnh lây qua đường tình dục & Mắt hột",
+    "diseases": [
+      "Bệnh mắt hột (Trachoma – huyết thanh typ A, B, Ba, C gây viêm kết-giác mạc mạn tính dẫn đến quặm mi và mù lòa)",
+      "Nhiễm trùng đường sinh dục-tiết niệu phổ biến nhất (typ D–K): viêm niệu đạo không do lậu, viêm cổ tử cung, viêm vòi trứng gây vô sinh; viêm kết mạc và viêm phổi trẻ sơ sinh",
+      "Bệnh hột xoài / Nicolas-Favre (Lymphogranuloma venereum – LGV, typ L1, L2, L3 gây viêm hạch bẹn hóa mủ)",
+      "(Đi kèm trong Bài 12: Haemophilus ducreyi gây bệnh Hạ cam mềm – vết loét sinh dục bờ nham nhở, đáy bẩn, RẤT ĐAU kèm hạch bẹn hóa mủ; và Ureaplasma urealyticum không vách tế bào có enzyme urease gây viêm niệu đạo không đặc hiệu)"
+    ],
+    "characteristics": "Vi khuẩn ký sinh nội bào bắt buộc vì không tự tổng hợp được năng lượng ATP ('ký sinh năng lượng'). Chu kỳ phát triển đặc biệt có 2 dạng: Thể cơ bản (Elementary Body – EB, kích thước 0.3 µm, sống ngoài tế bào, có khả năng lây nhiễm xâm nhập tế bào chủ) và Thể lưới (Reticulate Body – RB, kích thước 0.8–1 µm, nhân đôi bằng phân đôi bên trong không bào nội bào tạo thành thể vùi bắt màu glycogen với Lugol).",
+    "antibioticIds": ["doxycycline", "azithromycin", "levofloxacin"],
+    "resistance": "Kháng tự nhiên với toàn bộ nhóm β-lactam (hoặc β-lactam chỉ làm vi khuẩn chuyển sang dạng tiềm ẩn bất thường) và Aminoglycoside (do sống nội bào). Ureaplasma/Mycoplasma không có vách tế bào nên kháng hoàn toàn mọi β-lactam và Vancomycin.",
+    "notes": "Giáo trình Bộ Y tế (Bài 12): Chẩn đoán Chlamydia bằng nhuộm Giemsa/Lugol tìm thể vùi nội bào, miễn dịch huỳnh quang trực tiếp (DFA), ELISA hoặc PCR. Điều trị ưu tiên Doxycycline (100mg x 2 lần/ngày trong 7 ngày; hoặc 21 ngày cho bệnh Nicolas-Favre LGV) hoặc Azithromycin (1g liều duy nhất)."
+  },
+  {
+    "id": "s-aureus",
+    "name": "Staphylococcus aureus",
+    "commonName": "Tụ cầu vàng (MSSA / MRSA)",
+    "gram": "Gram dương",
+    "shape": "Cầu khuẩn xếp chùm nho",
+    "whoPriority": "High (Cao)",
+    "diseases": [
+      "Nhiễm khuẩn da và mô mềm: mụn nhọt, đinh râu, chín mé, chốc lở, áp xe",
+      "Nhiễm khuẩn xâm lấn nặng: nhiễm khuẩn huyết, viêm nội tâm mạc cấp, viêm phổi hoại tử, viêm tủy xương, viêm khớp mủ",
+      "Bệnh do ngoại độc tố: Ngộ độc thức ăn do độc tố ruột (Enterotoxin – ủ bệnh rất ngắn 2–6 giờ, nôn dữ dội); Hội chứng sốc nhiễm độc (TSS do độc tố TSST-1 liên quan bông băng gạc thấm hút dịch vết thương/tampon); Hội chứng bong vảy da do tụ cầu ở trẻ sơ sinh (SSSS / bệnh Ritter do độc tố Exfoliatin)"
+    ],
+    "characteristics": "Cầu khuẩn Gram dương đứng thành từng đám giống chùm nho, không vỏ (hoặc vỏ nhầy mỏng), không sinh bào tử, chịu được nhiệt (60°C/30 phút) và nồng độ muối cao (7.5–10% NaCl trên môi trường Chapman). Khuẩn lạc màu vàng kim (do sắc tố carotenoid), tiêu huyết β trên thạch máu, Catalase (+) (phân biệt với Streptococcus), Lên men đường Mannitol (+), Đông huyết tương Coagulase (+) và DNase (+) (tiêu chuẩn quan trọng nhất để phân biệt tụ cầu vàng gây bệnh với tụ cầu trắng S. epidermidis không sinh coagulase). Kháng nguyên vách có Polysaccharid A và Protein A (gắn đoạn Fc của IgG chống thực bào).",
+    "antibioticIds": ["amox-clav", "vancomycin", "linezolid", "daptomycin", "tmp-smx", "doxycycline", "ceftriaxone"],
+    "resistance": "WHO BPPL 2024 xếp S. aureus kháng methicillin (MRSA) vào nhóm Ưu tiên Cao (High). Hai bước đề kháng lịch sử: (1) >90% chủng tiết Penicillinase (blaZ) kháng Penicillin G/Ampicillin (vẫn nhạy Oxacillin/Nafcillin, Cefazolin, Amox-clav); (2) Chủng MRSA mang gen mecA (hoặc mecC) trên盒 SCCmec mã hóa protein PBP2a có ái lực rất thấp với toàn bộ nhóm β-lactam (trừ Ceftaroline/Ceftobiprole).",
+    "notes": "Giáo trình Bộ Y tế (Bài 14) & EUCAST v16.1: Trong phòng xét nghiệm, sàng lọc MRSA chuẩn xác nhất bằng đĩa giấy Cefoxitin 30 µg (kháng khi đường kính vòng vô khuẩn < 22 mm trên S. aureus vì Cefoxitin cảm ứng mạnh gen mecA). Với nhiễm khuẩn huyết do MRSA dùng Vancomycin hoặc Daptomycin; với viêm phổi do MRSA dùng Vancomycin hoặc Linezolid (KHÔNG dùng Daptomycin cho viêm phổi)."
+  },
+  {
+    "id": "s-pyogenes",
+    "name": "Streptococcus pyogenes",
+    "commonName": "Liên cầu khuẩn tan huyết β nhóm A (GAS)",
+    "gram": "Gram dương",
+    "shape": "Cầu khuẩn xếp chuỗi",
+    "whoPriority": "Medium (Trung bình)",
+    "diseases": [
+      "Viêm họng mủ cấp tính, viêm amidan, bệnh tinh hồng nhiệt (Scarlet fever – do độc tố gây đỏ da Erythrogenic toxin)",
+      "Nhiễm khuẩn da: chốc lở, viêm quầng (Erysipelas), viêm mô tế bào, viêm cân cơ hoại tử ('vi khuẩn ăn thịt người') và sốc nhiễm độc liên cầu",
+      "Hai biến chứng hậu nhiễm trùng tự miễn rất quan trọng (xảy ra sau 2–3 tuần): Sốt thấp khớp cấp / Thấp tim (tổn thương van tim, khớp) và Viêm cầu thận cấp hậu nhiễm liên cầu"
+    ],
+    "characteristics": "Cầu khuẩn Gram dương xếp thành chuỗi dài, Catalase (-), tạo vòng tiêu huyết hoàn toàn (tiêu huyết β) trên thạch máu, mang kháng nguyên carbohydrat C nhóm A theo phân loại Lancefield và kháng nguyên bề mặt Protein M (yếu tố độc lực chính chống thực bào và gây phản ứng chéo tự miễn với cơ tim). Rất nhạy cảm với đĩa giấy Bacitracin 0.04 đv (dùng để định danh phân biệt với các liên cầu β khác).",
+    "antibioticIds": ["penicillin-g", "amox-clav", "ceftriaxone", "azithromycin", "vancomycin"],
+    "resistance": "Vẫn nhạy cảm 100% với Penicillin G và Amoxicillin. Tuy nhiên, tỷ lệ kháng Macrolide (Erythromycin, Azithromycin) và Clindamycin đang gia tăng nhanh nên WHO BPPL 2024 đã đưa Liên cầu nhóm A kháng macrolide vào danh sách ưu tiên Trung bình (Medium). (Lưu ý: Liên cầu nhóm B – Streptococcus agalactiae gây nhiễm khuẩn huyết/viêm màng não sơ sinh giảm nhạy penicillin cũng được WHO 2024 xếp vào nhóm Medium).",
+    "notes": "Giáo trình Bộ Y tế (Bài 13): Liên cầu nhóm A tiết ra 2 dung huyết tố: Streptolysin S (bền với oxy, gây vòng tiêu huyết β trên bề mặt thạch máu) và Streptolysin O (bị bất hoạt bởi oxy, có tính kháng nguyên mạnh kích thích cơ thể sinh kháng thể Antistreptolysin O – ASO). Xét nghiệm định lượng ASO trong huyết thanh (> 200 đơn vị Todd) có giá trị lớn để chẩn đoán bệnh Thấp tim và Viêm cầu thận cấp hậu nhiễm liên cầu."
+  },
+  {
+    "id": "s-pneumoniae",
+    "name": "Streptococcus pneumoniae",
+    "commonName": "Phế cầu khuẩn (Pneumococcus)",
+    "gram": "Gram dương",
+    "shape": "Song cầu hình ngọn nến / mũi giáo",
+    "whoPriority": "Medium (Trung bình)",
+    "diseases": [
+      "Viêm phổi thùy mắc phải cộng đồng (nguyên nhân vi khuẩn số 1)",
+      "Viêm màng não mủ cấp tính ở người lớn và trẻ em",
+      "Viêm tai giữa cấp, viêm xoang cấp và nhiễm khuẩn huyết (đặc biệt ở người cắt lách)"
+    ],
+    "characteristics": "Song cầu khuẩn Gram dương hình ngọn nến (hai đầu nhọn quay ra ngoài, hai đầu bằng nhìn vào nhau) nằm trong một vỏ (nang) polysaccharide chung (yếu tố độc lực quyết định: mất vỏ là mất khả năng gây bệnh). Trên thạch máu tạo khuẩn lạc lõm giữa hình đồng xu và vòng tiêu huyết không hoàn toàn màu xanh lục (tiêu huyết α). Phân biệt với liên cầu Viridans (cũng tiêu huyết α) bằng 2 thử nghiệm: Phế cầu bị ly giải bởi muối mật (Bile solubility +) và nhạy cảm với Optochin (+).",
+    "antibioticIds": ["penicillin-g", "amox-clav", "ceftriaxone", "levofloxacin", "vancomycin", "linezolid"],
+    "resistance": "WHO BPPL 2024 xếp S. pneumoniae kháng macrolide vào nhóm Trung bình (Medium). Đề kháng Penicillin ở phế cầu KHÔNG phải do tiết β-lactamase mà do biến đổi cấu trúc các PBP (mosaic genes nhận từ liên cầu Viridans qua biến nạp tự nhiên).",
+    "notes": "EUCAST v16.1: Sàng lọc kháng β-lactam ở phế cầu bằng đĩa giấy Oxacillin 1 µg (nếu đường kính ≥ 20 mm thì nhạy cảm với tất cả các β-lactam). Breakpoint của Penicillin và Ceftriaxone trên phế cầu phụ thuộc chặt chẽ vào vị trí nhiễm trùng: ngưỡng cho Viêm màng não mủ thấp hơn nhiều so với Viêm phổi (ở viêm phổi vẫn dùng được Amoxicillin/Penicillin liều cao cho chủng giảm nhạy cảm)."
+  },
+  {
+    "id": "e-faecium",
+    "name": "Enterococcus faecium (và E. faecalis)",
+    "commonName": "Cầu khuẩn đường ruột / Liên cầu nhóm D (VRE)",
+    "gram": "Gram dương",
+    "shape": "Cầu khuẩn xếp đôi hoặc chuỗi ngắn",
+    "whoPriority": "High (Cao)",
+    "diseases": [
+      "Nhiễm khuẩn đường tiết niệu liên quan ống thông",
+      "Nhiễm khuẩn ổ bụng, đường mật và vết mổ",
+      "Nhiễm khuẩn huyết liên quan catheter và viêm nội tâm mạc bán cấp"
+    ],
+    "characteristics": "Cầu khuẩn Gram dương mang kháng nguyên nhóm D Lancefield, cực kỳ đề kháng với điều kiện khắc nghiệt: mọc được trong môi trường có 40% mật bò, thủy phân esculin tạo màu đen (Bile-esculin +), mọc được trong canh thang 6.5% NaCl và ở nhiệt độ 10–45°C, PYR (+).",
+    "antibioticIds": ["penicillin-g", "vancomycin", "linezolid", "daptomycin", "nitrofurantoin", "fosfomycin"],
+    "resistance": "Đề kháng tự nhiên (Intrinsic resistance) rất rộng: kháng TẤT CẢ các Cephalosporin (thế hệ 1–4, chỉ trừ Ceftaroline/Ceftobiprole không đủ mạnh đơn trị), kháng TMP-SMX in vivo, kháng Clindamycin và kháng mức độ thấp với Aminoglycoside. Đặc biệt: E. faecalis thường còn nhạy với Ampicillin/Amoxicillin và Vancomycin, trong khi E. faecium đa số kháng Ampicillin (do PBP5) và có tỷ lệ cao kháng Vancomycin (VRE mang gen vanA/vanB) – được WHO BPPL 2024 xếp vào nhóm Ưu tiên Cao (High).",
+    "notes": "Khi điều trị viêm nội tâm mạc do Enterococcus nhạy cảm, đơn trị Ampicillin hoặc Vancomycin chỉ có tác dụng kìm khuẩn nên cần phối hợp hiệp đồng với Gentamicin (nếu không kháng mức độ cao HLAR) hoặc phối hợp Ampicillin + Ceftriaxone (bão hòa kép PBP ở E. faecalis). Với VRE (E. faecium), lựa chọn hàng đầu là Linezolid hoặc Daptomycin liều cao."
+  },
+  {
+    "id": "c-diphtheriae",
+    "name": "Corynebacterium diphtheriae",
+    "commonName": "Trực khuẩn bạch hầu (Klebs-Löffler)",
+    "gram": "Gram dương",
+    "shape": "Trực khuẩn hình chùy (xếp chữ V, L, hàng rào)",
+    "whoPriority": "Bệnh truyền nhiễm có vắc xin",
+    "diseases": [
+      "Bệnh bạch hầu họng – thanh quản: tạo màng giả màu trắng xám rất dai, dính chặt vào niêm mạc họng/amidan (bóc ra gây chảy máu), sưng hạch cổ ('cổ bạnh'), có thể gây tắc nghẽn đường thở cấp tính (croup bạch hầu)",
+      "Biến chứng toàn thân do ngoại độc tố: Viêm cơ tim cấp (nguyên nhân tử vong hàng đầu), viêm dây thần kinh ngoại biên gây liệt màn hầu, liệt cơ mắt, liệt cơ hô hấp và tổn thương ống thận"
+    ],
+    "characteristics": "Trực khuẩn Gram dương không di động, không sinh bào tử, một hoặc hai đầu phình to như hình quả tạ / hình chùy do chứa các hạt nhiễm sắc (hạt biến sắc Babes-Ernst / Volutin bắt màu tím đen khi nhuộm Albert hoặc Neisser trên thân vi khuẩn màu xanh/nâu), xếp với nhau tạo góc chữ V, chữ L hoặc hình hàng rào. Mọc nhanh trên môi trường huyết thanh đông Löffler và tạo khuẩn lạc màu đen xám trên môi trường thạch máu có kali tellurit (McLeod/Tinsdale).",
+    "antibioticIds": ["penicillin-g", "azithromycin"],
+    "resistance": "Thường nhạy cảm với Penicillin G và Erythromycin/Azithromycin.",
+    "notes": "Giáo trình Bộ Y tế (Bài 13): Chỉ những chủng C. diphtheriae bị nhiễm thực khuẩn thể (prophage β) mang gen tox+ (hiện tượng chuyển đổi lysogen / tải nạp) mới sản xuất được Ngoại độc tố bạch hầu. Độc tố bạch hầu gắn vào yếu tố kéo dài EF-2 (Elongation Factor 2) của tế bào nhân thực làm đình chỉ hoàn toàn sự tổng hợp protein gây hoại tử cơ tim và thần kinh. Xét nghiệm xác định độc lực: Phản ứng kết tủa khuếch tán kép trong thạch Elek (hoặc tiêm chuột lang). Nguyên tắc điều trị sống còn: Phải tiêm ngay Huyết thanh kháng độc tố bạch hầu (SAD) càng sớm càng tốt để trung hòa độc tố tự do trong máu, KẾT HỢP với kháng sinh (Penicillin G hoặc Erythromycin) để diệt vi khuẩn."
+  },
+  {
+    "id": "m-tuberculosis",
+    "name": "Mycobacterium tuberculosis",
+    "commonName": "Trực khuẩn lao (Trực khuẩn Koch – BK / RR-TB)",
+    "gram": "Kháng cồn-toan (AFB)",
+    "shape": "Trực khuẩn mảnh, hơi cong",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Lao phổi (chiếm ~80–85%: ho khạc đờm kéo dài > 2 tuần, ho ra máu, sốt nhẹ về chiều, đổ mồ hôi đêm, sụt cân)",
+      "Lao ngoài phổi: Lao màng não, lao kê (lao toàn thể đường máu), lao hạch, lao xương khớp (bệnh Pott cột sống), lao màng phổi, lao màng bụng, lao thận-tiết niệu"
+    ],
+    "characteristics": "Trực khuẩn mảnh, không vỏ, không bào tử, không di động, vách tế bào cực kỳ giàu lipid (chiếm tới 60% trọng lượng khô: acid mycolic, sáp D, yếu tố thừng cord factor giúp vi khuẩn xếp thành bó như sợi dây thừng và sống sót bên trong đại thực bào). Không bắt màu Gram thông thường mà phải nhuộm kháng cồn-acid Ziehl-Neelsen (bắt màu đỏ tươi của fuchsin trên nền xanh methylen). Hiếu khí bắt buộc, sinh sản cực kỳ chậm (20–24 giờ mới phân đôi 1 lần), nuôi cấy trên môi trường đặc giàu trứng Löwenstein-Jensen mất 4–8 tuần tạo khuẩn lạc xù xì như súp lơ màu kem (R-type).",
+    "antibioticIds": ["rifampicin", "linezolid", "levofloxacin", "amikacin"],
+    "resistance": "Kháng tự nhiên với hầu hết các kháng sinh thông thường do hàng rao vách lipid acid mycolic. WHO BPPL 2024 chính thức đưa M. tuberculosis kháng Rifampicin (RR-TB) vào nhóm Nguy cấp (Critical Priority). Lao đa kháng (MDR-TB) là kháng đồng thời ít nhất 2 thuốc trụ cột Isoniazid (đột biến gen katG hoặc inhA) và Rifampicin (đột biến gen rpoB); Lao tiền siêu kháng (Pre-XDR) là MDR/RR-TB kháng thêm bất kỳ Fluoroquinolone nào; Lao siêu kháng (XDR-TB) là kháng thêm ít nhất 1 thuốc nhóm A (Bedaquiline hoặc Linezolid).",
+    "notes": "Giáo trình Bộ Y tế (Bài 13): Miễn dịch trong bệnh lao là miễn dịch qua trung gian tế bào (lympho T và đại thực bào hoạt hóa) đi kèm quá mẫn muộn typ IV, được đánh giá bằng phản ứng nội bì Tuberculin (Mantoux). Phòng bệnh đặc hiệu cho trẻ sơ sinh bằng vắc xin sống giảm độc lực BCG (Bacille Calmette-Guérin, điều chế từ M. bovis)."
+  },
+  {
+    "id": "m-leprae",
+    "name": "Mycobacterium leprae",
+    "commonName": "Trực khuẩn phong / hủi (Trực khuẩn Hansen)",
+    "gram": "Kháng cồn-toan (AFB)",
+    "shape": "Trực khuẩn xếp thành bó như bó củi / bao thuốc lá",
+    "whoPriority": "Chương trình Quốc gia chống Phong",
+    "diseases": [
+      "Bệnh phong (bệnh Hansen): tổn thương mạn tính ở da, niêm mạc và dây thần kinh ngoại biên gây mất cảm giác (nóng, lạnh, đau, xúc giác), teo cơ, co rút ngón tay/chân và tàn phế. Chia làm 2 cực lâm sàng chính: Thể phong củ (Tuberculoid – nhẹ, ít vi khuẩn, miễn dịch tế bào còn tốt, phản ứng Lepromin dương tính) và Thể phong u / phong ác tính (Lepromatous – nặng, u cục biến dạng mặt sư tử, cực kỳ nhiều vi khuẩn trong dịch mũi và da, miễn dịch tế bào suy sụp, phản ứng Lepromin âm tính)"
+    ],
+    "characteristics": "Trực khuẩn kháng cồn-acid do Gerhard Armauer Hansen tìm ra năm 1874, thường nằm nội bào thành từng đám bó song song giống bó củi hoặc bao thuốc lá (globi). ĐẶC ĐIỂM QUAN TRỌNG: Cho đến nay vẫn KHÔNG nuôi cấy được trên bất kỳ môi trường nhân tạo nào trong phòng thí nghiệm (chỉ nhân lên được trên gan bàn chân chuột nhắt trắng và cơ thể con Tatu 9 khoang – Armadillo do ưa nhiệt độ mát ~30–33°C).",
+    "antibioticIds": ["rifampicin", "minocycline"],
+    "resistance": "Đơn trị bằng Dapsone trước đây dẫn đến kháng thuốc rộng rãi (đột biến gen folP1), do đó bắt buộc phải dùng Đa hóa trị liệu (MDT).",
+    "notes": "Giáo trình Bộ Y tế (Bài 14): Thời gian ủ bệnh rất dài (trung bình 3–5 năm, có thể tới 10–20 năm). Phản ứng nội bì Lepromin (phản ứng Mitsuda) KHÔNG dùng để chẩn đoán bệnh phong mà dùng để PHÂN LOẠI THỂ BỆNH và đánh giá tiên lượng miễn dịch tế bào của bệnh nhân (Phong củ: Lepromin +; Phong u: Lepromin -). Điều trị theo phác đồ Đa hóa trị liệu của WHO: phối hợp Rifampicin + Dapsone + Clofazimine."
+  },
+  {
+    "id": "k-aerogenes",
+    "name": "Klebsiella aerogenes (Enterobacter aerogenes)",
+    "commonName": "Trực khuẩn K. aerogenes sinh AmpC cảm ứng",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Viêm phổi bệnh viện / viêm phổi thở máy (HAP/VAP)",
+      "Nhiễm khuẩn huyết liên quan catheter",
+      "Nhiễm khuẩn đường tiết niệu phức tạp (cUTI) và nhiễm khuẩn vết mổ"
+    ],
+    "characteristics": "Trực khuẩn Gram âm họ Enterobacterales (trước đây gọi là Enterobacter aerogenes, nhưng phân tích hệ gen gần với chi Klebsiella hơn), khác K. pneumoniae ở chỗ CÓ tiêm mao quanh thân nên di động (+) và Ornithine decarboxylase (ODC +). Lên men lactose, Voges-Proskauer (+), Citrat (+).",
+    "antibioticIds": ["cefepime", "meropenem", "imipenem", "ertapenem", "tmp-smx", "ciprofloxacin", "levofloxacin"],
+    "resistance": "Thuộc bộ 3 loài Enterobacterales có nguy cơ trung bình–cao giải ức chế mạnh enzyme AmpC nhiễm sắc thể (cùng với E. cloacae complex và Citrobacter freundii). Kháng tự nhiên với Ampicillin, Amoxicillin-clavulanate, Ampicillin-sulbactam, Cephalosporin thế hệ 1–2 và Fosfomycin uống (do gen fosA).",
+    "notes": "IDSA 2024 (Section 2): Không dùng Ceftriaxone, Ceftazidime hoặc Piperacillin-tazobactam cho nhiễm khuẩn xâm lấn do K. aerogenes ngay cả khi kháng sinh đồ ban đầu báo nhạy. Thuốc ưu tiên là Cefepime (2g IV q8h truyền 3h khi MIC ≤ 2 µg/mL) hoặc Carbapenem (Meropenem/Imipenem/Ertapenem), hạ bậc uống bằng TMP-SMX hoặc Fluoroquinolone."
+  },
+  {
+    "id": "c-freundii",
+    "name": "Citrobacter freundii",
+    "commonName": "Trực khuẩn Citrobacter sinh AmpC cảm ứng",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn",
+    "whoPriority": "Critical (Nguy cấp)",
+    "diseases": [
+      "Nhiễm khuẩn đường tiết niệu bệnh viện",
+      "Nhiễm khuẩn đường mật, ổ bụng và nhiễm khuẩn huyết ở bệnh nhân suy giảm miễn dịch",
+      "Viêm màng não mủ và áp xe não ở trẻ sơ sinh (đặc biệt C. koseri và C. freundii)"
+    ],
+    "characteristics": "Trực khuẩn Gram âm họ Enterobacterales, di động, sử dụng citrat làm nguồn carbon duy nhất (Citrat +), lên men lactose chậm, sinh H2S (+) (dễ nhầm với Salmonella trên môi trường phân lập).",
+    "antibioticIds": ["cefepime", "meropenem", "imipenem", "ertapenem", "tmp-smx", "ciprofloxacin", "levofloxacin"],
+    "resistance": "Nằm trong nhóm 3 loài nguy cơ cao đột biến giải ức chế gen ampC nhiễm sắc thể (~20% phát sinh kháng Ceftriaxone/Ceftazidime trong lúc điều trị). Lưu ý: Citrobacter koseri (loài cùng chi) không mang gen ampC cảm ứng như C. freundii.",
+    "notes": "IDSA 2024 (Section 2): Với nhiễm khuẩn xâm lấn do Citrobacter freundii, ưu tiên Cefepime (khi MIC ≤ 2 µg/mL) hoặc Carbapenem, hoặc TMP-SMX / Fluoroquinolone nếu nhạy."
+  },
+  {
+    "id": "h-ducreyi",
+    "name": "Haemophilus ducreyi",
+    "commonName": "Trực khuẩn hạ cam mềm (Trực khuẩn Ducrey)",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn ngắn xếp chuỗi song song ('đàn cá bơi')",
+    "whoPriority": "Bệnh lây qua đường tình dục",
+    "diseases": [
+      "Bệnh Hạ cam mềm (Chancroid): sau ủ bệnh ngắn 3–5 ngày xuất hiện sẩn mủ ở bộ phận sinh dục nhanh chóng vỡ thành vết loét sâu, bờ nham nhở không đều, đáy bẩn nhiều mủ vàng xám, nền MỀM, chạm vào RẤT ĐAU và dễ chảy máu, kèm theo viêm hạch bẹn một bên sưng to đau nhức và hóa mủ dò ra ngoài"
+    ],
+    "characteristics": "Trực khuẩn Gram âm nhỏ, hai đầu tròn, thường xếp thành từng chuỗi song song bên trong hoặc ngoài bạch cầu giống hình 'đàn cá bơi' hoặc 'đường ray xe lửa'. Nuôi cấy đòi hỏi yếu tố X (hemin) nhưng không cần yếu tố V (NAD) trong môi trường giàu huyết thanh và 5–10% CO2.",
+    "antibioticIds": ["azithromycin", "ceftriaxone", "ciprofloxacin"],
+    "resistance": "Nhiều chủng mang plasmid tiết β-lactamase kháng Penicillin/Ampicillin, kháng Tetracycline và Sulfonamide.",
+    "notes": "Giáo trình Bộ Y tế (Bài 12): Điểm lâm sàng cốt lõi là phân biệt vết loét Hạ cam mềm (do H. ducreyi: ủ bệnh ngắn 3–5 ngày, vết loét bờ nham nhở, đáy bẩn nhiều mủ, nền mềm, RẤT ĐAU) với Săng giang mai thời kỳ I (do T. pallidum: ủ bệnh 3 tuần, vết loét tròn đều, đáy sạch đỏ tươi, nền cứng như sụn, KHÔNG ĐAU). Điều trị hạ cam mềm bằng Azithromycin 1g PO (1 liều duy nhất), Ceftriaxone 250mg IM (1 liều) hoặc Ciprofloxacin 500mg x 2 lần/ngày trong 3 ngày."
+  },
+  {
+    "id": "u-urealyticum",
+    "name": "Ureaplasma urealyticum (và Mycoplasma hominis / M. pneumoniae)",
+    "commonName": "Vi khuẩn không vách tế bào (Họ Mycoplasmataceae)",
+    "gram": "Không có vách tế bào (Không bắt màu Gram)",
+    "shape": "Đa hình thái (hình cầu, hình sợi cực nhỏ 0.2–0.3 µm)",
+    "whoPriority": "Vi khuẩn không điển hình",
+    "diseases": [
+      "Viêm niệu đạo không do lậu (NGU), viêm tuyến tiền liệt, viêm cổ tử cung – vòi trứng, nhiễm trùng ối gây sẩy thai hoặc sinh non (Ureaplasma urealyticum, Mycoplasma hominis, M. genitalium)",
+      "Viêm phổi không điển hình ở cộng đồng (Mycoplasma pneumoniae)"
+    ],
+    "characteristics": "Là những vi khuẩn nhỏ nhất có khả năng tự sinh sản ngoài tế bào sống, hoàn toàn KHÔNG CÓ VÁCH TẾ BÀO peptidoglycan mà chỉ được bao bọc bởi màng bào tương 3 lớp giàu sterol (cholesterol – cần bổ sung huyết thanh vào môi trường nuôi cấy). Trên thạch đặc tạo khuẩn lạc cực nhỏ có tâm ăn sâu xuống thạch giống hình 'trứng ốp la'. Ureaplasma urealyticum có đặc trưng phân hủy mạnh urê (Urease +) giải phóng amoniac.",
+    "antibioticIds": ["doxycycline", "azithromycin", "levofloxacin"],
+    "resistance": "Vì hoàn toàn không có vách tế bào peptidoglycan nên họ Mycoplasma và Ureaplasma ĐỀ KHÁNG TỰ NHIÊN TUYỆT ĐỐI với mọi kháng sinh nhóm β-lactam (Penicillin, Cephalosporin, Carbapenem), Vancomycin và Fosfomycin. Riêng Mycoplasma hominis kháng tự nhiên với Erythromycin/Azithromycin 14-15 nguyên tử carbon nhưng nhạy Doxycycline và Clindamycin.",
+    "notes": "Giáo trình Bộ Y tế (Bài 12): Chỉ các kháng sinh ức chế tổng hợp protein tại ribosom (Tetracycline như Doxycycline, Macrolide như Azithromycin) hoặc ức chế ADN gyrase (Fluoroquinolone như Levofloxacin/Moxifloxacin) mới có hiệu quả điều trị."
+  },
+  {
+    "id": "s-agalactiae",
+    "name": "Streptococcus agalactiae",
+    "commonName": "Liên cầu khuẩn tan huyết β nhóm B (GBS)",
+    "gram": "Gram dương",
+    "shape": "Cầu khuẩn xếp chuỗi",
+    "whoPriority": "Medium (Trung bình)",
+    "diseases": [
+      "Nhiễm khuẩn sơ sinh khởi phát sớm (< 7 ngày tuổi) và muộn (7–90 ngày tuổi): Nhiễm khuẩn huyết sơ sinh, viêm màng não mủ sơ sinh (nguyên nhân hàng đầu cùng với E. coli K1) và viêm phổi sơ sinh",
+      "Nhiễm trùng hậu sản ở sản phụ (viêm nội mạc tử cung, nhiễm khuẩn vết mổ, nhiễm khuẩn tiết niệu)",
+      "Nhiễm khuẩn da mô mềm, xương khớp và nhiễm khuẩn huyết ở người cao tuổi hoặc bệnh nhân đái tháo đường"
+    ],
+    "characteristics": "Cầu khuẩn Gram dương xếp chuỗi, Catalase (-), vòng tiêu huyết β hẹp trên thạch máu, mang kháng nguyên carbohydrat nhóm B Lancefield. Thường cư trú ở đường tiêu hóa dưới và âm đạo – trực tràng của 15–30% phụ nữ mang thai khỏe mạnh. Định danh bằng thử nghiệm CAMP test (+) (tăng cường vùng tiêu huyết β hình đầu mũi tên khi cấy vuông góc với vệt S. aureus), thủy phân Hippurat (+) và kháng Bacitracin.",
+    "antibioticIds": ["penicillin-g", "cefotaxime", "ceftriaxone", "vancomycin", "linezolid"],
+    "resistance": "WHO BPPL 2024 đã chính thức đưa Liên cầu nhóm B (Streptococcus agalactiae) kháng/giảm nhạy cảm Penicillin (do đột biến PBP2x) vào nhóm Ưu tiên Trung bình (Medium Priority), đồng thời tỷ lệ kháng Macrolide và Clindamycin ở GBS rất cao (25–50%).",
+    "notes": "Tầm soát cấy dịch âm đạo – trực tràng tìm GBS ở thai phụ tuần thứ 36–37; nếu dương tính sẽ truyền dự phòng trong chuyển dạ bằng Penicillin G (hoặc Ampicillin) tĩnh mạch để ngăn lây truyền dọc sang trẻ sơ sinh."
+  },
+  {
+    "id": "viridans-strep",
+    "name": "Streptococcus nhóm Viridans (S. mitis, S. mutans, S. sanguinis, S. anginosus)",
+    "commonName": "Liên cầu khuẩn tiêu huyết α (Viridans)",
+    "gram": "Gram dương",
+    "shape": "Cầu khuẩn xếp chuỗi",
+    "whoPriority": "Giáo trình Bộ Y tế (Bài 13)",
+    "diseases": [
+      "Viêm nội tâm mạc nhiễm khuẩn bán cấp (bệnh Osler) trên người có bệnh van tim hậu thấp hoặc tim bẩm sinh sau nhổ răng / thủ thuật nha khoa",
+      "Sâu răng và mảng bám răng (Streptococcus mutans tổng hợp glucan không tan từ đường saccharose)",
+      "Áp xe sâu ở não, gan, phổi (nhóm S. anginosus / S. milleri)"
+    ],
+    "characteristics": "Cầu khuẩn Gram dương xếp chuỗi, sống hội sinh bình thường ở khoang miệng và hầu họng. Tạo vòng tiêu huyết α màu xanh lục trên thạch máu. Phân biệt với Phế cầu khuẩn (S. pneumoniae) nhờ: Liên cầu Viridans KHÔNG bị ly giải bởi muối mật (Bile solubility -) và KHÁNG Optochin (-).",
+    "antibioticIds": ["penicillin-g", "ceftriaxone", "vancomycin", "clindamycin"],
+    "resistance": "Một số chủng (đặc biệt nhóm S. mitis) giảm nhạy hoặc kháng Penicillin do biến đổi PBP (và chính là nguồn truyền gen PBP kháng thuốc cho phế cầu S. pneumoniae qua biến nạp).",
+    "notes": "Giáo trình Bộ Y tế (Bài 13) & EUCAST v16.1: Trong điều trị viêm nội tâm mạc nhiễm khuẩn do liên cầu Viridans, cần đo chính xác MIC của Penicillin G (EUCAST: S ≤ 0.25 mg/L, R > 2 mg/L): nếu MIC > 0.25 đến 2 mg/L cần phối hợp Penicillin G (hoặc Ceftriaxone) với Gentamicin trong 2 tuần đầu."
+  },
+  {
+    "id": "h-pylori",
+    "name": "Helicobacter pylori",
+    "commonName": "Xoắn khuẩn dạ dày H. pylori",
+    "gram": "Gram âm",
+    "shape": "Xoắn khuẩn / Trực khuẩn cong hình chữ S",
+    "whoPriority": "Giám sát kháng Clarithromycin / Levofloxacin",
+    "diseases": [
+      "Viêm dạ dày cấp và mạn tính",
+      "Loét dạ dày – hành tá tràng",
+      "Ung thư biểu mô tuyến dạ dày và u lympho mô bạch huyết liên quan niêm mạc dạ dày (MALT lymphoma)"
+    ],
+    "characteristics": "Trực khuẩn Gram âm cong hoặc xoắn nhẹ, di động rất mạnh trong lớp chất nhầy dạ dày nhờ chùm 4–6 tiêm mao có vỏ bọc ở một đầu. Vi hiếu khí, Oxidase (+), Catalase (+) và đặc biệt sản xuất enzyme Urease cực mạnh (phân hủy urê thành amoniac NH3 và CO2 tạo đám mây kiềm trung hòa acid HCl dạ dày quanh vi khuẩn – là cơ sở của CLO-test qua nội soi và Test thở C13/C14).",
+    "antibioticIds": ["amox-clav", "azithromycin", "metronidazole", "doxycycline", "levofloxacin"],
+    "resistance": "Tỷ lệ kháng Clarithromycin (Macrolide) và Metronidazole tại Việt Nam rất cao, đồng thời kháng Levofloxacin đang tăng nhanh. Kháng Amoxicillin và Tetracycline vẫn còn thấp. (EUCAST v16.1: Breakpoint trên H. pylori cho Amoxicillin S ≤ 0.125 mg/L, Clarithromycin S ≤ 0.25 / R > 0.5 mg/L, Levofloxacin S ≤ 1 mg/L, Tetracycline S ≤ 1 mg/L, Metronidazole S ≤ 8 mg/L).",
+    "notes": "Điều trị H. pylori bắt buộc dùng phác đồ phối hợp ức chế bơm proton (PPI liều cao) + Bismuth + 2 kháng sinh (như Tetracycline + Metronidazole hoặc Amoxicillin) trong 14 ngày."
+  },
+  {
+    "id": "b-pseudomallei",
+    "name": "Burkholderia pseudomallei",
+    "commonName": "Trực khuẩn Whitmore (Bệnh Melioidosis)",
+    "gram": "Gram âm",
+    "shape": "Trực khuẩn bắt màu lưỡng cực ('kim băng cài')",
+    "whoPriority": "Tác nhân dịch tễ vùng nhiệt đới (EUCAST v16.1)",
+    "diseases": [
+      "Bệnh Whitmore (Melioidosis): bệnh cảnh cực kỳ đa dạng ('kẻ bắt chước vĩ đại') từ nhiễm khuẩn huyết tối cấp kèm sốc nhiễm khuẩn tử vong trong 24–48h, viêm phổi hoại tử tạo hang (giống lao phổi), đến đa ổ áp xe ở gan, lách, tuyến tiền liệt, tuyến mang tai (ở trẻ em) và xương khớp"
+    ],
+    "characteristics": "Trực khuẩn Gram âm sống hoại sinh trong đất bùn và nước ngọt vùng nhiệt đới (Đông Nam Á, Việt Nam, Bắc Úc), xâm nhập qua vết trầy xước da tiếp xúc bùn đất hoặc hít phải bụi nước. Nhuộm Gram/Wright thấy trực khuẩn bắt màu đậm ở hai đầu và nhạt ở giữa giống hình 'chiếc kim băng cài' (safety-pin). Hiếu khí, di động, Oxidase (+), tạo khuẩn lạc nhăn nheo như mặt bánh xe sau 48–72 giờ trên thạch Ashdown.",
+    "antibioticIds": ["ceftazidime", "meropenem", "tmp-smx", "amox-clav", "doxycycline"],
+    "resistance": "Đề kháng tự nhiên rất rộng với Penicillin G, Ampicillin, Cephalosporin thế hệ 1–2, Ceftriaxone mức độ cao, toàn bộ nhóm Aminoglycoside (Gentamicin, Amikacin, Streptomycin), Macrolide và Polymyxin B / Colistin (một đặc điểm định danh: kháng cả Colistin lẫn Gentamicin).",
+    "notes": "EUCAST v16.1 có bảng riêng cho Burkholderia pseudomallei: Điều trị chia làm 2 giai đoạn bắt buộc: (1) Giai đoạn tấn công tĩnh mạch (ít nhất 2–4 tuần): dùng Ceftazidime liều cao (2g IV mỗi 6–8h) hoặc Meropenem (1–2g IV mỗi 8h); (2) Giai đoạn tiệt trừ đường uống (kéo dài 3–6 tháng để tránh tái phát): ưu tiên TMP-SMX liều cao (EUCAST đặt S ≤ 0.001, R > 4 mg/L nên chủng nhạy luôn trả 'I' để nhắc dùng liều cao) hoặc Amoxicillin-clavulanate / Doxycycline."
+  },
+  {
+    "id": "viruses-prion",
+    "name": "Virus gây bệnh ở người & Prion (HBV, HIV, Cúm, Dại, Sởi, Bại liệt, Herpes, Dengue)",
+    "commonName": "Tổng hợp Virus học & Prion (Giáo trình Bộ Y tế – Bài 15)",
+    "gram": "Siêu vi khuẩn (15–300 nm, không có cấu tạo tế bào)",
+    "shape": "Hình xoắn / Khối 20 mặt (Icosahedral) / Phức hợp",
+    "whoPriority": "Giáo trình Bộ Y tế (Bài 15)",
+    "diseases": [
+      "Virus ADN: Herpesviridae (HSV-1/2, Thủy đậu – Zona VZV, EBV, CMV), Hepadnaviridae (Viêm gan B – HBV mang ADN sợi kép không hoàn toàn có sao chép ngược), Papovaviridae (HPV gây u nhú/ung thư cổ tử cung), Adenovirus, Poxvirus (Đậu mùa)",
+      "Virus ARN: Picornaviridae (Virus Bại liệt Poliovirus, Viêm gan A – HAV, Enterovirus), Orthomyxoviridae (Virus Cúm A/B/C có 8 đoạn ARN âm và kháng nguyên gai H – Hemagglutinin & N – Neuraminidase), Paramyxoviridae (Sởi, Quai bị, RSV), Rhabdoviridae (Virus Dại hình viên đạn tạo tiểu thể Negri trong tế bào thần kinh), Flaviviridae (Sốt xuất huyết Dengue, Viêm não Nhật Bản, Viêm gan C), Retroviridae (HIV-1/2 có enzyme sao chép ngược Reverse Transcriptase tấn công tế bào T-CD4+)",
+      "Prion: Phân tử protein gây bệnh (PrPSc) hoàn toàn KHÔNG chứa acid nucleic (ADN hay ARN), rất bền với nhiệt, tia tử ngoại và protease; gây các bệnh não xốp truyền nhiễm (bò điên BSE, bệnh Creutzfeldt-Jakob và Kuru ở người)"
+    ],
+    "characteristics": "Cấu trúc hạt virus hoàn chỉnh (Virion) gồm lõi Acid nucleic (chỉ chứa ADN HOẶC ARN, không bao giờ có cả hai) bao bọc bởi vỏ protein Capsid (hợp thành từ các capsomere); một số virus có thêm màng bao lipid ngoài cùng (Envelope). Ký sinh nội bào bắt buộc qua 5 giai đoạn nhân lên: (1) Hấp phụ lên thụ thể đặc hiệu của tế bào chủ, (2) Xâm nhập, (3) Cởi vỏ giải phóng acid nucleic, (4) Tổng hợp các thành phần virus (sao chép genome & dịch mã protein vỏ nhờ ribosom tế bào chủ), (5) Lắp ráp và Giải phóng hạt virion mới.",
+    "antibioticIds": [],
+    "resistance": "Hoàn toàn KHÔNG nhạy cảm với bất kỳ thuốc kháng sinh kháng khuẩn nào (vì virus không có vách peptidoglycan, không có màng tế bào vi khuẩn và không có ribosom 70S). Việc lạm dụng kháng sinh trong các bệnh nhiễm virus thông thường (cảm cúm, sốt siêu vi, viêm họng virus, sốt xuất huyết) không giúp khỏi bệnh mà còn thúc đẩy chọn lọc vi khuẩn kháng thuốc.",
+    "notes": "Giáo trình Bộ Y tế (Bài 15): Phòng bệnh virus chủ yếu dựa vào Vắc xin (sống giảm độc lực như Sởi, Quai bị, Rubella, Thủy đậu, Bại liệt uống Sabin OPV; bất hoạt như Bại liệt tiêm Salk IPV, Dại, Viêm não Nhật Bản; hoặc tái tổ hợp như HBsAg viêm gan B) và Huyết thanh miễn dịch (như SAR kháng dại, HBIG). Điều trị bằng các thuốc kháng virus đặc hiệu ức chế enzyme của virus (như Acyclovir cho Herpes, Oseltamivir ức chế neuraminidase cho Cúm, Tenofovir/Entecavir cho HBV, và phác đồ ARV đa trị cho HIV) hoặc Interferon."
+  }
+]

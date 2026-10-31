@@ -1,0 +1,10 @@
+{
+  "name": "AntiBio – Kháng sinh & Vi sinh vật",
+  "short_name": "AntiBio",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fb",
+  "theme_color": "#0b7a75",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
